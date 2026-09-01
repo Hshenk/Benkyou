@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Benkyou</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/app.js"></script>
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="topbar__inner wrap">
+
+            <h1 class="brand">
+                <span class="brand__jp" lang="ja">勉強</span>
+                <span class="brand__name">Benkyou</span>
+            </h1>
+
+            <nav class="nav" aria-label="View">
+                <button class="nav__btn" type="button" data-view="study">Study</button>
+                <button class="nav__btn" type="button" data-view="cards">Cards</button>
+                <button class="nav__btn" type="button" data-view="editor">New Card</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+
+        <section class="view" id="view-study" hidden>
+
+            <!-- ---- Stage 1: selection ---- -->
+            <div class="stage" id="stage-select">
+                <h2 class="view__title">Study</h2>
+                <p class="view__hint">Tick what you want to work on. A section with nothing ticked means "any"
+                </p>
+                <div class="facets" id="facets"></div>
+
+                <div class="study-bar">
+                    <p class="study-bar__count" id="pool-count">5 cards</p>
+                    <button class="btn btn--ghost" type="button" id="clear-facets">Clear</button>
+                    <button class="btn btn--primary" type="button" id="start-study">Study</button>
+                </div>
+            </div>
+
+            <!-- ---- Stage 2: the session ---- -->
+             <div class="stage" id="stage-session" hidden>
+
+                <div class="session-bar">
+                    <div class="progress" id="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                    <div class="progress__fill" id="progress-fill"></div>
+                    </div>
+
+                    <p class="session-bar__count" id="session-count">0 / 0</p>
+                    <button class="btn btn--ghost btn--sm" type="button" id="quit-study">Quit <kbd>Esc</kbd></button>
+                </div>
+
+                <article class="card-face" id="card-face" data-type="vocab" data-furigana="hidden">
+
+                    <p class="card-face__jp  has-ruby" lang="ja" id="face-question"></p>
+
+                    <div class="card-face__back" id="face-back" aria-live="polite" hidden>
+                        <hr class="card-face__rule">
+                        <p class="card-face__meaning" id="face-meaning"></p>
+                        <dl class="card-face__details" id="face-details"></dl>
+                        <p class="card-face__notes" id="face-notes"></p>
+                    </div>
+                </article>
+
+                <div class="grade-bar">
+                    <button class="btn btn--wide" type="button" data-grade="reveal" id="reveal-btn">
+                        Show answer <kbd>Space</kbd>
+                    </button>
+
+                    <button class="btn btn--again" type="button" data-grade="again" hidden>
+                        Again <kbd>1</kbd>
+                    </button>
+                    <button class="btn btn--good" type="button" data-grade="good" hidden>
+                        Got it <kbd>2</kbd>
+                    </button>
+                    <button class="btn btn--ghost btn--sm" type="button" data-grade="skip" hidden>
+                        Skip for now
+                    </button>
+                </div>
+
+             </div>
+
+             <!-- ---- Stage 3: The Summary ---- -->
+            <div class="stage" id="stage-summary" hidden>
+                <h2 class="view__title">Session complete</h2>
+
+                <dl class="summary">
+                    <div class="summary__row">
+                        <dt>Cards studied</dt><dd id="summary-total">0</dd>
+                    </div>
+                    <div class="summary__row">
+                        <dt>Missed at least once</dt><dd id="summary-missed">0</dd>
+                    </div>
+                    <div class="summary__row">
+                        <dt>Skipped</dt><dd id="summary-skipped">0</dd>
+                    </div>
+                </dl>
+
+                <div class="form__actions">
+                    <button class="btn btn--primary" type="button" id="restudy-missed">
+                        Study the missed cards
+                    </button>
+                    <button class="btn" type="button" id="back-to-select">Back to selection</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="view" id="view-cards">
+            <h2 class="view__title">Cards</h2>
+            <p lang="ja" style="font-size: 28px; line-height: 2.1;">
+            <ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby><span class="hl" data-color="blue">は</span>
+            <ruby>学生<rp>(</rp><rt>がくせい</rt><rp>)</rp></ruby>です。
+            <span class="hl" data-color="red">食[た]べ</span>ます／<span class="hl" data-color="yellow">まだ</span>
+            </p>
+
+            <div class="toolbar">
+                <input class="input toolbar__search" type="search" id="card-search" placeholder="Search cards…" aria-label="Search cards">
+                <p class="toolbar__count" id="card-count">1 card</p>
+            </div>
+
+            <ul class="card-list" id="card-list" role="list"></ul>
+
+            <p class="empty" id="card-empty" hidden></p>
+
+            <template id="card-row-template">
+                <li class="card-row">
+                    <span class="type-badge" data-field="type"></span>
+
+                    <p class="card-row__jp" lang="ja" data-field="expression"></p>
+
+                    <div class="card-row__body">
+                        <p class="card-row__meaning" data-field="meaning"></p>
+                        <div class="card-row__tags" data-field="tags"></div>
+                    </div>
+
+                    <div class="card-row__actions">
+                        <button class="btn btn--sm btn--ghost" type="button" data-action="edit">Edit</button>
+                        <button class="btn btn--sm btn--ghost" type="button" data-action="delete">Delete</button>
+                    </div>
+                </li>
+            </template>
+
+            <template id="facet-template">
+                <details class="facet" open>
+                    <summary class="facet__summary">
+                        <span class="facet__name" data-field="name"></span>
+                        <span class="facet_selected" data-field="selected"></span>
+                    </summary>
+                    <div class="facet__options" data-field="options"></div>
+                </details>
+            </template>
+
+            <template id="option-template">
+                <label class="option">
+                    <input class="option__input" type="checkbox">
+                    <span class="option__label" data-field="label"></span>
+                    <span class="option__count" data-field="count"></span>
+                </label>
+            </template>
+        </section>
+
+        <section class="view" id="view-editor" hidden>
+            <h2 class="view__title">New Card</h2>
+
+            <form class="form" id="editor-form" autocomplete="off">
+                <!-- ---- Type picker ---- -->
+                 <fieldset>
+                    <legend class="field__label">Card type</legend>
+                    <div class="segmented">
+                        <input class="segmented__input" type="radio" name="cardType" id="type-vocab" value=""vocab" checked>
+                        <label class="segmented__label" for="type-vocab">Vocab</label>
+
+                        <input class="segmented__input" type="radio" name="cardType" id="type-kanji" value="kanji">
+                        <label class="segmented__label" for="type-kanji">Kanji</label>
+
+                        <input class="segmented__input" type="radio" name="cardType" id="type-sentence" value="sentence">
+                        <label class="segmented__label" for="type-sentence">Sentence</label>
+                    
+                        <input class="segmented__input" type="radio" name="cardType"
+                       id="type-grammar" value="grammar">
+                        <label class="segmented__label" for="type-grammar">Grammar</label>
+
+                    </div>
+                 </fieldset>
+
+                 <!-- ---- Vocab fields ---- -->
+                <fieldset class="field-grid" data-type-fields="vocab">
+                    <div class="field field--full">
+                        <label class="field__label" for="vocab-expression">Expression</label>
+                        <input class="input input--jp" type="text" lang="ja" id="vocab-expression" name="expression" placeholder="食[た]べる">
+                        <p class="field__help">
+                            Furigana in square brackets - <code>漢字[かんじ]</code>.
+                        </p>
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="vocab-reading">Reading</label>
+                        <input class="input input--jp" type="text" lang="ja" id="vocab-reading" name="reading" placeholder="たべる">
+                    </div>
+                </fieldset>
+                
+                <!-- ---- Kanji Fields ---- -->
+                <fieldset class="field-grid" data-type-fields="kanji" hidden>
+                    <div class="field">
+                        <label class="field__label" for="kanji-character">Character</label>
+                        <input class="input input--jp input--single" type="text" lang="jp" id="kanji-character" name="character" maxlength="1" placeholder="食">
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="kanji-strokes">Strokes</label>
+                        <input class="input" type="number" id="kanji-strokes" name="strokes" min="1" max="34" placeholder="9">
+                    </div>
+
+                    <div class="field">
+                        <label class="field__label" for="kaji-onyomi">On'yomi</label>
+                        <input class="input input--jp" type="text" lang="ja" id="kanji-onyomi" name="onyomi" placeholder="ショク、ジキ">
+                        <p class="field__help">Comma=separated.</p>
+                    </div>
+                </fieldset>
+
+                <!-- ---- Sentence fields ----- -->
+                <fieldset class="field-grid" data-type-fields="sentence" hidden>
+                    <div class="field field--full">
+                        <label class="field__label" for="sentence-expression">Sentence</label>
+                        <textarea class="input input--jp textarea" lang="ja" rows="2" id="sentence-expression" name="expression" placeholder="お 願[ねが]いします"></textarea>
+                    </div>
+
+                    <div class="field field--full">
+                        <label class="field__label" for="sentence-literal">
+                            Literal reading <span class="field__optional">optional</span>
+                        </label>
+                        <input class="input" type="text" id="sentence-literal" name="literal" placeholder="&quot;I humbly request&quot;">
+                    </div>
+                </fieldset>
+
+                <fieldset class="field-grid" data-type-fields="grammar" hidden>
+                    <div class="field field--full">
+                        <label class="field__label" for="grammar-expression">Grammar point</label>
+                        <input class="input input--jp" type="text" lang="ja" id="grammar-expression" name="expression" placeholder="は">
+                    </div>
+
+                    <div class="field field--full">
+                        <label class="field__label" for="grammar-example">Example sentence</label>
+                        <textarea class="input input--jp textarea" lang="ja" rows="2" id="grammar-example"
+                        name="example" placeholder="私[わたし]*b:は* 学生[がくせい]です"></textarea>
+                        <p class="field__help">
+                            Mark the pint with <code>*b:は*</code> — <code>r</code>,
+                            <code>b</code>, <code>y</code> for red, blue, yellow.
+                        </p>
+                    </div>
+                </fieldset>
+
+                <!-- ---- Shared fields ---- -->
+                <fieldset class="field-gird">
+                    <div class="field field--full">
+                        <label class="field__label" for="card-meaning">Meaning</label>
+                        <input class="input" type="text" id="card-meaning" name="meaning" required placeholder="to eat">
+                    </div>
+
+                    <div class="field field--full">
+                        <label class="field__label" for="card-notes">
+                            Notes <span class="field__optional">optional</span>
+                        </label>
+                        <textarea class="input textarea" id="card-notes" name="notes" rows="3" placeholder="Ichidan verb. Link a word with {kanji}."></textarea>
+                    </div>
+
+                    <div class="field field--full">
+                        <label class="field__label" for="card-tags">Tags</label>
+
+                        <div class="tag-row">
+                            <span class="chip chip--removable">Topic: Food
+                                <button class="chip__remove" type="button" aria-label="Remove tag Topic: Food">&times;</button>
+                            </span>
+                            <span class="chip chip--removable"> Source: Nakama 1
+                                <button class="chip__remove" type="button" aria-label="Remove tag Source: Nakama 1">&times;</button>
+                            </span>
+                        </div>
+
+                        <input class="input" type="text" id="card-tags" name="tagDraft" list="tag-suggestions" placeholder="Namespace: Value">
+                        <datalist id="tag-suggestions">
+                            <option value="Topic: Food"></option>
+                            <option value="Topic: Activities"></option>
+                            <option value="Source: Nakama 1"></option>
+                            <option value="Level: N5"></option>
+                            <option value="Level: N4"></option>
+                        </datalist>
+                    </div>
+                </fieldset>
+
+                <!-- ---- Actions ---- -->
+                 <div class="form__actions">
+                    <button class="btn btn--primary" type="submit">Save card</button>
+                    <button class="btn" type="submit" name="intent" value="save-new">Save &amp; new</button>
+                    <button class="btn btn--ghost" type="button" data-action="cancel">Cancel</button>
+                 </div>
+
+            </form>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
