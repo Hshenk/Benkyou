@@ -117,14 +117,49 @@ five places on every change. A single page sidesteps that entirely and needs no
 router.
 
 ```
-index.html          ← all views live here
+index.html             ← all views live here
 css/style.css
-js/app.js           ← <script type="module" src="js/app.js"></script>
-js/storage.js       ← the storage interface (overview.md §2.1)
-js/tokenizer.js     ← furigana + jisho link parsing (overview.md §2.7)
-data/cards.json     ← the canonical collection (overview.md §2.9a)
-docs/               ← planning markdown (this file, overview.md)
+js/app.js              ← <script type="module" src="js/app.js"></script>; startup only
+js/card.js             ← the type discriminator (overview.md §2.4) — pure, no DOM
+js/render.js           ← renderJapanese(el, text) — the M2 seam
+js/storage.js          ← the storage interface (overview.md §2.1) — the M1 seam
+js/script-toggle.js    ← handwritten-forms toggle (overview.md §2.8)
+js/tokenizer.js        ← furigana + jisho + highlight parsing (§2.7, §2.7a) — M2,
+                         not yet written; imported by render.js
+js/views/cards.js      ← the card list
+js/views/editor.js     ← the card editor
+js/views/study.js      ← faceted selection + the session
+data/cards.json        ← the canonical collection (overview.md §2.9a)
+docs/                  ← planning markdown (this file, overview.md)
 ```
+
+### The module rule
+
+**A view may import from shared modules, but never from another view.** Views are
+leaves of the import graph:
+
+```
+app.js
+  ├─→ views/cards.js  ─┐
+  ├─→ views/editor.js  ├─→ card.js, render.js, storage.js, script-toggle.js
+  └─→ views/study.js  ─┘
+```
+
+When two views need the same thing, that thing isn't view code — it moves *down*
+into a shared module, never sideways. Beyond keeping responsibilities clear, this
+makes circular imports structurally impossible; ES modules resolve cycles by
+handing you a partially-initialized module, and a `const` read too early throws
+`Cannot access before initialization` on only some load orders.
+
+Each view exports an `init()` that `app.js` calls, rather than running its work at
+import time. This is not only tidiness: once `getCards()` becomes async in M1, no
+view can render at import time because the data won't exist yet.
+
+Two extension notes: browsers have no module resolver, so **the `.js` extension is
+required** in every specifier (`'../card.js'`, not `'../card'`). And
+`renderJapanese(el, text)` **mutates a passed element** rather than returning a
+string or a node — M2's renderer has to fill that shape, since three screens call
+it.
 
 ```html
 <main>

@@ -35,7 +35,8 @@ Companion documents:
 | 04a | [Grammar & highlights](04a-grammar-and-highlights.md) | Fourth card type, `*color:text*` highlight styling | ✅ done |
 | 05 | [Study selection](05-study-selection.md) | `<details>`, `auto-fit` grid, `:has()`, the OR/AND pool builder | ✅ done |
 | 06 | [Study session](06-study-session.md) | Card face typography, furigana modes, requeue, keyboard controls | ✅ done |
-| 07 | [Handwritten forms](07-handwritten-forms.md) | 教科書体 font toggle, `aria-pressed`, namespaced localStorage | ✅ ready |
+| 07 | [Handwritten forms](07-handwritten-forms.md) | 教科書体 font toggle, `aria-pressed`, namespaced localStorage | ✅ done |
+| 08 | [Splitting the JavaScript](08-splitting-the-javascript.md) | ES modules, the M1/M2 seams as real files, view boundaries | ✅ ready |
 
 Guides were written one at a time, so later ones react to what tripped you up in
 earlier ones.

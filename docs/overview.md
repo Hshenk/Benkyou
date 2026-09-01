@@ -86,7 +86,14 @@ Three caveats, all cheap to handle:
   Write on blur/save, or on a ~500ms trailing debounce.
 - **Origin scoping gotcha:** all your GitHub Pages projects share the origin
   `<username>.github.io`, which means they share one localStorage. Namespace every
-  key (`benkyou:cards`) or a future project will collide with this one.
+  key (`benkyou:cards`) or a future project will collide with this one. The
+  convention is already in use — `benkyou:script` (the handwritten-forms toggle,
+  2.8) is the first key the app writes.
+
+  Wrap every `getItem`/`setItem` in `try`/`catch`: localStorage *throws* rather
+  than returning `null` in Firefox private windows, on a full quota, and when the
+  browser is set to block site data. An uncaught throw at module top level takes
+  down everything below it.
 
 If you ever do outgrow it, the interface above means swapping in IndexedDB touches
 one file.
@@ -548,6 +555,23 @@ Small things that will bite:
   stack, browsers may render CJK with Chinese glyph variants — some characters
   genuinely look wrong to a Japanese reader. Set `<html lang="ja">` or per-element
   `lang`, and specify e.g. `"Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif`.
+- **Printed vs handwritten glyph forms.** Even with a correct Japanese font, Gothic
+  and Mincho faces draw many characters differently from how they are written by
+  hand — 令, 食, 糸, 直, 心, and the third stroke of き and さ are the usual
+  offenders. The printed form of 食 in particular reads as having an extra stroke.
+  **教科書体 (kyōkasho-tai)** is the typeface class designed to show the taught,
+  handwritten shapes.
+
+  *Built:* a top-bar toggle (and `f` during a session) flips every `lang="ja"`
+  element between `--font-jp` and `--font-jp-hand` via `<html data-script="hand">`,
+  with the preference stored under `benkyou:script`. Kanji cards additionally show
+  both forms side by side on the answer. `UD Digi Kyokasho` ships with Windows 10
+  1809+, so this needs no webfont — full CJK webfonts run to megabytes and would
+  undercut the static-folder premise (frontend-setup.md §1).
+
+  Note this changes glyph *shapes* only, not stroke counts or order. Stroke order
+  remains KanjiVG (M7).
+
 - **Size.** Kanji need more pixels than Latin text to stay legible. Whatever body
   size feels right for English, Japanese wants noticeably larger — especially with
   ruby text above it.
@@ -859,15 +883,25 @@ swipe gestures, touch targets, responsive study layouts, and home-screen install
 from the plan entirely. Keyboard-first (M4) is the only interaction model, so put
 the effort there instead.
 
+**Dark mode is also out of scope — because the UI is dark-only.** There is no light
+theme and none is planned. The palette is modeled on jisho.org's dark theme and
+lives entirely in CSS custom properties, so retuning it is a token edit rather than
+a theming feature. This removes what used to be an M6 line item.
+
 - **Fast card entry** — "save and immediately start another of the same type,"
   focus already in the first field, no mouse. Every card in this app is hand-made,
   so minutes invested here compound more than anywhere else in the project.
-- Dark mode.
-- Search and filtering across cards, by type and by group.
+- Search and filtering across cards, by type and by group. *(Plain text search over
+  the card list already shipped with the frontend build; filtering by type and tag
+  has not.)*
 - Basic stats view (cards studied, most-missed).
 - Keyboard shortcut reference / help overlay.
 - Optional: service worker for laptop offline. Lower value with no phone to
   install to.
+
+**Shipped ahead of this milestone:** the handwritten-forms toggle (2.8), built
+during the frontend work because it turned out to be one CSS rule once `lang="ja"`
+was already marked up everywhere.
 
 ### M7 — Backlog
 
@@ -906,6 +940,8 @@ Not planned, just parked so they don't feel like scope creep when they come up:
   the screen you'll spend the most time in — budget accordingly (M1, M6).
 - **Laptop + desktop, no mobile.** Touch/responsive/PWA work is cut. Keyboard-first
   is the only interaction model.
+- **Dark-only UI**, modeled on jisho.org's dark theme. No light theme, now or ever;
+  colors live in CSS custom properties for tunability, not for theming (M6).
 - **Four card types: kanji, vocab, sentence, grammar.** Discriminated union (2.4),
   per-type editor forms, per-type study directions. Grammar carries an `example`
   sentence, since a particle out of context isn't a question.
