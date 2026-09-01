@@ -459,6 +459,17 @@ function revealAnswer() {
         faceDetails.append(dt, dd);
     }
 
+    // Font comparison 
+    const compare = document.querySelector('#glyph-compare');
+    const isKanji = card.type === 'kanji';
+    compare.hidden = !isKanji;
+
+    if (isKanji) {
+        for (const glyph of compare.querySelectorAll('.glyph')) {
+            glyph.textContent = card.data.character;
+        }
+    }
+
     faceBack.hidden = false;
     revealBtn.hidden = true;
 
@@ -551,8 +562,38 @@ document.addEventListener('keydown', (event) => {
         case '2':
             grade('good');
             break;
+        case 'f':
+            toggleScript();
+            break;
         case 'Escape':
             showStage('select');
             break;
     }
 });
+
+// --- Script toggle ---
+const SCRIPT_KEY = 'benkyou:script';
+const scriptToggle = document.querySelector('#script-toggle');
+
+function setScript(mode) {
+    document.documentElement.dataset.script = mode;
+    scriptToggle.setAttribute('aria-pressed', String(mode === 'hand'));
+
+    try {
+        localStorage.setItem(SCRIPT_KEY, mode);
+    } catch {
+        // Private mode or full quota. The toggle still works this session
+    }
+}
+
+function toggleScript() {
+    setScript(document.documentElement.dataset.script === 'hand' ? 'print' : 'hand');
+}
+
+scriptToggle.addEventListener('click', toggleScript);
+
+let savedScript = 'print';
+try {
+    savedScript = localStorage.getItem(SCRIPT_KEY) ?? 'print';
+} catch {}
+setScript(savedScript);

@@ -82,6 +82,7 @@ legend {
   --font-ui: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-jp: "Yu Gothic UI", "Yu Gothic", "Hiragino Sans",
              "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
+  --font-jp-hand: "UD Digi Kyokasho NP-R", "UD Digi Kyokasho N-R", "Yu Kyokasho", "Klee One", "Klee",                  "Hiragino Mincho ProN", var(--font-jp);
 
   /* --- Spacing scale --- */
   --space-1: 4px;
@@ -170,6 +171,9 @@ rt {
     visibility: visible;
 }
 
+[data-script="hand"] [lang="ja"] {
+    font-family: var(--font-jp-hand);
+}
 
 
 /* ------ Highlights ------ */
@@ -273,6 +277,32 @@ rt {
 
 .brand__name {
     letter-spacing: 0.02em;
+}
+
+/* ------ Topbar Actions ------ */
+.topbar__actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+}
+
+.script-toggle {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.script-toggle[aria-pressed="true"] {
+    background: var(--surface-2);
+    color: var(--text);
+}
+
+.script-toggle[aria-pressed="true"] span[lang="ja"] {
+    color: var(--accent);
+}
+
+.script-toggle__text {
+    font-size: 13px;
 }
 
 /* ------ Nav ------ */
@@ -911,3 +941,30 @@ kbd {
     margin: 0;
     font-variant-numeric: tabular-nums;
 }
+
+/* ------ Glyph Comparison ------ */
+.glyph-compare {
+    display: flex;
+    gap: var(--space-5);
+    justify-content: center;
+}
+.glyph-compare__item {
+    margin: 0;
+    text-align: center;
+}
+
+.glyph {
+    display: block;
+    font-size: 76px;
+    line-height: 1.2;
+}
+
+.glyph-compare figcaption {
+    color: var(--text-muted);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.card-face .glyph[data-form="print"] { font-family: var(--font-jp); }
+.card-face .glyph[data-form="hand"] { font-family: var(--font-jp-hand); }
