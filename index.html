@@ -128,17 +128,29 @@
                     <button class="btn" type="button" id="back-to-select">Back to selection</button>
                 </div>
             </div>
-            
+        
+            <!-- ---- Templates ---- -->
+            <template id="facet-template">
+                <details class="facet" open>
+                    <summary class="facet__summary">
+                        <span class="facet__name" data-field="name"></span>
+                        <span class="facet_selected" data-field="selected"></span>
+                    </summary>
+                    <div class="facet__options" data-field="options"></div>
+                </details>
+            </template>
+
+            <template id="option-template">
+                <label class="option">
+                    <input class="option__input" type="checkbox">
+                    <span class="option__label" data-field="label"></span>
+                    <span class="option__count" data-field="count"></span>
+                </label>
+            </template>
         </section>
 
         <section class="view" id="view-cards">
             <h2 class="view__title">Cards</h2>
-            <p lang="ja" style="font-size: 28px; line-height: 2.1;">
-            <ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp></ruby><span class="hl" data-color="blue">は</span>
-            <ruby>学生<rp>(</rp><rt>がくせい</rt><rp>)</rp></ruby>です。
-            <span class="hl" data-color="red">食[た]べ</span>ます／<span class="hl" data-color="yellow">まだ</span>
-            </p>
-
             <div class="toolbar">
                 <input class="input toolbar__search" type="search" id="card-search" placeholder="Search cards…" aria-label="Search cards">
                 <p class="toolbar__count" id="card-count">1 card</p>
@@ -166,23 +178,6 @@
                 </li>
             </template>
 
-            <template id="facet-template">
-                <details class="facet" open>
-                    <summary class="facet__summary">
-                        <span class="facet__name" data-field="name"></span>
-                        <span class="facet_selected" data-field="selected"></span>
-                    </summary>
-                    <div class="facet__options" data-field="options"></div>
-                </details>
-            </template>
-
-            <template id="option-template">
-                <label class="option">
-                    <input class="option__input" type="checkbox">
-                    <span class="option__label" data-field="label"></span>
-                    <span class="option__count" data-field="count"></span>
-                </label>
-            </template>
         </section>
 
         <section class="view" id="view-editor" hidden>
@@ -193,7 +188,7 @@
                  <fieldset>
                     <legend class="field__label">Card type</legend>
                     <div class="segmented">
-                        <input class="segmented__input" type="radio" name="cardType" id="type-vocab" value=""vocab" checked>
+                        <input class="segmented__input" type="radio" name="cardType" id="type-vocab" value="vocab" checked>
                         <label class="segmented__label" for="type-vocab">Vocab</label>
 
                         <input class="segmented__input" type="radio" name="cardType" id="type-kanji" value="kanji">
@@ -229,7 +224,7 @@
                 <fieldset class="field-grid" data-type-fields="kanji" hidden>
                     <div class="field">
                         <label class="field__label" for="kanji-character">Character</label>
-                        <input class="input input--jp input--single" type="text" lang="jp" id="kanji-character" name="character" maxlength="1" placeholder="食">
+                        <input class="input input--jp input--single" type="text" lang="ja" id="kanji-character" name="character" maxlength="1" placeholder="食">
                     </div>
 
                     <div class="field">
@@ -277,7 +272,7 @@
                 </fieldset>
 
                 <!-- ---- Shared fields ---- -->
-                <fieldset class="field-gird">
+                <fieldset class="field-grid">
                     <div class="field field--full">
                         <label class="field__label" for="card-meaning">Meaning</label>
                         <input class="input" type="text" id="card-meaning" name="meaning" required placeholder="to eat">
@@ -315,7 +310,7 @@
 
                 <!-- ---- Actions ---- -->
                  <div class="form__actions">
-                    <button class="btn btn--primary" type="submit">Save card</button>
+                    <button class="btn btn--primary" type="submit" name="intent" value="save">Save card</button>
                     <button class="btn" type="submit" name="intent" value="save-new">Save &amp; new</button>
                     <button class="btn btn--ghost" type="button" data-action="cancel">Cancel</button>
                  </div>

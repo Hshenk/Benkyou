@@ -37,24 +37,40 @@ Companion documents:
 | 06 | [Study session](06-study-session.md) | Card face typography, furigana modes, requeue, keyboard controls | ✅ done |
 | 07 | [Handwritten forms](07-handwritten-forms.md) | 教科書体 font toggle, `aria-pressed`, namespaced localStorage | ✅ done |
 | 08 | [Splitting the JavaScript](08-splitting-the-javascript.md) | ES modules, the M1/M2 seams as real files, view boundaries | ✅ ready |
+| 09 | [Tokenizer and renderer](09-tokenizer-and-renderer.md) | **M2.** Single-pass scanner, token tree, ruby/link/highlight DOM, tests without a build step | ✅ ready |
 
 Guides were written one at a time, so later ones react to what tripped you up in
 earlier ones.
 
+### Planned
+
+| # | Guide | Builds |
+|---|---|---|
+| 10 | Storage and CRUD | **M1.** localStorage behind the `storage.js` interface, `crypto.randomUUID()` ids, `updatedAt`, the `dirty` flag, editor save/edit/delete wired up |
+| 11 | Export and import | **M1.** Versioned JSON, File System Access API save-back-to-handle, the export nag |
+| 12 | Tag editing | **M3.** Real tag chips, autocomplete from existing tags, the rename/merge screen |
+
+Order note: M2 (guide 09) comes before M1 because the notation bakes into every
+card written from here on. Changing it costs nothing today and costs a migration
+script once real cards exist.
+
 ---
 
-## After guide 06
+## Where the project stands
 
-The frontend is complete — every screen exists and works against sample data.
-Two deliberate seams remain, both built so they can be filled without touching
-the code around them:
+The frontend shell is complete — every screen exists and works against sample
+data. Guide 08 split the JavaScript into modules, which turned the two planned
+seams into real files:
 
-- **`renderJapanese(el, text)`** is `textContent`. M2 replaces its body with the
-  tokenizer and renderer; ruby, jisho links, and `*b:は*` highlights then appear
-  everywhere at once. The CSS for all three already exists.
-- **`sampleCards`** is a literal array. M1 replaces it with the storage interface
-  from [overview.md §2.1](../../overview.md).
+- **`js/render.js`** was `textContent`. **Guide 09 fills it** — ruby, jisho links,
+  and `*b:は*` highlights then appear everywhere at once. The CSS for all three
+  already exists.
+- **`js/storage.js`** is still a literal `sampleCards` array behind `getCards()`.
+  Guide 10 replaces it with the localStorage implementation of
+  [overview.md §2.1](../../overview.md).
 
-Recommended next steps, in order: split `app.js` into ES modules before M1 grows
-it, check ruby rendering in Firefox, deploy to GitHub Pages (still an open M0
-item), then **M2**.
+Still stubbed, and filled by guide 10: the editor's submit handler
+(`console.log`), and the card list's Edit/Delete buttons (also `console.log`).
+
+Open M0 item, unrelated to any guide: **deploy to GitHub Pages.** Worth doing on
+its own at some point rather than bundling into a guide.

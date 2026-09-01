@@ -20,7 +20,7 @@ function buildRow(card) {
     badge.textContent = TYPE_LABELS[card.type];
     badge.dataset.type = card.type;
 
-    renderJapanese(field('expression'), cardText(card));
+    renderJapanese(field('expression'), cardText(card), { links: false });
     field('meaning').textContent = card.meaning;
 
     const tagBox = field('tags');

@@ -37,3 +37,13 @@ export function detailsFor(card) {
             return [];
     }
 }
+
+const AUTO_LINK_TYPES = new Set(['vocab', 'kanji']);
+
+export function questionMarkup(card) {
+    const text = questionText(card);
+    if (!text) return '';
+    if (!AUTO_LINK_TYPES.has(card.type)) return text;
+    if (text.includes('{')) return text;
+    return `{${text}}`;
+}

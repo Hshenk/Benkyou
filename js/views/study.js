@@ -1,4 +1,4 @@
-import { TYPE_LABELS, questionText, detailsFor } from "../card.js";
+import { TYPE_LABELS, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
 import { getCards } from "../storage.js";
 import { toggleScript } from "../script-toggle.js";
@@ -190,7 +190,7 @@ function nextCard() {
     cardFace.dataset.type = card.type;
     cardFace.dataset.furigana = 'hidden';
 
-    renderJapanese(faceQuestion, questionText(card));
+    renderJapanese(faceQuestion, questionMarkup(card));
 
     faceBack.hidden = true;
     revealBtn.hidden = false;
