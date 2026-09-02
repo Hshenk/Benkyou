@@ -208,3 +208,86 @@ export function replaceCollection(next, { synced = false } = {}) {
     if ( synced) device.lastSyncedVersion = next.version;
     write();
 }
+
+// --- Tag Management ---
+/** Map of tagKey -> { tag, count } */
+export function tagCounts() {
+    const counts = new Map();
+
+    for (const card of collection.cards) {
+        const seen = new Set();
+
+        for (const tag of card.tags ?? []) {
+            const key = tagKey(tag);
+            if (seen.has(key)) continue;
+            seen.add(key);
+
+            const entry = counts.get(key) ?? { tag: canonicalTag(tag), count: 0 };
+            entry.count += 1;
+            counts.set(key, entry);
+        }
+    }
+
+    return counts;
+}
+
+/**
+ * Rename a tag everywhere.
+ * If it already exists on a card, they merge
+ */
+export function renameTag(from, to) {
+    const fromKey = tagKey(from);
+    const target = canonicalTag(to);
+    if (!target) return 0;
+
+    let touched = 0;
+
+    for (const card of collection.cards) {
+        const tags = card.tags ?? [];
+        if (!tags.some((t) => tagKey(t) === fromKey)) continue;
+
+        card.tags = normalizeTags(tags.map((t) => (tagKey(t) === fromKey ? target : t)));
+        card.updatedAt = new Date().toISOString();
+        touched += 1;
+    }
+
+    if (touched) persist();
+    return touched;
+}
+
+// remove a tag from every card. Returns number removed
+export function deleteTag(tag) {
+    const key = tagKey(tag);
+    let touched = 0;
+
+    for (const card of collection.cards) {
+        const tags = card.tags ?? [];
+        const next = tags.filter((t) => tagKey(t) !== key);
+        if (next.length === tags.length) continue;
+
+        card.tags = next;
+        card.updatedAt = new Date().toISOString();
+        touched += 1;
+    }
+
+    if (touched) persist();
+    return touched;
+}
+
+// One-time pass rewriting every card's tags into canonical
+export function normalizeAllTags() {
+    let touched = 0;
+
+    for (const card of collection.cards) {
+        const before = JSON.stringify(card.tags ?? []);
+        const after = normalizeTags(card.tags);
+        if (JSON.stringify(after) === before) continue;
+
+        card.tags = after;
+        card.updatedAt = new Date().toISOString();
+        touched += 1;
+    }
+
+    if (touched) persist();
+    return touched;
+}

@@ -49,3 +49,11 @@ export function normalizeTags(tags) {
     }
     return [...byKey.values()];
 }
+
+// Namespaces the user may not create
+export const RESERVED_NAMESPACES = new Set(['type']);
+
+export function reservedNamespace(tag) {
+    const ns = splitTag(tag).namespace.toLowerCase();
+    return RESERVED_NAMESPACES.has(ns) ? ns : null;
+}

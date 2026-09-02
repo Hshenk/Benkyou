@@ -1003,3 +1003,47 @@ kbd {
     font-size: 14px;
     white-space: nowrap;
 }
+
+/* ------ Tag Management ------ */
+.tag-groups {
+    display: grid;
+    gap: var(--space-4);
+}
+
+.tag-group__name {
+    color: var(--text-muted);
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: var(--space-1);
+    margin-bottom: var(--space-2);
+}
+
+.tag-group__list {
+    display: grid;
+    gap: var(--space-1);
+}
+
+.tag-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-1) var(--space-2);
+    border-radius: var(--radius);
+}
+
+.tag-row:hover {
+    background: var(--surface-2);
+}
+
+.tag-row__count {
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+}
+
+.tag-row__actions {
+    margin-left: auto;
+    display: flex;
+    gap: var(--space-1);
+}

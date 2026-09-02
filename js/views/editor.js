@@ -1,5 +1,5 @@
 import { getCard, saveCard, allTags } from "../storage.js";
-import { canonicalTag, tagKey } from "../tags.js";
+import { canonicalTag, tagKey, reservedNamespace, splitTag } from "../tags.js";
 
 // --- Editor ---
 const editorTitle = document.querySelector('#view-editor .view__title');
@@ -74,10 +74,19 @@ function setTags(next) {
 }
 
 function refreshTagSuggestions() {
-    tagSuggestions.replaceChildren();
+    const suggestions = new Set();
+
+
     for (const tag of allTags()) {
+        suggestions.add(tag);
+        const { namespace } = splitTag(tag);
+        if (namespace) suggestions.add(`${namespace}: `);
+    }
+
+    tagSuggestions.replaceChildren();
+    for (const value of [...suggestions].sort()) {
         const option = document.createElement('option');
-        option.value = tag;
+        option.value = value;
         tagSuggestions.append(option);
     }
 }
@@ -149,9 +158,13 @@ export function initEditor(options = {}) {
         if (!raw) return;
 
         const value = canonicalTag(raw);
-        const exists = tags.some((t) => tagKey(t) === tagKey(value));
-        if (!exists) setTags([...tags, value]);
-        
+
+        if (reservedNamespace(value)) {
+            alert(`"${splitTag(value).namespace}" is reserved — pick the card type above instead.`);
+            return;
+        }
+
+        if (!tags.some((t) => tagKey(t) === tagKey(value))) setTags([...tags, value]);
         tagInput.value = '';
     });
 

@@ -23,6 +23,7 @@
                     <button class="nav__btn" type="button" data-view="study">Study</button>
                     <button class="nav__btn" type="button" data-view="cards">Cards</button>
                     <button class="nav__btn" type="button" data-view="editor">New Card</button>
+                    <button class="nav__btn" type="button" data-view="tags">Tags</button>
                 </nav>
 
                 <button class="btn btn--sm btn--ghost script-toggle" type="button" id="script-toggle" aria-pressed="false"
@@ -334,6 +335,39 @@
                  </div>
 
             </form>
+        </section>
+
+        <section class="view" id="view-tags" hidden>
+            <h2 class="view__title">Tags</h2>
+            <p class="view__hint">
+                Renaming a tag onto a name that already exists merges the two.
+            </p>
+
+            <div class="toolbar">
+                <p class="toolbar__count" id="tag-total">0 tags</p>
+                <button class="btn btn--sm btn--ghost" type="button" id="normalize-tags">Normalize all</button>
+            </div>
+
+            <div class="tag-groups" id="tag-groups"></div>
+            <p class="empty" id="tag-empty" hidden>No tags yet.</p>
+
+            <template id="tag-group-template">
+                <section class="tag-group">
+                    <h3 class="tag-group__name" data-field="namespace"></h3>
+                    <ul class="tag-group__list" data-field="list" role="list"></ul>
+                </section>
+            </template>
+
+            <template id="tag-row-template">
+                <li class="tag-row">
+                    <span class="chip" data-field="value"></span>
+                    <span class="tag-row__count" data-field="count"></span>
+                    <div class="tag-row__actions">
+                        <button class="btn btn--sm btn--ghost" type="button" data-action="rename">Rename</button>
+                        <button class="btn btn--sm btn--ghost" type="button" data-action="delete">Delete</button>
+                    </div>
+                </li>
+            </template>
         </section>
 
     </main>

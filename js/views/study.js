@@ -69,6 +69,16 @@ function buildPool(cards, chosenBy) {
 
 function renderFacets(cards) {
     const facets = buildFacets(cards);
+
+    // Drop anything selected that no longer exists 
+    for (const [namespace, chosen] of selection) {
+        const values = facets.get(namespace);
+        if (!values) { selection.delete(namespace); continue; }
+        for (const value of chosen) {
+            if (!values.has(value)) chosen.delete(value);
+        }
+    }
+
     const fragment = document.createDocumentFragment();
 
     for (const [namespace, values] of facets) {
@@ -85,6 +95,7 @@ function renderFacets(cards) {
             option.dataset.namespace = namespace;
             option.dataset.value = value;
             option.querySelector('[data-field="label"]').textContent = value;
+            option.querySelector('.option__input').checked = selection.get(namespace).has(value);
             optionsBox.append(option);
         }
 
