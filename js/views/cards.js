@@ -1,6 +1,9 @@
 import { TYPE_LABELS, cardText } from '../card.js';
 import { renderJapanese } from '../render.js';
-import { getCards } from "../storage.js";
+import { getCards, deleteCard, onChange } from "../storage.js";
+import { tokenize, plainText } from '../tokenize.js';
+import { canonicalTag } from '../tags.js';
+
 
 // --- Card List ---
 const cardList = document.querySelector('#card-list');
@@ -24,10 +27,10 @@ function buildRow(card) {
     field('meaning').textContent = card.meaning;
 
     const tagBox = field('tags');
-    for (const tag of card.tags) {
+    for (const tag of card.tags ?? []) {
         const chip = document.createElement('span');
         chip.className = 'chip';
-        chip.textContent = tag;
+        chip.textContent = canonicalTag(tag);
         tagBox.append(chip);
     }
 
@@ -50,24 +53,29 @@ function renderCards(cards, query = '') {
 }
 
 // --- Search ---
+function searchableText(card) {
+    return [
+        plainText(tokenize(cardText(card))),
+        card.meaning,
+        ...(card.tags ?? []),
+    ].join(' ').toLowerCase();
+}
+
 function filterCards(query) {
     const q = query.trim().toLowerCase();
     if (!q) return getCards();
-
-    return getCards().filter((card) =>
-        [cardText(card), card.meaning, ...card.tags]
-            .join(' ')
-            .toLowerCase()
-            .includes(q)
-    );
+    return getCards().filter((card) => searchableText(card).includes(q));
 }
 
+export function initCards(options = {}) {
+    const onEdit = options.onEdit ?? (() => {});
 
-export function initCards() {
-    searchInput.addEventListener('input', () => {
+    const rerender = () => {
         const query = searchInput.value;
         renderCards(filterCards(query), query);
-    });
+    };
+
+    searchInput.addEventListener('input', rerender);
 
     // --- Row actions ---
     cardList.addEventListener('click', (event) => {
@@ -75,8 +83,18 @@ export function initCards() {
         if (!btn) return;
 
         const id = btn.closest('.card-row').dataset.id;
-        console.log(btn.dataset.action, id);
+
+        if (btn.dataset.action === 'edit') {
+            onEdit(id);
+            return;
+        }
+
+        const card = getCards(id);
+        if (confirm(`Delete "${card?.meaning ?? 'this card'}"? This cannot be undone.`)) {
+            deleteCard(id);
+        }
     });
 
-    renderCards(getCards());
+    onChange(rerender);
+    rerender();
 }

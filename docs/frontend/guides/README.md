@@ -36,41 +36,27 @@ Companion documents:
 | 05 | [Study selection](05-study-selection.md) | `<details>`, `auto-fit` grid, `:has()`, the OR/AND pool builder | ✅ done |
 | 06 | [Study session](06-study-session.md) | Card face typography, furigana modes, requeue, keyboard controls | ✅ done |
 | 07 | [Handwritten forms](07-handwritten-forms.md) | 教科書体 font toggle, `aria-pressed`, namespaced localStorage | ✅ done |
-| 08 | [Splitting the JavaScript](08-splitting-the-javascript.md) | ES modules, the M1/M2 seams as real files, view boundaries | ✅ ready |
-| 09 | [Tokenizer and renderer](09-tokenizer-and-renderer.md) | **M2.** Single-pass scanner, token tree, ruby/link/highlight DOM, tests without a build step | ✅ ready |
+| 08 | [Splitting the JavaScript](08-splitting-the-javascript.md) | ES modules, the M1/M2 seams as real files, view boundaries | ✅ done |
 
 Guides were written one at a time, so later ones react to what tripped you up in
 earlier ones.
 
-### Planned
-
-| # | Guide | Builds |
-|---|---|---|
-| 10 | Storage and CRUD | **M1.** localStorage behind the `storage.js` interface, `crypto.randomUUID()` ids, `updatedAt`, the `dirty` flag, editor save/edit/delete wired up |
-| 11 | Export and import | **M1.** Versioned JSON, File System Access API save-back-to-handle, the export nag |
-| 12 | Tag editing | **M3.** Real tag chips, autocomplete from existing tags, the rename/merge screen |
-
-Order note: M2 (guide 09) comes before M1 because the notation bakes into every
-card written from here on. Changing it costs nothing today and costs a migration
-script once real cards exist.
+**These guides are finished.** The frontend shell is built; guide 08 was the
+handoff. Everything from guide 09 onward is application logic and lives in
+**[docs/main-guides/](../../main-guides/README.md)**.
 
 ---
 
-## Where the project stands
+## What these guides left behind
 
-The frontend shell is complete — every screen exists and works against sample
-data. Guide 08 split the JavaScript into modules, which turned the two planned
-seams into real files:
+The frontend shell is complete — every screen exists and works. Guide 08 split the
+JavaScript into modules, which turned the two planned seams into real files:
 
-- **`js/render.js`** was `textContent`. **Guide 09 fills it** — ruby, jisho links,
-  and `*b:は*` highlights then appear everywhere at once. The CSS for all three
-  already exists.
-- **`js/storage.js`** is still a literal `sampleCards` array behind `getCards()`.
-  Guide 10 replaces it with the localStorage implementation of
-  [overview.md §2.1](../../overview.md).
+- **`js/render.js`** was `textContent`. Filled by
+  [main guide 09](../../main-guides/09-tokenizer-and-renderer.md).
+- **`js/storage.js`** was a literal `sampleCards` array. Filled by
+  [main guide 10](../../main-guides/10-storage-and-crud.md).
 
-Still stubbed, and filled by guide 10: the editor's submit handler
-(`console.log`), and the card list's Edit/Delete buttons (also `console.log`).
-
-Open M0 item, unrelated to any guide: **deploy to GitHub Pages.** Worth doing on
-its own at some point rather than bundling into a guide.
+The CSS written here (`ruby`, `rt`, `.hl[data-color]`, `[data-furigana]`,
+`.chip--removable`) was built ahead of the JavaScript that uses it, so those
+guides add no new styles.

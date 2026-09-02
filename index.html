@@ -237,6 +237,14 @@
                         <input class="input input--jp" type="text" lang="ja" id="kanji-onyomi" name="onyomi" placeholder="ショク、ジキ">
                         <p class="field__help">Comma=separated.</p>
                     </div>
+
+                    <div class="field">
+                        <label class="field__label" for="kanji-kunyomi">Kun'yomi</label>
+                        <input class="input input--jp" type="text" lang="ja" id="kanji-kunyomi"
+                            name="kunyomi" placeholder="た.べる、く.う">
+                        <p class="field__help">Comma-separated.</p>
+                    </div>
+
                 </fieldset>
 
                 <!-- ---- Sentence fields ----- -->
@@ -289,22 +297,13 @@
                         <label class="field__label" for="card-tags">Tags</label>
 
                         <div class="tag-row">
-                            <span class="chip chip--removable">Topic: Food
-                                <button class="chip__remove" type="button" aria-label="Remove tag Topic: Food">&times;</button>
-                            </span>
-                            <span class="chip chip--removable"> Source: Nakama 1
-                                <button class="chip__remove" type="button" aria-label="Remove tag Source: Nakama 1">&times;</button>
-                            </span>
+                            <div class="tag-row" id="tag-chips"></div>
+
+                            <div class="tag-row" id="tag-chips"></div>
                         </div>
 
                         <input class="input" type="text" id="card-tags" name="tagDraft" list="tag-suggestions" placeholder="Namespace: Value">
-                        <datalist id="tag-suggestions">
-                            <option value="Topic: Food"></option>
-                            <option value="Topic: Activities"></option>
-                            <option value="Source: Nakama 1"></option>
-                            <option value="Level: N5"></option>
-                            <option value="Level: N4"></option>
-                        </datalist>
+                        <datalist id="tag-suggestions"></datalist>
                     </div>
                 </fieldset>
 

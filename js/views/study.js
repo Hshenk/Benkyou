@@ -1,7 +1,8 @@
 import { TYPE_LABELS, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
-import { getCards } from "../storage.js";
+import { getCards, onChange } from "../storage.js";
 import { toggleScript } from "../script-toggle.js";
+import { canonicalTag, splitTag } from "../tags.js";
 
 // --- Study Selection ---
 const facetsEl = document.querySelector('#facets');
@@ -13,18 +14,12 @@ const optionTemplate = document.querySelector('#option-template');
 
 const selection = new Map();
 
-function splitTag(tag) {
-    const i = tag.indexOf(':');
-    if (i === -1) return [null, tag.trim()];
-    return [tag.slice(0, i).trim(), tag.slice(i + 1).trim()];
-}
-
 function valuesFor(card, namespace) {
     if (namespace === 'Type') return new Set([TYPE_LABELS[card.type]]);
 
     const out = new Set();
-    for (const tag of card.tags) {
-        const [ns, value] = splitTag(tag);
+    for (const tag of card.tags ?? []) {
+        const { namespace: ns, value } = splitTag(canonicalTag(tag));
         if (ns === namespace) out.add(value);
     }
     return out;
@@ -40,8 +35,14 @@ function buildFacets(cards) {
         const types = facets.get('Type');
         types.set(typeLabel, (types.get(typeLabel) ?? 0) + 1);
 
-        for (const tag of card.tags) {
-            const [namespace, value] = splitTag(tag);
+        const seen = new Set();
+
+        for (const tag of card.tags ?? []) {
+            const canon = canonicalTag(tag);
+            if (seen.has(canon)) continue;
+            seen.add(canon); 
+
+            const { namespace, value } = splitTag(canon);
             if (!namespace) continue;
 
             if (!facets.has(namespace)) facets.set(namespace, new Map());
@@ -357,5 +358,11 @@ export function initStudy() {
     });
 
     // --- Start ---
+    onChange(() => {
+        // Never rebuild mid-session
+        if (document.querySelector('#stage-select').hidden) return;
+        renderFacets(getCards());
+    });
+
     renderFacets(getCards());
 }
