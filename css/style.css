@@ -1025,7 +1025,7 @@ kbd {
     gap: var(--space-1);
 }
 
-.tag-row {
+.tag-manage {
     display: flex;
     align-items: center;
     gap: var(--space-3);
@@ -1033,16 +1033,16 @@ kbd {
     border-radius: var(--radius);
 }
 
-.tag-row:hover {
+.tag-manage:hover {
     background: var(--surface-2);
 }
 
-.tag-row__count {
+.tag-manage__count {
     color: var(--text-faint);
     font-variant-numeric: tabular-nums;
 }
 
-.tag-row__actions {
+.tag-manage__actions {
     margin-left: auto;
     display: flex;
     gap: var(--space-1);

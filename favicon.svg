@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <title>Benkyou</title>
+  <rect width="64" height="64" rx="10" fill="#e8e4dc"/>
+  <text
+    x="32" y="34"
+    text-anchor="middle"
+    dominant-baseline="central"
+    font-family="'Yu Gothic UI','Yu Gothic','Hiragino Sans','Noto Sans JP',Meiryo,sans-serif"
+    font-size="29"
+    font-weight="700"
+    fill="#1e3a5f"
+  >勉強</text>
+</svg>

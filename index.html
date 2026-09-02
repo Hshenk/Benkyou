@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Benkyou</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/style.css">
     <script type="module" src="js/app.js"></script>
 </head>
@@ -316,11 +317,7 @@
                     <div class="field field--full">
                         <label class="field__label" for="card-tags">Tags</label>
 
-                        <div class="tag-row">
-                            <div class="tag-row" id="tag-chips"></div>
-
-                            <div class="tag-row" id="tag-chips"></div>
-                        </div>
+                        <div class="tag-row" id="tag-chips"></div>
 
                         <input class="input" type="text" id="card-tags" name="tagDraft" list="tag-suggestions" placeholder="Namespace: Value">
                         <datalist id="tag-suggestions"></datalist>
@@ -359,10 +356,10 @@
             </template>
 
             <template id="tag-row-template">
-                <li class="tag-row">
+                <li class="tag-manage">
                     <span class="chip" data-field="value"></span>
-                    <span class="tag-row__count" data-field="count"></span>
-                    <div class="tag-row__actions">
+                    <span class="tag-manage__count" data-field="count"></span>
+                    <div class="tag-manage__actions">
                         <button class="btn btn--sm btn--ghost" type="button" data-action="rename">Rename</button>
                         <button class="btn btn--sm btn--ghost" type="button" data-action="delete">Delete</button>
                     </div>

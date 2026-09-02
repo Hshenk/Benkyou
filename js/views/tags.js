@@ -56,7 +56,7 @@ function render() {
 }
 
 function handleRename(tag) {
-    const input = prompt('Rename rag (renaming onto an existing tag merges them)', tag);
+    const input = prompt('Rename tag (renaming onto an existing tag merges them)', tag);
     if (input === null) return;
 
     const next = canonicalTag(input);
@@ -64,7 +64,7 @@ function handleRename(tag) {
 
     const reserved = reservedNamespace(next);
     if (reserved) {
-        alert(`"${splitTag(next).namespace} is reserved - card type is a field, not a tag.`);
+        alert(`"${splitTag(next).namespace}" is reserved - card type is a field, not a tag.`);
         return;
     }
 
@@ -85,7 +85,7 @@ export function initTags() {
         const btn = event.target.closest('[data-action]');
         if (!btn) return;
 
-        const tag = btn.closest('.tag-row').dataset.tag;
+        const tag = btn.closest('.tag-manage').dataset.tag;
         if (btn.dataset.action === 'rename') handleRename(tag);
         else handleDelete(tag);
     });
