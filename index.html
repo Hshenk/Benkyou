@@ -154,6 +154,11 @@
             <div class="toolbar">
                 <input class="input toolbar__search" type="search" id="card-search" placeholder="Search cards…" aria-label="Search cards">
                 <p class="toolbar__count" id="card-count">1 card</p>
+                <span class="toolbar__dirty" id="dirty-flag" hidden 
+                title="You have changes that haven't been exported">●&nbsp;unexported</span>
+                <button class="btn btn--sm" type="button" id="export-btn">Export</button>
+                <button class="btn btn--sm btn--ghost" type="button" id="import-btn">Import</button>
+                <input type="file" id="import-file" accept="application/json,.json" hidden>
             </div>
 
             <ul class="card-list" id="card-list" role="list"></ul>
@@ -178,6 +183,20 @@
                 </li>
             </template>
 
+            <dialog class="dialog" id="import-dialog">
+                <h3 class="dialog__title">Import</h3>
+                <p class="dialog__file" id="import-file-name"></p>
+                
+                <dl class="summary" id="import-summary"></dl>
+
+                <p class="dialog__warn" id="import-warn" hidden></p>
+
+                <div class="form__actions">
+                    <button class="btn btn--primary" type="button" data-import="merge">Merge</button>
+                    <button class="btn btn--again" type="button" data-import="replace">Replace</button>
+                    <button class="btn btn--ghost" type="button" data-import="cancel">Cancel</button>
+                </div>
+            </dialog>
         </section>
 
         <section class="view" id="view-editor" hidden>

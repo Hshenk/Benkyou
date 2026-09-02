@@ -968,3 +968,38 @@ kbd {
 
 .card-face .glyph[data-form="print"] { font-family: var(--font-jp); }
 .card-face .glyph[data-form="hand"] { font-family: var(--font-jp-hand); }
+
+
+/* ------ Dialog ------ */
+.dialog {
+    background: var(--surface-1);
+    color: var(--text);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-lg);
+    padding: var(--space-4);
+    min-width: 380px;
+}
+
+.dialog::background {
+    background: rbg(0 0 0 / 0.6);
+}
+
+.dialog__title {
+    margin-bottom: var(--space-2);
+}
+
+.dialog__file {
+    color: var(--text-muted);
+    margin-bottom: var(--space-3);
+}
+
+.dialog_warn {
+    color: var(--hl-red);
+    margin-bottom: var(--space-3);
+}
+
+.toolbar__dirty {
+    color: var(--accent);
+    font-size: 14px;
+    white-space: nowrap;
+}

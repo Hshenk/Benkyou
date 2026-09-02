@@ -79,14 +79,15 @@ function load() {
 load();
 
 
-function persist() {
+/**
+ * Write to localStorage and announce the change
+ */
+function write() {
     if (loadFailed) {
         alert('Benkyou could not read your saved cards, so it will not overwrite '
         + 'them. Check the console, and back up localStorage before continuing.');
-    return;
+    return false;
     }
-
-    device.dirty = true;
 
     try {
         localStorage.setItem(COLLECTION_KEY, JSON.stringify(collection));
@@ -96,10 +97,16 @@ function persist() {
         alert(err.name === 'QuotaExceededError'
             ? 'Out of browser storage. Export your cards before adding more.'
             : 'Could not save. See the console.');
-        return;
+        return false;
     }
 
     bus.dispatchEvent(new Event('change'));
+    return true;
+}
+
+function persist() {
+    device.dirty = true;
+    return write();
 }
 
 
@@ -156,4 +163,48 @@ export function deleteCard(id) {
 export function onChange(fn) {
     bus.addEventListener('change', fn);
     return () => bus.removeEventListener('change', fn);
+}
+
+// --- Transfer ---
+export function getCollection() {
+    return collection;
+}
+
+export function isDirty() {
+    return device.dirty;
+}
+
+export function lastExportedAt() {
+    return device.lastExportedAt;
+}
+
+/**
+ * The collection as it would be exported
+ * Nothing is committed yet
+ */
+export function buildExport() {
+    return {
+        ...collection,
+        version: collection.version + 1,
+        exportedAt: new Date().toISOString(),
+    };
+}
+
+/** Call only after the file has been written */
+export function commitExport(payload) {
+    collection.version = payload.version;
+    collection.exportedAt = payload.exportedAt;
+
+    device.dirty = false;
+    device.lastSyncedVersion = payload.version;
+    device.lastExportedAt = payload.exportedAt;
+
+    write();
+}
+
+export function replaceCollection(next, { synced = false } = {}) {
+    collection = next;
+    device.dirty = !synced;
+    if ( synced) device.lastSyncedVersion = next.version;
+    write();
 }

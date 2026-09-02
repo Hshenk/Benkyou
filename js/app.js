@@ -3,6 +3,7 @@ import { initScriptToggle } from './script-toggle.js';
 import { initCards } from './views/cards.js';
 import { initEditor, openEditor } from './views/editor.js';
 import { initStudy } from './views/study.js';
+import { initTransfer } from './views/transfer.js';
 
 
 
@@ -22,6 +23,13 @@ initCards({
 });
 
 initStudy();
+
+initTransfer({
+    onReplaced: () => {
+        openEditor(null);
+        showView('cards');
+    },
+});
 
 // "New Card" always shows blank form
 document.querySelector('.nav__btn[data-view="editor"]')
