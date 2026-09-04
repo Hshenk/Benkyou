@@ -160,6 +160,7 @@
                 title="You have changes that haven't been exported">●&nbsp;unexported</span>
                 <button class="btn btn--sm" type="button" id="export-btn">Export</button>
                 <button class="btn btn--sm btn--ghost" type="button" id="import-btn">Import</button>
+                <button class="btn btn--sm btn--ghost" type="button" id="sync-btn">Check repo</button>
                 <input type="file" id="import-file" accept="application/json,.json" hidden>
             </div>
 
@@ -176,6 +177,7 @@
                     <div class="card-row__body">
                         <p class="card-row__meaning" data-field="meaning"></p>
                         <div class="card-row__tags" data-field="tags"></div>
+                        <span class="card-row__stats" data-field="stats"></span>
                     </div>
 
                     <div class="card-row__actions">
@@ -195,8 +197,8 @@
 
                 <div class="form__actions">
                     <button class="btn btn--primary" type="button" data-import="merge">Merge</button>
-                    <button class="btn btn--again" type="button" data-import="replace">Replace</button>
-                    <button class="btn btn--ghost" type="button" data-import="cancel">Cancel</button>
+                    <button class="btn btn--danger" type="button" data-import="replace">Replace</button>
+                    <button class="btn" type="button" data-import="cancel">Cancel</button>
                 </div>
             </dialog>
         </section>

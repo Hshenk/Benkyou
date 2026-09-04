@@ -89,3 +89,18 @@ export function mergeCollection(local, incoming) {
         cards: [...byId.values()],
     };
 }
+
+/**
+ * Takes three numbers and returns a branch name:
+ * 
+ * up-to-date
+ * local-ahead
+ * fast-forward
+ * diverge
+ * stale 
+ */
+export function syncDecision({ remoteVersion, lastSyncedVersion, dirty}) {
+    if (remoteVersion > lastSyncedVersion) return dirty ? 'diverged' : 'fast-forward';
+    if (remoteVersion < lastSyncedVersion) return 'stale';
+    return dirty ? 'local-ahead' : 'up-to-date';
+}

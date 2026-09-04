@@ -34,6 +34,10 @@ function buildRow(card) {
         tagBox.append(chip);
     }
 
+    const seen = card.timesSeen?? 0;
+    const missed = card.timesMissed ?? 0;
+    field('stats').textContent = seen ? `${missed}/${seen} missed` : '';
+
     return row;
 }
 

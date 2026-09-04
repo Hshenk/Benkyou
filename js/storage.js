@@ -9,26 +9,6 @@ const COLLECTION_KEY = 'benkyou:collection';
 const DEVICE_KEY = 'benkyou:device';
 const SCHEMA_VERSION = 1;
 
-// --- Seed Data ---
-// Only used on first run with empty storage.
-const SEED = [
-  { id: 'a1', type: 'vocab', meaning: 'to eat',
-    tags: ['Topic: Food', 'Level: N5'],
-    data: { expression: '食[た]べる', reading: 'たべる' } },
-  { id: 'a2', type: 'kanji', meaning: 'eat, food',
-    tags: ['Level: N5'],
-    data: { character: '食', onyomi: ['ショク'], kunyomi: ['た.べる'], strokes: 9 } },
-  { id: 'a3', type: 'sentence', meaning: 'Please (do it for me).',
-    tags: ['Topic: Set phrases', 'Source: Nakama 1'],
-    data: { expression: 'お 願[ねが]いします', literal: 'I humbly request' } },
-  { id: 'a4', type: 'vocab', meaning: 'study, diligence',
-    tags: ['Topic: School', 'Level: N4'],
-    data: { expression: '勉強[べんきょう]', reading: 'べんきょう' } },
-  { id: 'a5', type: 'grammar', meaning: 'topic marker — "as for X"',
-    tags: ['Topic: Particles', 'Level: N5'],
-    data: { expression: 'は', example: '私[わたし]*b:は* 学生[がくせい]です' } },
-];
-
 // --- State --- 
 let collection = null;
 let device = null;
@@ -56,7 +36,6 @@ function load() {
 
     if (raw === null) {
         collection = emptyCollection();
-        collection.cards = SEED.map(stamp);
     } else {
         try {
             collection = JSON.parse(raw);
@@ -185,7 +164,7 @@ export function lastExportedAt() {
 export function buildExport() {
     return {
         ...collection,
-        version: collection.version + 1,
+        version: Math.max(collection.version, device.lastSyncedVersion) + 1,
         exportedAt: new Date().toISOString(),
     };
 }
@@ -202,12 +181,23 @@ export function commitExport(payload) {
     write();
 }
 
-export function replaceCollection(next, { synced = false } = {}) {
+export function replaceCollection(next, { dirty = false, syncedVersion = null } = {}) {
     collection = next;
-    device.dirty = !synced;
-    if ( synced) device.lastSyncedVersion = next.version;
+    device.dirty = dirty;
+    if ( syncedVersion !== null ) device.lastSyncedVersion = syncedVersion;
     write();
 }
+
+/** Record that we've seen a shared version without adopting its contents */
+export function markSynced(version) {
+    device.lastSyncedVersion = Math.max(device.lastSyncedVersion, version);
+    write();
+}
+
+export function lastSyncedVersion() {
+    return device.lastSyncedVersion;
+}
+
 
 // --- Tag Management ---
 /** Map of tagKey -> { tag, count } */
@@ -289,5 +279,27 @@ export function normalizeAllTags() {
     }
 
     if (touched) persist();
+    return touched;
+}
+
+/**
+ * Fold a finished session's count into the cards
+ * 
+ * Uses write() instead of persist() because card stats are minor enough not to count as an edit to cards
+ */
+export function recordStudy(results) {
+    const byId = new Map(collection.cards.map((c) => [c.id, c]));
+    let touched = 0;
+
+    for (const { id, seen, missed } of results) {
+        const card = byId.get(id);
+        if (!card) continue;
+
+        card.timesSeen = (card.timesSeen ?? 0) + seen;
+        card.timesMissed = (card.timesMissed ?? 0) + missed;
+        touched += 1;
+    }
+
+    if (touched) write();
     return touched;
 }

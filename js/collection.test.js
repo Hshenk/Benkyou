@@ -1,4 +1,4 @@
-import { parseCollection, diffCollections, mergeCollections } from './collection.js';
+import { parseCollection, diffCollections, syncDecision } from './collection.js';
 
 const results = document.querySelector('#results');
 let passed = 0, failed = 0;
@@ -63,6 +63,20 @@ const reEdited = collection([card('b', '2026-04-01')]);
 const graved = collection([], { deletedIds: [{ id: 'b', deletedAt: '2026-03-01' }] });
 check('edit after delete survives',
   mergeCollections(reEdited, graved).cards.map((c) => c.id), ['b']);
+
+
+// --- Sync decisions (overview §2.9a) ---
+const decide = (remoteVersion, lastSyncedVersion, dirty) =>
+  syncDecision({ remoteVersion, lastSyncedVersion, dirty });
+
+check('repo ahead, clean → fast-forward', decide(6, 5, false), 'fast-forward');
+check('repo ahead, dirty → diverged',     decide(6, 5, true),  'diverged');
+check('level, clean → up to date',        decide(5, 5, false), 'up-to-date');
+check('level, dirty → local ahead',       decide(5, 5, true),  'local-ahead');
+check('repo behind → stale',              decide(4, 5, false), 'stale');
+check('repo behind, dirty → stale',       decide(4, 5, true),  'stale');
+check('first run, empty repo',            decide(0, 0, false), 'up-to-date');
+
 
 const summary = document.createElement('h2');
 summary.textContent = `Collection: ${passed} passed, ${failed} failed`;

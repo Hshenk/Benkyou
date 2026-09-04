@@ -1,6 +1,6 @@
 import { TYPE_LABELS, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
-import { getCards, onChange } from "../storage.js";
+import { getCards, recordStudy, onChange } from "../storage.js";
 import { toggleScript } from "../script-toggle.js";
 import { canonicalTag, splitTag } from "../tags.js";
 
@@ -183,6 +183,8 @@ function startSession(cards) {
         done: new Set(),
         skipped: new Set(),
         misses: new Map(),
+        seen: new Map(),
+        flushed: false,
     };
 
     showStage('session');
@@ -198,6 +200,8 @@ function nextCard() {
     }
 
     const card = session.current;
+
+    session.seen.set(card.id, (session.seen.get(card.id) ?? 0) + 1);
 
     cardFace.dataset.type = card.type;
     cardFace.dataset.furigana = 'hidden';
@@ -288,6 +292,8 @@ function updateProgress() {
 }
 
 function endSession() {
+    flushStats();
+
     document.querySelector('#summary-total').textContent = session.total;
     document.querySelector('#summary-missed').textContent = session.misses.size;
     document.querySelector('#summary-skipped').textContent = session.skipped.size;
@@ -331,7 +337,7 @@ export function initStudy() {
         else grade(btn.dataset.grade);
     });
 
-    document.querySelector('#quit-study').addEventListener('click', () => showStage('select'));
+    document.querySelector('#quit-study').addEventListener('click', quitSession);
     document.querySelector('#back-to-select').addEventListener('click', () => showStage('select'));
 
     document.querySelector('#restudy-missed').addEventListener('click', () => {
@@ -363,7 +369,7 @@ export function initStudy() {
                 toggleScript();
                 break;
             case 'Escape':
-                showStage('select');
+                quitSession();
                 break;
         }
     });
@@ -376,4 +382,23 @@ export function initStudy() {
     });
 
     renderFacets(getCards());
+}
+
+function flushStats() {
+    if (!session || session.flushed) return;
+    session.flushed = true;
+
+    const ids = new Set([...session.seen.keys(), ...session.misses.keys()]);
+    const results = [...ids].map((id) => ({
+        id, 
+        seen: session.seen.get(id) ?? 0,
+        missed: session.misses.get(id) ?? 0,
+    }));
+
+    if (results.length) recordStudy(results);
+}
+
+function quitSession() {
+    flushStats();
+    showStage('select');
 }

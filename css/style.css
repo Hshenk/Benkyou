@@ -527,6 +527,16 @@ main {
     color: var(--text);
 }
 
+.btn--danger {
+    border-color: var(--hl-red);
+    color: var(--hl-red);
+}
+
+.btn--danger:hover {
+    background: var(--hl-red-bg);
+    border-color: var(--hl-red);
+}
+
 .form__actions {
     display: flex;
     gap: var(--space-2);
@@ -598,6 +608,12 @@ main {
 
 .card-row__tags:empty {
     display: none;
+}
+
+.card-row__stats {
+    color: var(--text-faint);
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
 }
 
 /* ------ Type badge ------ */

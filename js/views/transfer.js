@@ -1,9 +1,12 @@
 import {
-    getCollection, buildExport, commitExport, replaceCollection, isDirty, onChange,
+    getCollection, buildExport, commitExport, replaceCollection, lastSyncedVersion, isDirty, onChange,
+    markSynced,
 } from '../storage.js';
 import {
-    serialize, parseCollection, diffCollections, mergeCollection,
+    serialize, parseCollection, diffCollections, mergeCollection, syncDecision,
 } from '../collection.js';
+
+const REPO_URL = './data/cards.json';
 
 const exportBtn = document.querySelector('#export-btn');
 const importBtn = document.querySelector('#import-btn');
@@ -29,6 +32,17 @@ function downloadFallback(json) {
     a.click();
 
     URL.revokeObjectURL(url);
+}
+
+async function fetchRepo() {
+    try {
+        const res = await fetch(`${REPO_URL}?v=${Date.now()}`, { cache: 'no-store' });
+        if (!res.ok) return null;
+        return parseCollection(await res.text());
+    } catch (err) {
+        console.warn('Repo check skipped:', err.message);
+        return null;
+    }
 }
 
 async function doExport() {
@@ -65,7 +79,11 @@ async function doExport() {
 /**
  * Show the previous resolve with merge / replace / cancel
  */
-function askImportChoice(name, diff, incoming) {
+function askImportChoice(name, diff, incoming, opts = {}) {
+    dialog.querySelector('.dialog__title').textContent = opts.title ?? 'Import';
+    dialog.querySelector('[data-import="replace"]').textContent = opts.replaceLabel ?? 'Replace';
+    dialog.querySelector('[data-import="cancel"]').textContent = opts.cancelLabel ?? 'Cancel';
+    
     dialogFileName.textContent =
     `${name} — ${incoming.cards.length} cards, version ${incoming.version}`;
 
@@ -130,10 +148,13 @@ async function doImport(file) {
     const choice = await askImportChoice(file.name, diff, incoming);
 
     if (choice === 'replace') {
-        replaceCollection(incoming, { synced: true });
+        replaceCollection(incoming, { dirty: false, syncedVersion: incoming.version });
         onReplaced();
     } else if (choice === 'merge') {
-        replaceCollection(mergeCollection(local, incoming));
+        replaceCollection(mergeCollection(local, incoming), {
+            dirty: true,
+            syncedVersion: incoming.version,
+        });
         onReplaced();
     }
 }
@@ -155,6 +176,66 @@ export function initTransfer(options = {}) {
         if (file) doImport(file);
     });
 
+    document.querySelector('#sync-btn')
+        .addEventListener('click', () => checkRepo({ quiet: false }));
+
     onChange(updateDirtyFlag);
     updateDirtyFlag();
+
+    checkRepo();
+}
+
+async function checkRepo({ quiet = true } = {}) {
+    const remote = await fetchRepo();
+    if (!remote) {
+        if (!quiet) alert('Could not read data/cards.json - see the console for details.');
+        return;
+    }
+
+    const decision = syncDecision({
+        remoteVersion: remote.version,
+        lastSyncedVersion: lastSyncedVersion(),
+        dirty: isDirty(),
+    });
+
+    if (decision === 'fast-forward') {
+        replaceCollection(remote, { dirty: false, syncedVersion: remote.version });
+        onReplaced();
+        console.log(`Synced from repo: version ${remote.version}, ${remote.cards.length} cards`);
+        return;
+    }
+
+    if (decision === 'diverged') {
+        const local = getCollection();
+        const diff = diffCollections(local, remote);
+
+        const choice = await askImportChoice('data/cards.json', diff, remote, {
+            title: 'The repo has changes, and so do you',
+            replaceLabel: 'Take repo',
+            cancelLabel: 'Keep mine',
+        });
+
+        if (choice === 'replace') {
+            replaceCollection(remote, { dirty: false, syncedVersion: remote.version });
+            onReplaced();
+        } else if (choice === 'merge') {
+            replaceCollection(mergeCollection(local, remote), {
+                dirty: true,
+                syncedVersion: remote.version,
+            });
+            onReplaced();
+        } else {
+            markSynced(remote.version);
+        }
+        return;
+    }
+
+    if (!quiet) {
+        const message = {
+            'up-to-date':  'Already up to date.',
+            'local-ahead': 'You have changes the repo doesn\'t. Export when you\'re ready.',
+            'stale':       'The repo file is older than what you have. Probably a cached fetch.',
+        };
+        alert(message[decision]);
+    }
 }
