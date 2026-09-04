@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "version": 3,
+  "exportedAt": "2026-09-04T14:18:42.495Z",
+  "deletedIds": [
+    {
+      "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
+      "deletedAt": "2026-09-02T15:27:38.034Z"
+    },
+    {
+      "id": "eceddec5-46fe-42f5-9604-faaeb5d8ea15",
+      "deletedAt": "2026-09-02T16:05:16.969Z"
+    },
+    {
+      "id": "a4890d3e-402d-4ae6-a52c-3753587986b9",
+      "deletedAt": "2026-09-02T16:05:18.608Z"
+    },
+    {
+      "id": "2569fd0c-df03-4cea-97ec-30ff0bafca52",
+      "deletedAt": "2026-09-02T16:05:21.675Z"
+    }
+  ],
+  "cards": [
+    {
+      "createdAt": "2026-09-02T15:23:40.237Z",
+      "updatedAt": "2026-09-02T19:27:51.892Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "id": "a1",
+      "type": "vocab",
+      "meaning": "to eat",
+      "tags": [
+        "Level: N5",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "食[た]べる",
+        "reading": "たべる"
+      },
+      "notes": ""
+    },
+    {
+      "createdAt": "2026-09-02T15:23:40.237Z",
+      "updatedAt": "2026-09-02T15:23:40.237Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "id": "a2",
+      "type": "kanji",
+      "meaning": "eat, food",
+      "tags": [
+        "Level: N5"
+      ],
+      "data": {
+        "character": "食",
+        "onyomi": [
+          "ショク"
+        ],
+        "kunyomi": [
+          "た.べる"
+        ],
+        "strokes": 9
+      }
+    },
+    {
+      "createdAt": "2026-09-02T15:23:40.237Z",
+      "updatedAt": "2026-09-02T15:23:40.237Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "id": "a3",
+      "type": "sentence",
+      "meaning": "Please (do it for me).",
+      "tags": [
+        "Topic: Set phrases",
+        "Source: Nakama 1"
+      ],
+      "data": {
+        "expression": "お 願[ねが]いします",
+        "literal": "I humbly request"
+      }
+    },
+    {
+      "createdAt": "2026-09-02T15:23:40.237Z",
+      "updatedAt": "2026-09-02T15:23:40.237Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "id": "a4",
+      "type": "vocab",
+      "meaning": "study, diligence",
+      "tags": [
+        "Topic: School",
+        "Level: N4"
+      ],
+      "data": {
+        "expression": "勉強[べんきょう]",
+        "reading": "べんきょう"
+      }
+    },
+    {
+      "createdAt": "2026-09-02T15:23:40.237Z",
+      "updatedAt": "2026-09-02T15:23:40.237Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "id": "a5",
+      "type": "grammar",
+      "meaning": "topic marker — \"as for X\"",
+      "tags": [
+        "Topic: Particles",
+        "Level: N5"
+      ],
+      "data": {
+        "expression": "は",
+        "example": "私[わたし]*b:は* 学生[がくせい]です"
+      }
+    },
+    {
+      "createdAt": "2026-09-02T16:15:37.921Z",
+      "updatedAt": "2026-09-02T16:23:26.550Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Test",
+      "notes": "",
+      "tags": [],
+      "data": {
+        "expression": "TEst",
+        "reading": "Test"
+      },
+      "id": "9e59b018-00fa-4fca-a6fc-798f97740ff4"
+    }
+  ]
+}
