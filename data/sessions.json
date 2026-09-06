@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-06T15:15:11.179Z",
+  "exportedAt": "2026-09-06T23:06:34.351Z",
   "sessions": [
     {
       "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
@@ -24,6 +24,68 @@
         },
         {
           "id": "cf1f2221-ad69-4ade-b04b-8c229a86c81f",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "a7aa4097-25ee-406a-9fea-ba99aafe2430",
+      "startedAt": "2026-09-06T23:04:35.868Z",
+      "endedAt": "2026-09-06T23:06:02.816Z",
+      "facets": [
+        "Topic: Numbers"
+      ],
+      "results": [
+        {
+          "id": "027b04d1-522e-4ede-a8f6-2f7445261988",
+          "result": "easy"
+        },
+        {
+          "id": "0ce0492e-3e76-430f-a372-1ac5dd1f10f2",
+          "result": "easy"
+        },
+        {
+          "id": "2b6d6d12-2b68-47d9-ac5e-7ed2862f092e",
+          "result": "easy"
+        },
+        {
+          "id": "5b0ccc29-5320-4c19-a6ab-18bef7f98899",
+          "result": "easy"
+        },
+        {
+          "id": "1c6d4964-54af-4cac-9f85-e01cf40d1185",
+          "result": "easy"
+        },
+        {
+          "id": "ac05419d-07cb-43e5-884f-9d63501363c1",
+          "result": "easy"
+        },
+        {
+          "id": "2542636e-b71d-4ce9-90fc-f0017e221cd1",
+          "result": "easy"
+        },
+        {
+          "id": "84e24a8d-72d1-46d5-8299-4e9c2d8004c6",
+          "result": "easy"
+        },
+        {
+          "id": "83403a4d-ec95-447d-8d9d-0f6e22ffb84e",
+          "result": "easy"
+        },
+        {
+          "id": "1aef569b-6900-4f1c-9f9b-699038a2526b",
+          "result": "easy"
+        },
+        {
+          "id": "1e76e439-ce6d-447f-8591-0b9e460b8b55",
+          "result": "easy"
+        },
+        {
+          "id": "cf34bf58-db70-4fcf-b912-9e0159603c14",
+          "result": "easy"
+        },
+        {
+          "id": "53330e92-ff2a-4fcd-9995-5cd431fa63d9",
           "result": "easy"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 8,
-  "exportedAt": "2026-09-04T14:19:56.937Z",
+  "version": 11,
+  "exportedAt": "2026-09-06T23:06:34.346Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -115,6 +115,999 @@
         "expression": "は",
         "example": "私[わたし]*b:は* 学生[がくせい]です"
       }
+    },
+    {
+      "createdAt": "2026-09-06T21:29:08.169Z",
+      "updatedAt": "2026-09-06T21:54:49.288Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Sea; ocean; waters",
+      "notes": "",
+      "tags": [
+        "Topic: Nature",
+        "Source: Nakama 2-2",
+        "Level: N4"
+      ],
+      "data": {
+        "character": "海",
+        "onyomi": [
+          "うみ"
+        ],
+        "kunyomi": [
+          "カイ"
+        ],
+        "strokes": 9
+      },
+      "id": "e1d9bb03-0f53-475f-a0e5-e49761629929"
+    },
+    {
+      "createdAt": "2026-09-06T21:33:15.417Z",
+      "updatedAt": "2026-09-06T21:54:18.965Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "outside; exterior​",
+      "notes": "",
+      "tags": [
+        "Topic: Nature",
+        "Source: Nakama 2-2",
+        "Level: N5"
+      ],
+      "data": {
+        "character": "外",
+        "onyomi": [
+          "そと",
+          "ほか",
+          "はず.す",
+          "はず.れる",
+          "と-"
+        ],
+        "kunyomi": [
+          "ガイ",
+          "ゲ"
+        ],
+        "strokes": 5
+      },
+      "id": "13cd4246-1455-4323-a843-9032ae62c16f"
+    },
+    {
+      "createdAt": "2026-09-06T21:34:31.527Z",
+      "updatedAt": "2026-09-06T21:54:01.670Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "country; state​",
+      "notes": "",
+      "tags": [
+        "Topic: Government",
+        "Source: Nakama 2-2",
+        "Level: N5"
+      ],
+      "data": {
+        "character": "国",
+        "onyomi": [
+          "くに"
+        ],
+        "kunyomi": [
+          "コク"
+        ],
+        "strokes": 8
+      },
+      "id": "987bd929-0cc0-4bdd-a0a9-25a96799edf7"
+    },
+    {
+      "createdAt": "2026-09-06T21:53:39.019Z",
+      "updatedAt": "2026-09-06T22:39:56.429Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "travel; trip; journey",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 2-2",
+        "Level: N4",
+        "Topic: Travel"
+      ],
+      "data": {
+        "character": "旅",
+        "onyomi": [
+          "リョ"
+        ],
+        "kunyomi": [
+          "たび"
+        ],
+        "strokes": 10
+      },
+      "id": "88c723d1-ade8-4bb2-9ace-f1df05dd4e35"
+    },
+    {
+      "createdAt": "2026-09-06T21:57:09.389Z",
+      "updatedAt": "2026-09-06T22:39:39.705Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "building, mansion, large building, palace",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "館",
+        "onyomi": [
+          "カン"
+        ],
+        "kunyomi": [
+          "やかた",
+          "たて"
+        ],
+        "strokes": 16
+      },
+      "id": "d9540591-f153-4454-b3e3-faf69e1f5a29"
+    },
+    {
+      "createdAt": "2026-09-06T21:59:44.837Z",
+      "updatedAt": "2026-09-06T22:39:18.388Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "beforehand, previous, myself, I, in advance",
+      "notes": "Often seen as: 予め 【あらかじめ】- beforehand, in advance, ahead of time, previously",
+      "tags": [
+        "Source: Nakama 2-2",
+        "Level: N3"
+      ],
+      "data": {
+        "character": "予",
+        "onyomi": [
+          "ヨ",
+          "シャ"
+        ],
+        "kunyomi": [
+          "あらかじ(め)"
+        ]
+      },
+      "id": "b468be08-bb7b-4ac3-bfa7-2129f80e3da2"
+    },
+    {
+      "createdAt": "2026-09-06T22:01:24.439Z",
+      "updatedAt": "2026-09-06T22:38:36.892Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "determine, fix, establish, decide",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "定",
+        "onyomi": [
+          "テイ",
+          "ジョウ"
+        ],
+        "kunyomi": [
+          "さだ(める)",
+          "さだ(まる)",
+          "さだ(か)"
+        ],
+        "strokes": 8
+      },
+      "id": "9a91116d-9a2a-44a6-b137-a52c1c7b2332"
+    },
+    {
+      "createdAt": "2026-09-06T22:04:17.113Z",
+      "updatedAt": "2026-09-06T22:38:15.134Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "promise, approximately, shrink",
+      "notes": "Commonly seen as: 約束 【ヤクソク】 promise, agreement, arrangement",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "約",
+        "onyomi": [
+          "ヤク"
+        ],
+        "kunyomi": [
+          "つづ(まる)",
+          "つづ(める)",
+          "つづま(やか)"
+        ],
+        "strokes": 9
+      },
+      "id": "ea4d348a-645a-46ce-af4c-e28af91c3c4a"
+    },
+    {
+      "createdAt": "2026-09-06T22:06:49.552Z",
+      "updatedAt": "2026-09-06T22:37:56.377Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "plot, plan, scheme, measure",
+      "notes": "Commonly seen as: 計画 【ケイカク】 plan, project, schedule, scheme, program",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "計",
+        "onyomi": [
+          "ケイ"
+        ],
+        "kunyomi": [
+          "はか(る)",
+          "はか(らう)"
+        ],
+        "strokes": 9
+      },
+      "id": "a561023e-022e-42ec-ad31-55d294c13c25"
+    },
+    {
+      "createdAt": "2026-09-06T22:08:30.541Z",
+      "updatedAt": "2026-09-06T22:37:41.878Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "picture, painting, plot, plan, scheme, measure",
+      "notes": "Commonly seen as: 計画 【ケイカク】 plan, project, schedule, scheme, program",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "画",
+        "onyomi": [
+          "ケイ"
+        ],
+        "kunyomi": [
+          "はか(る)",
+          "はか(らう)"
+        ],
+        "strokes": 9
+      },
+      "id": "1b8a6038-d998-4e2f-a76b-b4cc170cecb5"
+    },
+    {
+      "createdAt": "2026-09-06T22:10:50.604Z",
+      "updatedAt": "2026-09-06T22:37:08.435Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "load, cargo, baggage",
+      "notes": "Counter for carrying something (if it can be carried on one's shoulder)",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "荷",
+        "onyomi": [
+          "カ"
+        ],
+        "kunyomi": [
+          "に"
+        ],
+        "strokes": 10
+      },
+      "id": "fb36cf19-4cc5-4797-a7cc-33900ee77de1"
+    },
+    {
+      "createdAt": "2026-09-06T22:12:09.099Z",
+      "updatedAt": "2026-09-06T22:36:54.786Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "thing, object, matter",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "物",
+        "onyomi": [
+          "ブツ",
+          "モツ"
+        ],
+        "kunyomi": [
+          "もの",
+          "もの-"
+        ],
+        "strokes": 8
+      },
+      "id": "4bd54c09-3ab9-4125-a715-19f3d12014d8"
+    },
+    {
+      "createdAt": "2026-09-06T22:13:45.701Z",
+      "updatedAt": "2026-09-06T22:35:43.107Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "solution, (to) answer",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "答",
+        "onyomi": [
+          "トウ"
+        ],
+        "kunyomi": [
+          "こた(える)",
+          "こた(え)"
+        ],
+        "strokes": 12
+      },
+      "id": "5ef801cb-4b47-4c48-ab12-f2d4aca41e1f"
+    },
+    {
+      "createdAt": "2026-09-06T22:14:48.918Z",
+      "updatedAt": "2026-09-06T22:35:23.944Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "(to) know, wisdom",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "知",
+        "onyomi": [
+          "チ"
+        ],
+        "kunyomi": [
+          "し(る)",
+          "し(らせる)"
+        ],
+        "strokes": 8
+      },
+      "id": "016df395-291c-4440-9867-06095538e2ab"
+    },
+    {
+      "createdAt": "2026-09-06T22:16:57.657Z",
+      "updatedAt": "2026-09-06T22:35:11.134Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "To stay overnight",
+      "notes": "Can also be used as a counter for number of nights stayed (ハク).",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "泊",
+        "onyomi": [
+          "ハク"
+        ],
+        "kunyomi": [
+          "と(まる)",
+          "と(める)"
+        ],
+        "strokes": 8
+      },
+      "id": "4f0d2d81-1c50-414d-98fd-4c1a302e99da"
+    },
+    {
+      "createdAt": "2026-09-06T22:19:03.838Z",
+      "updatedAt": "2026-09-06T22:34:53.487Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "to ride, power, multiplication",
+      "notes": "乗 【ジョウ】 (nth) power, counter for vehicles.\n乗る 【のる】 to get on (train, plane, bus, ship, etc.)",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-2",
+        "Topic: Travel"
+      ],
+      "data": {
+        "character": "乗",
+        "onyomi": [
+          "ジョウ",
+          "ショウ"
+        ],
+        "kunyomi": [
+          "の(る)",
+          "-の(り)",
+          "の(せる)"
+        ],
+        "strokes": 9
+      },
+      "id": "500f3fc4-7b06-41e4-8346-0484a8a9e04e"
+    },
+    {
+      "createdAt": "2026-09-06T22:21:04.589Z",
+      "updatedAt": "2026-09-06T22:34:32.644Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "to arrive, to put on",
+      "notes": "着 【チャク】 arrival, arriving at ..., counter for items or suits of clothing, nth place (in a race), counter for moves",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-2",
+        "Topic: Travel"
+      ],
+      "data": {
+        "character": "着",
+        "onyomi": [
+          "チャク",
+          "ジャク"
+        ],
+        "kunyomi": [
+          "き(る)",
+          "き(せる)",
+          "つ(く)",
+          "つ(ける)"
+        ],
+        "strokes": 12
+      },
+      "id": "54ea6f26-04d2-4089-9e1b-9a41e3d79d1a"
+    },
+    {
+      "createdAt": "2026-09-06T22:24:41.283Z",
+      "updatedAt": "2026-09-06T22:24:41.283Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Kanji for repetition",
+      "notes": "This kanji just denotes that the previous kanji's reading is said twice (Sometimes it is modified slightly). Example: 時々、色々",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "々",
+        "onyomi": [
+          "N/A"
+        ],
+        "kunyomi": [
+          "N/A"
+        ],
+        "strokes": 3
+      },
+      "id": "c82aae54-c70b-4bc8-9a20-e6da8a7af47a"
+    },
+    {
+      "createdAt": "2026-09-06T22:26:32.868Z",
+      "updatedAt": "2026-09-06T22:34:05.839Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "name, noted, distinguished, reputation",
+      "notes": "名 【メイ】 counter for people(usu. seating, reservations and such), first name.\n仮名 【かめい】 alias, pseudonym.",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 2-2"
+      ],
+      "data": {
+        "character": "名",
+        "onyomi": [
+          "メイ",
+          "ミョウ"
+        ],
+        "kunyomi": [
+          "な",
+          "-な"
+        ],
+        "strokes": 6
+      },
+      "id": "de17cab4-cb15-48e4-b40e-a24c5f215b0e"
+    },
+    {
+      "createdAt": "2026-09-06T22:28:34.964Z",
+      "updatedAt": "2026-09-06T22:33:27.641Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "empty, sky, void, vacant, vacuum",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-2",
+        "Topic: Nature"
+      ],
+      "data": {
+        "character": "空",
+        "onyomi": [
+          "クウ"
+        ],
+        "kunyomi": [
+          "そら",
+          "あ(く)",
+          "あ.き",
+          "あ(ける)",
+          "から",
+          "す(く)",
+          "す(かす)",
+          "むな(しい)"
+        ],
+        "strokes": 8
+      },
+      "id": "3b56d1a9-c1c1-44be-81f9-eec5fb199f0b"
+    },
+    {
+      "createdAt": "2026-09-06T22:30:35.152Z",
+      "updatedAt": "2026-09-06T22:33:53.441Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "harbor",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-2",
+        "Topic: Locations"
+      ],
+      "data": {
+        "character": "港",
+        "onyomi": [
+          "コウ"
+        ],
+        "kunyomi": [
+          "みなと"
+        ],
+        "strokes": 12
+      },
+      "id": "fbf78f63-c84d-438e-90c6-9c640626bd02"
+    },
+    {
+      "createdAt": "2026-09-06T22:31:53.362Z",
+      "updatedAt": "2026-09-06T22:31:53.362Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "forest, woods",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 2-2",
+        "Topic: Nature",
+        "Topic: Locations"
+      ],
+      "data": {
+        "character": "森",
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "もり"
+        ],
+        "strokes": 12
+      },
+      "id": "964cec51-b572-472f-8c40-9696ceec57ce"
+    },
+    {
+      "createdAt": "2026-09-06T22:32:43.015Z",
+      "updatedAt": "2026-09-06T22:32:43.015Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "grove, forest",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 2-2",
+        "Topic: Locations",
+        "Topic: Nature"
+      ],
+      "data": {
+        "character": "林",
+        "onyomi": [
+          "リン"
+        ],
+        "kunyomi": [
+          "はやし"
+        ],
+        "strokes": 8
+      },
+      "id": "df568c67-36cd-4a17-9f43-832cd6151b2e"
+    },
+    {
+      "createdAt": "2026-09-06T22:52:54.281Z",
+      "updatedAt": "2026-09-06T22:52:54.281Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "One",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "一",
+        "onyomi": [
+          "イチ",
+          "イツ"
+        ],
+        "kunyomi": [
+          "ひと-",
+          "ひと.つ"
+        ],
+        "strokes": 1
+      },
+      "id": "027b04d1-522e-4ede-a8f6-2f7445261988"
+    },
+    {
+      "createdAt": "2026-09-06T22:53:36.731Z",
+      "updatedAt": "2026-09-06T22:53:36.731Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Two",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "二",
+        "onyomi": [
+          "ニ",
+          "ジ"
+        ],
+        "kunyomi": [
+          "ふた",
+          "ふた.つ",
+          "ふたたび"
+        ],
+        "strokes": 2
+      },
+      "id": "2542636e-b71d-4ce9-90fc-f0017e221cd1"
+    },
+    {
+      "createdAt": "2026-09-06T22:54:15.574Z",
+      "updatedAt": "2026-09-06T22:54:21.973Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Three",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "三",
+        "onyomi": [
+          "サン",
+          "ゾウ"
+        ],
+        "kunyomi": [
+          "み",
+          "み.つ",
+          "みっ.つ"
+        ],
+        "strokes": 3
+      },
+      "id": "1c6d4964-54af-4cac-9f85-e01cf40d1185"
+    },
+    {
+      "createdAt": "2026-09-06T22:54:59.750Z",
+      "updatedAt": "2026-09-06T22:54:59.750Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Four",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "四",
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "よ",
+          "よ.つ",
+          "よっ.つ",
+          "よん"
+        ],
+        "strokes": 5
+      },
+      "id": "2b6d6d12-2b68-47d9-ac5e-7ed2862f092e"
+    },
+    {
+      "createdAt": "2026-09-06T22:55:36.628Z",
+      "updatedAt": "2026-09-06T22:55:36.628Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Five",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "五",
+        "onyomi": [
+          "ゴ"
+        ],
+        "kunyomi": [
+          "いつ",
+          "いつ.つ"
+        ],
+        "strokes": 4
+      },
+      "id": "83403a4d-ec95-447d-8d9d-0f6e22ffb84e"
+    },
+    {
+      "createdAt": "2026-09-06T22:56:13.161Z",
+      "updatedAt": "2026-09-06T22:56:13.161Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Six",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "六",
+        "onyomi": [
+          "ロク",
+          "リク"
+        ],
+        "kunyomi": [
+          "む",
+          "む.つ",
+          "むっ.つ",
+          "むい"
+        ],
+        "strokes": 4
+      },
+      "id": "53330e92-ff2a-4fcd-9995-5cd431fa63d9"
+    },
+    {
+      "createdAt": "2026-09-06T22:57:06.569Z",
+      "updatedAt": "2026-09-06T22:57:06.569Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Seven",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "七",
+        "onyomi": [
+          "シチ"
+        ],
+        "kunyomi": [
+          "なな",
+          "なな.つ",
+          "なの"
+        ],
+        "strokes": 2
+      },
+      "id": "5b0ccc29-5320-4c19-a6ab-18bef7f98899"
+    },
+    {
+      "createdAt": "2026-09-06T22:57:41.069Z",
+      "updatedAt": "2026-09-06T22:57:41.069Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Eight",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "八",
+        "onyomi": [
+          "ハチ",
+          "ハツ"
+        ],
+        "kunyomi": [
+          "や",
+          "や.つ",
+          "やっ.つ",
+          "よう"
+        ],
+        "strokes": 2
+      },
+      "id": "cf34bf58-db70-4fcf-b912-9e0159603c14"
+    },
+    {
+      "createdAt": "2026-09-06T22:58:10.739Z",
+      "updatedAt": "2026-09-06T22:58:10.739Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Nine",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "九",
+        "onyomi": [
+          "キュウ",
+          "ク"
+        ],
+        "kunyomi": [
+          "ここの",
+          "ここの.つ"
+        ],
+        "strokes": 2
+      },
+      "id": "0ce0492e-3e76-430f-a372-1ac5dd1f10f2"
+    },
+    {
+      "createdAt": "2026-09-06T22:58:52.509Z",
+      "updatedAt": "2026-09-06T22:58:52.509Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Ten",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "十",
+        "onyomi": [
+          "ジュウ",
+          "ジッ",
+          "ジュッ"
+        ],
+        "kunyomi": [
+          "とお",
+          "と",
+          "そ"
+        ],
+        "strokes": 2
+      },
+      "id": "1aef569b-6900-4f1c-9f9b-699038a2526b"
+    },
+    {
+      "createdAt": "2026-09-06T23:00:04.749Z",
+      "updatedAt": "2026-09-06T23:00:04.749Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "circle, yen, round",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "character": "円",
+        "onyomi": [
+          "エン"
+        ],
+        "kunyomi": [
+          "まる.い",
+          "まる",
+          "まど",
+          "まど.か",
+          "まろ.やか"
+        ],
+        "strokes": 4
+      },
+      "id": "c7748930-5fad-4505-8d36-45ba64a8250f"
+    },
+    {
+      "createdAt": "2026-09-06T23:00:58.891Z",
+      "updatedAt": "2026-09-06T23:00:58.891Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Ten Thousand",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "万",
+        "onyomi": [
+          "マン",
+          "バン"
+        ],
+        "kunyomi": [
+          "よろず"
+        ],
+        "strokes": 3
+      },
+      "id": "ac05419d-07cb-43e5-884f-9d63501363c1"
+    },
+    {
+      "createdAt": "2026-09-06T23:01:37.202Z",
+      "updatedAt": "2026-09-06T23:01:37.202Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Thousand",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "千",
+        "onyomi": [
+          "セン"
+        ],
+        "kunyomi": [
+          "ち"
+        ],
+        "strokes": 3
+      },
+      "id": "1e76e439-ce6d-447f-8591-0b9e460b8b55"
+    },
+    {
+      "createdAt": "2026-09-06T23:02:42.535Z",
+      "updatedAt": "2026-09-06T23:02:42.535Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Hundred",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "百",
+        "onyomi": [
+          "ヒャク",
+          "ビャク"
+        ],
+        "kunyomi": [
+          "もも"
+        ],
+        "strokes": 6
+      },
+      "id": "84e24a8d-72d1-46d5-8299-4e9c2d8004c6"
+    },
+    {
+      "createdAt": "2026-09-06T23:03:26.740Z",
+      "updatedAt": "2026-09-06T23:03:26.740Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "store, shop",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "character": "店",
+        "onyomi": [
+          "テン"
+        ],
+        "kunyomi": [
+          "みせ",
+          "たな"
+        ],
+        "strokes": 8
+      },
+      "id": "31da32d7-0b40-4771-95ff-0b8c70796505"
     }
   ]
 }
