@@ -402,6 +402,67 @@
                 No study sessions in this period.
             </p>
 
+            <nav class="stats-contents" aria-label="Stats sections">
+                <a href="#panel-activity">Activity</a>
+                <a href="#panel-type">By type</a>
+                <a href="#panel-tags">By tag</a>
+                <a href="#panel-hardest">Hardest</a>
+                <a href="#panel-trend">Trending down</a>
+            </nav>
+
+            <p class="grade-legend" id="grade-legend"></p>
+
+            <section class="stat-panel" id="panel-activity">
+                <h3 class="stat-panel__title">Activity</h3>
+                <figure class="stat-panel__figure">
+                    <div class="heatmap" id="heatmap"></div>
+                    <figcaption class="visually-hidden" id="heatmap-desc"></figcaption>
+                </figure>
+                <p class="stat-panel__note" id="heatmap-note"></p>
+            </section>
+
+            <section class="stat-panel" id="panel-type">
+                <h3 class="stat-panel__title">Mastery by type</h3>
+                <p class="stat-panel__note">Every card counts, including ones you haven't studied.</p>
+                <div class="bar-group" id="type-bars"></div>
+            </section>
+
+            <section class="stat-panel" id="panel-tags">
+                <h3 class="stat-panel__title">Mastery by tag</h3>
+                <p class="stat-panel__note">Best known first. The fraction is mastered over total.</p>
+                <div class="bar-group" id="tag-bars"></div>
+            </section>
+
+            <section class="stat-panel" id="panel-hardest">
+                <h3 class="stat-panel__title">Hardest cards</h3>
+                <ul class="card-lines" id="hardest-list" role="list"></ul>
+            </section>
+
+            <section class="stat-panel" id="panel-trend">
+                <h3 class="stat-panel__title">Trending down</h3>
+                <p class="stat-panel__note">Scoring worse recently than they used to.</p>
+                <ul class="card-lines" id="trend-list" role="list"></ul>
+            </section>
+
+            <template id="bar-row-template">
+                <div class="bar-row">
+                    <span class="bar-row__label" data-field="label"></span>
+                    <div data-field="bar"></div>
+                    <span class="bar-row__note" data-field="note"></span>
+                </div>
+            </template>
+
+            <template id="card-line-template">
+                <li class="card-line">
+                    <button class="card-line__btn" type="button">
+                        <span class="card-line__jp" lang="ja" data-field="expression"></span>
+                        <span class="card-line__meaning" data-field="meaning"></span>
+                        <span class="card-line__stat" data-field="stat"></span>
+                    </button>
+                </li>
+            </template>
+
+
             <template id="stat-tile-template">
                 <div class="stat-tile">
                     <dt class="stat-tile__label" data-field="label"></dt>

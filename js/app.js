@@ -35,7 +35,12 @@ initTransfer({
 
 initTags();
 
-initStats();
+initStats({
+    onEdit: (id) => {
+        openEditor(id);
+        showView('editor');
+    },
+});
 
 // "New Card" always shows blank form
 document.querySelector('.nav__btn[data-view="editor"]')
