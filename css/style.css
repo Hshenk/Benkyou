@@ -904,12 +904,12 @@ main {
     min-width: 260px;
 }
 
-.btn--again {
+.btn--work {
     border-color: var(--hl-red);
     color:var(--hl-red);
 }
 
-.btn--again:hover {
+.btn--work:hover {
     background: var(--hl-red-bg);
     border-color: var(--hl-red);
 }

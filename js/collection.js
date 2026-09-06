@@ -69,7 +69,7 @@ export function mergeCollection(local, incoming) {
 
     // Newest tombstone per id, from both sides.
     const graves = new Map();
-    for (const t of [...SCHEMA_VERSION(local.deletedIds ?? []), ...SCHEMA_VERSION(incoming.deletedIds ??[])]) {
+    for (const t of [...(local.deletedIds ?? []), ...(incoming.deletedIds ?? [])]) {
         const prev = graves.get(t.id);
         if (!prev || t.deletedAt > prev.deletedAt) graves.set(t.id, t);
     }

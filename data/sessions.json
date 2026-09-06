@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "exportedAt": "2026-09-06T15:15:11.179Z",
+  "sessions": [
+    {
+      "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
+      "startedAt": "2026-09-06T15:15:00.154Z",
+      "endedAt": "2026-09-06T15:15:07.424Z",
+      "facets": [
+        "Type: Vocab"
+      ],
+      "results": [
+        {
+          "id": "a1",
+          "result": "easy"
+        },
+        {
+          "id": "a4",
+          "result": "work"
+        },
+        {
+          "id": "000429dd-be8a-4562-b93d-2dde2afad41d",
+          "result": "easy"
+        },
+        {
+          "id": "cf1f2221-ad69-4ade-b04b-8c229a86c81f",
+          "result": "easy"
+        }
+      ]
+    }
+  ]
+}

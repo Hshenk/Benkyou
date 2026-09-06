@@ -1,12 +1,14 @@
 import {
     getCollection, buildExport, commitExport, replaceCollection, lastSyncedVersion, isDirty, onChange,
-    markSynced,
+    markSynced, getSessions, buildSessionExport, importSessions,
 } from '../storage.js';
 import {
     serialize, parseCollection, diffCollections, mergeCollection, syncDecision,
 } from '../collection.js';
+import { serializeLog, parseLog } from '../sessions.js';
 
 const REPO_URL = './data/cards.json';
+const SESSIONS_URL = './data/sessions.json';
 
 const exportBtn = document.querySelector('#export-btn');
 const importBtn = document.querySelector('#import-btn');
@@ -18,20 +20,60 @@ const dialogFileName = document.querySelector('#import-file-name');
 const dialogSummary = document.querySelector('#import-summary');
 const dialogWarn = document.querySelector('#import-warn');
 
-let fileHandle = null;
+let cardsHandle = null;
+let sessionsHandle = null;
 
 let onReplaced = () => {};
 
-function downloadFallback(json) {
+function downloadFallback(json, filename) {
     const blob = new Blob([json], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
 
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'cards.json';
+    a.download = filename;
     a.click();
 
     URL.revokeObjectURL(url);
+}
+
+async function saveTo(handle, filename, json) {
+    if (!window.showSaveFilePicker) {
+        downloadFallback(json, filename);
+        return { written: true, handle: null };
+    }
+
+    try {
+        handle ??= await window.showSaveFilePicker({
+            suggestedName: filename,
+            types: [{
+                description: 'Benkyou data',
+                accept: { 'application/json': ['.json'] },
+            }],
+        });
+
+        const writable = await handle.createWritable();
+        await writable.write(json);
+        await writable.close();
+        return { written: true, handle };
+    } catch (err) {
+        if (err.name === 'AbortError') return { written: false, handle: null };
+
+        console.error('File System Access failed, falling back', err);
+        downloadFallback(json, filename);
+        return { written: true, handle: null };
+    }
+}
+
+async function doExport() {
+    const payload = buildExport();
+    const cards = await saveTo(cardsHandle, 'cards.json', serialize(payload));
+    cardsHandle = cards.handle;
+
+    if (cards.written) commitExport(payload);
+
+    const log = await saveTo(sessionsHandle, 'sessions.json', serializeLog(buildSessionExport()));
+    sessionsHandle = log.handle;
 }
 
 async function fetchRepo() {
@@ -45,36 +87,6 @@ async function fetchRepo() {
     }
 }
 
-async function doExport() {
-    const payload = buildExport();
-    const json = serialize(payload);
-
-    if (window.showSaveFilePicker) {
-        try {
-            fileHandle ??= await window.showSaveFilePicker({
-                suggestedName: 'cards.json',
-                types: [{
-                    description: 'Benkyou collection',
-                    accept: { 'application/json' : ['.json'] },
-                }],
-            });
-
-            const writable = await fileHandle.createWritable();
-            await writable.write(json);
-            await writable.close();
-
-            commitExport(payload);
-            return;
-        } catch (err) {
-            if (err.name === 'AbortError') return;
-            console.error('File System Access failed, falling back', err);
-            fileHandle = null;
-        }
-    }
-
-    downloadFallback(json);
-    commitExport(payload);
-}
 
 /**
  * Show the previous resolve with merge / replace / cancel
@@ -135,9 +147,26 @@ function askImportChoice(name, diff, incoming, opts = {}) {
 }
 
 async function doImport(file) {
+    const text = await file.text();
+
+    let data; 
+    try {
+        data = JSON.parse(text);
+    } catch {
+        alert('That file is not valid JSON.');
+        return;
+    }
+
+    if (Array.isArray(data.sessions) && !Array.isArray(data.cards)) {
+        const before = getSessions().length;
+        importSessions(parseLog(text));
+        alert(`Imported ${getSessions().length - before} new session(s).`);
+        return;
+    }
+
     let incoming;
     try {
-        incoming = parseCollection(await file.text());
+        incoming = parseCollection(text);
     } catch (err) {
         alert(err.message);
         return;
@@ -186,6 +215,9 @@ export function initTransfer(options = {}) {
 }
 
 async function checkRepo({ quiet = true } = {}) {
+    const remoteLog = await fetchSessions();
+    if (remoteLog) importSessions(remoteLog);
+
     const remote = await fetchRepo();
     if (!remote) {
         if (!quiet) alert('Could not read data/cards.json - see the console for details.');
@@ -237,5 +269,16 @@ async function checkRepo({ quiet = true } = {}) {
             'stale':       'The repo file is older than what you have. Probably a cached fetch.',
         };
         alert(message[decision]);
+    }
+}
+
+async function fetchSessions() {
+    try {
+        const res = await fetch(`${SESSIONS_URL}?v=${Date.now()}`, { cache: 'no-store' });
+        if (!res.ok) return null;
+        return parseLog(await res.text());
+    } catch (err) {
+        console.warn('Session log check skipped:', err.message);
+        return null;
     }
 }

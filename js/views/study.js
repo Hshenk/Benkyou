@@ -1,6 +1,6 @@
 import { TYPE_LABELS, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
-import { getCards, recordStudy, onChange } from "../storage.js";
+import { getCards, recordStudy, addSession, onChange } from "../storage.js";
 import { toggleScript } from "../script-toggle.js";
 import { canonicalTag, splitTag } from "../tags.js";
 
@@ -65,6 +65,14 @@ function buildPool(cards, chosenBy) {
         }
         return true;
     });
+}
+
+function facetLabels() {
+    const out = [];
+    for (const [namespace, chosen] of selection) {
+        for (const value of chosen) out.push(`${namespace}: ${value}`);
+    }
+    return out.sort();
 }
 
 function renderFacets(cards) {
@@ -183,7 +191,10 @@ function startSession(cards) {
         done: new Set(),
         skipped: new Set(),
         misses: new Map(),
-        seen: new Map(),
+        first: new Map(),
+        startedAt: new Date().toISOString(),
+        lastGradedAt: null,
+        facets: facetLabels(),
         flushed: false,
     };
 
@@ -200,8 +211,6 @@ function nextCard() {
     }
 
     const card = session.current;
-
-    session.seen.set(card.id, (session.seen.get(card.id) ?? 0) + 1);
 
     cardFace.dataset.type = card.type;
     cardFace.dataset.furigana = 'hidden';
@@ -254,8 +263,9 @@ function revealAnswer() {
     faceBack.hidden = false;
     revealBtn.hidden = true;
 
-    gradeBar.querySelector('[data-grade="again"]').hidden = false;
-    gradeBar.querySelector('[data-grade="good"]').hidden = false;
+    gradeBar.querySelector('[data-grade="missed"]').hidden = false;
+    gradeBar.querySelector('[data-grade="work"]').hidden = false;
+    gradeBar.querySelector('[data-grade="easy"]').hidden = false;
 
     const misses = session.misses.get(card.id) ?? 0;
     gradeBar.querySelector('[data-grade="skip"]').hidden = misses < MISS_LIMIT;
@@ -265,13 +275,20 @@ function grade(result) {
     if (!session?.current || faceBack.hidden) return;
 
     const card = session.current;
-    if (result === 'good') {
-        session.done.add(card.id);
+
+    if (!session.first.has(card.id)) {
+        session.first.set(card.id, result === 'skip' ? 'missed' : result);
+    }
+
+    session.lastGradedAt = new Date().toISOString();
+
+    if (result === 'missed') {
+        session.misses.set(card.id, (session.misses.get(card.id) ?? 0) + 1);
+        requeue(card);
     } else if (result === 'skip') {
         session.skipped.add(card.id);
     } else {
-        session.misses.set(card.id, (session.misses.get(card.id) ?? 0) + 1);
-        requeue(card);
+        session.done.add(card.id);
     }
 
     nextCard();
@@ -294,7 +311,13 @@ function updateProgress() {
 function endSession() {
     flushStats();
 
+    const grades = [...session.first.values()];
+
     document.querySelector('#summary-total').textContent = session.total;
+    document.querySelector('#summary-easy').textContent =
+        grades.filter((g) => g === 'easy').length;
+    document.querySelector('#summary-work').textContent =
+        grades.filter((g) => g === 'work').length;
     document.querySelector('#summary-missed').textContent = session.misses.size;
     document.querySelector('#summary-skipped').textContent = session.skipped.size;
 
@@ -360,10 +383,13 @@ export function initStudy() {
                 if (faceBack.hidden) revealAnswer();
                 break;
             case '1':
-                grade('again');
+                grade('missed');
                 break;
             case '2':
-                grade('good');
+                grade('work');
+                break;
+            case '3':
+                grade('easy');
                 break;
             case 'f':
                 toggleScript();
@@ -388,14 +414,29 @@ function flushStats() {
     if (!session || session.flushed) return;
     session.flushed = true;
 
-    const ids = new Set([...session.seen.keys(), ...session.misses.keys()]);
-    const results = [...ids].map((id) => ({
-        id, 
-        seen: session.seen.get(id) ?? 0,
-        missed: session.misses.get(id) ?? 0,
-    }));
+    const results = [...session.first].map(([id, result]) => {
+        const row = { id, result };
+        const misses = session.misses.get(id) ?? 0;
+        if (misses) row.misses = misses;
+        if (session.skipped.has(id)) row.skipped = true;
+        return row;
+    });
 
-    if (results.length) recordStudy(results);
+    if (results.length === 0) return;
+
+    addSession({
+        id: crypto.randomUUID(),
+        startedAt: session.startedAt,
+        endedAt: session.lastGradedAt ?? new Date().toISOString(),
+        facets: session.facets,
+        results,
+    });
+
+    recordStudy(results.map(({ id, misses = 0 }) => ({
+        id,
+        seen: misses + 1,
+        missed: misses,
+    })));
 }
 
 function quitSession() {

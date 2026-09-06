@@ -4,15 +4,18 @@
  * Views import from here
  */
 import { canonicalTag, tagKey, normalizeTags } from "./tags.js";
+import { emptyLog, mergeSessions } from "./sessions.js";
 
 const COLLECTION_KEY = 'benkyou:collection';
 const DEVICE_KEY = 'benkyou:device';
+const SESSIONS_KEY = 'benkyou:sessions';
 const SCHEMA_VERSION = 1;
 
 // --- State --- 
 let collection = null;
 let device = null;
 let loadFailed = false;
+let sessionLog = null;
 
 const bus = new EventTarget();
 
@@ -53,6 +56,12 @@ function load() {
     } catch {
         device = { dirty: false, lastSyncedVersion: 0, lastExportedAt: null};
     }
+
+    try {
+        sessionLog = JSON.parse(localStorage.getItem(SESSIONS_KEY) ?? 'null') ?? emptyLog();
+    } catch {
+        sessionLog = emptyLog();
+    }
 }
 
 load();
@@ -76,6 +85,18 @@ function write() {
         alert(err.name === 'QuotaExceededError'
             ? 'Out of browser storage. Export your cards before adding more.'
             : 'Could not save. See the console.');
+        return false;
+    }
+
+    bus.dispatchEvent(new Event('change'));
+    return true;
+}
+
+function writeSessions() {
+    try {
+        localStorage.setItem(SESSIONS_KEY, JSON.stringify(sessionLog));
+    } catch (err) {
+        console.error(err);
         return false;
     }
 
@@ -302,4 +323,24 @@ export function recordStudy(results) {
 
     if (touched) write();
     return touched;
+}
+
+
+// --- Study Log ---
+export function getSessions() {
+    return sessionLog.sessions;
+}
+
+export function addSession(record) {
+    sessionLog.sessions.push(record);
+    return writeSessions();
+}
+
+export function importSessions(incoming) {
+    sessionLog.sessions = mergeSessions(sessionLog.sessions, incoming.sessions);
+    return writeSessions();
+}
+
+export function buildSessionExport() {
+    return { ...sessionLog, exportedAt: new Date().toISOString() };
 }
