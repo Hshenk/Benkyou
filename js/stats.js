@@ -263,3 +263,33 @@ export function trendingDown(byCard, limit = 8) {
 
     return out.sort((a, b) => b[1].drop - a[1].drop).slice(0, limit);
 }
+
+// --- Focused selection ---
+export const RECENT_WINDOW = 5;
+
+export function recentScore(entry) {
+    return mean(entry.history.slice(-RECENT_WINDOW)); 
+}
+
+export function weakest(cards, byCard, limit) {
+    return cards
+        .filter((card) => byCard.has(card.id))
+        .map((card) => {
+            const entry = byCard.get(card.id);
+            return { card, lastAt: entry.lastAt, score: recentScore(entry) };
+        })
+        // Among equally shaky cards, prefer the one you haven't seen lately.
+        .sort((a, b) => a.score - b.score || a.lastAt.localeCompare(b.lastAt))
+        .slice(0, limit)
+        .map(({ card }) => card);
+}
+
+export function stalest(cards, byCard, limit) {
+    const lastSeen = (card) => byCard.get(card.id)?.lastAt ?? '';
+
+    return [...cards]
+        .sort((a, b) =>
+            lastSeen(a).localeCompare(lastSeen(b))
+            || (a.createdAt ?? '').localeCompare(b.createdAt ?? ''))
+        .slice(0, limit);
+}

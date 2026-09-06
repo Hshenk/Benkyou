@@ -1,8 +1,9 @@
 import { TYPE_LABELS, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
-import { getCards, recordStudy, addSession, onChange } from "../storage.js";
+import { getCards, getSessions, recordStudy, addSession, onChange } from "../storage.js";
 import { toggleScript } from "../script-toggle.js";
 import { canonicalTag, splitTag } from "../tags.js";
+import { cardStats, weakest, stalest } from "../stats.js";
 
 // --- Study Selection ---
 const facetsEl = document.querySelector('#facets');
@@ -11,6 +12,11 @@ const startBtn = document.querySelector('#start-study');
 const clearBtn = document.querySelector('#clear-facets');
 const facetTemplate = document.querySelector('#facet-template');
 const optionTemplate = document.querySelector('#option-template');
+const focusMode = document.querySelector('#focus-mode');
+const focusLimit = document.querySelector('#focus-limit');
+const focusLimitField = document.querySelector('#focus-limit-field');
+const focusNote = document.querySelector('#focus-note');
+
 
 const selection = new Map();
 
@@ -65,6 +71,28 @@ function buildPool(cards, chosenBy) {
         }
         return true;
     });
+}
+
+const FOCUS_HINTS = {
+     all: '',
+    weakest: 'Ranked by your last few sessions. Cards you have never studied aren\'t included.',
+    stalest: 'Longest untouched first — cards you have never studied come first of all.',
+}
+
+function applyFocus(pool) {
+    const mode = focusMode.value;
+    if (mode === 'all') return pool;
+
+    const limit = Number(focusLimit.value);
+    const byCard = cardStats(getSessions());
+
+    return mode === 'weakest'
+        ? weakest(pool, byCard, limit)
+        : stalest(pool, byCard, limit);
+}
+
+function currentPool() {
+    return applyFocus(buildPool(getCards(), selection));
 }
 
 function facetLabels() {
@@ -143,8 +171,19 @@ function updateFacetUI() {
             chosen.size ? `${chosen.size} selected` : ''
     }
 
-    const pool = buildPool(getCards(), selection);
-    poolCount.textContent = `${pool.length} ${pool.length === 1 ? 'card' : 'cards'}`;
+    const matched = buildPool(getCards(), selection);
+    const pool = applyFocus(matched);
+    const mode = focusMode.value;
+
+    poolCount.textContent = pool.length === matched.length
+        ? `${pool.length} ${pool.length === 1 ? 'card' : 'cards'}`
+        : `${pool.length} of ${matched.length} cards`;
+
+    focusNote.textContent =
+        mode !== 'all' && matched.length > 0 && pool.length === 0
+            ? 'None of these cards has been studied yet, so there is nothing to rank.'
+            : FOCUS_HINTS[mode];
+
     startBtn.disabled = pool.length === 0;
 }
 
@@ -344,12 +383,25 @@ export function initStudy() {
     clearBtn.addEventListener('click', () => {
         for (const chosen of selection.values()) chosen.clear();
         for (const input of facetsEl.querySelectorAll('.option__input')) input.checked = false;
+
+        focusMode.value = 'all';
+        focusLimitField.hidden = true;
+
         updateFacetUI();
     });
 
+
     startBtn.addEventListener('click', () => {
-    startSession(buildPool(getCards(), selection));
+    startSession(currentPool());
     });
+
+    focusMode.addEventListener('change', () => {
+        focusLimitField.hidden = focusMode.value === 'all';
+        updateFacetUI();
+    });
+
+    focusLimit.addEventListener('change', updateFacetUI);
+
 
     // --- Session ---
     gradeBar.addEventListener('click', (event) => {
