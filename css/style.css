@@ -13,6 +13,12 @@ dl, dd {
     margin: 0;
 }
 
+@font-face {
+    font-family: "KanjiStrokeOrders";
+    src: url("../fonts/KanjiStrokeOrders.ttf") format("truetype");
+    font-display: swap;
+}
+
 ul[role="list"],
 ol[role="list"] {
     list-style: none;
@@ -83,6 +89,7 @@ legend {
   --font-jp: "Yu Gothic UI", "Yu Gothic", "Hiragino Sans",
              "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
   --font-jp-hand: "UD Digi Kyokasho NP-R", "UD Digi Kyokasho N-R", "Yu Kyokasho", "Klee One", "Klee",                  "Hiragino Mincho ProN", var(--font-jp);
+  --font-jp-stroke: "KanjiStrokeOrders", var(--font-jp);
 
   /* --- Spacing scale --- */
   --space-1: 4px;
@@ -1014,6 +1021,8 @@ kbd {
 
 .card-face .glyph[data-form="print"] { font-family: var(--font-jp); }
 .card-face .glyph[data-form="hand"] { font-family: var(--font-jp-hand); }
+.card-face .glyph[data-form="stroke"] { font-family: var(--font-jp-stroke); }
+
 
 
 /* ------ Dialog ------ */
