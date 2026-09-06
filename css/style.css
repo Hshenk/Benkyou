@@ -1063,3 +1063,54 @@ kbd {
     display: flex;
     gap: var(--space-1);
 }
+
+/* ------ Stats ------ */
+.stats-range {
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.stats-range select {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text);
+    padding: 4px (var--space-2);
+}
+
+.stats-lead {
+    color: var(--text-muted);
+    margin: var(--space-3) 0;
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: var(--space-2);
+}
+
+.stat-tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: var(--space-3);
+}
+
+.stat-tile__label {
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+.stat-tile__value {
+    font-size: 28px;
+    font-variant-numeric: tabular-nums;
+    margin: var(--space-1) 0 0;
+}
+
+.stat-tile__note {
+    color: var(--text-faint);
+    font-size: 12px;
+    margin: 0;
+}

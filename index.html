@@ -25,6 +25,7 @@
                     <button class="nav__btn" type="button" data-view="cards">Cards</button>
                     <button class="nav__btn" type="button" data-view="editor">New Card</button>
                     <button class="nav__btn" type="button" data-view="tags">Tags</button>
+                    <button class="nav__btn" type="button" data-view="stats">Stats</button>
                 </nav>
 
                 <button class="btn btn--sm btn--ghost script-toggle" type="button" id="script-toggle" aria-pressed="false"
@@ -375,6 +376,38 @@
                         <button class="btn btn--sm btn--ghost" type="button" data-action="delete">Delete</button>
                     </div>
                 </li>
+            </template>
+        </section>
+
+        <section class="view" id="view-stats" hidden>
+            <h2 class="view__title">Stats</h2>
+
+            <div class="toolbar">
+                <label class="stats-range">
+                    Showing
+                    <select id="stats-range">
+                        <option value="month">the past month</option>
+                        <option value="quarter">the past 3 months</option>
+                        <option value="year" selected>the past year</option>
+                        <option value="all">all time</option>
+                    </select>
+                </label>
+            </div>
+
+            <p class="stats-lead" id="stats-lead"></p>
+
+            <dl class="stat-grid" id="stat-grid"></dl>
+
+            <p class="empty" id="stats-empty" hidden>
+                No study sessions in this period.
+            </p>
+
+            <template id="stat-tile-template">
+                <div class="stat-tile">
+                    <dt class="stat-tile__label" data-field="label"></dt>
+                    <dd class="stat-tile__value" data-field="value"></dd>
+                    <dd class="stat-tile__note" data-field="note"></dd>
+                </div>
             </template>
         </section>
 

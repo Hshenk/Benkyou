@@ -93,7 +93,7 @@ export function initCards(options = {}) {
             return;
         }
 
-        const card = getCards(id);
+        const card = getCard(id);
         if (confirm(`Delete "${card?.meaning ?? 'this card'}"? This cannot be undone.`)) {
             deleteCard(id);
         }

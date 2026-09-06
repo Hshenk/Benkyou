@@ -5,6 +5,7 @@ import { initEditor, openEditor } from './views/editor.js';
 import { initStudy } from './views/study.js';
 import { initTransfer } from './views/transfer.js';
 import { initTags } from './views/tags.js';
+import { initStats } from './views/stats.js';
 
 
 
@@ -33,6 +34,8 @@ initTransfer({
 });
 
 initTags();
+
+initStats();
 
 // "New Card" always shows blank form
 document.querySelector('.nav__btn[data-view="editor"]')
