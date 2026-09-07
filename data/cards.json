@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 13,
-  "exportedAt": "2026-09-07T00:36:43.481Z",
+  "version": 14,
+  "exportedAt": "2026-09-07T01:26:02.247Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -45,7 +45,7 @@
     },
     {
       "createdAt": "2026-09-02T15:23:40.237Z",
-      "updatedAt": "2026-09-06T23:23:20.399Z",
+      "updatedAt": "2026-09-07T00:46:55.107Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "id": "a2",
@@ -53,7 +53,8 @@
       "meaning": "eat, food",
       "tags": [
         "Level: N5",
-        "Source: Nakama 1-9"
+        "Source: Nakama 1-9",
+        "Topic: Food"
       ],
       "data": {
         "character": "食",
@@ -2268,6 +2269,455 @@
         "strokes": 6
       },
       "id": "48c5190a-5ae9-4131-bdd7-2925facc6d5a"
+    },
+    {
+      "createdAt": "2026-09-07T00:48:06.463Z",
+      "updatedAt": "2026-09-07T00:48:06.463Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "rouse, wake up, get up",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "起",
+        "onyomi": [
+          "キ"
+        ],
+        "kunyomi": [
+          "お.きる",
+          "お.こる",
+          "お.こす",
+          "おこ.す",
+          "た.つ"
+        ],
+        "strokes": 10
+      },
+      "id": "d775b1b6-50c3-41d2-8204-09d3c46ff6c1"
+    },
+    {
+      "createdAt": "2026-09-07T00:49:15.097Z",
+      "updatedAt": "2026-09-07T00:49:15.097Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "exit, leave, go out, come out, put out, protrude",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-9",
+        "Topic: Directions"
+      ],
+      "data": {
+        "character": "出",
+        "onyomi": [
+          "シュツ",
+          "スイ"
+        ],
+        "kunyomi": [
+          "で.る",
+          "-で",
+          "だ.す",
+          "-だ.す",
+          "い.でる",
+          "い.だす"
+        ],
+        "strokes": 5
+      },
+      "id": "0f0a1bf2-4e48-4205-8b9f-997d0e0ac06c"
+    },
+    {
+      "createdAt": "2026-09-07T00:50:35.242Z",
+      "updatedAt": "2026-09-07T00:50:35.242Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "drink, smoke, take",
+      "notes": "飲酒 【インシュ】 drinking alcohol",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "character": "飲",
+        "onyomi": [
+          "イン",
+          "オン"
+        ],
+        "kunyomi": [
+          "の.む",
+          "-の.み"
+        ],
+        "strokes": 12
+      },
+      "id": "af1c13b5-3a01-4e03-9a37-e4ca4fb1dad9"
+    },
+    {
+      "createdAt": "2026-09-07T00:51:38.986Z",
+      "updatedAt": "2026-09-07T00:51:38.986Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "meeting, meet, party, association, interview, join",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "会",
+        "onyomi": [
+          "カイ",
+          "エ"
+        ],
+        "kunyomi": [
+          "あ.う",
+          "あ.わせる",
+          "あつ.まる"
+        ],
+        "strokes": 6
+      },
+      "id": "0b271622-0d69-4cf5-84a0-d82dad3b7a81"
+    },
+    {
+      "createdAt": "2026-09-07T00:53:09.076Z",
+      "updatedAt": "2026-09-07T00:53:09.076Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "To go, journey, carry out, conduct, act, line, row, bank",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Locations",
+        "Topic: Directions",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "行",
+        "onyomi": [
+          "コウ",
+          "ギョウ",
+          "アン"
+        ],
+        "kunyomi": [
+          "い.く",
+          "ゆ.く",
+          "-ゆ.き",
+          "-ゆき",
+          "-い.き",
+          "-いき",
+          "おこな.う",
+          "おこ.なう"
+        ],
+        "strokes": 6
+      },
+      "id": "e461e66b-601c-4ae9-9bb7-66e0ad5f4856"
+    },
+    {
+      "createdAt": "2026-09-07T00:54:30.295Z",
+      "updatedAt": "2026-09-07T00:54:30.295Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "homecoming, arrive at, lead to, result in",
+      "notes": "帰る 【かえる】 to return, to come home",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-9",
+        "Topic: Directions"
+      ],
+      "data": {
+        "character": "帰",
+        "onyomi": [
+          "キ"
+        ],
+        "kunyomi": [
+          "かえ.る",
+          "かえ.す",
+          "おく.る",
+          "とつ.ぐ"
+        ],
+        "strokes": 10
+      },
+      "id": "c2331e31-1293-4fc0-a26c-da37d2847d6c"
+    },
+    {
+      "createdAt": "2026-09-07T00:55:36.732Z",
+      "updatedAt": "2026-09-07T00:55:36.732Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "(to) write",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "書",
+        "onyomi": [
+          "ショ"
+        ],
+        "kunyomi": [
+          "か.く",
+          "-が.き",
+          "-がき"
+        ],
+        "strokes": 10
+      },
+      "id": "bc4ef937-023d-4ca6-b077-7077ae35e446"
+    },
+    {
+      "createdAt": "2026-09-07T00:56:37.910Z",
+      "updatedAt": "2026-09-07T00:56:37.910Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "(to) talk, tale",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "話",
+        "onyomi": [
+          "ワ"
+        ],
+        "kunyomi": [
+          "はな.す",
+          "はなし"
+        ],
+        "strokes": 13
+      },
+      "id": "0832491c-3ac3-44fd-ae13-ddb028841ea9"
+    },
+    {
+      "createdAt": "2026-09-07T00:57:47.418Z",
+      "updatedAt": "2026-09-07T00:57:47.418Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "come, due, next, cause, become",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-9",
+        "Topic: Directions"
+      ],
+      "data": {
+        "character": "来",
+        "onyomi": [
+          "ライ",
+          "タイ"
+        ],
+        "kunyomi": [
+          "く.る",
+          "きた.る",
+          "きた.す",
+          "き.たす",
+          "き.たる",
+          "き",
+          "こ"
+        ],
+        "strokes": 7
+      },
+      "id": "a2643b41-ab32-4c13-a304-df290d8ad4f8"
+    },
+    {
+      "createdAt": "2026-09-07T00:59:03.367Z",
+      "updatedAt": "2026-09-07T00:59:03.367Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "enter, insert",
+      "notes": "",
+      "tags": [
+        "Topic: Directions",
+        "Level: N5",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "入",
+        "onyomi": [
+          "ニュウ",
+          "ジュ"
+        ],
+        "kunyomi": [
+          "い.る",
+          "-い.る",
+          "-い.り",
+          "い.れる",
+          "-い.れ",
+          "はい.る"
+        ],
+        "strokes": 2
+      },
+      "id": "e0dcf3c9-8a6b-41fe-b8ff-6edb3006e8c4"
+    },
+    {
+      "createdAt": "2026-09-07T01:00:15.118Z",
+      "updatedAt": "2026-09-07T01:00:15.118Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "(to) buy",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-9",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "character": "買",
+        "onyomi": [
+          "バイ"
+        ],
+        "kunyomi": [
+          "か.う"
+        ],
+        "strokes": 12
+      },
+      "id": "1b7b87eb-3658-428c-bf7d-069fe83e34ec"
+    },
+    {
+      "createdAt": "2026-09-07T01:19:58.990Z",
+      "updatedAt": "2026-09-07T01:21:25.985Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "hear, ask, listen",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-9",
+        "Level: N5"
+      ],
+      "data": {
+        "character": "聞",
+        "onyomi": [
+          "ブン",
+          "モン"
+        ],
+        "kunyomi": [
+          "き.く",
+          "き.こえる"
+        ],
+        "strokes": 14
+      },
+      "id": "29bdf441-98b9-4b87-8aa8-db23c634eb4f"
+    },
+    {
+      "createdAt": "2026-09-07T01:21:08.267Z",
+      "updatedAt": "2026-09-07T01:21:08.267Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "make, production, prepare, build",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "作",
+        "onyomi": [
+          "サク",
+          "サ"
+        ],
+        "kunyomi": [
+          "つく.る",
+          "つく.り",
+          "-づく.り"
+        ],
+        "strokes": 7
+      },
+      "id": "b443bb34-c872-4a58-a48c-d538b466892b"
+    },
+    {
+      "createdAt": "2026-09-07T01:22:48.881Z",
+      "updatedAt": "2026-09-07T01:22:48.881Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "lie down, sleep, rest, bed, remain unsold",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "寝",
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "ね.る",
+          "ね.かす",
+          "い.ぬ",
+          "みたまや",
+          "や.める"
+        ],
+        "strokes": 13
+      },
+      "id": "9b96245b-1aed-45c3-aa9b-ef6ac792401f"
+    },
+    {
+      "createdAt": "2026-09-07T01:23:24.453Z",
+      "updatedAt": "2026-09-07T01:23:24.453Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "see, hopes, chances, idea, opinion, look at, visible",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "見",
+        "onyomi": [
+          "ケン"
+        ],
+        "kunyomi": [
+          "み.る",
+          "み.える",
+          "み.せる"
+        ],
+        "strokes": 7
+      },
+      "id": "913a20a7-6abe-46a9-b496-588b7050002b"
+    },
+    {
+      "createdAt": "2026-09-07T01:24:30.866Z",
+      "updatedAt": "2026-09-07T01:24:30.866Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "(to) read",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "character": "読",
+        "onyomi": [
+          "ドク",
+          "トク",
+          "トウ"
+        ],
+        "kunyomi": [
+          "よ.む",
+          "-よ.み"
+        ],
+        "strokes": 14
+      },
+      "id": "96a245ba-89f2-4be6-b59a-79485f3bf80a"
     }
   ]
 }
