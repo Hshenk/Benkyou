@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-06T23:06:34.351Z",
+  "exportedAt": "2026-09-07T00:36:43.491Z",
   "sessions": [
     {
       "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
@@ -86,6 +86,20 @@
         },
         {
           "id": "53330e92-ff2a-4fcd-9995-5cd431fa63d9",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "41b22684-a5dd-455b-a4f2-3cc3941ab139",
+      "startedAt": "2026-09-06T23:44:39.358Z",
+      "endedAt": "2026-09-06T23:44:48.485Z",
+      "facets": [
+        "Source: Nakama 1"
+      ],
+      "results": [
+        {
+          "id": "a3",
           "result": "easy"
         }
       ]

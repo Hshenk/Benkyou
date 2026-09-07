@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 11,
-  "exportedAt": "2026-09-06T23:06:34.346Z",
+  "version": 13,
+  "exportedAt": "2026-09-07T00:36:43.481Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -45,30 +45,36 @@
     },
     {
       "createdAt": "2026-09-02T15:23:40.237Z",
-      "updatedAt": "2026-09-02T15:23:40.237Z",
+      "updatedAt": "2026-09-06T23:23:20.399Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "id": "a2",
       "type": "kanji",
       "meaning": "eat, food",
       "tags": [
-        "Level: N5"
+        "Level: N5",
+        "Source: Nakama 1-9"
       ],
       "data": {
         "character": "食",
         "onyomi": [
-          "ショク"
+          "ショク",
+          "ジキ"
         ],
         "kunyomi": [
-          "た.べる"
+          "く.う",
+          "く.らう",
+          "た.べる",
+          "は.む"
         ],
         "strokes": 9
-      }
+      },
+      "notes": ""
     },
     {
       "createdAt": "2026-09-02T15:23:40.237Z",
       "updatedAt": "2026-09-02T15:23:40.237Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "id": "a3",
       "type": "sentence",
@@ -716,7 +722,7 @@
     },
     {
       "createdAt": "2026-09-06T22:52:54.281Z",
-      "updatedAt": "2026-09-06T22:52:54.281Z",
+      "updatedAt": "2026-09-06T23:21:36.661Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -724,7 +730,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "一",
@@ -742,7 +749,7 @@
     },
     {
       "createdAt": "2026-09-06T22:53:36.731Z",
-      "updatedAt": "2026-09-06T22:53:36.731Z",
+      "updatedAt": "2026-09-06T23:21:26.498Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -750,7 +757,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "二",
@@ -769,7 +777,7 @@
     },
     {
       "createdAt": "2026-09-06T22:54:15.574Z",
-      "updatedAt": "2026-09-06T22:54:21.973Z",
+      "updatedAt": "2026-09-06T23:21:21.390Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -777,7 +785,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "三",
@@ -796,7 +805,7 @@
     },
     {
       "createdAt": "2026-09-06T22:54:59.750Z",
-      "updatedAt": "2026-09-06T22:54:59.750Z",
+      "updatedAt": "2026-09-06T23:21:15.908Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -804,7 +813,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "四",
@@ -823,7 +833,7 @@
     },
     {
       "createdAt": "2026-09-06T22:55:36.628Z",
-      "updatedAt": "2026-09-06T22:55:36.628Z",
+      "updatedAt": "2026-09-06T23:21:08.279Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -831,7 +841,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "五",
@@ -848,7 +859,7 @@
     },
     {
       "createdAt": "2026-09-06T22:56:13.161Z",
-      "updatedAt": "2026-09-06T22:56:13.161Z",
+      "updatedAt": "2026-09-06T23:21:02.235Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -856,7 +867,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "六",
@@ -876,7 +888,7 @@
     },
     {
       "createdAt": "2026-09-06T22:57:06.569Z",
-      "updatedAt": "2026-09-06T22:57:06.569Z",
+      "updatedAt": "2026-09-06T23:20:57.276Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -884,7 +896,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "七",
@@ -902,7 +915,7 @@
     },
     {
       "createdAt": "2026-09-06T22:57:41.069Z",
-      "updatedAt": "2026-09-06T22:57:41.069Z",
+      "updatedAt": "2026-09-06T23:20:51.945Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -910,7 +923,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "八",
@@ -930,7 +944,7 @@
     },
     {
       "createdAt": "2026-09-06T22:58:10.739Z",
-      "updatedAt": "2026-09-06T22:58:10.739Z",
+      "updatedAt": "2026-09-06T23:20:46.560Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -938,7 +952,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "九",
@@ -956,7 +971,7 @@
     },
     {
       "createdAt": "2026-09-06T22:58:52.509Z",
-      "updatedAt": "2026-09-06T22:58:52.509Z",
+      "updatedAt": "2026-09-06T23:20:42.330Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -964,7 +979,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "十",
@@ -984,7 +1000,7 @@
     },
     {
       "createdAt": "2026-09-06T23:00:04.749Z",
-      "updatedAt": "2026-09-06T23:00:04.749Z",
+      "updatedAt": "2026-09-06T23:20:37.679Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -992,7 +1008,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Shopping"
+        "Topic: Shopping",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "円",
@@ -1012,7 +1029,7 @@
     },
     {
       "createdAt": "2026-09-06T23:00:58.891Z",
-      "updatedAt": "2026-09-06T23:00:58.891Z",
+      "updatedAt": "2026-09-06T23:20:32.737Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -1020,7 +1037,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "万",
@@ -1037,7 +1055,7 @@
     },
     {
       "createdAt": "2026-09-06T23:01:37.202Z",
-      "updatedAt": "2026-09-06T23:01:37.202Z",
+      "updatedAt": "2026-09-06T23:20:27.944Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -1045,7 +1063,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "千",
@@ -1061,7 +1080,7 @@
     },
     {
       "createdAt": "2026-09-06T23:02:42.535Z",
-      "updatedAt": "2026-09-06T23:02:42.535Z",
+      "updatedAt": "2026-09-06T23:20:23.548Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -1069,7 +1088,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Topic: Numbers"
+        "Topic: Numbers",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "百",
@@ -1086,7 +1106,7 @@
     },
     {
       "createdAt": "2026-09-06T23:03:26.740Z",
-      "updatedAt": "2026-09-06T23:03:26.740Z",
+      "updatedAt": "2026-09-06T23:20:18.562Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -1094,7 +1114,8 @@
       "notes": "",
       "tags": [
         "Level: N4",
-        "Topic: Shopping"
+        "Topic: Shopping",
+        "Source: Nakama 1-8"
       ],
       "data": {
         "character": "店",
@@ -1108,6 +1129,1145 @@
         "strokes": 8
       },
       "id": "31da32d7-0b40-4771-95ff-0b8c70796505"
+    },
+    {
+      "createdAt": "2026-09-06T23:26:39.776Z",
+      "updatedAt": "2026-09-06T23:28:05.492Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "life, genuine, birth",
+      "notes": "There are like 20 kun'yomi readings, so check jisho for more",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-4",
+        "Topic: Education"
+      ],
+      "data": {
+        "character": "生",
+        "onyomi": [
+          "セイ",
+          "ショウ"
+        ],
+        "kunyomi": [
+          "い.きる",
+          "う.まれる"
+        ],
+        "strokes": 5
+      },
+      "id": "717df3a2-db64-42fc-a115-608f5764b171"
+    },
+    {
+      "createdAt": "2026-09-06T23:27:57.708Z",
+      "updatedAt": "2026-09-06T23:27:57.708Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "School",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-4",
+        "Topic: Locations",
+        "Topic: Education"
+      ],
+      "data": {
+        "character": "校",
+        "onyomi": [
+          "コウ",
+          "キョウ"
+        ],
+        "kunyomi": [],
+        "strokes": 10
+      },
+      "id": "6c519a94-dcdb-41b1-a2b5-321a844c550c"
+    },
+    {
+      "createdAt": "2026-09-06T23:29:31.128Z",
+      "updatedAt": "2026-09-06T23:31:44.195Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Above, up",
+      "notes": "There's a ton more Kun'yomi readings",
+      "tags": [
+        "Level: N5",
+        "Topic: Locations",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "character": "上",
+        "onyomi": [
+          "ジョウ",
+          "ショウ",
+          "シャン"
+        ],
+        "kunyomi": [
+          "うえ"
+        ],
+        "strokes": 3
+      },
+      "id": "18ed6813-a1dd-4572-bf7d-de2f1e8f9d6e"
+    },
+    {
+      "createdAt": "2026-09-06T23:31:34.535Z",
+      "updatedAt": "2026-09-06T23:31:34.535Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Below, Down, Under, Inferior",
+      "notes": "There are a lot more kun'yomi readings on Jisho",
+      "tags": [
+        "Level: N5",
+        "Topic: Locations",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "character": "下",
+        "onyomi": [
+          "カ",
+          "ゲ"
+        ],
+        "kunyomi": [
+          "した",
+          "さ.がる",
+          "くだ.る"
+        ],
+        "strokes": 3
+      },
+      "id": "5d801934-5927-4591-a1ca-0845566e64d8"
+    },
+    {
+      "createdAt": "2026-09-06T23:33:06.763Z",
+      "updatedAt": "2026-09-06T23:33:06.763Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "in, inside, middle, mean, center",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-5",
+        "Topic: Locations"
+      ],
+      "data": {
+        "character": "中",
+        "onyomi": [
+          "チュウ"
+        ],
+        "kunyomi": [
+          "なか",
+          "うち",
+          "あた.る"
+        ],
+        "strokes": 4
+      },
+      "id": "0b099079-33de-487e-a87f-d47dcf193981"
+    },
+    {
+      "createdAt": "2026-09-06T23:34:18.689Z",
+      "updatedAt": "2026-09-06T23:34:18.689Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "rice field, rice paddy",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "character": "田",
+        "onyomi": [
+          "デン"
+        ],
+        "kunyomi": [
+          "た"
+        ],
+        "strokes": 5
+      },
+      "id": "ea4712bb-99d6-4799-8c0f-5363af0bb566"
+    },
+    {
+      "createdAt": "2026-09-06T23:35:10.243Z",
+      "updatedAt": "2026-09-06T23:35:10.243Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Person",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "character": "人",
+        "onyomi": [
+          "ジン",
+          "ニン"
+        ],
+        "kunyomi": [
+          "ひと",
+          "-り",
+          "-と"
+        ],
+        "strokes": 2
+      },
+      "id": "310a42fa-0147-40bf-ab21-cd8a2a58401b"
+    },
+    {
+      "createdAt": "2026-09-06T23:36:56.511Z",
+      "updatedAt": "2026-09-06T23:36:56.511Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "little, small",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-5",
+        "Level: N5"
+      ],
+      "data": {
+        "character": "小",
+        "onyomi": [
+          "ショウ"
+        ],
+        "kunyomi": [
+          "ちい.さい",
+          "こ-",
+          "お-",
+          "さ-"
+        ],
+        "strokes": 3
+      },
+      "id": "c9ec6b07-52ea-42ff-9406-8567755ed966"
+    },
+    {
+      "createdAt": "2026-09-06T23:38:26.902Z",
+      "updatedAt": "2026-09-07T00:16:37.326Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Sun, Day, Counter for Days",
+      "notes": "Also used in 日曜日 (Sunday)",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-5",
+        "Topic: Nature",
+        "Topic: Time",
+        "Topic: Counters"
+      ],
+      "data": {
+        "character": "日",
+        "onyomi": [
+          "ニチ",
+          "ジツ"
+        ],
+        "kunyomi": [
+          "ひ",
+          "-び",
+          "-か"
+        ],
+        "strokes": 4
+      },
+      "id": "a2cff6e7-da31-4205-a060-8d12b343c297"
+    },
+    {
+      "createdAt": "2026-09-06T23:39:40.906Z",
+      "updatedAt": "2026-09-06T23:39:40.906Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "study, learning, science",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "character": "学",
+        "onyomi": [
+          "ガク"
+        ],
+        "kunyomi": [
+          "まな.ぶ"
+        ],
+        "strokes": 8
+      },
+      "id": "4f406e86-cefa-4747-aac6-570edee503ca"
+    },
+    {
+      "createdAt": "2026-09-06T23:41:15.099Z",
+      "updatedAt": "2026-09-07T00:16:49.093Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "book, present, main, origin, counter for cylinders",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-5",
+        "Topic: Education",
+        "Topic: Counters"
+      ],
+      "data": {
+        "character": "本",
+        "onyomi": [
+          "ホン"
+        ],
+        "kunyomi": [
+          "もと"
+        ],
+        "strokes": 5
+      },
+      "id": "3215a067-31a6-401c-bc3c-8f9ddd2070d2"
+    },
+    {
+      "createdAt": "2026-09-06T23:42:28.596Z",
+      "updatedAt": "2026-09-06T23:43:04.218Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Large, big",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "character": "大",
+        "onyomi": [
+          "ダイ",
+          "タイ"
+        ],
+        "kunyomi": [
+          "おお-",
+          "おお.きい",
+          "-おお.いに"
+        ],
+        "strokes": 3
+      },
+      "id": "81e2ed50-046f-4f62-a325-09fa7f10b882"
+    },
+    {
+      "createdAt": "2026-09-06T23:44:18.725Z",
+      "updatedAt": "2026-09-06T23:44:18.725Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "before, ahead, previous, future, precedence",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "character": "先",
+        "onyomi": [
+          "セン"
+        ],
+        "kunyomi": [
+          "さき",
+          "ま.ず"
+        ],
+        "strokes": 6
+      },
+      "id": "95445290-2362-415b-941e-d8e3722ee0cb"
+    },
+    {
+      "createdAt": "2026-09-06T23:46:33.158Z",
+      "updatedAt": "2026-09-06T23:48:45.159Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "now",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-6",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "今",
+        "onyomi": [
+          "コン",
+          "キン"
+        ],
+        "kunyomi": [
+          "いま"
+        ],
+        "strokes": 4
+      },
+      "id": "2e238152-0972-4194-9eae-904f2963f250"
+    },
+    {
+      "createdAt": "2026-09-06T23:47:26.018Z",
+      "updatedAt": "2026-09-06T23:47:26.018Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Private, me, I",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "character": "私",
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "わたくし",
+          "わたし"
+        ],
+        "strokes": 7
+      },
+      "id": "ff7999a3-a891-4789-8bb0-dfa3877ec166"
+    },
+    {
+      "createdAt": "2026-09-06T23:48:36.324Z",
+      "updatedAt": "2026-09-06T23:54:49.942Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Month, Moon",
+      "notes": "Used in 月曜日 (Monday)",
+      "tags": [
+        "Topic: Nature",
+        "Topic: Time",
+        "Level: N5",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "character": "月",
+        "onyomi": [
+          "ゲツ",
+          "ガツ"
+        ],
+        "kunyomi": [
+          "つき"
+        ],
+        "strokes": 4
+      },
+      "id": "2f10c708-36d0-4022-aad7-de5da5f4f108"
+    },
+    {
+      "createdAt": "2026-09-06T23:50:21.751Z",
+      "updatedAt": "2026-09-06T23:54:37.949Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Fire",
+      "notes": "Used in 火曜日 (Tuesday)",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-6",
+        "Topic: Time",
+        "Topic: Nature"
+      ],
+      "data": {
+        "character": "火",
+        "onyomi": [
+          "カ"
+        ],
+        "kunyomi": [
+          "ひ",
+          "-び",
+          "ほ-"
+        ],
+        "strokes": 4
+      },
+      "id": "56aa801e-bd2a-4028-91ad-1ed37f8f0273"
+    },
+    {
+      "createdAt": "2026-09-06T23:51:19.449Z",
+      "updatedAt": "2026-09-06T23:54:28.116Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Water",
+      "notes": "Used in 水曜日 (Wednesday)",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-6",
+        "Topic: Nature",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "水",
+        "onyomi": [
+          "スイ"
+        ],
+        "kunyomi": [
+          "みず",
+          "みず-"
+        ],
+        "strokes": 4
+      },
+      "id": "f4166649-36ae-4098-8b7a-512f38c4ecee"
+    },
+    {
+      "createdAt": "2026-09-06T23:52:10.885Z",
+      "updatedAt": "2026-09-06T23:54:02.219Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Tree, wood",
+      "notes": "Used in 木曜日 (Thursday)",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-6",
+        "Topic: Nature",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "木",
+        "onyomi": [
+          "ボク",
+          "モク"
+        ],
+        "kunyomi": [
+          "き",
+          "こ-"
+        ],
+        "strokes": 4
+      },
+      "id": "32d1f222-a5f0-4e97-b603-c12d3ebc3ace"
+    },
+    {
+      "createdAt": "2026-09-06T23:53:46.311Z",
+      "updatedAt": "2026-09-06T23:53:46.311Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Gold",
+      "notes": "Used in 金曜日 (Friday)",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-6",
+        "Topic: Nature",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "金",
+        "onyomi": [
+          "キン",
+          "コン",
+          "ゴン"
+        ],
+        "kunyomi": [
+          "かね",
+          "かな-",
+          "-がね"
+        ],
+        "strokes": 8
+      },
+      "id": "66f7d5ab-f74f-4b57-b914-71adde462c78"
+    },
+    {
+      "createdAt": "2026-09-06T23:55:46.275Z",
+      "updatedAt": "2026-09-06T23:55:46.275Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "rest, day off, retire, sleep",
+      "notes": "",
+      "tags": [
+        "Level: N5"
+      ],
+      "data": {
+        "character": "休",
+        "onyomi": [
+          "キュウ"
+        ],
+        "kunyomi": [
+          "やす.む",
+          "やす.まる",
+          "やす.める"
+        ],
+        "strokes": 6
+      },
+      "id": "4d1c2e24-cf8e-4cfa-905d-79d76e35b9ea"
+    },
+    {
+      "createdAt": "2026-09-06T23:57:47.190Z",
+      "updatedAt": "2026-09-06T23:57:47.190Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "what",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "character": "何",
+        "onyomi": [
+          "カ"
+        ],
+        "kunyomi": [
+          "なに",
+          "なん",
+          "なに-",
+          "なん-"
+        ],
+        "strokes": 7
+      },
+      "id": "79e34d83-e2c7-4320-b3be-43da1d417b2b"
+    },
+    {
+      "createdAt": "2026-09-06T23:59:08.259Z",
+      "updatedAt": "2026-09-06T23:59:08.259Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Week",
+      "notes": "週明け 【シュウアケ】 beginning of next week.\n前週 【ゼンシュウ】 last week.\n隔週 【カクシュウ】 every other week.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-6",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "週",
+        "onyomi": [
+          "シュウ"
+        ],
+        "kunyomi": [],
+        "strokes": 11
+      },
+      "id": "006982ad-21fe-4fc5-900f-b1aee0519a5a"
+    },
+    {
+      "createdAt": "2026-09-07T00:01:22.774Z",
+      "updatedAt": "2026-09-07T00:01:22.774Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Weekday",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-6",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "曜",
+        "onyomi": [
+          "ヨウ"
+        ],
+        "kunyomi": [],
+        "strokes": 18
+      },
+      "id": "3c58d7a0-8d7b-4109-a8d2-a34b5aa12a80"
+    },
+    {
+      "createdAt": "2026-09-07T00:03:48.012Z",
+      "updatedAt": "2026-09-07T00:03:48.012Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "soil, earth, ground, Turkey",
+      "notes": "Used in 土曜日 (Saturday)",
+      "tags": [
+        "Source: Nakama 1-6",
+        "Level: N5",
+        "Topic: Time",
+        "Topic: Nature"
+      ],
+      "data": {
+        "character": "土",
+        "onyomi": [
+          "ド",
+          "ト"
+        ],
+        "kunyomi": [
+          "つち"
+        ],
+        "strokes": 3
+      },
+      "id": "b7910d3a-fa6b-4145-a465-fdc3d818db70"
+    },
+    {
+      "createdAt": "2026-09-07T00:04:57.979Z",
+      "updatedAt": "2026-09-07T00:04:57.979Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "end, close, tip, powder, posterity",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "character": "末",
+        "onyomi": [
+          "マツ",
+          "バツ"
+        ],
+        "kunyomi": [
+          "すえ",
+          "うら",
+          "うれ"
+        ],
+        "strokes": 5
+      },
+      "id": "d1d0f844-c20c-4409-953a-b909bb788b64"
+    },
+    {
+      "createdAt": "2026-09-07T00:06:08.000Z",
+      "updatedAt": "2026-09-07T00:06:08.000Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Mountain",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Nature",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "character": "山",
+        "onyomi": [
+          "サン",
+          "セン"
+        ],
+        "kunyomi": [
+          "やま"
+        ],
+        "strokes": 3
+      },
+      "id": "d0d4dff1-059c-4471-a45a-445ce8ba1218"
+    },
+    {
+      "createdAt": "2026-09-07T00:07:11.211Z",
+      "updatedAt": "2026-09-07T00:07:11.211Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Stream, river",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-5",
+        "Topic: Nature"
+      ],
+      "data": {
+        "character": "川",
+        "onyomi": [
+          "セン"
+        ],
+        "kunyomi": [
+          "かわ"
+        ],
+        "strokes": 3
+      },
+      "id": "04c0c815-5cb8-4468-bcc1-edc33c33167f"
+    },
+    {
+      "createdAt": "2026-09-07T00:11:41.409Z",
+      "updatedAt": "2026-09-07T00:11:41.409Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "New",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "character": "新",
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "あたら.しい",
+          "あら.た",
+          "あら-",
+          "にい-"
+        ],
+        "strokes": 13
+      },
+      "id": "19dd7643-6db9-4d52-9db7-4e55b5b6f24e"
+    },
+    {
+      "createdAt": "2026-09-07T00:12:54.948Z",
+      "updatedAt": "2026-09-07T00:12:54.948Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "relax, cheap, low, quiet, rested, contented, peaceful",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-7",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "character": "安",
+        "onyomi": [
+          "アン"
+        ],
+        "kunyomi": [
+          "やす.い",
+          "やす.まる",
+          "やす",
+          "やす.らか"
+        ],
+        "strokes": 6
+      },
+      "id": "15cf49ca-188c-435c-9bd9-2db51ea2a435"
+    },
+    {
+      "createdAt": "2026-09-07T00:13:55.811Z",
+      "updatedAt": "2026-09-07T00:13:55.811Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "half, middle, odd number, semi-, part-",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-7",
+        "Topic: Numbers",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "character": "半",
+        "onyomi": [
+          "ハン"
+        ],
+        "kunyomi": [
+          "なか.ば"
+        ],
+        "strokes": 5
+      },
+      "id": "7498d725-63aa-4045-b5ae-657e960dec76"
+    },
+    {
+      "createdAt": "2026-09-07T00:15:24.686Z",
+      "updatedAt": "2026-09-07T00:15:24.686Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "tall, high, expensive",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "character": "高",
+        "onyomi": [
+          "コウ"
+        ],
+        "kunyomi": [
+          "たか.い",
+          "たか",
+          "-だか",
+          "たか.まる",
+          "たか.める"
+        ],
+        "strokes": 10
+      },
+      "id": "3519fba7-87c3-462a-974b-1794b3c9523b"
+    },
+    {
+      "createdAt": "2026-09-07T00:16:27.697Z",
+      "updatedAt": "2026-09-07T00:16:27.697Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "year, counter for years",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Time",
+        "Source: Nakama 1-7",
+        "Topic: Counters"
+      ],
+      "data": {
+        "character": "年",
+        "onyomi": [
+          "ネン"
+        ],
+        "kunyomi": [
+          "とし"
+        ],
+        "strokes": 6
+      },
+      "id": "ab1c9831-1bdb-4dfe-b451-9fbfb72bc935"
+    },
+    {
+      "createdAt": "2026-09-07T00:18:56.106Z",
+      "updatedAt": "2026-09-07T00:18:56.106Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Time, hour",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-7",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "時",
+        "onyomi": [
+          "ジ"
+        ],
+        "kunyomi": [
+          "とき",
+          "-どき"
+        ],
+        "strokes": 10
+      },
+      "id": "7abea2b1-3a08-4421-b6e2-69ca881693fb"
+    },
+    {
+      "createdAt": "2026-09-07T00:20:18.810Z",
+      "updatedAt": "2026-09-07T00:20:18.810Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "interval, space",
+      "notes": "間 【ケン】 ken (6 shaku, approx. 1.818 m), counter used to number the gaps between pillars",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-7",
+        "Topic: Time",
+        "Topic: Counters"
+      ],
+      "data": {
+        "character": "間",
+        "onyomi": [
+          "カン",
+          "ケン"
+        ],
+        "kunyomi": [
+          "あいだ",
+          "ま",
+          "あい"
+        ],
+        "strokes": 12
+      },
+      "id": "aa4b8664-ebaf-4453-a19c-bb6212ebee1c"
+    },
+    {
+      "createdAt": "2026-09-07T00:21:11.529Z",
+      "updatedAt": "2026-09-07T00:21:11.529Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Old",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "character": "古",
+        "onyomi": [
+          "コ"
+        ],
+        "kunyomi": [
+          "ふる.い",
+          "ふる-",
+          "-ふる.す"
+        ],
+        "strokes": 5
+      },
+      "id": "11e93653-702b-4f8a-8a0d-f55e6734033a"
+    },
+    {
+      "createdAt": "2026-09-07T00:22:03.604Z",
+      "updatedAt": "2026-09-07T00:22:03.604Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Friend",
+      "notes": "友達 【ともだち】 friend, companion",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "character": "友",
+        "onyomi": [
+          "ユウ"
+        ],
+        "kunyomi": [
+          "とも"
+        ],
+        "strokes": 4
+      },
+      "id": "4cd2a281-643d-420c-9510-60a13b8a69da"
+    },
+    {
+      "createdAt": "2026-09-07T00:23:28.646Z",
+      "updatedAt": "2026-09-07T00:23:28.646Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "word, speech, language",
+      "notes": "語る 【かたる】 to talk about.\n語学 【ゴガク】 study of foreign languages, linguistics.",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "character": "語",
+        "onyomi": [
+          "ゴ"
+        ],
+        "kunyomi": [
+          "かた.る",
+          "かた.らう"
+        ],
+        "strokes": 14
+      },
+      "id": "7a0e3f4e-c71f-4adc-99cb-f477703bd64b"
+    },
+    {
+      "createdAt": "2026-09-07T00:25:24.214Z",
+      "updatedAt": "2026-09-07T00:25:24.214Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Every",
+      "notes": "毎々 【マイマイ】 each time, frequently, always.\n毎日【マイニチ】everyday.",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-7",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "毎",
+        "onyomi": [
+          "マイ"
+        ],
+        "kunyomi": [
+          "ごと",
+          "-ごと.に"
+        ],
+        "strokes": 6
+      },
+      "id": "f2542227-5532-42d7-b464-60800b4a8328"
+    },
+    {
+      "createdAt": "2026-09-07T00:30:06.399Z",
+      "updatedAt": "2026-09-07T00:30:06.399Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "direction, person, alternative",
+      "notes": "方 【かた】 the way of doing something (命の食べ方 - How to Eat Life).\nX〜のほうが Y〜より X is more ____ than Y.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-7",
+        "Topic: Grammar"
+      ],
+      "data": {
+        "character": "方",
+        "onyomi": [
+          "ホウ"
+        ],
+        "kunyomi": [
+          "かた",
+          "-かた",
+          "-がた"
+        ],
+        "strokes": 4
+      },
+      "id": "3ca66875-183e-4f49-952d-80cf870e2d04"
+    },
+    {
+      "createdAt": "2026-09-07T00:32:05.778Z",
+      "updatedAt": "2026-09-07T00:32:05.778Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "turn, number in a series",
+      "notes": "CoCo壱番屋",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 1-7",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "番",
+        "onyomi": [
+          "バン"
+        ],
+        "kunyomi": [
+          "つが.い"
+        ],
+        "strokes": 12
+      },
+      "id": "e8cea2c7-c084-40f2-bf45-f60eb2e704fe"
+    },
+    {
+      "createdAt": "2026-09-07T00:34:51.250Z",
+      "updatedAt": "2026-09-07T00:34:51.250Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "part, minute of time, segment",
+      "notes": "",
+      "tags": [
+        "Topic: Time",
+        "Level: N5",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "character": "分",
+        "onyomi": [
+          "ブン",
+          "フン",
+          "ブ"
+        ],
+        "kunyomi": [
+          "わ.ける",
+          "わ.け",
+          "わ.かれる",
+          "わ.かる",
+          "わ.かつ"
+        ],
+        "strokes": 4
+      },
+      "id": "f35e1e02-3600-48b9-81c0-4d7714cf9334"
+    },
+    {
+      "createdAt": "2026-09-07T00:36:10.250Z",
+      "updatedAt": "2026-09-07T00:36:10.250Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "fond, pleasing, to like something",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "character": "好",
+        "onyomi": [
+          "コウ"
+        ],
+        "kunyomi": [
+          "この.む",
+          "す.く",
+          "よ.い",
+          "い.い"
+        ],
+        "strokes": 6
+      },
+      "id": "48c5190a-5ae9-4131-bdd7-2925facc6d5a"
     }
   ]
 }
