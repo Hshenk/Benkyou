@@ -6,7 +6,8 @@ import { initStudy } from './views/study.js';
 import { initTransfer } from './views/transfer.js';
 import { initTags } from './views/tags.js';
 import { initStats } from './views/stats.js';
-
+import { initAccount } from './views/account.js';
+import { syncSessions } from './sync.js';
 
 
 
@@ -41,6 +42,9 @@ initStats({
         showView('editor');
     },
 });
+
+initAccount();
+syncSessions().then((result) => result && console.log('Synced sessions', result));
 
 // "New Card" always shows blank form
 document.querySelector('.nav__btn[data-view="editor"]')

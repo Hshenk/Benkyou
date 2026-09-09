@@ -4,6 +4,7 @@ import { getCards, getSessions, recordStudy, addSession, onChange } from "../sto
 import { toggleScript } from "../script-toggle.js";
 import { canonicalTag, splitTag } from "../tags.js";
 import { cardStats, weakest, stalest } from "../stats.js";
+import { syncSessions } from "../sync.js";
 
 // --- Study Selection ---
 const facetsEl = document.querySelector('#facets');
@@ -483,6 +484,8 @@ function flushStats() {
         facets: session.facets,
         results,
     });
+
+    syncSessions();
 
     recordStudy(results.map(({ id, misses = 0 }) => ({
         id,

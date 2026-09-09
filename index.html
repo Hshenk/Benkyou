@@ -33,6 +33,7 @@
                     <span lang="ja" aria-hidden="true">手</span>
                     <span class="script-toggle__text">Handwritten</span>
                 </button>
+                <button class="btn btn--sm btn--ghost" type="button" id="account-btn">Sign in</button>
             </div>
             
         </div>
@@ -237,6 +238,25 @@
                     <button class="btn btn--primary" type="button" data-import="merge">Merge</button>
                     <button class="btn btn--danger" type="button" data-import="replace">Replace</button>
                     <button class="btn" type="button" data-import="cancel">Cancel</button>
+                </div>
+            </dialog>
+
+            <dialog class="dialog" id="account-dialog">
+                <h3 class="dialog__title">Session sync</h3>
+                <p class="dialog__file" id="account-state"></p>
+
+                <div class="field" id="account-email-field">
+                    <label class="field__label" for="account-email">Email</label>
+                    <input class="input" type="email" id="account-email" placeholder="you@example.com">
+                    <p class="field__help">You'll get a sign-in link. One login per device.</p>
+                </div>
+
+                <p class="dialog__warn" id="account-warn" hidden></p>
+
+                <div class="form__actions">
+                    <button class="btn btn--primary" type="button" data-account="send">Send link</button>
+                    <button class="btn btn--danger" type="button" data-account="signout" hidden>Sign out</button>
+                    <button class="btn" type="button" data-account="close">Close</button>
                 </div>
             </dialog>
         </section>
