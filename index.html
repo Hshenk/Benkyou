@@ -48,31 +48,33 @@
                 <h2 class="view__title">Study</h2>
                 <p class="view__hint">Tick what you want to work on. A section with nothing ticked means "any"
                 </p>
-                <div class="facets" id="facets"></div>
-
                 <div class="focus-bar">
                     <label class="focus-bar__field">
                         Focus on
                         <select id="focus-mode">
                             <option value="all" selected>all matching cards</option>
-                            <option value="weakest">the ones I miss most</option>
-                            <option value="stalest">the ones I've left longest</option>
+                            <option value="weakest">most missed most</option>
+                            <option value="stalest">longest since studied</option>
                         </select>
                     </label>
 
-                    <label class="focus-bar__field" id="focus-limit-field" hidden>
+                    <label class="focus-bar__field" id="focus-limit-field">
                         at most
                         <select id="focus-limit">
-                            <option value="10">10 cards</option>
-                            <option value="20" selected>20 cards</option>
+                            <option value="5">5 cards</option>
+                            <option value="10" selected>10 cards</option>
+                            <option value="20">20 cards</option>
                             <option value="30">30 cards</option>
                             <option value="50">50 cards</option>
                             <option value="100">100 cards</option>
+                            <option value="0">No Limit</option>
                         </select>
                     </label>
 
                     <p class="focus-bar__note" id="focus-note"></p>
                 </div>
+
+                <div class="facets" id="facets"></div>
 
                 <div class="study-bar">
                     <p class="study-bar__count" id="pool-count">5 cards</p>

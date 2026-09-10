@@ -82,9 +82,9 @@ const FOCUS_HINTS = {
 
 function applyFocus(pool) {
     const mode = focusMode.value;
-    if (mode === 'all') return pool;
 
     const limit = Number(focusLimit.value);
+    if (limit === 0) return pool; // 0 translates to no card limit set
     const byCard = cardStats(getSessions());
 
     return mode === 'weakest'
@@ -386,7 +386,7 @@ export function initStudy() {
         for (const input of facetsEl.querySelectorAll('.option__input')) input.checked = false;
 
         focusMode.value = 'all';
-        focusLimitField.hidden = true;
+        focusLimitField.hidden = false;
 
         updateFacetUI();
     });
@@ -397,7 +397,7 @@ export function initStudy() {
     });
 
     focusMode.addEventListener('change', () => {
-        focusLimitField.hidden = focusMode.value === 'all';
+        focusLimitField.hidden = false;
         updateFacetUI();
     });
 
