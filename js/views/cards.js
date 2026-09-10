@@ -36,7 +36,13 @@ function buildRow(card) {
 
     const seen = card.timesSeen?? 0;
     const missed = card.timesMissed ?? 0;
-    field('stats').textContent = seen ? `${missed}/${seen} missed` : '';
+    if (seen != 0) {
+        const accuracy = (((seen - missed) / seen) * 100).toFixed(1);
+        field('stats').textContent = seen ? `Accuracy: ${accuracy}% of ${seen} time(s) seen` : '';
+    } else {
+        field('stats').textContent = '';
+    }
+
 
     return row;
 }

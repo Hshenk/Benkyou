@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-07T01:26:02.259Z",
+  "exportedAt": "2026-09-10T15:08:21.929Z",
   "sessions": [
     {
       "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
@@ -101,6 +101,218 @@
         {
           "id": "a3",
           "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "da426938-a264-41d1-9115-95fc1489f387",
+      "startedAt": "2026-09-07T16:00:24.771+00:00",
+      "endedAt": "2026-09-07T16:02:22.359+00:00",
+      "facets": [
+        "Topic: Shopping"
+      ],
+      "results": [
+        {
+          "id": "1b7b87eb-3658-428c-bf7d-069fe83e34ec",
+          "result": "work"
+        },
+        {
+          "id": "c7748930-5fad-4505-8d36-45ba64a8250f",
+          "result": "easy"
+        },
+        {
+          "id": "15cf49ca-188c-435c-9bd9-2db51ea2a435",
+          "result": "work"
+        },
+        {
+          "id": "31da32d7-0b40-4771-95ff-0b8c70796505",
+          "misses": 1,
+          "result": "missed"
+        },
+        {
+          "id": "7498d725-63aa-4045-b5ae-657e960dec76",
+          "misses": 1,
+          "result": "missed"
+        }
+      ]
+    },
+    {
+      "id": "04514dd8-ffd0-43ed-92ea-eb7e0543585a",
+      "startedAt": "2026-09-07T16:04:01.389+00:00",
+      "endedAt": "2026-09-07T16:04:12.105+00:00",
+      "facets": [
+        "Topic: School"
+      ],
+      "results": [
+        {
+          "id": "a4",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "dae79ac9-eac1-4fb2-b512-2da133bba010",
+      "startedAt": "2026-09-08T23:25:50.944+00:00",
+      "endedAt": "2026-09-08T23:26:43.983+00:00",
+      "facets": [
+        "Source: Nakama 1-5"
+      ],
+      "results": [
+        {
+          "id": "a2cff6e7-da31-4205-a060-8d12b343c297",
+          "result": "easy"
+        },
+        {
+          "id": "3215a067-31a6-401c-bc3c-8f9ddd2070d2",
+          "result": "easy"
+        },
+        {
+          "id": "5d801934-5927-4591-a1ca-0845566e64d8",
+          "result": "easy"
+        },
+        {
+          "id": "ea4712bb-99d6-4799-8c0f-5363af0bb566",
+          "result": "easy"
+        },
+        {
+          "id": "310a42fa-0147-40bf-ab21-cd8a2a58401b",
+          "result": "easy"
+        },
+        {
+          "id": "18ed6813-a1dd-4572-bf7d-de2f1e8f9d6e",
+          "result": "easy"
+        },
+        {
+          "id": "d0d4dff1-059c-4471-a45a-445ce8ba1218",
+          "result": "easy"
+        },
+        {
+          "id": "c9ec6b07-52ea-42ff-9406-8567755ed966",
+          "result": "easy"
+        },
+        {
+          "id": "04c0c815-5cb8-4468-bcc1-edc33c33167f",
+          "result": "easy"
+        },
+        {
+          "id": "0b099079-33de-487e-a87f-d47dcf193981",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "85cc1020-7335-46dd-9629-8f470db6cf77",
+      "startedAt": "2026-09-09T16:54:47.213+00:00",
+      "endedAt": "2026-09-09T16:54:59.05+00:00",
+      "facets": [
+        "Topic: Food"
+      ],
+      "results": [
+        {
+          "id": "a2",
+          "result": "easy"
+        },
+        {
+          "id": "af1c13b5-3a01-4e03-9a37-e4ca4fb1dad9",
+          "result": "easy"
+        },
+        {
+          "id": "a1",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "58d25c6e-6dc9-4415-bb81-d45491a59425",
+      "startedAt": "2026-09-09T19:17:53.321Z",
+      "endedAt": "2026-09-09T19:20:12.035Z",
+      "facets": [
+        "Topic: Time"
+      ],
+      "results": [
+        {
+          "id": "ab1c9831-1bdb-4dfe-b451-9fbfb72bc935",
+          "result": "easy"
+        },
+        {
+          "id": "2f10c708-36d0-4022-aad7-de5da5f4f108",
+          "result": "easy"
+        },
+        {
+          "id": "006982ad-21fe-4fc5-900f-b1aee0519a5a",
+          "result": "easy"
+        },
+        {
+          "id": "56aa801e-bd2a-4028-91ad-1ed37f8f0273",
+          "result": "easy"
+        },
+        {
+          "id": "32d1f222-a5f0-4e97-b603-c12d3ebc3ace",
+          "result": "work"
+        },
+        {
+          "id": "f2542227-5532-42d7-b464-60800b4a8328",
+          "result": "easy"
+        },
+        {
+          "id": "f35e1e02-3600-48b9-81c0-4d7714cf9334",
+          "result": "easy"
+        },
+        {
+          "id": "aa4b8664-ebaf-4453-a19c-bb6212ebee1c",
+          "result": "easy"
+        },
+        {
+          "id": "a2cff6e7-da31-4205-a060-8d12b343c297",
+          "result": "easy"
+        },
+        {
+          "id": "7abea2b1-3a08-4421-b6e2-69ca881693fb",
+          "result": "easy"
+        },
+        {
+          "id": "3c58d7a0-8d7b-4109-a8d2-a34b5aa12a80",
+          "result": "easy"
+        },
+        {
+          "id": "2e238152-0972-4194-9eae-904f2963f250",
+          "result": "easy"
+        },
+        {
+          "id": "66f7d5ab-f74f-4b57-b914-71adde462c78",
+          "result": "easy"
+        },
+        {
+          "id": "b7910d3a-fa6b-4145-a465-fdc3d818db70",
+          "result": "easy"
+        },
+        {
+          "id": "f4166649-36ae-4098-8b7a-512f38c4ecee",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "89be91ea-6da2-455f-b91f-e50f4ac00ca4",
+      "startedAt": "2026-09-09T19:27:41.177Z",
+      "endedAt": "2026-09-09T19:28:01.221Z",
+      "facets": [
+        "Topic: Education",
+        "Type: Kanji"
+      ],
+      "results": [
+        {
+          "id": "3215a067-31a6-401c-bc3c-8f9ddd2070d2",
+          "result": "easy"
+        },
+        {
+          "id": "717df3a2-db64-42fc-a115-608f5764b171",
+          "result": "easy"
+        },
+        {
+          "id": "6c519a94-dcdb-41b1-a2b5-321a844c550c",
+          "result": "missed",
+          "misses": 1
         }
       ]
     }

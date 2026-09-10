@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 14,
-  "exportedAt": "2026-09-07T01:26:02.247Z",
+  "version": 15,
+  "exportedAt": "2026-09-10T15:08:21.899Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -1134,7 +1134,7 @@
     {
       "createdAt": "2026-09-06T23:26:39.776Z",
       "updatedAt": "2026-09-06T23:28:05.492Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "life, genuine, birth",
@@ -1161,8 +1161,8 @@
     {
       "createdAt": "2026-09-06T23:27:57.708Z",
       "updatedAt": "2026-09-06T23:27:57.708Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "School",
       "notes": "",
@@ -1346,7 +1346,7 @@
     {
       "createdAt": "2026-09-06T23:38:26.902Z",
       "updatedAt": "2026-09-07T00:16:37.326Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Sun, Day, Counter for Days",
@@ -1400,7 +1400,7 @@
     {
       "createdAt": "2026-09-06T23:41:15.099Z",
       "updatedAt": "2026-09-07T00:16:49.093Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "book, present, main, origin, counter for cylinders",
@@ -1478,7 +1478,7 @@
     {
       "createdAt": "2026-09-06T23:46:33.158Z",
       "updatedAt": "2026-09-06T23:48:45.159Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "now",
@@ -1529,7 +1529,7 @@
     {
       "createdAt": "2026-09-06T23:48:36.324Z",
       "updatedAt": "2026-09-06T23:54:49.942Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Month, Moon",
@@ -1556,7 +1556,7 @@
     {
       "createdAt": "2026-09-06T23:50:21.751Z",
       "updatedAt": "2026-09-06T23:54:37.949Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Fire",
@@ -1584,7 +1584,7 @@
     {
       "createdAt": "2026-09-06T23:51:19.449Z",
       "updatedAt": "2026-09-06T23:54:28.116Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Water",
@@ -1611,7 +1611,7 @@
     {
       "createdAt": "2026-09-06T23:52:10.885Z",
       "updatedAt": "2026-09-06T23:54:02.219Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Tree, wood",
@@ -1639,7 +1639,7 @@
     {
       "createdAt": "2026-09-06T23:53:46.311Z",
       "updatedAt": "2026-09-06T23:53:46.311Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Gold",
@@ -1721,7 +1721,7 @@
     {
       "createdAt": "2026-09-06T23:59:08.259Z",
       "updatedAt": "2026-09-06T23:59:08.259Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Week",
@@ -1744,7 +1744,7 @@
     {
       "createdAt": "2026-09-07T00:01:22.774Z",
       "updatedAt": "2026-09-07T00:01:22.774Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Weekday",
@@ -1767,7 +1767,7 @@
     {
       "createdAt": "2026-09-07T00:03:48.012Z",
       "updatedAt": "2026-09-07T00:03:48.012Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "soil, earth, ground, Turkey",
@@ -1981,7 +1981,7 @@
     {
       "createdAt": "2026-09-07T00:16:27.697Z",
       "updatedAt": "2026-09-07T00:16:27.697Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "year, counter for years",
@@ -2007,7 +2007,7 @@
     {
       "createdAt": "2026-09-07T00:18:56.106Z",
       "updatedAt": "2026-09-07T00:18:56.106Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Time, hour",
@@ -2033,7 +2033,7 @@
     {
       "createdAt": "2026-09-07T00:20:18.810Z",
       "updatedAt": "2026-09-07T00:20:18.810Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "interval, space",
@@ -2137,7 +2137,7 @@
     {
       "createdAt": "2026-09-07T00:25:24.214Z",
       "updatedAt": "2026-09-07T00:25:24.214Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Every",
@@ -2215,7 +2215,7 @@
     {
       "createdAt": "2026-09-07T00:34:51.250Z",
       "updatedAt": "2026-09-07T00:34:51.250Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "part, minute of time, segment",
