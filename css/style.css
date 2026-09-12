@@ -1059,6 +1059,60 @@ kbd {
     white-space: nowrap;
 }
 
+/* ------ Sort bar ------ */
+.sortbar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+    margin-bottom: var(--space-3);
+}
+
+.sortbar__label {
+    color: var(--text-faint);
+    font-size: 13px;
+    margin-right: var(--space-1);
+}
+
+.sortbar__btn {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: var(--radius);
+    color: var(--text-muted);
+    font-size: 13px;
+    padding: var(--space-1) var(--space-2);
+    transition: background-color 120ms ease, color 120ms ease;
+}
+
+.sortbar__btn:hover {
+    background: var(--surface-2);
+    color: var(--text);
+}
+
+.sortbar__btn[aria-pressed="true"] {
+    background: var(--surface-2);
+    border-color: var(--border);
+    color: var(--text);
+}
+
+.sortbar__btn:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 1px;
+}
+
+/* Reserve the arrow's space on every button so toggling doesn't shift layout */
+.sortbar__btn::after {
+    content: "";
+    display: inline-block;
+    font-size: 11px;
+    margin-left: var(--space-1);
+    text-align: center;
+    width: 1em;
+}
+
+.sortbar__btn[data-dir="asc"]::after  { content: "↑"; }
+.sortbar__btn[data-dir="desc"]::after { content: "↓"; }
+
 /* ------ Tag Management ------ */
 .tag-groups {
     display: grid;

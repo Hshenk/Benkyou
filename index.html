@@ -205,6 +205,24 @@
                 <input type="file" id="import-file" accept="application/json,.json" hidden>
             </div>
 
+            <div class="sortbar" id="sort-bar" role="group" aria-label="Sort cards">
+                <span class="sortbar__label">Sort</span>
+
+                <button class="sortbar__btn" type="button" data-sort="default" aria-pressed="true"
+                    title="The order cards are stored in">Default</button>
+                <button class="sortbar__btn" type="button" data-sort="added" aria-pressed="false"
+                    title="When the card was created">Added</button>
+                <button class="sortbar__btn" type="button" data-sort="type" aria-pressed="false"
+                    title="Grouped by card type, alphabetically">Type</button>
+                <button class="sortbar__btn" type="button" data-sort="level" aria-pressed="false"
+                    title="By Level tag, N5 first. Untagged cards last">Level</button>
+                <button class="sortbar__btn" type="button" data-sort="gojuon" aria-pressed="false"
+                    title="Japanese dictionary order, by reading">Gojūon</button>
+                <button class="sortbar__btn" type="button" data-sort="accuracy" aria-pressed="false"
+                    title="By accuracy, worst first. Unstudied cards last">Accuracy</button>
+            </div>
+
+
             <ul class="card-list" id="card-list" role="list"></ul>
 
             <p class="empty" id="card-empty" hidden></p>

@@ -2,6 +2,7 @@
  * card.js defines what a card is and what it contains
  * Pure functions, no imports
  */
+
 export const TYPE_LABELS = { 
     kanji: 'Kanji', 
     vocab: 'Vocab', 

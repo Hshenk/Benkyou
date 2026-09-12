@@ -128,3 +128,16 @@ export function plainText(tokens) {
         }
     }).join('');
 }
+
+
+export function kanaText(tokens) {
+    return tokens.map((t) => {
+        switch (t.type) {
+            case 'text': return t.value;
+            case 'furigana': return t.reading;
+            case 'link':
+            case 'highlight': return kanaText(t.inner);
+            default: return '';
+        }
+    }).join('');
+}
