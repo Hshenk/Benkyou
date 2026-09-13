@@ -88,7 +88,9 @@ legend {
   --font-ui: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-jp: "Yu Gothic UI", "Yu Gothic", "Hiragino Sans",
              "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
-  --font-jp-hand: "UD Digi Kyokasho NP-R", "UD Digi Kyokasho N-R", "Yu Kyokasho", "Klee One", "Klee",                  "Hiragino Mincho ProN", var(--font-jp);
+  --font-jp-hand: "Klee One", "UD Digi Kyokasho NP-R", "UD Digi Kyokasho N-R",
+                "Yu Kyokasho", "Hiragino Mincho ProN", var(--font-jp);
+
   --font-jp-stroke: "KanjiStrokeOrders", var(--font-jp);
 
   /* --- Spacing scale --- */
@@ -387,7 +389,7 @@ main {
 .field__label {
     color: var(--text-muted);
     font-size: 13px;
-    font-weight: 6000;
+    font-weight: 600;
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
