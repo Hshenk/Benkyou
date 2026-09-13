@@ -1,11 +1,15 @@
 import { getCard, saveCard, allTags } from "../storage.js";
 import { canonicalTag, tagKey, reservedNamespace, splitTag } from "../tags.js";
+import { loadKanjiSheet, levelTag, meaningText, LEVEL_NAMESPACE } from "../kanji.js";
 
 // --- Editor ---
 const editorTitle = document.querySelector('#view-editor .view__title');
 const tagChips = document.querySelector('#tag-chips');
 const tagInput = document.querySelector('#card-tags');
 const tagSuggestions = document.querySelector('#tag-suggestions');
+const autofillStatus = document.querySelector('#kanji-autofill-status');
+const autofillBtn = document.querySelector('#kanji-autofill-btn');
+
 
 let editingId = null;
 let tags = [];
@@ -96,6 +100,7 @@ export function openEditor(id = null) {
     editingId = card?.id ?? null;
 
     editorForm.reset();
+    clearAutofillStatus();
     refreshTagSuggestions();
 
     editorTitle.textContent = card ? 'Edit card' : 'New Card';
@@ -145,7 +150,26 @@ export function initEditor(options = {}) {
     editorForm.addEventListener('change', (event) => {
         if (event.target.name === 'cardType') {
             showTypeFields(event.target.value);
+            if (event.target.value === 'kanji') {
+                loadKanjiSheet();
+            }
         }
+    });
+
+    // --- Kanji autofill ---
+    const characterInput = editorForm.querySelector('#kanji-character');
+
+    characterInput.addEventListener('input', (event) => {
+        if (event.isComposing) return;
+        autofillKanji();
+    });
+
+    characterInput.addEventListener('compositionend', () => {
+        autofillKanji();
+    });
+
+    autofillBtn.addEventListener('click', () => {
+        autofillKanji();
     });
 
     // --- Tags ---
@@ -206,4 +230,112 @@ export function initEditor(options = {}) {
         .addEventListener('click', () => { openEditor(null); onDone(); });
 
     openEditor(null);
+}
+
+function setAutofillStatus(text, state = '') {
+    autofillStatus.textContent = text;
+    if (state === '') {
+        delete autofillStatus.dataset.state;
+    } else {
+        autofillStatus.dataset.state = state;
+    }
+}
+
+function clearAutofillStatus() {
+    setAutofillStatus('')
+    autofillStatus.dataset.char = '';
+}
+
+async function autofillKanji() {
+    const character = editorForm.querySelector('[data-type-fields="kanji"] [name="character"]').value.trim();
+    if ([...character].length !== 1) {
+        clearAutofillStatus();
+        return;
+    }
+
+    const sheet = await loadKanjiSheet();
+    if (!sheet) {
+        setAutofillStatus('Could not load kanji data', 'error')
+        return;
+    }
+
+    // Quietly exit if the character was changed
+    if (character !== editorForm.querySelector('[data-type-fields="kanji"] [name="character"]').value.trim()) return;
+
+    const entry = sheet[character];
+    if (!entry) {
+        setAutofillStatus('Could not find character in kanji data');
+        return;
+    }
+
+    // Fill empty fields
+    let report = []; // record what's changed
+    const strokeField = editorForm.querySelector('[data-type-fields="kanji"] [name="strokes"]');
+    const onField = editorForm.querySelector('[data-type-fields="kanji"] [name="onyomi"]');
+    const kunField = editorForm.querySelector('[data-type-fields="kanji"] [name="kunyomi"]');
+    const meaningField = editorForm.querySelector('#card-meaning');
+
+    if (!strokeField.value.trim() && entry.strokes) {
+        strokeField.value = String(entry.strokes);
+        report.push('strokes');
+    }
+    if (!onField.value.trim() && entry.on.length > 0) {
+        onField.value = entry.on.join('、');
+        report.push('onyomi');
+    }
+    if (!kunField.value.trim() && entry.kun.length > 0) {
+        kunField.value = entry.kun.join('、');
+        report.push('kunyomi');
+    }
+    if (!meaningField.value.trim() && entry.meanings.length > 0) {
+        meaningField.value = meaningText(entry);
+        report.push('meaning');
+    }
+
+    // Tag level
+    const tag = levelTag(entry);
+    let exists = false;
+    let addedTag = false;
+
+    // Check if a level tag already exists
+    for (const t of tags ?? []) {
+        const { namespace, value } = splitTag(canonicalTag(t));
+
+        if (namespace === LEVEL_NAMESPACE) {
+            exists = true;
+            break;
+        }
+    }
+
+    if (tag && !exists) {
+        setTags([...tags, tag]);
+        addedTag = true;
+    }
+
+
+    let statusReport = 'Nothing to fill.';
+    if (report.length > 0) {
+        statusReport = 'Filled: ' + report.join(', ') + '.';
+    }
+
+    // Second half of report 
+    let metaData = [];
+    if (addedTag) {
+        metaData.push(tag);
+    }
+    if (entry.grade) {
+        metaData.push(entry.grade === 'S' ? 'secondary school' : `Grade ${entry.grade}`);
+    }
+    if (entry.freq) {
+        metaData.push(`#${entry.freq} in frequency`);
+    }
+
+    if (metaData.length > 0) {
+        statusReport += ' ' + metaData.join(' · ') + '.';
+    }
+
+    if (report.length === 0 && !addedTag && autofillStatus.dataset.char === character) return;
+
+    setAutofillStatus(statusReport, 'filled')
+    autofillStatus.dataset.char = character;
 }

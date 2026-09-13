@@ -1,6 +1,7 @@
 import { TYPE_LABELS } from "./card.js";
 import { kanaText, tokenize } from "./tokenize.js";
 import { splitTag, canonicalTag } from "./tags.js";
+import { LEVEL_NAMESPACE } from "./kanji.js";
 
 const jaCollator = new Intl.Collator('ja');
 const enCollator = new Intl.Collator('en', { sensitivity: 'base' }); // currently unused, but left in case we later sort by english meaning
@@ -21,8 +22,6 @@ LEVELS.set("N4", 1);
 LEVELS.set("N3", 2);
 LEVELS.set("N2", 3);
 LEVELS.set("N1", 4);
-
-const LEVEL_NAMESPACE = 'Level';
 
 function addedKey(card) {
     return card.createdAt ?? null;

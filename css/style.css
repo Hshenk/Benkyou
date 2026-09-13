@@ -1409,3 +1409,32 @@ kbd {
     font-size: 13px;
     font-variant-numeric: tabular-nums;
 }
+
+/* ------ Kanji autofill ------ */
+.autofill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+}
+
+.autofill__status {
+    color: var(--text-faint);
+    font-size: 13px;
+    line-height: 1.4;
+    min-height: 1.4em;          /* keeps the row from jumping when it empties */
+}
+
+.autofill__status[data-state="filled"] { color: var(--text-muted); }
+.autofill__status[data-state="error"]   { color: var(--accent); }
+
+.autofill__credit {
+    color: var(--text-faint);
+    font-size: 11px;
+    margin: 0;
+}
+
+.autofill__credit a {
+    color: inherit;
+    text-decoration: underline;
+}

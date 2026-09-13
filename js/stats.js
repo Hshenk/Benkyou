@@ -90,7 +90,7 @@ export function activityByDay(sessions) {
         const key = localDay(session.startedAt);
         const entry = byDay.get(key) ?? { sessions: 0, cards: 0, reps: 0, minutes: 0 };
 
-        entry.session += 1;
+        entry.sessions += 1;
         entry.cards += session.results.length;
         entry.reps += repsOf(session);
         entry.minutes += minutesOf(session);

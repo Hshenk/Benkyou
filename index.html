@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap">
-    
+
     <link rel="stylesheet" href="css/style.css">
     <script type="module" src="js/app.js"></script>
 </head>
@@ -329,7 +329,7 @@
                 <fieldset class="field-grid" data-type-fields="kanji" hidden>
                     <div class="field">
                         <label class="field__label" for="kanji-character">Character</label>
-                        <input class="input input--jp input--single" type="text" lang="ja" id="kanji-character" name="character" maxlength="1" placeholder="食">
+                        <input class="input input--jp input--single" type="text" lang="ja" id="kanji-character" name="character" pattern="." title="One character" placeholder="食">
                     </div>
 
                     <div class="field">
@@ -338,7 +338,7 @@
                     </div>
 
                     <div class="field">
-                        <label class="field__label" for="kaji-onyomi">On'yomi</label>
+                        <label class="field__label" for="kanji-onyomi">On'yomi</label>
                         <input class="input input--jp" type="text" lang="ja" id="kanji-onyomi" name="onyomi" placeholder="ショク、ジキ">
                         <p class="field__help">Comma=separated.</p>
                     </div>
@@ -349,6 +349,17 @@
                             name="kunyomi" placeholder="た.べる、く.う">
                         <p class="field__help">Comma-separated.</p>
                     </div>
+
+                    <div class="field field--full autofill">
+                        <p class="autofill__status" id="kanji-autofill-status" aria-live="polite"></p>
+                        <button class="btn btn--sm btn--ghost" type="button" id="kanji-autofill-btn">
+                            Fill empty fields
+                        </button>
+                    </div>
+                    <p class="field--full autofill__credit">
+                        Kanji data from <a href="https://www.edrdg.org/wiki/index.php/KANJIDIC_Project" target="_blank" rel="noopener">KANJIDIC2</a>
+                        © EDRDG, CC BY-SA 4.0 · JLPT levels from Jonathan Waller's lists
+                    </p>
 
                 </fieldset>
 
