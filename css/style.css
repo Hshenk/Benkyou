@@ -1316,16 +1316,9 @@ kbd {
 .bar-row {
     align-items: center;
     display: grid;
-    grid-template-columns: 130px 1fr 64px;
+    grid-template-columns: 130px 1fr 120px;
     gap: var(--space-2);
     margin-bottom: var(--space-1);
-}
-
-.bar-row__label {
-    font-size: 13px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .bar-row__note {
@@ -1333,6 +1326,14 @@ kbd {
     font-size: 12px;
     font-variant-numeric: tabular-nums;
     text-align: right;
+    white-space: nowrap;
+}
+
+.bar-row__label {
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .bar {
@@ -1710,4 +1711,99 @@ kbd {
 .line-chart {
     height: 220px;
     position: relative;       /* Chart.js sizes the canvas to this box */
+}
+
+/* --- Promotions --- */
+.shift-figures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-5);
+    margin: var(--space-2) 0 var(--space-3);
+}
+
+.shift-figure {
+    align-items: baseline;
+    display: flex;
+    gap: var(--space-2);
+    margin: 0;
+}
+
+.shift-figure__value {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.shift-figure__label {
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+.shift-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.shift-row {
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    display: grid;
+    gap: var(--space-2) var(--space-3);
+    grid-template-columns: 15em 3em 1fr;
+    padding: var(--space-2) 0;
+}
+
+.shift-row__grades {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-2);
+}
+
+.shift-row__count {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+}
+
+.shift-row__cards {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+}
+
+.shift-row__card {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text);
+    cursor: pointer;
+    font-family: var(--font-jp);
+    font-size: 15px;
+    padding: 0 var(--space-1);
+}
+
+.shift-row__card:hover {
+    background: var(--surface-1);
+    border-color: var(--border-strong);
+}
+
+.shift-row__card:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 1px;
+}
+
+.shift-row__more {
+    color: var(--text-faint);
+    font-size: 12px;
+}
+
+@media (max-width: 600px) {
+    .shift-row {
+        grid-template-columns: 1fr auto;
+    }
+
+    .shift-row__cards {
+        grid-column: 1 / -1;
+    }
 }

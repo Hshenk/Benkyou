@@ -3,11 +3,11 @@ import { cardText } from '../card.js';
 import { renderJapanese } from '../render.js';
 import { loadKanjiSheet, inTop2500, inJoyo, schoolGradeName, schoolGradeShort } from '../kanji.js';
 import { drawChart, cssVar, withAlpha } from '../charts.js';
-import { sessionsIn, totals, streak, cardStats, gradeFor, activityByDay, localDay,
-    RANGE_DAYS, GRADES, GRADE_LABELS, gradeCounts, groupByType, namespacesOf, groupByNamespace,
-    hardest, trendingDown, bestGradeByCharacter, listProgress, wallCells, wallGroups, studiedOverTime,
+import { sessionsIn, sessionsBefore, totals, streak, cardStats, activityByDay,
+    localDay, dayNumber, RANGE_DAYS, GRADES, GRADE_LABELS, gradeCounts, groupByType,
+    namespacesOf, groupByNamespace, hardest, trendingDown, bestGradeByCharacter,
+    listProgress, wallCells, wallGroups, studiedOverTime, lastStudied, gradeChanges,
 } from '../stats.js';
-
 
 const rangeSelect = document.querySelector('#stats-range');
 const leadEl = document.querySelector('#stats-lead');
@@ -33,6 +33,12 @@ const wallNote = document.querySelector('#wall-note');
 const studiedCanvas = document.querySelector('#studied-chart');
 const studiedDesc = document.querySelector('#studied-desc');
 const studiedNote = document.querySelector('#studied-note');
+const promotionsScope = document.querySelector('#promotions-scope');
+const promotedEl = document.querySelector('#promoted-count');
+const demotedEl = document.querySelector('#demoted-count');
+const startedEl = document.querySelector('#started-count');
+const shiftList = document.querySelector('#shift-list');
+
 
 
 
@@ -59,6 +65,18 @@ function duration(minutes) {
     return `${(minutes / 60).toFixed(1)} h`;
 }
 
+function sinceLabel(iso, now = new Date()) {
+    if (!iso) return 'never';
+
+    const days = dayNumber(localDay(now)) - dayNumber(localDay(iso));
+
+    if (days <= 0) return 'today';
+    if (days < 14) return `${days}d ago`;
+    if (days < 63) return `${Math.floor(days / 7)}w ago`;
+    if (days < 365) return `${Math.floor(days / 30)}mo ago`;
+    return `${Math.floor(days / 365)}y ago`;
+}
+
 function note(text) {
     const p = document.createElement('p');
     p.className = 'stat-panel__empty';
@@ -83,10 +101,10 @@ function render() {
     const t = totals(sessions);
     const byCard = cardStats(sessions); // This period
     const allByCards = cardStats(log);  // All time
+    const beforeByCard = cardStats(sessionsBefore(log, range));
 
     const s = streak(log);
-
-    const mastered = cards.filter((c) => gradeFor(byCard.get(c.id)) === 'mastered').length;
+    const changes = gradeChanges(cards, beforeByCard, allByCards);
 
     emptyEl.hidden = sessions.length > 0;
     leadEl.textContent = sessions.length
@@ -99,9 +117,10 @@ function render() {
         tile('Days studied',   t.days,         RANGE_LABELS[range]),
         tile('Time studied',   duration(t.minutes), RANGE_LABELS[range]),
         tile('Cards seen',     t.uniqueCards,  `${plural(t.reps, 'rep')} in total`),
-        tile('Mastered',       `${mastered} / ${cards.length}`, 'of your collection'),
+        tile('Promoted',       changes.promoted, `${changes.demoted} demoted, ${changes.started} started`),
         tile('Current streak', plural(s.current, 'day'), `longest ${s.longest}, all time`),
     );
+
 
     const byId = new Map(cards.map((c) => [c.id, c]));
 
@@ -111,9 +130,10 @@ function render() {
 
     // In a period
     renderStudied(log, range);
+    renderPromotions(changes, range);
     renderHeatmap(sessions, range);
-    renderTypeBars(cards, byCard);
-    renderTagBars(cards, byCard);
+    renderTypeBars(cards, byCard, allByCards);
+    renderTagBars(cards, byCard, allByCards);
     renderHardest(byId, byCard);
     renderTrend(byId, byCard);
 }
@@ -147,6 +167,11 @@ export function initStats(options = {}) {
         delete wallEl.dataset.focus;
     });
 
+    // Promotions
+    shiftList.addEventListener('click', (event) => {
+        const btn = event.target.closest('.shift-row__card');
+        if (btn) onEdit(btn.dataset.id);
+    });
 
     onChange(render);
     render();
@@ -172,18 +197,31 @@ function stackedBar(counts, total) {
 }
 
 // One labeled row
-function barRow(label, cards, byCard) {
+function barRow(label, cards, byCard, allByCard) {
     const row = barTemplate.content.firstElementChild.cloneNode(true);
     const counts = gradeCounts(cards, byCard);
+    const { lastAt, never } = lastStudied(cards, allByCard);
 
     row.querySelector('[data-field="label"]').textContent = label;
     row.querySelector('[data-field="bar"]').replaceWith(stackedBar(counts, cards.length));
-    row.querySelector('[data-field="note"]').textContent = `${counts.mastered}/${cards.length}`;
+    row.querySelector('[data-field="note"]').textContent =
+        `${counts.mastered}/${cards.length} · ${sinceLabel(lastAt)}`;
 
-    row.title = GRADES
+    const details = GRADES
         .filter((g) => counts[g])
-        .map((g) => `${GRADE_LABELS[g]}: ${counts[g]}`)
-        .join(' · ');
+        .map((g) => `${GRADE_LABELS[g]}: ${counts[g]}`);
+
+    if (lastAt) {
+        const date = new Date(lastAt).toLocaleDateString(undefined,
+            { month: 'short', day: 'numeric', year: 'numeric' });
+        details.push(`Last studied ${date}`);
+
+        if (never > 0) details.push(`${never} never studied`);
+    } else {
+        details.push('Never studied');
+    }
+
+    row.title = details.join(' · ');
 
     return row;
 }
@@ -525,6 +563,71 @@ async function renderStudied(log, range) {
     }
 }
 
+// --- Promotions ---
+const SHIFT_EXAMPLES = 5;
+
+function shiftGrade(grade) {
+    const span = document.createElement('span');
+    span.className = 'legend__item';
+    span.dataset.grade = grade;
+    span.textContent = GRADE_LABELS[grade];
+    return span;
+}
+
+function shiftRow({ from, to, cards }) {
+    const row = document.createElement('li');
+    row.className = 'shift-row';
+
+    const grades = document.createElement('span');
+    grades.className = 'shift-row__grades';
+    grades.append(shiftGrade(from), '→', shiftGrade(to));
+
+    const count = document.createElement('span');
+    count.className = 'shift-row__count';
+    count.textContent = `×${cards.length}`;
+
+    const examples = document.createElement('span');
+    examples.className = 'shift-row__cards';
+
+    for (const card of cards.slice(0, SHIFT_EXAMPLES)) {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'shift-row__card';
+        btn.dataset.id = card.id;
+        btn.lang = 'ja';
+        btn.title = card.meaning;
+        renderJapanese(btn, cardText(card), { links: false });
+        examples.append(btn);
+    }
+
+    if (cards.length > SHIFT_EXAMPLES) {
+        const more = document.createElement('span');
+        more.className = 'shift-row__more';
+        more.textContent = `+${cards.length - SHIFT_EXAMPLES} more`;
+        examples.append(more);
+    }
+
+    row.append(grades, count, examples);
+    return row;
+}
+
+function renderPromotions({ promoted, demoted, started, transitions }, range) {
+    promotionsScope.textContent = range === 'all'
+        ? 'Since your first session. Every card starts at Learning.'
+        : `Compared with where each card stood before ${RANGE_LABELS[range]}. `
+          + 'Every card starts at Learning.';
+
+    promotedEl.textContent = `↑ ${promoted}`;
+    demotedEl.textContent = `↓ ${demoted}`;
+    startedEl.textContent = started;
+
+    if (transitions.length === 0) {
+        shiftList.replaceChildren(note('No card changed grade in this period.'));
+        return;
+    }
+
+    shiftList.replaceChildren(...transitions.map(shiftRow));
+}
 
 const LEVELS = 4;
 
@@ -587,7 +690,7 @@ function renderHeatmap(sessions, range) {
         + active.map(([day, e]) => `${day}: ${e.reps} reps`).join('; ') + '.';
 }
 
-function renderTypeBars(cards, byCard) {
+function renderTypeBars(cards, byCard, allByCard) {
     const groups = groupByType(cards);
 
     if (groups.length === 0) {
@@ -596,15 +699,15 @@ function renderTypeBars(cards, byCard) {
     }
 
     typeBarsEl.replaceChildren(
-        ...groups.map(([label, group]) => barRow(label, group, byCard))
+        ...groups.map(([label, group]) => barRow(label, group, byCard, allByCard))
     );
 }
 
-function renderTagBars(cards, byCard) {
+function renderTagBars(cards, byCard, allByCard) {
     const namespaces = namespacesOf(cards);
 
     if (namespaces.length === 0) {
-        tagBarsEl.replaceChildren(note('Not tags yet.'));
+        tagBarsEl.replaceChildren(note('No tags yet.'));
         return;
     }
 
@@ -618,13 +721,13 @@ function renderTagBars(cards, byCard) {
 
         const rows = groupByNamespace(cards, namespace)
             .map(([value, group]) => {
-                    const counts = gradeCounts(group, byCard);
-                    return { value, group, share: counts.mastered / group.length };
-                })
+                const counts = gradeCounts(group, byCard);
+                return { value, group, share: counts.mastered / group.length };
+            })
             .sort((a, b) => b.share - a.share || b.group.length - a.group.length);
-        
+
         for (const { value, group } of rows) {
-            fragment.append(barRow(value, group, byCard));
+            fragment.append(barRow(value, group, byCard, allByCard));
         }
     }
 

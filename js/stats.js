@@ -35,12 +35,25 @@ export function dayNumber(key) {
 // --- Windowing ---
 export const RANGE_DAYS = { month: 30, quarter: 90, year: 365, all: null };
 
-export function sessionsIn(sessions, range, now = new Date()) {
+function cutoffFor(range, now) {
     const days = RANGE_DAYS[range];
-    if (days == null) return [...sessions];
+    if (days == null) return null;
 
-    const cutoff = new Date(now.getTime() - days * 86400000).toISOString();
+    return new Date(now.getTime() - days * 86400000).toISOString();
+}
+
+export function sessionsIn(sessions, range, now = new Date()) {
+    const cutoff = cutoffFor(range, now);
+    if (cutoff == null) return [...sessions];
+
     return sessions.filter((s) => s.startedAt >= cutoff);
+}
+
+export function sessionsBefore(sessions, range, now = new Date()) {
+    const cutoff = cutoffFor(range, now);
+    if (cutoff == null) return [];
+
+    return sessions.filter((s) => s.startedAt < cutoff);
 }
 
 // --- Per-session helpers ---
@@ -455,4 +468,83 @@ export function studiedOverTime(log, range, now = new Date()) {
     }
 
     return { size, buckets };
+}
+
+// --- Last Studied ---
+
+/**
+ * { LastAt, never } for a group of cards: the most recent time a card in the group was studied
+ * and how many have never been studied at all.
+ */
+export function lastStudied(cards, byCard) {
+    let lastAt = null;
+    let latest = -Infinity;
+    let never = 0;
+
+    for (const card of cards) {
+        const entry = byCard.get(card.id);
+
+        if (!entry) {
+            never += 1;
+            continue;
+        }
+
+        const time = new Date(entry.lastAt).getTime();
+        if (time > latest) {
+            latest = time;
+            lastAt = entry.lastAt;
+        }
+    }
+
+    return { lastAt, never };
+}
+
+// --- Grade Changes ---
+/**
+ * How cards' grades moved between the start of a period and now.
+ * 
+ * A card first studied in the period is "started" and any promotion it earned is measured from 'learning',
+ * the grade every card has after its first session.
+ */
+export function gradeChanges(cards, beforeByCard, afterByCard) {
+    const rank = (grade) => GRADES.indexOf(grade);
+    const byPair = new Map();
+
+    let promoted = 0;
+    let demoted = 0;
+    let started = 0;
+
+    for (const card of cards) {
+        let from = gradeFor(beforeByCard.get(card.id));
+        const to = gradeFor(afterByCard.get(card.id));
+
+        if (to === 'unstudied') continue;
+
+        if (from === 'unstudied') {
+            started += 1;
+            from = 'learning';
+        }
+
+        if (from === to) continue;
+
+        if (rank(to) > rank(from)) {
+            promoted += 1;
+        } else {
+            demoted += 1;
+        }
+
+        const key = `${from}>${to}`;
+        const pair = byPair.get(key) ?? { from, to, cards: [] };
+        pair.cards.push(card);
+        byPair.set(key, pair);
+    }
+
+    const jump = (pair) => rank(pair.to) - rank(pair.from);
+
+    const transitions = [...byPair.values()].sort((a, b) =>
+        Math.sign(jump(b)) - Math.sign(jump(a))             // promotions before demotions
+        || Math.abs(jump(b)) - Math.abs(jump(a))            // bigger moves first
+        || b.cards.length - a.cards.length);                // then the most cards
+
+    return { promoted, demoted, started, transitions };
 }
