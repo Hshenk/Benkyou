@@ -336,3 +336,41 @@ export function listProgress(best, sheet, inList) {
     const owned = Object.values(counts).reduce((sum, n) => sum + n, 0);
     return { counts, owned, missing: total - owned, outside, total };
 }
+
+// --- Kanji Wall ---
+
+/**
+ * One cell per kanji inList accepts, in the sheets own order
+ */
+export function wallCells(best, sheet, inList) {
+    const cells = [];
+
+    for (const [character, entry] of Object.entries(sheet)) {
+        if (!inList(entry)) continue;
+
+        cells.push({
+            character,
+            school: entry.grade,
+            meaning: entry.meanings[0] ?? '',
+            grade: best.get(character) ?? 'empty',
+        });
+    }
+
+    return cells;
+}
+
+// school grade -> { owned, total }
+export function wallGroups(cells) {
+    const groups = new Map();
+
+    for (const { school, grade } of cells)  {
+        const group = groups.get(school) ?? { owned: 0, total: 0 };
+
+        group.total += 1;
+        if (grade !== 'empty') group.owned += 1;
+
+        groups.set(school, group);
+    }
+
+    return groups;
+}

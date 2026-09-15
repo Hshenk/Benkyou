@@ -1513,7 +1513,6 @@ kbd {
     padding-left: var(--space-3);
 }
 
-
 /* ------ Kanji autofill ------ */
 .autofill {
     display: flex;
@@ -1541,4 +1540,151 @@ kbd {
 .autofill__credit a {
     color: inherit;
     text-decoration: underline;
+}
+
+/* --- Kanji wall --- */
+.wall-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1) var(--space-2);
+    list-style: none;
+    margin: var(--space-2) 0 0;
+    padding: 0;
+}
+
+.wall-legend__item {
+    border-radius: var(--radius);
+    color: var(--text-muted);
+    cursor: default;
+    display: flex;
+    font-size: 13px;
+    gap: var(--space-1);
+    padding: 2px var(--space-2);
+}
+
+.wall-legend__item:hover {
+    background: var(--surface-2);
+    color: var(--text);
+}
+
+.wall-legend__count {
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+}
+
+.wall {
+    --wall-cell: 20px;
+
+    display: grid;
+    grid-auto-rows: var(--wall-cell);
+    grid-template-columns: repeat(auto-fill, var(--wall-cell));
+    margin: var(--space-2) 0;
+}
+
+.wall__cell {
+    background: var(--kanji-empty);
+    color: rgb(255 255 255 / 0.12);        /* a faint texture of kanji you don't have yet */
+    font-family: var(--font-jp);
+    font-size: 12px;
+    line-height: var(--wall-cell);
+    position: relative;                     /* anchors the edge overlay */
+    text-align: center;
+    transition: opacity 120ms ease;
+    user-select: none;
+}
+
+/* Light text on the dark fills, dark text on the bright ones */
+.wall__cell[data-grade="unstudied"] { background: var(--grade-unstudied); color: rgb(255 255 255 / 0.6); }
+.wall__cell[data-grade="learning"]  { background: var(--grade-learning);  color: rgb(0 0 0 / 0.6); }
+.wall__cell[data-grade="shaky"]     { background: var(--grade-shaky);     color: rgb(0 0 0 / 0.6); }
+.wall__cell[data-grade="familiar"]  { background: var(--grade-familiar);  color: rgb(0 0 0 / 0.6); }
+.wall__cell[data-grade="mastered"]  { background: var(--grade-mastered);  color: rgb(0 0 0 / 0.6); }
+
+/* School-grade outlines: drawn over the cell, so they never change its size */
+.wall__cell::after {
+    border: 0 solid var(--text-faint);
+    content: "";
+    inset: 0;
+    pointer-events: none;
+    position: absolute;
+}
+
+.wall__cell[data-edge-top]::after    { border-top-width: 1px; }
+.wall__cell[data-edge-right]::after  { border-right-width: 1px; }
+.wall__cell[data-edge-bottom]::after { border-bottom-width: 1px; }
+.wall__cell[data-edge-left]::after   { border-left-width: 1px; }
+
+/* Kanji you have a card for */
+.wall__cell[data-card] {
+    cursor: pointer;
+}
+
+.wall__cell[data-card]:hover {
+    outline: 2px solid var(--text);
+    outline-offset: -2px;
+}
+
+/* Hovering a legend item dims every other school grade */
+.wall[data-focus] .wall__cell { opacity: 0.25; }
+
+.wall[data-focus="1"] .wall__cell[data-school="1"],
+.wall[data-focus="2"] .wall__cell[data-school="2"],
+.wall[data-focus="3"] .wall__cell[data-school="3"],
+.wall[data-focus="4"] .wall__cell[data-school="4"],
+.wall[data-focus="5"] .wall__cell[data-school="5"],
+.wall[data-focus="6"] .wall__cell[data-school="6"],
+.wall[data-focus="S"] .wall__cell[data-school="S"] {
+    opacity: 1;
+}
+
+/* Phones: smaller cells, no characters */
+@media (max-width: 600px) {
+    .wall { --wall-cell: 13px; }
+    .wall__cell { font-size: 0; }
+}
+
+/* --- Wall toggle --- */
+.wall-toggle {
+    margin-top: var(--space-2);
+}
+
+.wall-toggle__summary {
+    align-items: center;
+    border-radius: var(--radius);
+    color: var(--link);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 13px;
+    gap: var(--space-1);
+    user-select: none;
+}
+
+/* Replace the browser's triangle with one that matches the link color */
+.wall-toggle__summary::-webkit-details-marker {
+    display: none;
+}
+
+.wall-toggle__summary::before {
+    content: "▸";
+    display: inline-block;
+    transition: transform 120ms ease;
+}
+
+.wall-toggle[open] .wall-toggle__summary::before {
+    transform: rotate(90deg);
+}
+
+.wall-toggle__summary:hover {
+    color: var(--link-hover);
+}
+
+.wall-toggle__summary:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+}
+
+/* Show the label that matches the current state */
+.wall-toggle[open] .wall-toggle__show,
+.wall-toggle:not([open]) .wall-toggle__hide {
+    display: none;
 }

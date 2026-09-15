@@ -1,11 +1,11 @@
 import { getCards, getSessions, onChange } from '../storage.js';
 import { cardText } from '../card.js';
 import { renderJapanese } from '../render.js';
-import { loadKanjiSheet, inTop2500 } from '../kanji.js';
+import { loadKanjiSheet, inTop2500, inJoyo, schoolGradeName, schoolGradeShort } from '../kanji.js';
 import { drawChart, cssVar } from '../charts.js';
 import { sessionsIn, totals, streak, cardStats, gradeFor, activityByDay, localDay,
     RANGE_DAYS, GRADES, GRADE_LABELS, gradeCounts, groupByType, namespacesOf, groupByNamespace,
-    hardest, trendingDown, bestGradeByCharacter, listProgress,
+    hardest, trendingDown, bestGradeByCharacter, listProgress, wallCells, wallGroups,
 } from '../stats.js';
 
 
@@ -26,6 +26,11 @@ const donutCanvas = document.querySelector('#kanji-donut');
 const donutValue = document.querySelector('#kanji-donut-value');
 const donutLegend = document.querySelector('#kanji-donut-legend');
 const donutNote = document.querySelector('#kanji-donut-note');
+const wallEl = document.querySelector('#kanji-wall');
+const wallLegend = document.querySelector('#wall-legend');
+const wallDesc = document.querySelector('#wall-desc');
+const wallNote = document.querySelector('#wall-note');
+
 
 
 const barTemplate = document.querySelector('#bar-row-template');
@@ -98,6 +103,7 @@ function render() {
 
     // All time
     renderKanjiDonut(cards, allByCards);
+    renderKanjiWall(cards, allByCards);
 
     // In a period
     renderHeatmap(sessions, range);
@@ -120,6 +126,22 @@ export function initStats(options = {}) {
             if (line) onEdit(line.dataset.id);
         });
     }
+
+    // Kanji wall: open a card, and highlight a school grade from the legend
+    wallEl.addEventListener('click', (event) => {
+        const cell = event.target.closest('.wall__cell[data-card]');
+        if (cell) onEdit(cell.dataset.card);
+    });
+
+    wallLegend.addEventListener('mouseover', (event) => {
+        const item = event.target.closest('.wall-legend__item');
+        if (item) wallEl.dataset.focus = item.dataset.school;
+    });
+
+    wallLegend.addEventListener('mouseleave', () => {
+        delete wallEl.dataset.focus;
+    });
+
 
     onChange(render);
     render();
@@ -144,7 +166,7 @@ function stackedBar(counts, total) {
     return bar;
 }
 
-// One labelled row
+// One labeled row
 function barRow(label, cards, byCard) {
     const row = barTemplate.content.firstElementChild.cloneNode(true);
     const counts = gradeCounts(cards, byCard);
@@ -256,6 +278,134 @@ async function renderKanjiDonut(cards, byCard) {
     }
 
 }
+
+// --- Kanji Wall ---
+let wallCellEls = [];
+let wallColumns = 0;
+
+// Character -> id of a kanji for it
+function kanjiCardIds(cards) {
+    const ids = new Map();
+
+    for (const card of cards) {
+        if (card.type !== 'kanji') continue;
+
+        const character = card.data?.character?.trim();
+        if (character && !ids.has(character)) ids.set(character, card.id);
+    }
+
+    return ids;
+}
+
+function buildWall(cells) {
+    wallCellEls = cells.map(({ character, school }) => {
+        const el = document.createElement('span');
+        el.className = 'wall__cell';
+        el.textContent = character;
+        el.dataset.school = school;
+        return el;
+    });
+
+    wallEl.replaceChildren(...wallCellEls);
+
+    new ResizeObserver(outlineWall).observe(wallEl);
+}
+
+function wallColumnCount() {
+    if (wallEl.clientWidth === 0) return 0;
+
+    return getComputedStyle(wallEl).gridTemplateColumns.split(' ').length;
+}
+
+function outlineWall() {
+    const cols = wallColumnCount();
+    if (cols === 0 || cols === wallColumns) return;
+    wallColumns = cols;
+
+    const n = wallCellEls.length;
+    const schoolAt = (i) => wallCellEls[i]?.dataset.school;
+
+    wallCellEls.forEach((el, i) => {
+        const school = schoolAt(i);
+        const col = i % cols;
+
+        el.toggleAttribute('data-edge-top',    i < cols || schoolAt(i - cols) !== school);
+        el.toggleAttribute('data-edge-bottom', i + cols >= n || schoolAt(i + cols) !== school);
+        el.toggleAttribute('data-edge-left',   col === 0 || schoolAt(i - 1) !== school);
+        el.toggleAttribute('data-edge-right',  col === cols - 1 || i === n - 1 || schoolAt(i + 1) !== school);
+    });
+}
+
+function paintWall(cells, cardIds) {
+    cells.forEach((cell, i) => {
+        const el = wallCellEls[i];
+        const cardId = cardIds.get(cell.character);
+
+        el.dataset.grade = cell.grade;
+
+        if (cardId) {
+            el.dataset.card = cardId;
+        } else {
+            delete el.dataset.card;
+        }
+
+        const status = cell.grade === 'empty' ? 'Not in your collection' : GRADE_LABELS[cell.grade];
+        el.title = [cell.character, cell.meaning, schoolGradeName(cell.school), status]
+            .filter(Boolean)
+            .join(' · ');
+
+    });
+}
+
+function wallLegendItem(school, { owned, total }) {
+    const item = document.createElement('li');
+    item.className = 'wall-legend__item';
+    item.dataset.school = school;
+    item.title = schoolGradeName(school);
+
+    const label = document.createElement('span');
+    label.lang = 'ja';
+    label.textContent = schoolGradeShort(school);
+
+    const count = document.createElement('span');
+    count.className = 'wall-legend__count';
+    count.textContent = `${owned}/${total}`;
+
+    item.append(label, count);
+    return item;
+}
+
+async function renderKanjiWall(cards, byCard) {
+    const sheet = await loadKanjiSheet();
+
+    if (!sheet) {
+        wallNote.textContent = 'Could not load Kanji data.';
+        return;
+    }
+
+    const best = bestGradeByCharacter(cards, byCard);
+    const cells = wallCells(best, sheet, inJoyo);
+
+    if (wallCellEls.length === 0) buildWall(cells);
+    paintWall(cells, kanjiCardIds(cards));
+
+    const groups = [...wallGroups(cells)];
+
+    wallLegend.replaceChildren(
+        ...groups.map(([school, group]) => wallLegendItem(school, group)),
+    );
+
+    const { owned, total, outside } = listProgress(best, sheet, inJoyo);
+
+    wallNote.textContent =
+        `${owned.toLocaleString()} of ${total.toLocaleString()} Jōyō kanji in your collection.`
+        + (outside ? ` +${plural(outside, 'kanji card')} outside the Jōyō list.` : '');
+
+    wallDesc.textContent = 'Jōyō kanji by school grade. '
+        + groups.map(([school, g]) => `${schoolGradeName(school)}: ${g.owned} of ${g.total}`).join('; ')
+        + '.';
+}
+
 
 const LEVELS = 4;
 

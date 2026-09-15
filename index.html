@@ -467,6 +467,7 @@
 
             <nav class="stats-contents" aria-label="Stats sections">
                 <a href="#panel-kanji">Kanji</a>
+                <a href="#panel-wall">Jōyō wall</a>
                 <a href="#panel-activity">Activity</a>
                 <a href="#panel-type">By type</a>
                 <a href="#panel-tags">By tag</a>
@@ -498,6 +499,30 @@
 
                     <p class="stat-panel__note" id="kanji-donut-note"></p>
                 </section>
+
+                <section class="stat-panel" id="panel-wall">
+                    <h4 class="stat-panel__title">Jōyō kanji</h4>
+                    <p class="stat-panel__note">
+                        All 2,136, in the order schools teach them. Same colors as the donut.
+                        Click a kanji you have to open its card.
+                    </p>
+
+                    <ul class="wall-legend" id="wall-legend" role="list"></ul>
+                    <p class="stat-panel__note" id="wall-note"></p>
+
+                    <details class="wall-toggle">
+                        <summary class="wall-toggle__summary">
+                            <span class="wall-toggle__show">Show Kanji Wall</span>
+                            <span class="wall-toggle__hide">Hide Kanji Wall</span>
+                        </summary>
+
+                        <figure class="stat-panel__figure">
+                            <div class="wall" id="kanji-wall" aria-hidden="true"></div>
+                            <figcaption class="visually-hidden" id="wall-desc"></figcaption>
+                        </figure>
+                    </details>
+                </section>
+
             </section>
 
             <!-- ==== In a period ==== -->

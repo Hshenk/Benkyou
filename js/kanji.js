@@ -32,3 +32,16 @@ export function meaningText(entry) {
 export function inTop2500(entry) {
     return entry?.freq != null;
 }
+
+// One of the 2, 136 Joyo kanji
+export function inJoyo(entry) {
+    return entry?.grade != null;
+}
+
+export function schoolGradeName(grade) {
+    return grade === 'S' ? 'Secondary school' : `Grade ${grade}`;
+}
+
+export function schoolGradeShort(grade) {
+    return grade === 'S' ? '中学' : `${grade}年`;
+}
