@@ -374,3 +374,85 @@ export function wallGroups(cells) {
 
     return groups;
 }
+
+// --- Studied over time ---
+const BUCKET_DAY_LIMIT = 45;
+const BUCKET_WEEK_LIMIT = 180;
+
+export function bucketSizeFor(spanDays) {
+    if (spanDays <= BUCKET_DAY_LIMIT) return 'day';
+    if (spanDays <= BUCKET_WEEK_LIMIT) return 'week';
+    return 'month';
+}
+
+function bucketStart(date, size) {
+    const d = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+
+    if (size === 'week') d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+    if (size === 'month') d.setDate(1);
+
+    return d;
+}
+
+function nextBucket (start, size) {
+    const d = new Date(start);
+    if (size === 'day') d.setDate(d.getDate() + 1);
+    if (size === 'week') d.setDate(d.getDate() + 7);
+    if (size === 'month') d.setMonth(d.getMonth() + 1);
+
+    return d;
+}
+
+/**
+ * Cards studied per day, week, or month split into new and review
+ */
+export function studiedOverTime(log, range, now = new Date()) {
+    const ordered = [...log].sort((a, b) => new Date(a.startedAt) - new Date(b.startedAt));
+    const today = bucketStart(now, 'day');
+
+    // First day of the period
+    let first = today;
+    const days = RANGE_DAYS[range];
+
+    if (days != null) {
+        first = new Date(today);
+        first.setDate(first.getDate() - (days - 1));
+    } else if (ordered.length > 0) {
+        first = bucketStart(new Date(ordered[0].startedAt), 'day');
+    }
+
+    const span = dayNumber(localDay(today)) - dayNumber(localDay(first)) + 1;
+    const size = bucketSizeFor(span);
+
+    // Every bucket exists before anything is counted so a gap is a real zero
+    const buckets = [];
+    const byKey = new Map();
+
+    for (let start = bucketStart(first, size); start <= today; start = nextBucket(start, size)) {
+        const bucket = { start, newCards: 0, reviews: 0 };
+        buckets.push(bucket);
+        byKey.set(localDay(start), bucket);
+    }
+
+    const seen = new Set();
+
+    for (const session of ordered) {
+        const when = new Date(session.startedAt);
+        const bucket = when >= first ? byKey.get(localDay(bucketStart(when, size))) : undefined;
+
+        for (const row of session.results) {
+            const isNew = !seen.has(row.id);
+            seen.add(row.id);
+
+            if (!bucket) continue;
+
+            if (isNew) {
+                bucket.newCards += 1;
+            } else {
+                bucket.reviews += 1;
+            }
+        }
+    }
+
+    return { size, buckets };
+}

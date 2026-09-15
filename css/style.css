@@ -125,6 +125,11 @@ legend {
   --heat-2: #977523;
   --heat-3: #c69f32;
   --heat-4: #f5cd43;
+
+   /* --- Series: cards studied over time --- */
+  --series-new:    #70ddb1;
+  --series-review: #798898;
+
 }
 
 
@@ -1687,4 +1692,22 @@ kbd {
 .wall-toggle[open] .wall-toggle__show,
 .wall-toggle:not([open]) .wall-toggle__hide {
     display: none;
+}
+
+/* --- Line chart --- */
+.series-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    list-style: none;
+    margin: var(--space-2) 0;
+    padding: 0;
+}
+
+.legend__item[data-series="new"]::before    { background: var(--series-new); }
+.legend__item[data-series="review"]::before { background: var(--series-review); }
+
+.line-chart {
+    height: 220px;
+    position: relative;       /* Chart.js sizes the canvas to this box */
 }

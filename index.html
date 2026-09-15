@@ -468,6 +468,7 @@
             <nav class="stats-contents" aria-label="Stats sections">
                 <a href="#panel-kanji">Kanji</a>
                 <a href="#panel-wall">Jōyō wall</a>
+                <a href="#panel-studied">Cards studied</a>
                 <a href="#panel-activity">Activity</a>
                 <a href="#panel-type">By type</a>
                 <a href="#panel-tags">By tag</a>
@@ -546,6 +547,28 @@
                 <p class="empty" id="stats-empty" hidden>
                     No study sessions in this period.
                 </p>
+
+                <section class="stat-panel" id="panel-studied">
+                    <h4 class="stat-panel__title">Cards studied</h4>
+                    <p class="stat-panel__note">
+                        Each card counts once per session. 'New' means the first session you ever studied it.
+                    </p>
+
+                    <ul class="series-legend" role="list">
+                        <li class="legend__item" data-series="new">New</li>
+                        <li class="legend__item" data-series="review">Review</li>
+                    </ul>
+
+                    <figure class="stat-panel__figure">
+                        <div class="line-chart">
+                            <canvas id="studied-chart" role="img"></canvas>
+                        </div>
+                        <figcaption class="visually-hidden" id="studied-desc"></figcaption>
+                    </figure>
+
+                    <p class="stat-panel__note" id="studied-note"></p>
+                </section>
+
 
                 <section class="stat-panel" id="panel-activity">
                     <h4 class="stat-panel__title">Activity</h4>

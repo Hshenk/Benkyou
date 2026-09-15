@@ -18,6 +18,11 @@ export function cssVar(name) {
     return getComputedStyle(document.documentElement).getPropertyValue(name).trim()
 }
 
+export function withAlpha(hex, alpha) {
+    const n = parseInt(hex.replace('#', ''), 16);
+    return `rgba(${(n >> 16) & 255}, ${(n >> 8) & 255}, ${n & 255}, ${alpha})`;
+}
+
 function applyTheme(Chart) {
     const d = Chart.defaults;
 

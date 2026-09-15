@@ -2,10 +2,10 @@ import { getCards, getSessions, onChange } from '../storage.js';
 import { cardText } from '../card.js';
 import { renderJapanese } from '../render.js';
 import { loadKanjiSheet, inTop2500, inJoyo, schoolGradeName, schoolGradeShort } from '../kanji.js';
-import { drawChart, cssVar } from '../charts.js';
+import { drawChart, cssVar, withAlpha } from '../charts.js';
 import { sessionsIn, totals, streak, cardStats, gradeFor, activityByDay, localDay,
     RANGE_DAYS, GRADES, GRADE_LABELS, gradeCounts, groupByType, namespacesOf, groupByNamespace,
-    hardest, trendingDown, bestGradeByCharacter, listProgress, wallCells, wallGroups,
+    hardest, trendingDown, bestGradeByCharacter, listProgress, wallCells, wallGroups, studiedOverTime,
 } from '../stats.js';
 
 
@@ -30,6 +30,10 @@ const wallEl = document.querySelector('#kanji-wall');
 const wallLegend = document.querySelector('#wall-legend');
 const wallDesc = document.querySelector('#wall-desc');
 const wallNote = document.querySelector('#wall-note');
+const studiedCanvas = document.querySelector('#studied-chart');
+const studiedDesc = document.querySelector('#studied-desc');
+const studiedNote = document.querySelector('#studied-note');
+
 
 
 
@@ -106,6 +110,7 @@ function render() {
     renderKanjiWall(cards, allByCards);
 
     // In a period
+    renderStudied(log, range);
     renderHeatmap(sessions, range);
     renderTypeBars(cards, byCard);
     renderTagBars(cards, byCard);
@@ -404,6 +409,120 @@ async function renderKanjiWall(cards, byCard) {
     wallDesc.textContent = 'Jōyō kanji by school grade. '
         + groups.map(([school, g]) => `${schoolGradeName(school)}: ${g.owned} of ${g.total}`).join('; ')
         + '.';
+}
+
+// --- Cards studied over time ---
+function bucketLabel(start, size) {
+    if (size === 'month') {
+        return start.toLocaleDateString(undefined, { month: 'short', year: 'numeric' });
+    }
+    return start.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+}
+
+function bucketTitle(start, size) {
+    if (size === 'week') return `Week of ${bucketLabel(start, size)}`;
+    if (size === 'month') {
+        return start.toLocaleDateString(undefined, { month: 'long', year: 'numeric' });
+    }
+    return start.toLocaleDateString(undefined, { weekday: 'short', month: 'short', day: 'numeric' });
+}
+
+async function renderStudied(log, range) {
+    const { size, buckets } = studiedOverTime(log, range);
+
+    const newCards = buckets.map((b) => b.newCards);
+    const reviews = buckets.map((b) => b.reviews);
+
+    const totalNew = newCards.reduce((sum, n) => sum + n, 0);
+    const totalReviews = reviews.reduce((sum, n) => sum + n, 0);
+
+    // --- Text ---
+    const busiest = buckets.reduce((best, b) =>
+        b.newCards + b.reviews > best.newCards + best.reviews ? b : best);
+    const busiestTotal = busiest.newCards + busiest.reviews;
+
+    studiedNote.textContent = busiestTotal === 0
+        ? 'Nothing studied in this period.'
+        : `${plural(totalNew, 'new card')} and ${plural(totalReviews, 'review')}, one point per ${size}. `
+          + `Busiest: ${bucketTitle(busiest.start, size)}, ${plural(busiestTotal, 'card')}.`;
+
+    studiedCanvas.setAttribute('aria-label',
+        `Cards studied per ${size}: ${totalNew} new, ${totalReviews} reviews.`);
+
+    studiedDesc.textContent = `Cards studied per ${size}. `
+        + buckets
+            .filter((b) => b.newCards + b.reviews > 0)
+            .map((b) => `${bucketTitle(b.start, size)}: ${b.newCards} new, ${b.reviews} reviews`)
+            .join('; ');
+
+    // --- The chart ---
+    const newColor = cssVar('--series-new');
+    const reviewColor = cssVar('--series-review');
+
+    const chart = await drawChart(studiedCanvas, {
+        type: 'line',
+        data: {
+            labels: buckets.map((b) => bucketLabel(b.start, size)),
+            datasets: [
+                {
+                    label: 'Review',
+                    data: reviews,
+                    borderColor: reviewColor,
+                    backgroundColor: withAlpha(reviewColor, 0.18),
+                    fill: 'origin',
+                },
+                {
+                    label: 'New',
+                    data: newCards,
+                    borderColor: newColor,
+                    backgroundColor: withAlpha(newColor, 0.22),
+                    fill: '-1',
+                },
+            ],
+        },
+        options: {
+            maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            elements: {
+                line: { borderWidth: 2, tension: 0 },
+                point: { radius: buckets.length === 1 ? 4 : 0, hoverRadius: 4, hitRadius: 12 },
+            },
+            scales: {
+                x: {
+                    grid: { display: false },
+                    ticks: { autoSkip: true, maxTicksLimit: 8, maxRotation: 0 },
+                },
+                y: {
+                    stacked: true,
+                    beginAtZero: true,
+                    border: { display: false },
+                    grid: { color: cssVar('--border') },
+                    ticks: { precision: 0, maxTicksLimit: 5 },
+                },
+            },
+            plugins: {
+                tooltip: {
+                    // New is drawn on top, so list it first
+                    itemSort: (a, b) => b.datasetIndex - a.datasetIndex,
+                    footerColor: cssVar('--text-muted'),
+                    footerFont: { weight: 'normal' },
+                    callbacks: {
+                        title: (items) => bucketTitle(buckets[items[0].dataIndex].start, size),
+                        label: (ctx) => ` ${ctx.dataset.label}: ${ctx.parsed.y}`,
+                        labelColor: (ctx) => ({
+                            borderColor: ctx.dataset.borderColor,
+                            backgroundColor: ctx.dataset.borderColor,
+                        }),
+                        footer: (items) => `Total: ${items.reduce((sum, i) => sum + i.parsed.y, 0)}`,
+                    },
+                },
+            },
+        },
+    });
+
+    if (!chart) {
+        studiedNote.textContent = `${studiedNote.textContent} Chart unavailable.`.trim();
+    }
 }
 
 
