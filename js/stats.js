@@ -293,3 +293,46 @@ export function stalest(cards, byCard, limit) {
             || (a.createdAt ?? '').localeCompare(b.createdAt ?? ''))
         .slice(0, limit);
 }
+
+export function bestGradeByCharacter(cards, byCard) {
+    const best = new Map();
+
+    for (const card of cards) {
+        if (card.type !== 'kanji') continue;
+
+        const character = card.data?.character?.trim();
+        if (!character) continue;
+
+        const grade = gradeFor(byCard.get(card.id));
+        const current = best.get(character);
+
+        if (!current || GRADES.indexOf(grade) > GRADES.indexOf(current)) {
+            best.set(character, grade);
+        }
+    }
+
+    return best;
+}
+
+export function listProgress(best, sheet, inList) {
+    let total = 0;
+    for (const entry of Object.values(sheet)) {
+        if (inList(entry)) total += 1;
+    }
+
+    const counts = Object.fromEntries(GRADES.map((g) => [g, 0]));
+    let outside = 0;
+
+    for (const [character, grade] of best) {
+        const entry = sheet[character];
+
+        if (entry && inList(entry)) {
+            counts[grade] += 1;
+        } else {
+            outside += 1;
+        }
+    }
+
+    const owned = Object.values(counts).reduce((sum, n) => sum + n, 0);
+    return { counts, owned, missing: total - owned, outside, total };
+}

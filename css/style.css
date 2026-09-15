@@ -113,11 +113,18 @@ legend {
   --hl-yellow-bg: rgb(220 180 90 / 0.18);
 
   /* --- Grades --- */
-  --grade-unstudied: #454545;
-  --grade-learning:  #6f7d8c;
-  --grade-shaky:     #b5646a;
-  --grade-familiar:  #c9a15e;
-  --grade-mastered:  #7fa86f;
+  --kanji-empty:     #303030;
+  --grade-unstudied: #5d5d5d;
+  --grade-learning:  #5788c7;
+  --grade-shaky:     #d88445;
+  --grade-familiar:  #7ec9ed;
+  --grade-mastered:  #f2e075;
+
+  /* --- Activity heatmap: one hue, brighter = more reps --- */
+  --heat-1: #68521e;
+  --heat-2: #977523;
+  --heat-3: #c69f32;
+  --heat-4: #f5cd43;
 }
 
 
@@ -1160,20 +1167,12 @@ kbd {
 }
 
 /* ------ Stats ------ */
-.stats-range {
-    color: var(--text-muted);
-    display: flex;
-    align-items: center;
-    gap: var(--space-2);
-}
-
-.stats-range select,
 .focus-bar__field select {
     background: var(--surface-2);
     border: 1px solid var(--border);
     border-radius: 4px;
     color: var(--text);
-    padding: 4px (var--space-2);
+    padding: 4px var(--space-2);
 }
 
 .stats-lead {
@@ -1269,6 +1268,10 @@ kbd {
 .legend__item[data-grade="shaky"]::before    { background: var(--grade-shaky); }
 .legend__item[data-grade="familiar"]::before { background: var(--grade-familiar); }
 .legend__item[data-grade="mastered"]::before { background: var(--grade-mastered); }
+.legend__item[data-grade="empty"]::before {
+    background: var(--kanji-empty);
+    box-shadow: inset 0 0 0 1px var(--border);
+}
 
 .stat-panel {
     border-top: 1px solid var(--border);
@@ -1357,10 +1360,11 @@ kbd {
 }
 
 .heatmap__day { background: var(--surface-2); }
-.heatmap__day[data-level="1"] { background: rgb(127 168 111 / 0.30); }
-.heatmap__day[data-level="2"] { background: rgb(127 168 111 / 0.55); }
-.heatmap__day[data-level="3"] { background: rgb(127 168 111 / 0.78); }
-.heatmap__day[data-level="4"] { background: var(--grade-mastered); }
+.heatmap__day[data-level="1"] { background: var(--heat-1); }
+.heatmap__day[data-level="2"] { background: var(--heat-2); }
+.heatmap__day[data-level="3"] { background: var(--heat-3); }
+.heatmap__day[data-level="4"] { background: var(--heat-4); }
+
 
 /* --- Card lines --- */
 .card-lines {
@@ -1409,6 +1413,106 @@ kbd {
     font-size: 13px;
     font-variant-numeric: tabular-nums;
 }
+
+/* --- Stats sections --- */
+.stats-section {
+    margin-top: var(--space-5);
+}
+
+.stats-section__head {
+    align-items: baseline;
+    border-bottom: 2px solid var(--border-strong);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-3);
+    justify-content: space-between;
+    padding-bottom: var(--space-2);
+}
+
+.stats-section__title {
+    align-items: baseline;
+    display: flex;
+    font-size: 22px;
+    gap: var(--space-2);
+    margin: 0;
+}
+
+.stats-section__title select {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    color: var(--text);
+    font: inherit;
+    padding: 0 var(--space-2);
+}
+
+.stats-section__scope {
+    color: var(--text-faint);
+    font-size: 13px;
+    margin: 0;
+}
+
+/* The heading's rule already separates the first panel from it */
+.stats-section__head + .stat-panel {
+    border-top: 0;
+}
+
+/* --- Donut --- */
+.donut {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    margin: var(--space-3) 0;
+}
+
+.donut__chart {
+    flex: 0 0 auto;
+    position: relative;       /* Chart.js sizes the canvas to this box */
+    width: min(240px, 100%);
+}
+
+.donut__center {
+    display: grid;
+    inset: 0;
+    margin: 0;
+    place-content: center;
+    pointer-events: none;     /* hovers pass through to the ring */
+    position: absolute;
+    text-align: center;
+}
+
+.donut__value {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+.donut__of {
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
+.donut__legend {
+    display: grid;
+    gap: var(--space-2);
+    list-style: none;
+    margin: 0;
+    min-width: 220px;
+    padding: 0;
+}
+
+.donut__legend .legend__item {
+    font-size: 13px;
+}
+
+.legend__count {
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+    margin-left: auto;
+    padding-left: var(--space-3);
+}
+
 
 /* ------ Kanji autofill ------ */
 .autofill {

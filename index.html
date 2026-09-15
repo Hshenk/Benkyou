@@ -465,27 +465,8 @@
         <section class="view" id="view-stats" hidden>
             <h2 class="view__title">Stats</h2>
 
-            <div class="toolbar">
-                <label class="stats-range">
-                    Showing
-                    <select id="stats-range">
-                        <option value="month">the past month</option>
-                        <option value="quarter">the past 3 months</option>
-                        <option value="year" selected>the past year</option>
-                        <option value="all">all time</option>
-                    </select>
-                </label>
-            </div>
-
-            <p class="stats-lead" id="stats-lead"></p>
-
-            <dl class="stat-grid" id="stat-grid"></dl>
-
-            <p class="empty" id="stats-empty" hidden>
-                No study sessions in this period.
-            </p>
-
             <nav class="stats-contents" aria-label="Stats sections">
+                <a href="#panel-kanji">Kanji</a>
                 <a href="#panel-activity">Activity</a>
                 <a href="#panel-type">By type</a>
                 <a href="#panel-tags">By tag</a>
@@ -493,38 +474,86 @@
                 <a href="#panel-trend">Trending down</a>
             </nav>
 
-            <p class="grade-legend" id="grade-legend"></p>
+            <!-- ==== All time ==== -->
+            <section class="stats-section" aria-labelledby="collection-title">
+                <header class="stats-section__head">
+                    <h3 class="stats-section__title" id="collection-title">Your collection</h3>
+                    <p class="stats-section__scope">All time</p>
+                </header>
 
-            <section class="stat-panel" id="panel-activity">
-                <h3 class="stat-panel__title">Activity</h3>
-                <figure class="stat-panel__figure">
-                    <div class="heatmap" id="heatmap"></div>
-                    <figcaption class="visually-hidden" id="heatmap-desc"></figcaption>
-                </figure>
-                <p class="stat-panel__note" id="heatmap-note"></p>
+                <section class="stat-panel" id="panel-kanji">
+                    <h4 class="stat-panel__title">Kanji</h4>
+                    <p class="stat-panel__note">Progress toward the 2,500 most common kanji.</p>
+
+                    <div class="donut">
+                        <div class="donut__chart">
+                            <canvas id="kanji-donut" role="img"></canvas>
+                            <p class="donut__center" aria-hidden="true">
+                                <span class="donut__value" id="kanji-donut-value">0</span>
+                                <span class="donut__of">of 2,500</span>
+                            </p>
+                        </div>
+                        <ul class="donut__legend" id="kanji-donut-legend" role="list"></ul>
+                    </div>
+
+                    <p class="stat-panel__note" id="kanji-donut-note"></p>
+                </section>
             </section>
 
-            <section class="stat-panel" id="panel-type">
-                <h3 class="stat-panel__title">Mastery by type</h3>
-                <p class="stat-panel__note">Every card counts, including ones you haven't studied.</p>
-                <div class="bar-group" id="type-bars"></div>
-            </section>
+            <!-- ==== In a period ==== -->
+            <section class="stats-section" aria-labelledby="period-title">
+                <header class="stats-section__head">
+                    <h3 class="stats-section__title" id="period-title">
+                        <label for="stats-range">In</label>
+                        <select id="stats-range">
+                            <option value="month">the past month</option>
+                            <option value="quarter">the past 3 months</option>
+                            <option value="year" selected>the past year</option>
+                            <option value="all">all time</option>
+                        </select>
+                    </h3>
+                </header>
 
-            <section class="stat-panel" id="panel-tags">
-                <h3 class="stat-panel__title">Mastery by tag</h3>
-                <p class="stat-panel__note">Best known first. The fraction is mastered over total.</p>
-                <div class="bar-group" id="tag-bars"></div>
-            </section>
+                <p class="stats-lead" id="stats-lead"></p>
 
-            <section class="stat-panel" id="panel-hardest">
-                <h3 class="stat-panel__title">Hardest cards</h3>
-                <ul class="card-lines" id="hardest-list" role="list"></ul>
-            </section>
+                <dl class="stat-grid" id="stat-grid"></dl>
 
-            <section class="stat-panel" id="panel-trend">
-                <h3 class="stat-panel__title">Trending down</h3>
-                <p class="stat-panel__note">Scoring worse recently than they used to.</p>
-                <ul class="card-lines" id="trend-list" role="list"></ul>
+                <p class="empty" id="stats-empty" hidden>
+                    No study sessions in this period.
+                </p>
+
+                <section class="stat-panel" id="panel-activity">
+                    <h4 class="stat-panel__title">Activity</h4>
+                    <figure class="stat-panel__figure">
+                        <div class="heatmap" id="heatmap"></div>
+                        <figcaption class="visually-hidden" id="heatmap-desc"></figcaption>
+                    </figure>
+                    <p class="stat-panel__note" id="heatmap-note"></p>
+                </section>
+
+                <section class="stat-panel" id="panel-type">
+                    <h4 class="stat-panel__title">Mastery by type</h4>
+                    <p class="stat-panel__note">Every card counts, including ones you haven't studied.</p>
+                    <p class="grade-legend" id="grade-legend"></p>
+                    <div class="bar-group" id="type-bars"></div>
+                </section>
+
+                <section class="stat-panel" id="panel-tags">
+                    <h4 class="stat-panel__title">Mastery by tag</h4>
+                    <p class="stat-panel__note">Best known first. The fraction is mastered over total.</p>
+                    <div class="bar-group" id="tag-bars"></div>
+                </section>
+
+                <section class="stat-panel" id="panel-hardest">
+                    <h4 class="stat-panel__title">Hardest cards</h4>
+                    <ul class="card-lines" id="hardest-list" role="list"></ul>
+                </section>
+
+                <section class="stat-panel" id="panel-trend">
+                    <h4 class="stat-panel__title">Trending down</h4>
+                    <p class="stat-panel__note">Scoring worse recently than they used to.</p>
+                    <ul class="card-lines" id="trend-list" role="list"></ul>
+                </section>
             </section>
 
             <template id="bar-row-template">

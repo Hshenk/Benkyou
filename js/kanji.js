@@ -28,3 +28,7 @@ export function levelTag(entry) {
 export function meaningText(entry) {
     return entry?.meanings?.join(', ') ?? '';
 }
+
+export function inTop2500(entry) {
+    return entry?.freq != null;
+}
