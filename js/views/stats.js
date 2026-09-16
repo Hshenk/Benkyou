@@ -7,7 +7,7 @@ import { sessionsIn, sessionsBefore, totals, streak, cardStats, activityByDay,
     localDay, dayNumber, RANGE_DAYS, GRADES, GRADE_LABELS, gradeCounts, groupByType,
     namespacesOf, groupByNamespace, hardest, trendingDown, bestGradeByCharacter,
     listProgress, wallCells, wallGroups, studiedOverTime, lastStudied, gradeChanges,
-    wordCounts, levelBreakdown,
+    wordCounts, levelBreakdown, brushwork,
 } from '../stats.js';
 
 
@@ -47,8 +47,17 @@ const levelCanvas = document.querySelector('#level-donut');
 const levelValue = document.querySelector('#level-donut-value');
 const levelLegend = document.querySelector('#level-donut-legend');
 const levelNote = document.querySelector('#level-donut-note');
-
-
+const brushBody = document.querySelector('#brushwork');
+const brushEmpty = document.querySelector('#brush-empty');
+const brushTotal = document.querySelector('#brush-total');
+const brushSummary = document.querySelector('#brush-summary');
+const brushMeter = document.querySelector('#brush-meter');
+const brushMeterFill = document.querySelector('#brush-meter-fill');
+const brushMastered = document.querySelector('#brush-mastered');
+const heaviestBtn = document.querySelector('#brush-heaviest');
+const heaviestDetail = document.querySelector('#brush-heaviest-detail');
+const lightestBtn = document.querySelector('#brush-lightest');
+const lightestDetail = document.querySelector('#brush-lightest-detail');
 
 
 
@@ -147,6 +156,7 @@ function render() {
     renderTagBars(cards, byCard, allByCards);
     renderHardest(byId, byCard);
     renderTrend(byId, byCard);
+    renderBrushwork(cards, allByCards);
 }
 
 export function initStats(options = {}) {
@@ -183,6 +193,13 @@ export function initStats(options = {}) {
         const btn = event.target.closest('.shift-row__card');
         if (btn) onEdit(btn.dataset.id);
     });
+
+    // Brushwork: the glyphs open their card
+    brushBody.addEventListener('click', (event) => {
+        const glyph = event.target.closest('.brush-glyph__char[data-card]');
+        if (glyph) onEdit(glyph.dataset.card);
+    });
+
 
     onChange(render);
     render();
@@ -533,6 +550,50 @@ async function renderLevels(cards, byCard) {
     }
 }
 
+// --- Brushwork ---
+
+// Fill one glyph bytton and its caption from a group of tied kanji
+function paintGlyph(button, detailEl, group) {
+    const [first] = group;
+    const others = group.length - 1;
+
+    button.textContent = first.character;
+    button.dataset.card = first.card.id;
+    button.setAttribute('aria-label',
+        `${first.character}, ${first.card.meaning}, ${plural(first.strokes, 'stroke')}. Open card.`);
+
+    button.title = others > 0
+        ? `${first.card.meaning} · tied with ${group.slice(1).map((k) => k.character).join(' ')}`
+        : first.card.meaning;
+
+    detailEl.textContent = others > 0
+        ? `${plural(first.strokes, 'stroke')} · tied with ${others} more`
+        : plural(first.strokes, 'stroke');
+}
+
+async function renderBrushwork(cards, byCard) {
+    const sheet = await loadKanjiSheet();
+    const stats = brushwork(cards, byCard, sheet ?? {});
+
+    brushBody.hidden = stats === null;
+    brushEmpty.hidden = stats !== null;
+    if (!stats) return;
+
+    const share = stats.mastered / stats.total;
+    const percent = Math.round(share * 100);
+
+    brushTotal.textContent = stats.total.toLocaleString();
+    brushSummary.textContent =
+        `across ${stats.count.toLocaleString()} kanji, ${stats.average.toFixed(1)} strokes each on average.`;
+
+    brushMeterFill.style.width = `${share * 100}%`;
+    brushMeter.setAttribute('aria-label', `${percent}% of your strokes are in mastered kanji.`);
+    brushMastered.textContent =
+        `${stats.mastered.toLocaleString()} of them in mastered kanji (${percent}%).`;
+
+    paintGlyph(heaviestBtn, heaviestDetail, stats.heaviest);
+    paintGlyph(lightestBtn, lightestDetail, stats.lightest);
+}
 
 // --- Cards studied over time ---
 function bucketLabel(start, size) {

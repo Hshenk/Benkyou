@@ -477,6 +477,7 @@
                 <a href="#panel-tags">By tag</a>
                 <a href="#panel-hardest">Hardest</a>
                 <a href="#panel-trend">Trending down</a>
+                <a href="#section-brushwork">Brushwork</a>
             </nav>
 
             <!-- ==== All time ==== -->
@@ -656,6 +657,49 @@
                     <ul class="card-lines" id="trend-list" role="list"></ul>
                 </section>
             </section>
+
+            <!-- ==== Brushwork ==== -->
+            <section class="stats-section" id="section-brushwork" aria-labelledby="brushwork-title">
+                <header class="stats-section__head">
+                    <h3 class="stats-section__title" id="brushwork-title">Brushwork</h3>
+                </header>
+
+                <div class="brushwork" id="brushwork">
+                    <div class="brushwork__totals">
+                        <p class="brush-figure">
+                            <span class="brush-figure__number" id="brush-total">0</span>
+                            <span class="brush-figure__unit">strokes</span>
+                        </p>
+                        <p class="brushwork__line" id="brush-summary"></p>
+
+                        <div class="brush-meter" id="brush-meter" role="img">
+                            <div class="brush-meter__fill" id="brush-meter-fill"></div>
+                        </div>
+                        <p class="brushwork__line" id="brush-mastered"></p>
+                    </div>
+
+                    <figure class="brush-glyph">
+                        <button class="brush-glyph__char" type="button" id="brush-heaviest" lang="ja"></button>
+                        <figcaption>
+                            <span class="brush-glyph__label">Heaviest</span>
+                            <span class="brush-glyph__detail" id="brush-heaviest-detail"></span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="brush-glyph">
+                        <button class="brush-glyph__char" type="button" id="brush-lightest" lang="ja"></button>
+                        <figcaption>
+                            <span class="brush-glyph__label">Lightest</span>
+                            <span class="brush-glyph__detail" id="brush-lightest-detail"></span>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <p class="stat-panel__empty" id="brush-empty" hidden>
+                    No kanji cards with stroke counts yet.
+                </p>
+</section>
+
 
             <template id="bar-row-template">
                 <div class="bar-row">

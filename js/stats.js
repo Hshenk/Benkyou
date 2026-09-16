@@ -631,3 +631,44 @@ export function levelBreakdown(cards, byCard, levelOf) {
 
     return [...slots.values()];
 }
+
+// --- Brushwork ---
+
+export function brushwork(cards, byCard, sheet) {
+    const best = bestGradeByCharacter(cards, byCard);
+    const byCharacter = new Map();
+
+    for (const card of cards) {
+        if (card.type !== 'kanji') continue;
+
+        const character = card.data?.character?.trim();
+        if (!character || byCharacter.has(character)) continue;
+
+        const strokes = Number(card.data.strokes) || sheet[character]?.strokes;
+        if (strokes > 0) byCharacter.set(character, { character, strokes, card });
+    }
+
+    const kanji = [...byCharacter.values()];
+    if (kanji.length === 0) return null;
+
+    const counts = kanji.map((k) => k.strokes);
+    const most = Math.max(...counts);
+    const least = Math.min(...counts);
+
+    let total = 0;
+    let mastered = 0;
+
+    for (const k of kanji) {
+        total += k.strokes;
+        if (best.get(k.character) === 'mastered') mastered += k.strokes;
+    }
+
+    return {
+        count: kanji.length,
+        total, 
+        average: total / kanji.length,
+        mastered,
+        heaviest: kanji.filter((k) => k.strokes === most),
+        lightest: kanji.filter((k) => k.strokes === least),
+    };
+}

@@ -1659,28 +1659,35 @@ kbd {
 
 /* --- Wall toggle --- */
 .wall-toggle {
-    margin-top: var(--space-2);
+    margin-top: var(--space-3);
 }
 
 .wall-toggle__summary {
     align-items: center;
-    border-radius: var(--radius);
-    color: var(--link);
+    background: var(--surface-1);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-lg);
+    color: var(--text);
     cursor: pointer;
-    display: inline-flex;
-    font-size: 13px;
-    gap: var(--space-1);
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    gap: var(--space-2);
+    justify-content: center;
+    padding: var(--space-3) var(--space-4);
+    transition: background-color 120ms ease, border-color 120ms ease;
     user-select: none;
 }
 
-/* Replace the browser's triangle with one that matches the link color */
 .wall-toggle__summary::-webkit-details-marker {
     display: none;
 }
 
 .wall-toggle__summary::before {
+    color: var(--link);
     content: "▸";
     display: inline-block;
+    font-size: 18px;
     transition: transform 120ms ease;
 }
 
@@ -1689,13 +1696,26 @@ kbd {
 }
 
 .wall-toggle__summary:hover {
-    color: var(--link-hover);
+    background: var(--surface-2);
+    border-color: var(--link);
 }
 
 .wall-toggle__summary:focus-visible {
     outline: 2px solid var(--link);
     outline-offset: 2px;
 }
+
+/* Room between the bar and the wall once it's open */
+.wall-toggle[open] .wall-toggle__summary {
+    margin-bottom: var(--space-3);
+}
+
+.wall-toggle__hint {
+    color: var(--text-faint);
+    font-size: 13px;
+    font-weight: 400;
+}
+
 
 /* Show the label that matches the current state */
 .wall-toggle[open] .wall-toggle__show,
@@ -1856,4 +1876,117 @@ kbd {
 .legend__item[data-level="none"]::before {
     background: var(--jlpt-none);
     box-shadow: inset 0 0 0 1px var(--border);  /* the fill alone is near-invisible */
+}
+
+/* --- Brushwork --- */
+.brushwork {
+    align-items: center;
+    display: grid;
+    gap: var(--space-4) var(--space-5);
+    grid-template-columns: minmax(240px, 1.5fr) repeat(2, minmax(140px, 1fr));
+    margin-top: var(--space-4);
+}
+
+.brushwork[hidden] {
+    display: none;
+}
+
+.brush-figure {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin: 0;
+}
+
+.brush-figure__number {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.brush-figure__unit {
+    color: var(--text-muted);
+    font-size: 17px;
+}
+
+.brushwork__line {
+    color: var(--text-faint);
+    font-size: 13px;
+    margin: var(--space-1) 0 0;
+}
+
+.brush-meter {
+    background: var(--kanji-empty);
+    border-radius: 999px;
+    box-shadow: inset 0 0 0 1px var(--border);
+    height: 8px;
+    margin-top: var(--space-3);
+    overflow: hidden;
+}
+
+.brush-meter__fill {
+    background: var(--grade-mastered);
+    height: 100%;
+    transition: width 400ms ease;
+    width: 0;
+}
+
+.brush-glyph {
+    margin: 0;
+    text-align: center;
+}
+
+.brush-glyph__char {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    color: var(--text);
+    cursor: pointer;
+    display: block;
+    font-family: var(--font-jp-stroke);
+    font-size: 96px;
+    line-height: 1.15;
+    margin: 0 auto var(--space-2);
+    min-width: 1.4em;
+    padding: var(--space-2) var(--space-3);
+}
+
+.brush-glyph__char:hover {
+    border-color: var(--border-strong);
+}
+
+.brush-glyph__char:focus-visible {
+    outline: 2px solid var(--link);
+    outline-offset: 2px;
+}
+
+.brush-glyph__label {
+    color: var(--text-muted);
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.brush-glyph__detail {
+    color: var(--text-faint);
+    display: block;
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+    .brushwork {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .brushwork__totals {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .brush-meter__fill {
+        transition: none;
+    }
 }
