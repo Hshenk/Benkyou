@@ -1,13 +1,15 @@
 import { getCards, getSessions, onChange } from '../storage.js';
 import { cardText } from '../card.js';
 import { renderJapanese } from '../render.js';
-import { loadKanjiSheet, inTop2500, inJoyo, schoolGradeName, schoolGradeShort } from '../kanji.js';
+import { loadKanjiSheet, inTop2500, inJoyo, schoolGradeName, schoolGradeShort, cardLevel } from '../kanji.js';
 import { drawChart, cssVar, withAlpha } from '../charts.js';
 import { sessionsIn, sessionsBefore, totals, streak, cardStats, activityByDay,
     localDay, dayNumber, RANGE_DAYS, GRADES, GRADE_LABELS, gradeCounts, groupByType,
     namespacesOf, groupByNamespace, hardest, trendingDown, bestGradeByCharacter,
     listProgress, wallCells, wallGroups, studiedOverTime, lastStudied, gradeChanges,
+    wordCounts, levelBreakdown,
 } from '../stats.js';
+
 
 const rangeSelect = document.querySelector('#stats-range');
 const leadEl = document.querySelector('#stats-lead');
@@ -38,6 +40,13 @@ const promotedEl = document.querySelector('#promoted-count');
 const demotedEl = document.querySelector('#demoted-count');
 const startedEl = document.querySelector('#started-count');
 const shiftList = document.querySelector('#shift-list');
+const wordsLearnedEl = document.querySelector('#words-learned');
+const wordsUnitEl = document.querySelector('#words-unit');
+const wordsNote = document.querySelector('#words-note');
+const levelCanvas = document.querySelector('#level-donut');
+const levelValue = document.querySelector('#level-donut-value');
+const levelLegend = document.querySelector('#level-donut-legend');
+const levelNote = document.querySelector('#level-donut-note');
 
 
 
@@ -125,8 +134,10 @@ function render() {
     const byId = new Map(cards.map((c) => [c.id, c]));
 
     // All time
+    renderWords(cards, allByCards);
     renderKanjiDonut(cards, allByCards);
     renderKanjiWall(cards, allByCards);
+    renderLevels(cards, allByCards);
 
     // In a period
     renderStudied(log, range);
@@ -236,7 +247,52 @@ function renderLegend() {
     }));
 }
 
+// --- Words Learned ---
+
+async function renderWords(cards, byCard) {
+    const sheet = await loadKanjiSheet();
+    const { learned, total } = wordCounts(cards, byCard, sheet ?? {});
+
+    wordsLearnedEl.textContent = learned.toLocaleString();
+    wordsUnitEl.textContent = learned === 1 ? 'word learned' : 'words learned';
+
+    wordsNote.textContent =
+        `of ${plural(total, 'word')} in your collection, counting vocab cards and kanji `
+        + 'that are words on their own. Learned means Familiar or Mastered.'
+        + (sheet ? '' : " Kanji readings came from your cards, because the datasheet didn't load.");
+}
+
+
 // --- Kanji Donut ---
+//The template both donuts use
+function drawDonut(canvas, { labels, values, colors, tooltip }) {
+    return drawChart(canvas, {
+        type: 'doughnut',
+        data: {
+            labels,
+            datasets: [{
+                data: values,
+                backgroundColor: colors,
+                borderWidth: 0,
+                hoverOffset: 6,
+            }],
+        },
+        options: {
+            aspectRatio: 1,
+            cutout: '74%',
+            layout: { padding: 6 },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: (ctx) => tooltip(ctx.dataIndex),
+                    },
+                },
+            },
+        },
+    });
+}
+
+
 const DONUT_ORDER = ['mastered', 'familiar', 'shaky', 'learning', 'unstudied', 'empty'];
 const DONUT_LABELS = { ...GRADE_LABELS, empty: 'Not in your collection' };
 
@@ -263,11 +319,12 @@ async function renderKanjiDonut(cards, byCard) {
     if (!sheet) {
         donutLegend.replaceChildren();
         donutValue.textContent = '—';
-        donutNote.textContent = "Could not load Kanji data.";
+        donutNote.textContent = 'Could not load Kanji data.';
         return;
     }
 
     const progress = listProgress(bestGradeByCharacter(cards, byCard), sheet, inTop2500);
+
     const values = DONUT_ORDER.map((slot) =>
         slot === 'empty' ? progress.missing : progress.counts[slot]);
 
@@ -285,42 +342,25 @@ async function renderKanjiDonut(cards, byCard) {
     donutCanvas.setAttribute('aria-label',
         `Kanji progress: ${progress.owned} of ${progress.total.toLocaleString()} `
         + `in your collection, ${progress.counts.mastered} mastered.`);
-    
-    // --- The Chart ---
-    const chart = await drawChart(donutCanvas, {
-        type: 'doughnut',
-        data: {
-            labels: DONUT_ORDER.map((slot) => DONUT_LABELS[slot]),
-            datasets: [{
-                data: values,
-                backgroundColor: DONUT_ORDER.map((slot) => cssVar(tokenFor(slot))),
-                borderWidth: 0,
-                hoverOffset: 6,
-            }],
-        },
-        options: {
-            aspectRatio: 1,
-            cutout: '74%',
-            layout: { padding: 6 },
-            plugins: {
-                tooltip: {
-                    callbacks: {
-                        label: (ctx) => {
-                            const pct = (ctx.parsed / progress.total) * 100;
-                            const shown = ctx.parsed > 0 && pct < 0.1 ? '<0.1' : pct.toFixed(1);
-                            return ` ${ctx.label}: ${ctx.parsed.toLocaleString()} (${shown}%)`;
-                        },
-                    },
-                },
-            },
+
+    // --- The chart ---
+    const chart = await drawDonut(donutCanvas, {
+        labels: DONUT_ORDER.map((slot) => DONUT_LABELS[slot]),
+        values,
+        colors: DONUT_ORDER.map((slot) => cssVar(tokenFor(slot))),
+        tooltip: (i) => {
+            const n = values[i];
+            const pct = (n / progress.total) * 100;
+            const shown = n > 0 && pct < 0.1 ? '<0.1' : pct.toFixed(1);
+            return ` ${DONUT_LABELS[DONUT_ORDER[i]]}: ${n.toLocaleString()} (${shown}%)`;
         },
     });
 
     if (!chart) {
         donutNote.textContent = `${donutNote.textContent} Chart unavailable — the counts beside it are complete.`.trim();
     }
-
 }
+
 
 // --- Kanji Wall ---
 let wallCellEls = [];
@@ -448,6 +488,51 @@ async function renderKanjiWall(cards, byCard) {
         + groups.map(([school, g]) => `${schoolGradeName(school)}: ${g.owned} of ${g.total}`).join('; ')
         + '.';
 }
+
+// --- JLPT Levels ---
+
+const levelLabel = (level) => (level == null ? 'No level' : `N${level}`);
+const levelToken = (level) => (level == null ? '--jlpt-none' : `--jlpt-${level}`);
+
+function levelLegendItem({ level, total }) {
+    const item = document.createElement('li');
+    item.className = 'legend__item';
+    item.dataset.level = level ?? 'none';
+    item.append(levelLabel(level));
+
+    const count = document.createElement('span');
+    count.className = 'legend__count';
+    count.textContent = total.toLocaleString();
+    item.append(count);
+
+    return item;
+}
+
+async function renderLevels(cards, byCard) {
+    const slots = levelBreakdown(cards, byCard, cardLevel);
+    const tagged = slots.reduce((sum, slot) => (slot.level == null ? sum : sum + slot.total), 0);
+
+    // --- Text ---
+    levelValue.textContent = tagged.toLocaleString();
+    levelLegend.replaceChildren(...slots.map(levelLegendItem));
+    levelNote.textContent = '';
+
+    levelCanvas.setAttribute('aria-label', 'Cards by JLPT level: '
+        + slots.map((slot) => `${levelLabel(slot.level)} ${slot.total}`).join(', ') + '.');
+
+    // --- The chart ---
+    const chart = await drawDonut(levelCanvas, {
+        labels: slots.map((slot) => levelLabel(slot.level)),
+        values: slots.map((slot) => slot.total),
+        colors: slots.map((slot) => cssVar(levelToken(slot.level))),
+        tooltip: (i) => ` ${levelLabel(slots[i].level)}: ${plural(slots[i].total, 'card')} · ${slots[i].mastered} mastered`,
+    });
+
+    if (!chart) {
+        levelNote.textContent = 'Chart unavailable — the counts beside it are complete.';
+    }
+}
+
 
 // --- Cards studied over time ---
 function bucketLabel(start, size) {

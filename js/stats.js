@@ -5,6 +5,7 @@
  */
 import { TYPE_LABELS } from "./card.js";
 import { canonicalTag, splitTag } from "./tags.js";
+import { tokenize, plainText } from "./tokenize.js";
 
 // --- Scoring ---
 
@@ -547,4 +548,86 @@ export function gradeChanges(cards, beforeByCard, afterByCard) {
         || b.cards.length - a.cards.length);                // then the most cards
 
     return { promoted, demoted, started, transitions };
+}
+
+// --- Words ---
+
+// Grades that count as a learned word
+const LEARNED = new Set(['familiar', 'mastered']);
+
+// A vocab expression stripped of furigana and spaces
+export function baseText(expression) {
+    return plainText(tokenize(expression ?? '')).replace(/\s+/g, '');
+}
+
+// A kun'yomi with no okurigana and no affix is a word by itself
+function standsAlone(kunyomi) {
+    return (kunyomi ?? []).some((reading) => !reading.includes('.') && !reading.includes('-'));
+}
+
+/**
+ * { learned, total } words in the collection
+ * Vocab counts as base text. A kanji counts only if it has standalone kun'yomi and does not match exactly with a vocab card.
+ */
+export function wordCounts(cards, byCard, sheet) {
+    const rank = (grade) => GRADES.indexOf(grade);
+    const words = new Map();
+
+    const add = (word, grade) => {
+        const current = words.get(word);
+        if (current === undefined || rank(grade) > rank(current)) words.set(word, grade);
+    };
+
+    // 1. Vocab Cards
+    for (const card of cards) {
+        if (card.type !== 'vocab') continue;
+
+        const word = baseText(card.data?.expression);
+        if (word) add(word, gradeFor(byCard.get(card.id)));
+    }
+
+    const vocabWords = new Set(words.keys());
+
+    // Card kun'yomi for kanji the sheet doesn't have
+    const cardKunyomi = new Map();
+    for (const card of cards) {
+        const character = card.type === 'kanji' ? card.data?.character?.trim() : '';
+        if (character && !cardKunyomi.has(character)) cardKunyomi.set(character, card.data.kunyomi);
+    }
+
+    // 2. Kanji that is standalone 
+    for (const [character, grade] of bestGradeByCharacter(cards, byCard)) {
+        if (vocabWords.has(character)) continue;
+
+        const kunyomi = sheet[character]?.kun ?? cardKunyomi.get(character);
+        if (standsAlone(kunyomi)) add(character, grade);
+    }
+
+    let learned = 0;
+    for (const grade of words.values()) {
+        if (LEARNED.has(grade)) learned += 1;
+    }
+
+    return { learned, total: words.size };
+}
+
+// --- JLPT Levels ---
+
+// N5 first; null is no tag
+export const LEVEL_ORDER = [5, 4, 3, 2, 1, null];
+
+/**
+ * [{ level, total, mastered }] in LEVEL_ORDER.
+ */
+export function levelBreakdown(cards, byCard, levelOf) {
+    const slots = new Map(LEVEL_ORDER.map((level) => [level, { level, total: 0, mastered: 0 }]));
+
+    for (const card of cards) {
+        const slot = slots.get(levelOf(card) ?? null);
+
+        slot.total += 1;
+        if (gradeFor(byCard.get(card.id)) === 'mastered') slot.mastered += 1;
+    }
+
+    return [...slots.values()];
 }

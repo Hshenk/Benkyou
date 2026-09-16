@@ -1,6 +1,7 @@
 /**
  * kanji.js - This is the only file that directly access the kanji data in data/kanji.js
  */
+import { splitTag, canonicalTag } from './tags.js';
 
 const kanjiData = './data/kanji.js';
 
@@ -44,4 +45,19 @@ export function schoolGradeName(grade) {
 
 export function schoolGradeShort(grade) {
     return grade === 'S' ? '中学' : `${grade}年`;
+}
+
+// A card's easiest tagged JLPT Level (5-1)
+export function cardLevel(card) {
+    let easiest = null;
+
+    for (const tag of card.tags ?? []) {
+        const { namespace, value } = splitTag(canonicalTag(tag));
+        if (namespace !== LEVEL_NAMESPACE) continue;
+
+        const match = /^N([1-5])$/.exec(value);
+        if (match) easiest = Math.max(easiest ?? 0, Number(match[1]));
+    }
+
+    return easiest;
 }

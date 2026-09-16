@@ -466,8 +466,10 @@
             <h2 class="view__title">Stats</h2>
 
             <nav class="stats-contents" aria-label="Stats sections">
+                <a href="#panel-words">Words</a>
                 <a href="#panel-kanji">Kanji</a>
                 <a href="#panel-wall">Jōyō wall</a>
+                <a href="#panel-levels">JLPT levels</a>
                 <a href="#panel-studied">Cards studied</a>
                 <a href="#panel-promotions">Promotions</a>
                 <a href="#panel-activity">Activity</a>
@@ -483,6 +485,14 @@
                     <h3 class="stats-section__title" id="collection-title">Your collection</h3>
                     <p class="stats-section__scope">All time</p>
                 </header>
+
+                <div class="words-figure" id="panel-words">
+                    <p class="words-figure__value">
+                        <span class="words-figure__number" id="words-learned">0</span>
+                        <span class="words-figure__unit" id="words-unit">words learned</span>
+                    </p>
+                    <p class="words-figure__note" id="words-note"></p>
+                </div>
 
                 <section class="stat-panel" id="panel-kanji">
                     <h4 class="stat-panel__title">Kanji</h4>
@@ -524,6 +534,27 @@
                         </figure>
                     </details>
                 </section>
+
+                <section class="stat-panel" id="panel-levels">
+                    <h4 class="stat-panel__title">JLPT levels</h4>
+                    <p class="stat-panel__note">
+                        Every card by its Level tag. A card with two counts at the easier one.
+                    </p>
+
+                    <div class="donut">
+                        <div class="donut__chart">
+                            <canvas id="level-donut" role="img"></canvas>
+                            <p class="donut__center" aria-hidden="true">
+                                <span class="donut__value" id="level-donut-value">0</span>
+                                <span class="donut__of">cards tagged</span>
+                            </p>
+                        </div>
+                        <ul class="donut__legend" id="level-donut-legend" role="list"></ul>
+                    </div>
+
+                    <p class="stat-panel__note" id="level-donut-note"></p>
+                </section>
+
 
             </section>
 

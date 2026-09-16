@@ -1,7 +1,7 @@
 import { TYPE_LABELS } from "./card.js";
 import { kanaText, tokenize } from "./tokenize.js";
 import { splitTag, canonicalTag } from "./tags.js";
-import { LEVEL_NAMESPACE } from "./kanji.js";
+import { cardLevel } from "./kanji.js";
 
 const jaCollator = new Intl.Collator('ja');
 const enCollator = new Intl.Collator('en', { sensitivity: 'base' }); // currently unused, but left in case we later sort by english meaning
@@ -15,14 +15,6 @@ export const SORTS = [
     { id: 'accuracy', label: 'Accuracy', key: accuracyKey },
 ];
 
-// Set up the order each N-level should sort to
-const LEVELS = new Map();
-LEVELS.set("N5", 0);
-LEVELS.set("N4", 1);
-LEVELS.set("N3", 2);
-LEVELS.set("N2", 3);
-LEVELS.set("N1", 4);
-
 function addedKey(card) {
     return card.createdAt ?? null;
 }
@@ -32,18 +24,8 @@ function typeKey(card) {
 }
 
 function levelKey(card) {
-    const levelTags = new Set();
-    for (const tag of card.tags ?? []) {
-        const { namespace, value } = splitTag(canonicalTag(tag));
-
-        if (namespace === LEVEL_NAMESPACE) {
-            const level = LEVELS.get(value) ?? null;
-                if (level !== null) {
-                levelTags.add(level);
-            }
-        }
-    }
-    return levelTags.size === 0 ? null : Math.min(...levelTags);
+    const level = cardLevel(card);
+    return level == null ? null : 5 - level;
 }
 
 function accuracyKey(card) {

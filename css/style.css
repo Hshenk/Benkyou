@@ -130,6 +130,14 @@ legend {
   --series-new:    #70ddb1;
   --series-review: #798898;
 
+  /* --- JLPT Levels --- */
+  --jlpt-5:    #715391;
+  --jlpt-4:    #8d72ac;
+  --jlpt-3:    #aa92c7;
+  --jlpt-2:    #c8b3e3;
+  --jlpt-1:    #e7d5ff;
+  --jlpt-none: #353535;
+
 }
 
 
@@ -1806,4 +1814,46 @@ kbd {
     .shift-row__cards {
         grid-column: 1 / -1;
     }
+}
+
+/* --- Words and levels --- */
+.words-figure {
+    margin-top: var(--space-3);
+}
+
+.words-figure__value {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin: 0;
+}
+
+.words-figure__number {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.words-figure__unit {
+    color: var(--text-muted);
+    font-size: 17px;
+}
+
+.words-figure__note {
+    color: var(--text-faint);
+    font-size: 13px;
+    margin: var(--space-1) 0 0;
+    max-width: 60ch;
+}
+
+.legend__item[data-level="5"]::before { background: var(--jlpt-5); }
+.legend__item[data-level="4"]::before { background: var(--jlpt-4); }
+.legend__item[data-level="3"]::before { background: var(--jlpt-3); }
+.legend__item[data-level="2"]::before { background: var(--jlpt-2); }
+.legend__item[data-level="1"]::before { background: var(--jlpt-1); }
+
+.legend__item[data-level="none"]::before {
+    background: var(--jlpt-none);
+    box-shadow: inset 0 0 0 1px var(--border);  /* the fill alone is near-invisible */
 }
