@@ -48,3 +48,14 @@ export function questionMarkup(card) {
     if (text.includes('{')) return text;
     return `{${text}}`;
 }
+
+/**
+ * The cue above an English-side prompt
+ * What kind of answer do we expect?
+ */
+export const SIDE_CUES = {
+    kanji: 'Which kanji?',
+    vocab: 'Which word?',
+    sentence: 'Translate',
+    grammar: 'Which grammar point?',
+}

@@ -1,10 +1,11 @@
-import { TYPE_LABELS, questionMarkup, detailsFor } from "../card.js";
+import { TYPE_LABELS, SIDE_CUES, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
 import { getCards, getSessions, recordStudy, addSession, onChange } from "../storage.js";
 import { toggleScript } from "../script-toggle.js";
 import { canonicalTag, splitTag } from "../tags.js";
 import { cardStats, weakest, stalest } from "../stats.js";
 import { syncSessions } from "../sync.js";
+import { STUDY_SIDES } from "../sessions.js";
 
 // --- Study Selection ---
 const facetsEl = document.querySelector('#facets');
@@ -201,6 +202,10 @@ const revealBtn = document.querySelector('#reveal-btn');
 const progressFill = document.querySelector('#progress-fill');
 const progressEl = document.querySelector('#progress');
 const sessionCount = document.querySelector('#session-count');
+const faceEnglish = document.querySelector('#face-english');
+const faceCue = document.querySelector('#face-cue');
+const facePrompt = document.querySelector('#face-prompt');
+
 
 const MISS_LIMIT = 3;
 
@@ -221,7 +226,7 @@ function shuffle(items) {
     return out;
 }
 
-function startSession(cards) {
+function startSession(cards, mode = selectedSide(), sides = assignSides(cards, mode)) {
     if (cards.length === 0) return;
 
     session = {
@@ -235,11 +240,42 @@ function startSession(cards) {
         startedAt: new Date().toISOString(),
         lastGradedAt: null,
         facets: facetLabels(),
+        side: mode,
+        sides,
         flushed: false,
     };
 
     showStage('session');
     nextCard();
+}
+
+// The mode ticked in the picker, or fall back to Japanese
+function selectedSide() {
+    const value = document.querySelector('input[name="studySide"]:checked')?.value;
+    return STUDY_SIDES.includes(value) ? value : 'japanese';
+}
+
+/**
+ * Which side each card shows
+ */
+function assignSides(cards, mode) {
+    const sides = new Map();
+
+    if (mode !== 'mix') {
+        for (const card of cards) sides.set(card.id, mode);
+        return sides; 
+    }
+
+    const mixed = shuffle(cards);
+
+    let english = Math.floor(mixed.length / 2);
+    if (mixed.length % 2 === 1 && Math.random() < 0.5) english += 1;
+
+    mixed.forEach((card, i) => {
+        sides.set(card.id, i < english ? 'english' : 'japanese');
+    });
+
+    return sides;
 }
 
 function nextCard() {
@@ -251,9 +287,19 @@ function nextCard() {
     }
 
     const card = session.current;
+    const english = session.sides.get(card.id) === 'english';
 
     cardFace.dataset.type = card.type;
+    cardFace.dataset.side = english ? 'english' : 'japanese';
     cardFace.dataset.furigana = 'hidden';
+
+    faceEnglish.hidden = !english;
+    faceQuestion.hidden = english;
+
+    if (english) {
+        faceCue.textContent = SIDE_CUES[card.type] ?? 'Answer in Japanese';
+        facePrompt.textContent = card.meaning;
+    }
 
     renderJapanese(faceQuestion, questionMarkup(card));
 
@@ -272,6 +318,12 @@ function revealAnswer() {
     const card = session.current;
 
     cardFace.dataset.furigana = 'shown';
+
+    const english = cardFace.dataset.side === 'english';
+
+    // If it was an English first card, don't show the english twice
+    faceQuestion.hidden = false;
+    faceMeaning.hidden = english;
 
     faceMeaning.textContent = card.meaning;
     faceNotes.textContent = card.notes ?? '';
@@ -417,9 +469,13 @@ export function initStudy() {
     document.querySelector('#back-to-select').addEventListener('click', () => showStage('select'));
 
     document.querySelector('#restudy-missed').addEventListener('click', () => {
-        const missedIds = new Set(session.misses.keys());
-        startSession(getCards().filter((card) => missedIds.has(card.id)));
+    const missedIds = new Set(session.misses.keys());
+    const missed = getCards().filter((card) => missedIds.has(card.id));
+
+        // Retry each card the way round you missed it.
+        startSession(missed, session.side, session.sides);
     });
+
 
     // --- Keyboard ---
     document.addEventListener('keydown', (event) => {
@@ -482,6 +538,7 @@ function flushStats() {
         startedAt: session.startedAt,
         endedAt: session.lastGradedAt ?? new Date().toISOString(),
         facets: session.facets,
+        side: session.side,
         results,
     });
 

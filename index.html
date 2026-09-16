@@ -50,8 +50,25 @@
             <!-- ---- Stage 1: selection ---- -->
             <div class="stage" id="stage-select">
                 <h2 class="view__title">Study</h2>
-                <p class="view__hint">Tick what you want to work on. A section with nothing ticked means "any"
+                <p class="view__hint">Select what you want to work on. Nothing ticked means "any"
                 </p>
+                <fieldset class="side-picker">
+                    <legend class="side-picker__legend">Show first</legend>
+                    <div class="segmented">
+                        <input class="segmented__input" type="radio" name="studySide"
+                            id="side-japanese" value="japanese" checked>
+                        <label class="segmented__label" for="side-japanese">Japanese side</label>
+
+                        <input class="segmented__input" type="radio" name="studySide"
+                            id="side-english" value="english">
+                        <label class="segmented__label" for="side-english">English side</label>
+
+                        <input class="segmented__input" type="radio" name="studySide"
+                            id="side-mix" value="mix">
+                        <label class="segmented__label" for="side-mix">Mix</label>
+                    </div>
+                </fieldset>
+
                 <div class="focus-bar">
                     <label class="focus-bar__field">
                         Focus on
@@ -100,6 +117,12 @@
                 </div>
 
                 <article class="card-face" id="card-face" data-type="vocab" data-furigana="hidden">
+
+                    <div class="card-face__english" id="face-english" hidden>
+                        <p class="card-face__cue" id="face-cue"></p>
+                        <p class="card-face__prompt" id="face-prompt"></p>
+                    </div>
+
 
                     <p class="card-face__jp  has-ruby" lang="ja" id="face-question"></p>
 
@@ -547,7 +570,7 @@
                             <canvas id="level-donut" role="img"></canvas>
                             <p class="donut__center" aria-hidden="true">
                                 <span class="donut__value" id="level-donut-value">0</span>
-                                <span class="donut__of">cards tagged</span>
+                                <span class="donut__of">JLPT cards</span>
                             </p>
                         </div>
                         <ul class="donut__legend" id="level-donut-legend" role="list"></ul>

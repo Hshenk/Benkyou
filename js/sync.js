@@ -1,5 +1,6 @@
 import { getClient, currentUser } from "./supabase.js";
 import { getSessions, importSessions } from './storage.js';
+import { sessionSide } from "./sessions.js";
 
 
 function toRow(session, userId) {
@@ -9,6 +10,7 @@ function toRow(session, userId) {
         started_at: session.startedAt,
         ended_at: session.endedAt ?? null,
         facets: session.facets ?? null,
+        side: sessionSide(session),
         results: session.results,
     };
 }
@@ -19,6 +21,7 @@ function toSession(row) {
         startedAt: row.started_at,
         endedAt: row.ended_at ?? undefined,
         facets: row.facets ?? undefined,
+        side: row.side ?? undefined,
         results: row.results ?? [],
     };
 }
@@ -38,7 +41,7 @@ export async function syncSessions() {
     try {
         const { data, error } = await sb
             .from('sessions')
-            .select('id, started_at, ended_at, facets, results');
+            .select('id, started_at, ended_at, facets, results, side');
         if (error) throw error;
 
         importSessions({ sessions: data.map(toSession) });

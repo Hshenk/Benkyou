@@ -9,6 +9,12 @@ export function emptyLog() {
     return { schemaVersion: SCHEMA_VERSION, exportedAt: null, sessions: [] };
 }
 
+export const STUDY_SIDES = ['japanese', 'english', 'mix'];
+
+export function sessionSide(session) {
+    return STUDY_SIDES.includes(session.side) ? session.side : 'japanese'; // Default to Japanese from before this was a recorded feature
+}
+
 export function serializeLog(log) {
     return JSON.stringify(log, null, 2);
 }
