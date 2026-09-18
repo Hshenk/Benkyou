@@ -40,7 +40,7 @@ export async function sendMagicLink(email) {
 
     const { error } = await sb.auth.signInWithOtp({
         email, 
-        options: { emailRedirectTo: window.location.href.split('#')[0] },
+        options: { emailRedirectTo: location.origin + location.pathname },
     });
     if (error) throw error;
 }
