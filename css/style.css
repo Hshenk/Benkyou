@@ -2027,3 +2027,117 @@ kbd {
         transition: none;
     }
 }
+
+/* ------ Practice sheets ------ */
+.practice-bar {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-top: var(--space-4);
+}
+
+.practice-bar__field {
+    flex: 1 1 320px;
+    max-width: 520px;
+}
+
+.practice-bar__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    /* Line the buttons up with the input, not with the label above it. */
+    padding-top: calc(13px * 1.6 + var(--space-1));
+}
+
+.practice-tip {
+    margin-top: var(--space-2);
+}
+
+.sheet-preview {
+    display: grid;
+    gap: var(--space-4);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: var(--space-4);
+}
+
+/*
+ * The sheet is paper, so its colors are fixed instead of theme tokens:
+ * it's white in the dark app and white when printed.
+ * Only grays, so nothing depends on telling hues apart.
+ */
+.sheet-page {
+    background: #fff;
+    border-radius: var(--radius);
+    height: auto;
+    width: 100%;
+}
+
+.sheet__cell {
+    fill: none;
+    stroke: #666;
+    stroke-width: 0.3;
+}
+
+.sheet__guide {
+    stroke: #b4b4b4;
+    stroke-dasharray: 1 1;
+    stroke-width: 0.2;
+}
+
+.sheet__model {
+    fill: #000;
+    font-family: var(--font-jp-stroke);
+}
+
+.sheet__ghost {
+    fill: #c8c8c8;
+    font-family: var(--font-jp-hand);
+}
+
+.sheet__title {
+    fill: #222;
+    font-family: var(--font-jp);
+    font-size: 5px;
+}
+
+.sheet__meta {
+    fill: #777;
+    font-family: var(--font-ui);
+    font-size: 3.5px;
+}
+
+.print-area {
+    display: none;
+}
+
+
+/* ------ Print ------ */
+@media print {
+    @page {
+        margin: 0;
+        size: letter portrait;
+    }
+
+    body:has(.print-area:not(:empty)) {
+        background: #fff;
+    }
+
+    body:has(.print-area:not(:empty)) > :not(.print-area) {
+        display: none !important;
+    }
+
+    .print-area {
+        display: block;
+    }
+
+    .print-area .sheet-page {
+        border-radius: 0;
+        height: 11in;
+        width: 8.5in;
+    }
+
+    .print-area .sheet-page + .sheet-page {
+        break-before: page;
+    }
+}

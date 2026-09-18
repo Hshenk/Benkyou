@@ -8,6 +8,7 @@ import { initTags } from './views/tags.js';
 import { initStats } from './views/stats.js';
 import { initAccount } from './views/account.js';
 import { syncSessions } from './sync.js';
+import { initPractice } from './views/practice.js';
 
 
 
@@ -26,6 +27,8 @@ initCards({
 });
 
 initStudy();
+
+initPractice();
 
 initTransfer({
     onReplaced: () => {
