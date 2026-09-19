@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 15,
-  "exportedAt": "2026-09-10T15:08:21.899Z",
+  "version": 16,
+  "exportedAt": "2026-09-19T23:50:53.360Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -22,6 +22,10 @@
     {
       "id": "9e59b018-00fa-4fca-a6fc-798f97740ff4",
       "deletedAt": "2026-09-04T14:19:54.804Z"
+    },
+    {
+      "id": "a5",
+      "deletedAt": "2026-09-19T23:48:42.351Z"
     }
   ],
   "cards": [
@@ -107,25 +111,8 @@
       }
     },
     {
-      "createdAt": "2026-09-02T15:23:40.237Z",
-      "updatedAt": "2026-09-02T15:23:40.237Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
-      "id": "a5",
-      "type": "grammar",
-      "meaning": "topic marker — \"as for X\"",
-      "tags": [
-        "Topic: Particles",
-        "Level: N5"
-      ],
-      "data": {
-        "expression": "は",
-        "example": "私[わたし]*b:は* 学生[がくせい]です"
-      }
-    },
-    {
       "createdAt": "2026-09-06T21:29:08.169Z",
-      "updatedAt": "2026-09-06T21:54:49.288Z",
+      "updatedAt": "2026-09-19T22:15:39.105Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -139,10 +126,10 @@
       "data": {
         "character": "海",
         "onyomi": [
-          "うみ"
+          "カイ"
         ],
         "kunyomi": [
-          "カイ"
+          "うみ"
         ],
         "strokes": 9
       },
@@ -150,7 +137,7 @@
     },
     {
       "createdAt": "2026-09-06T21:33:15.417Z",
-      "updatedAt": "2026-09-06T21:54:18.965Z",
+      "updatedAt": "2026-09-19T22:15:49.231Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -164,15 +151,15 @@
       "data": {
         "character": "外",
         "onyomi": [
+          "ガイ",
+          "ゲ"
+        ],
+        "kunyomi": [
           "そと",
           "ほか",
           "はず.す",
           "はず.れる",
           "と-"
-        ],
-        "kunyomi": [
-          "ガイ",
-          "ゲ"
         ],
         "strokes": 5
       },
@@ -180,7 +167,7 @@
     },
     {
       "createdAt": "2026-09-06T21:34:31.527Z",
-      "updatedAt": "2026-09-06T21:54:01.670Z",
+      "updatedAt": "2026-09-19T22:16:02.145Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -194,10 +181,10 @@
       "data": {
         "character": "国",
         "onyomi": [
-          "くに"
+          "コク"
         ],
         "kunyomi": [
-          "コク"
+          "くに"
         ],
         "strokes": 8
       },
@@ -724,7 +711,7 @@
     {
       "createdAt": "2026-09-06T22:52:54.281Z",
       "updatedAt": "2026-09-06T23:21:36.661Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "One",
@@ -751,7 +738,7 @@
     {
       "createdAt": "2026-09-06T22:53:36.731Z",
       "updatedAt": "2026-09-06T23:21:26.498Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Two",
@@ -779,7 +766,7 @@
     {
       "createdAt": "2026-09-06T22:54:15.574Z",
       "updatedAt": "2026-09-06T23:21:21.390Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Three",
@@ -807,7 +794,7 @@
     {
       "createdAt": "2026-09-06T22:54:59.750Z",
       "updatedAt": "2026-09-06T23:21:15.908Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Four",
@@ -835,7 +822,7 @@
     {
       "createdAt": "2026-09-06T22:55:36.628Z",
       "updatedAt": "2026-09-06T23:21:08.279Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Five",
@@ -861,7 +848,7 @@
     {
       "createdAt": "2026-09-06T22:56:13.161Z",
       "updatedAt": "2026-09-06T23:21:02.235Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Six",
@@ -890,8 +877,8 @@
     {
       "createdAt": "2026-09-06T22:57:06.569Z",
       "updatedAt": "2026-09-06T23:20:57.276Z",
-      "timesSeen": 1,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "Seven",
       "notes": "",
@@ -917,7 +904,7 @@
     {
       "createdAt": "2026-09-06T22:57:41.069Z",
       "updatedAt": "2026-09-06T23:20:51.945Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Eight",
@@ -946,7 +933,7 @@
     {
       "createdAt": "2026-09-06T22:58:10.739Z",
       "updatedAt": "2026-09-06T23:20:46.560Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Nine",
@@ -973,7 +960,7 @@
     {
       "createdAt": "2026-09-06T22:58:52.509Z",
       "updatedAt": "2026-09-06T23:20:42.330Z",
-      "timesSeen": 1,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Ten",
@@ -2718,6 +2705,1425 @@
         "strokes": 14
       },
       "id": "96a245ba-89f2-4be6-b59a-79485f3bf80a"
+    },
+    {
+      "createdAt": "2026-09-19T22:22:06.913Z",
+      "updatedAt": "2026-09-19T22:22:06.913Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Excuse Me",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-1",
+        "Topic: Expressions",
+        "Level: N5"
+      ],
+      "data": {
+        "expression": "済[す]みません",
+        "reading": "すみません"
+      },
+      "id": "a518d7d8-a958-4b63-8f58-9ff900074f14"
+    },
+    {
+      "createdAt": "2026-09-19T22:25:47.739Z",
+      "updatedAt": "2026-09-19T22:25:47.739Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Thank you",
+      "notes": "有難う is technically more correct, but it's usually just written with kana.\nありがとうございました is used slightly more frequently, but can only be used for a favor that has been completed.",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-1",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "ありがとうございます",
+        "reading": ""
+      },
+      "id": "f34c8133-e7ab-4351-b290-3877d65d9568"
+    },
+    {
+      "createdAt": "2026-09-19T22:27:02.814Z",
+      "updatedAt": "2026-09-19T22:27:02.814Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "That",
+      "notes": "彼 is the kanji, but it's often written as kana alone.",
+      "tags": [
+        "Level: N5",
+        "Topic: Locations",
+        "Source: Nakama 1-1"
+      ],
+      "data": {
+        "expression": "あれ",
+        "reading": ""
+      },
+      "id": "c7c12f7d-253a-4814-a1eb-83ac7d4a8b17"
+    },
+    {
+      "createdAt": "2026-09-19T22:29:28.009Z",
+      "updatedAt": "2026-09-19T22:37:24.227Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Asian Studies",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "アジア研究[けんきゅう]",
+        "reading": "アジアけんきゅう"
+      },
+      "id": "e2bf18fa-2cbc-44af-a4dc-6323d257b2d1"
+    },
+    {
+      "createdAt": "2026-09-19T22:30:11.996Z",
+      "updatedAt": "2026-09-19T22:34:46.859Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "England",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Countries"
+      ],
+      "data": {
+        "expression": "イギリス",
+        "reading": ""
+      },
+      "id": "d484fb0f-a0f9-47e2-857e-c9db6d50d0dc"
+    },
+    {
+      "createdAt": "2026-09-19T22:31:57.785Z",
+      "updatedAt": "2026-09-19T22:36:22.801Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "First Year Student",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "一年生[いちねんせい]",
+        "reading": "いちねんせい"
+      },
+      "id": "775abdf1-3086-41d4-89b1-f9caee71839c"
+    },
+    {
+      "createdAt": "2026-09-19T22:32:31.078Z",
+      "updatedAt": "2026-09-19T22:36:15.437Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Now",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "今[いま]",
+        "reading": "いま"
+      },
+      "id": "9f731904-479b-4b17-831c-b0e04f4cc6b9"
+    },
+    {
+      "createdAt": "2026-09-19T22:33:44.848Z",
+      "updatedAt": "2026-09-19T22:36:08.011Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "English",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "英語[えいご]",
+        "reading": "えいご"
+      },
+      "id": "4b247f67-9f9d-4660-ae66-187756efe241"
+    },
+    {
+      "createdAt": "2026-09-19T22:34:37.447Z",
+      "updatedAt": "2026-09-19T22:34:37.447Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Australia",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Countries"
+      ],
+      "data": {
+        "expression": "オーストラリア",
+        "reading": ""
+      },
+      "id": "ec41267e-d6f7-4610-8ad0-c92e8fb60627"
+    },
+    {
+      "createdAt": "2026-09-19T22:35:14.799Z",
+      "updatedAt": "2026-09-19T22:35:14.799Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "America",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Countries"
+      ],
+      "data": {
+        "expression": "アメリカ",
+        "reading": ""
+      },
+      "id": "28af6d21-85c0-4151-9f08-23f9179f2e9d"
+    },
+    {
+      "createdAt": "2026-09-19T22:36:00.345Z",
+      "updatedAt": "2026-09-19T22:36:00.345Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Student",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "学生[がくせい]",
+        "reading": "がくせい"
+      },
+      "id": "53f68597-6dd3-4ae7-83e6-8c359fb58eca"
+    },
+    {
+      "createdAt": "2026-09-19T22:39:18.192Z",
+      "updatedAt": "2026-09-19T22:39:18.192Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Canada",
+      "notes": "",
+      "tags": [
+        "Topic: Countries",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "カナダ",
+        "reading": ""
+      },
+      "id": "aa1236ae-55da-43fc-ad2c-6b72cfb62baa"
+    },
+    {
+      "createdAt": "2026-09-19T22:40:11.585Z",
+      "updatedAt": "2026-09-19T22:40:11.585Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "South Korea",
+      "notes": "",
+      "tags": [
+        "Topic: Countries",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "韓国[かんこく]",
+        "reading": "かんこく"
+      },
+      "id": "7d609800-8ba0-46d3-b750-a371d5d7753c"
+    },
+    {
+      "createdAt": "2026-09-19T22:41:42.846Z",
+      "updatedAt": "2026-09-19T22:41:42.846Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Management, buisness administration",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "経営学[けいえいがく]",
+        "reading": "けいえいがく"
+      },
+      "id": "9edc6929-162a-48dc-bdac-6d73801f18d9"
+    },
+    {
+      "createdAt": "2026-09-19T22:42:32.250Z",
+      "updatedAt": "2026-09-19T22:42:32.250Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Engineering",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "工学[こうがく]",
+        "reading": "こうがく"
+      },
+      "id": "f18143d4-80fd-4c4e-b9da-a588a00ec6de"
+    },
+    {
+      "createdAt": "2026-09-19T22:43:08.662Z",
+      "updatedAt": "2026-09-19T22:43:08.662Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "High School",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "高校[こうこう]",
+        "reading": "こうこう"
+      },
+      "id": "32dafb4c-d07c-4c80-8609-20ecbe2c31f2"
+    },
+    {
+      "createdAt": "2026-09-19T22:44:17.582Z",
+      "updatedAt": "2026-09-19T22:44:17.582Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "~p.m., afternoon",
+      "notes": "",
+      "tags": [
+        "Topic: Time",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "午後[ごご]",
+        "reading": "ごご"
+      },
+      "id": "ce0a4df7-c93a-4867-8ab1-b0dd8c8d1edf"
+    },
+    {
+      "createdAt": "2026-09-19T22:45:01.435Z",
+      "updatedAt": "2026-09-19T22:45:01.435Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "a.m., morning",
+      "notes": "",
+      "tags": [
+        "Topic: Time",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "午前[ごぜん]",
+        "reading": "ごぜん"
+      },
+      "id": "45e90281-aabe-4410-8501-4e6e3a61e550"
+    },
+    {
+      "createdAt": "2026-09-19T22:45:52.383Z",
+      "updatedAt": "2026-09-19T22:59:18.691Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This person, this way",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Speech",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "こちら",
+        "reading": ""
+      },
+      "id": "472c967b-d843-4502-95ad-910e0a872af3"
+    },
+    {
+      "createdAt": "2026-09-19T22:46:23.061Z",
+      "updatedAt": "2026-09-19T22:46:23.061Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Third-year student, junior",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "三年生[さんねんせい]",
+        "reading": "さんねんせい"
+      },
+      "id": "983814dc-9a0b-42a1-bf8f-e6b3c8cd81dc"
+    },
+    {
+      "createdAt": "2026-09-19T22:46:48.022Z",
+      "updatedAt": "2026-09-19T22:46:48.022Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Spain",
+      "notes": "",
+      "tags": [
+        "Topic: Countries",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "スペイン",
+        "reading": ""
+      },
+      "id": "f2bdf947-d915-45f5-934b-67c2db852a71"
+    },
+    {
+      "createdAt": "2026-09-19T22:47:50.375Z",
+      "updatedAt": "2026-09-19T22:47:50.375Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Academic major",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "専攻[せんこう]",
+        "reading": "せんこう"
+      },
+      "id": "6a3122a1-c47d-496d-bdaf-377df8de8242"
+    },
+    {
+      "createdAt": "2026-09-19T22:48:20.670Z",
+      "updatedAt": "2026-09-19T22:48:20.670Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "University",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "大学[だいがく]",
+        "reading": "だいがく"
+      },
+      "id": "b2268536-9cca-4edb-b8af-2dd6a054f727"
+    },
+    {
+      "createdAt": "2026-09-19T22:49:34.036Z",
+      "updatedAt": "2026-09-19T22:49:34.036Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Graduate Student",
+      "notes": "大学生 for undergraduate student",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "大学院生[だいがくいんせい]",
+        "reading": "だいがくいんせい"
+      },
+      "id": "a3dca44a-c13b-449a-8cae-1bbe6a859be8"
+    },
+    {
+      "createdAt": "2026-09-19T22:50:11.491Z",
+      "updatedAt": "2026-09-19T22:50:11.491Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Taiwan",
+      "notes": "",
+      "tags": [
+        "Topic: Countries",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "台湾[たいわん]",
+        "reading": "たいわん"
+      },
+      "id": "2f9f20cd-c9d9-4813-8756-31f6fb265d5f"
+    },
+    {
+      "createdAt": "2026-09-19T22:50:58.658Z",
+      "updatedAt": "2026-09-19T22:50:58.658Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "China",
+      "notes": "",
+      "tags": [
+        "Topic: Countries",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "中国[ちゅうごく]",
+        "reading": "ちゅうごく"
+      },
+      "id": "99ec4bb2-b373-475a-a660-57dee13a54f0"
+    },
+    {
+      "createdAt": "2026-09-19T22:51:38.709Z",
+      "updatedAt": "2026-09-19T22:51:38.709Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Name",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "名前[なまえ]",
+        "reading": "なまえ"
+      },
+      "id": "62a4ef6d-d813-4780-93fe-c8b3a8567b9f"
+    },
+    {
+      "createdAt": "2026-09-19T22:52:28.396Z",
+      "updatedAt": "2026-09-19T22:52:28.396Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Second-year student, sophomore",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "二年生[にねんせい]",
+        "reading": "にねんせい"
+      },
+      "id": "083e6159-51ac-4028-a4a3-bda1bc11b0a3"
+    },
+    {
+      "createdAt": "2026-09-19T22:52:53.956Z",
+      "updatedAt": "2026-09-19T22:52:53.956Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Japan",
+      "notes": "",
+      "tags": [
+        "Topic: Countries",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "日本[にほん]",
+        "reading": "にほん"
+      },
+      "id": "2df8f61d-c452-49d1-add7-c888872a73c1"
+    },
+    {
+      "createdAt": "2026-09-19T22:53:24.834Z",
+      "updatedAt": "2026-09-19T22:53:24.834Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Business",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "ビジネス",
+        "reading": ""
+      },
+      "id": "65a902d6-b3a7-4625-be23-27b704051803"
+    },
+    {
+      "createdAt": "2026-09-19T22:53:46.330Z",
+      "updatedAt": "2026-09-19T22:53:46.330Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "France",
+      "notes": "",
+      "tags": [
+        "Topic: Countries",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "フランス",
+        "reading": ""
+      },
+      "id": "2bdc3e65-8618-4dca-9f6a-1c8ee4390ca4"
+    },
+    {
+      "createdAt": "2026-09-19T22:54:19.795Z",
+      "updatedAt": "2026-09-19T22:54:19.795Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Literature",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "文学[ぶんがく]",
+        "reading": "ぶんがく"
+      },
+      "id": "5387184a-cf6a-4742-8123-5fb18d49c721"
+    },
+    {
+      "createdAt": "2026-09-19T22:54:49.744Z",
+      "updatedAt": "2026-09-19T22:54:49.744Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Mexico",
+      "notes": "",
+      "tags": [
+        "Topic: Countries",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "メキシコ",
+        "reading": ""
+      },
+      "id": "9f68f205-4a03-456e-8cf9-50284e708561"
+    },
+    {
+      "createdAt": "2026-09-19T22:55:50.741Z",
+      "updatedAt": "2026-09-19T22:55:50.741Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fourth-year student, senior",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "四年生[よねんせい]",
+        "reading": "よねんせい"
+      },
+      "id": "ec8b148d-282f-49b6-ae5d-63dd24da1cd7"
+    },
+    {
+      "createdAt": "2026-09-19T22:56:31.746Z",
+      "updatedAt": "2026-09-19T22:56:31.746Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Next year, the year to come",
+      "notes": "",
+      "tags": [
+        "Topic: Time",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "来年[らいねん]",
+        "reading": "らいねん"
+      },
+      "id": "d8acfa4b-85cc-4db5-a499-a9e1b695017c"
+    },
+    {
+      "createdAt": "2026-09-19T22:57:27.735Z",
+      "updatedAt": "2026-09-19T22:57:27.735Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "International Student",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "留学生[りゅうがくせい]",
+        "reading": "りゅうがくせい"
+      },
+      "id": "b5b44146-23ba-412b-b709-f5f619bdd3ac"
+    },
+    {
+      "createdAt": "2026-09-19T22:58:02.872Z",
+      "updatedAt": "2026-09-19T22:58:02.872Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "History",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2",
+        "Topic: History"
+      ],
+      "data": {
+        "expression": "歴史[れきし]",
+        "reading": "れきし"
+      },
+      "id": "014c1975-d0e0-43e5-a85a-7065e605fd6d"
+    },
+    {
+      "createdAt": "2026-09-19T22:58:49.897Z",
+      "updatedAt": "2026-09-19T22:58:49.897Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "I (Normally masculine)",
+      "notes": "",
+      "tags": [
+        "Topic: Speech",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "僕[ぼく]",
+        "reading": "ぼく"
+      },
+      "id": "bf57e108-f299-4b4f-ba13-4819fdd98297"
+    },
+    {
+      "createdAt": "2026-09-19T23:00:03.001Z",
+      "updatedAt": "2026-09-19T23:00:03.001Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "I (General)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Speech"
+      ],
+      "data": {
+        "expression": "私[わたし]",
+        "reading": "わたし"
+      },
+      "id": "14df6f05-19f8-4bda-a5ff-9538722baf5b"
+    },
+    {
+      "createdAt": "2026-09-19T23:00:55.015Z",
+      "updatedAt": "2026-09-19T23:00:55.015Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(to) be",
+      "notes": "",
+      "tags": [
+        "Topic: Speech",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "です",
+        "reading": ""
+      },
+      "id": "4a51ffc3-551b-4889-a6b9-afa22b5ff253"
+    },
+    {
+      "createdAt": "2026-09-19T23:01:52.224Z",
+      "updatedAt": "2026-09-19T23:01:52.224Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Where",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Locations",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "どこ",
+        "reading": ""
+      },
+      "id": "062b3d58-4ecc-4075-8037-ec601f49e056"
+    },
+    {
+      "createdAt": "2026-09-19T23:02:23.388Z",
+      "updatedAt": "2026-09-19T23:02:23.388Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Where (more polite form), which way",
+      "notes": "",
+      "tags": [
+        "Topic: Questions",
+        "Source: Nakama 1-2",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "どちら",
+        "reading": ""
+      },
+      "id": "3ecbbf4f-4f5d-430c-b978-a6f14f80d555"
+    },
+    {
+      "createdAt": "2026-09-19T23:03:09.917Z",
+      "updatedAt": "2026-09-19T23:03:09.917Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "What?",
+      "notes": "",
+      "tags": [
+        "Topic: Questions",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "何[なに]",
+        "reading": "なに / なん"
+      },
+      "id": "885d2de5-3a19-48f2-9177-84e789f2ca38"
+    },
+    {
+      "createdAt": "2026-09-19T23:05:28.489Z",
+      "updatedAt": "2026-09-19T23:15:48.764Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "(Particle) Question marker",
+      "notes": "",
+      "tags": [
+        "Topic: Questions",
+        "Topic: Particles",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~か",
+        "example": "どこです*b:か*"
+      },
+      "id": "b0f348dd-58f0-4a5c-8798-b81035f10987"
+    },
+    {
+      "createdAt": "2026-09-19T23:06:40.994Z",
+      "updatedAt": "2026-09-19T23:46:30.811Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "(Particle) Noun modifier marker (of), ('s)",
+      "notes": "The first noun modifies the second noun. The meaning depends a lot on context.",
+      "tags": [
+        "Topic: Particles",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~の",
+        "example": "私*b:の*家です。"
+      },
+      "id": "bbef1486-4239-4657-ac9c-a6744d2af4fb"
+    },
+    {
+      "createdAt": "2026-09-19T23:08:19.335Z",
+      "updatedAt": "2026-09-19T23:15:07.926Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "(Particle) Topic Marker",
+      "notes": "",
+      "tags": [
+        "Topic: Particles",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~は",
+        "example": "私*b:は*アメリカ人です。"
+      },
+      "id": "044ef051-f09a-4b1f-b56e-52f27c091d6b"
+    },
+    {
+      "createdAt": "2026-09-19T23:11:02.102Z",
+      "updatedAt": "2026-09-19T23:48:16.817Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "(Particle) Similarity marker (Also, too)",
+      "notes": "",
+      "tags": [
+        "Topic: Particles",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~も",
+        "example": "明日*b:も*学校に行きます。"
+      },
+      "id": "da643302-4469-453d-8073-1720e0ae7fcf"
+    },
+    {
+      "createdAt": "2026-09-19T23:11:38.170Z",
+      "updatedAt": "2026-09-19T23:12:52.474Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "(Prefix) Makes something sound polite",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Prefix"
+      ],
+      "data": {
+        "expression": "お~",
+        "example": ""
+      },
+      "id": "20e5894f-6b7c-4b3a-9659-46109af43935"
+    },
+    {
+      "createdAt": "2026-09-19T23:14:48.875Z",
+      "updatedAt": "2026-09-19T23:16:06.613Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(Suffix) Language",
+      "notes": "",
+      "tags": [
+        "Topic: Suffix",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~語[ご]",
+        "reading": "~ご"
+      },
+      "id": "223cb1b3-b699-401b-87d3-7ef0873d07b6"
+    },
+    {
+      "createdAt": "2026-09-19T23:16:43.476Z",
+      "updatedAt": "2026-09-19T23:19:26.836Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(Suffix) Time",
+      "notes": "",
+      "tags": [
+        "Topic: Time",
+        "Topic: Suffix",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~時[じ]",
+        "reading": "~じ"
+      },
+      "id": "8708a744-9ea0-483b-ad36-6342ba8d238d"
+    },
+    {
+      "createdAt": "2026-09-19T23:17:27.352Z",
+      "updatedAt": "2026-09-19T23:19:19.689Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(Suffix) -nationality",
+      "notes": "",
+      "tags": [
+        "Topic: Suffix",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~人[じん]",
+        "reading": "~じん"
+      },
+      "id": "a69acd1e-3ab2-4f37-abe1-e46c12339c3c"
+    },
+    {
+      "createdAt": "2026-09-19T23:18:23.835Z",
+      "updatedAt": "2026-09-19T23:19:13.636Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(Suffix) -student",
+      "notes": "",
+      "tags": [
+        "Topic: Suffix",
+        "Topic: School",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~生[せい]",
+        "reading": "~せい"
+      },
+      "id": "7e50febc-61a0-4bc1-8497-be430cac5dca"
+    },
+    {
+      "createdAt": "2026-09-19T23:19:05.124Z",
+      "updatedAt": "2026-09-19T23:19:05.124Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(Suffix) -year",
+      "notes": "",
+      "tags": [
+        "Topic: Suffix",
+        "Topic: Time",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "~年[ねん]",
+        "reading": "~ねん"
+      },
+      "id": "f6f6673f-4a66-4e55-a70e-952d88ff8726"
+    },
+    {
+      "createdAt": "2026-09-19T23:20:11.087Z",
+      "updatedAt": "2026-09-19T23:21:03.511Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Um..., well...",
+      "notes": "",
+      "tags": [
+        "Topic: Expressions",
+        "Source: Nakama 1-2",
+        "Topic: Speech"
+      ],
+      "data": {
+        "expression": "あのう",
+        "reading": ""
+      },
+      "id": "412a6cb3-5cc7-4a94-ace3-cb8a28f39353"
+    },
+    {
+      "createdAt": "2026-09-19T23:20:48.346Z",
+      "updatedAt": "2026-09-19T23:20:57.278Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "no, I don't mean, you're welcome",
+      "notes": "",
+      "tags": [
+        "Topic: Speech",
+        "Source: Nakama 1-2",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "いいえ",
+        "reading": ""
+      },
+      "id": "02cf1aea-13f4-485b-bf8a-5c8758dd2f89"
+    },
+    {
+      "createdAt": "2026-09-19T23:21:48.370Z",
+      "updatedAt": "2026-09-19T23:21:48.370Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Yes",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Speech",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "はい / ええ",
+        "reading": ""
+      },
+      "id": "5c480e36-6e06-401a-b1fa-69e845e0a050"
+    },
+    {
+      "createdAt": "2026-09-19T23:23:36.906Z",
+      "updatedAt": "2026-09-19T23:23:36.906Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "No, that's not so",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "いいえ、そうじゃありません",
+        "literal": ""
+      },
+      "id": "86d1b61f-851b-472a-9dc1-7fc65db17560"
+    },
+    {
+      "createdAt": "2026-09-19T23:24:34.953Z",
+      "updatedAt": "2026-09-19T23:24:34.953Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "It is I who should be saying that. Thank you. Same here.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "こちらこそ",
+        "literal": ""
+      },
+      "id": "f1816d05-8e44-4ece-a9d3-68b481d700f7"
+    },
+    {
+      "createdAt": "2026-09-19T23:26:58.237Z",
+      "updatedAt": "2026-09-19T23:26:58.237Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Where are you from?",
+      "notes": "どちらからいらっしゃいましたか。Is a more formal way of saying it.",
+      "tags": [
+        "Topic: Locations",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "どこから来ましたか。",
+        "literal": ""
+      },
+      "id": "46321f9d-2e79-401f-85d4-ea2b8031ca00"
+    },
+    {
+      "createdAt": "2026-09-19T23:28:49.110Z",
+      "updatedAt": "2026-09-19T23:31:45.369Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Medicine (Medical Science)",
+      "notes": "",
+      "tags": [
+        "Topic: Medicine",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "医学[いがく]",
+        "reading": "いがく"
+      },
+      "id": "ce28b454-5f16-41e4-882a-d145d4ffcc99"
+    },
+    {
+      "createdAt": "2026-09-19T23:29:29.024Z",
+      "updatedAt": "2026-09-19T23:29:29.024Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Music",
+      "notes": "",
+      "tags": [
+        "Topic: Music",
+        "Source: Nakama 1-2"
+      ],
+      "data": {
+        "expression": "音楽[おんがく]",
+        "reading": "おんがく"
+      },
+      "id": "f8679e09-c849-4c96-9b58-7f4665ad8153"
+    },
+    {
+      "createdAt": "2026-09-19T23:30:11.295Z",
+      "updatedAt": "2026-09-19T23:44:59.925Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chemistry",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: School",
+        "Topic: Supplementary",
+        "Topic: Science"
+      ],
+      "data": {
+        "expression": "化学[かがく]",
+        "reading": "かがく"
+      },
+      "id": "a674919a-3f30-47e3-adb1-532837a01acb"
+    },
+    {
+      "createdAt": "2026-09-19T23:31:28.515Z",
+      "updatedAt": "2026-09-19T23:31:28.515Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Education",
+      "notes": "",
+      "tags": [
+        "Topic: Education",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "教育学[きょういくがく]",
+        "reading": "きょういくがく"
+      },
+      "id": "687a1e2f-5454-4258-a2c9-b55c34d8d7df"
+    },
+    {
+      "createdAt": "2026-09-19T23:32:46.734Z",
+      "updatedAt": "2026-09-19T23:32:46.734Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Economics",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "経済学[けいざいがく]",
+        "reading": "けいざいがく"
+      },
+      "id": "474edcf1-6d73-47ae-8baa-7baffa65094e"
+    },
+    {
+      "createdAt": "2026-09-19T23:33:35.730Z",
+      "updatedAt": "2026-09-19T23:33:35.730Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Architecture",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Education",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "建築学[けんちくがく]",
+        "reading": "けんちくがく"
+      },
+      "id": "1ec8f254-1699-4ad3-aec3-62a25ee1e580"
+    },
+    {
+      "createdAt": "2026-09-19T23:34:25.338Z",
+      "updatedAt": "2026-09-19T23:34:25.338Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "International Relations",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Supplementary",
+        "Topic: Education"
+      ],
+      "data": {
+        "expression": "国際関係[こくさいかんけい]",
+        "reading": "こくさいかんけい"
+      },
+      "id": "9b72c58e-2063-4668-ac23-2a510a18d87a"
+    },
+    {
+      "createdAt": "2026-09-19T23:36:07.224Z",
+      "updatedAt": "2026-09-19T23:36:07.224Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Computer Engineering",
+      "notes": "",
+      "tags": [
+        "Topic: Education",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary",
+        "Topic: Technology"
+      ],
+      "data": {
+        "expression": "コンピュータ工学[こうがく]",
+        "reading": "コンピュータこうがく"
+      },
+      "id": "c9cdfd1d-69cd-44f2-a277-ae656c5ec112"
+    },
+    {
+      "createdAt": "2026-09-19T23:37:03.580Z",
+      "updatedAt": "2026-09-19T23:37:03.580Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sociology",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Education",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "社会学[しゃかいがく]",
+        "reading": "しゃかいがく"
+      },
+      "id": "add91dec-82a9-4694-8cc0-6d1598c158fe"
+    },
+    {
+      "createdAt": "2026-09-19T23:38:50.868Z",
+      "updatedAt": "2026-09-19T23:38:50.868Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Information Science",
+      "notes": "",
+      "tags": [
+        "Topic: Technology",
+        "Topic: School",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "情報科学[じょうほうかがく]",
+        "reading": "じょうほうかがく"
+      },
+      "id": "4689cefa-f113-42cc-b12f-53f64926fbac"
+    },
+    {
+      "createdAt": "2026-09-19T23:39:40.556Z",
+      "updatedAt": "2026-09-19T23:39:40.556Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Information Technology",
+      "notes": "",
+      "tags": [
+        "Topic: Technology",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary",
+        "Topic: Education"
+      ],
+      "data": {
+        "expression": "情報工学[じょうほうこうがく]",
+        "reading": "じょうほうこうがく"
+      },
+      "id": "c94715f3-7d29-48e5-bc33-7dff564b7e95"
+    },
+    {
+      "createdAt": "2026-09-19T23:40:19.901Z",
+      "updatedAt": "2026-09-19T23:40:19.901Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Psychology",
+      "notes": "",
+      "tags": [
+        "Topic: Education",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "心理学[しんりがく]",
+        "reading": "しんりがく"
+      },
+      "id": "0221626e-f7c3-47be-abeb-43cb2016a045"
+    },
+    {
+      "createdAt": "2026-09-19T23:40:58.760Z",
+      "updatedAt": "2026-09-19T23:40:58.760Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Anthropology",
+      "notes": "",
+      "tags": [
+        "Topic: Education",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "人類学[じんるいがく]",
+        "reading": "じんるいがく"
+      },
+      "id": "829fbb34-1b4e-4670-bb54-ba843b4d2223"
+    },
+    {
+      "createdAt": "2026-09-19T23:41:41.151Z",
+      "updatedAt": "2026-09-19T23:41:41.151Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Mathematics",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Supplementary",
+        "Topic: Education"
+      ],
+      "data": {
+        "expression": "数学[すうがく]",
+        "reading": "すうがく"
+      },
+      "id": "b07f8a9c-ee22-4f72-8f5c-ae0d0418d715"
+    },
+    {
+      "createdAt": "2026-09-19T23:42:19.440Z",
+      "updatedAt": "2026-09-19T23:44:38.371Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Biology",
+      "notes": "",
+      "tags": [
+        "Topic: School",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary",
+        "Topic: Science"
+      ],
+      "data": {
+        "expression": "生物学[せいぶつがく]",
+        "reading": "せいぶつがく"
+      },
+      "id": "0fde2b95-f79c-464f-b0ec-73cafb8e2654"
+    },
+    {
+      "createdAt": "2026-09-19T23:42:59.543Z",
+      "updatedAt": "2026-09-19T23:42:59.543Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Political Science",
+      "notes": "",
+      "tags": [
+        "Topic: Education",
+        "Source: Nakama 1-2",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "政治学[せいじがく]",
+        "reading": "せいじがく"
+      },
+      "id": "28eba603-af6c-428c-bb5d-d5413730fbb9"
+    },
+    {
+      "createdAt": "2026-09-19T23:43:51.203Z",
+      "updatedAt": "2026-09-19T23:43:51.203Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fine arts",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Art",
+        "Topic: Supplementary",
+        "Topic: Education"
+      ],
+      "data": {
+        "expression": "美術[びじゅつ]",
+        "reading": "びじゅつ"
+      },
+      "id": "b2a9f106-6ea9-44a3-af7f-ae920db822f9"
+    },
+    {
+      "createdAt": "2026-09-19T23:44:30.691Z",
+      "updatedAt": "2026-09-19T23:44:30.691Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Physics",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-2",
+        "Topic: Supplementary",
+        "Topic: Education",
+        "Topic: Science"
+      ],
+      "data": {
+        "expression": "物理学[ぶつりがく]",
+        "reading": "ぶつりがく"
+      },
+      "id": "469145fc-417f-43c8-ac17-50e04e539d82"
     }
   ]
 }

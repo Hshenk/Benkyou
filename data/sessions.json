@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-10T15:08:21.929Z",
+  "exportedAt": "2026-09-19T23:50:53.388Z",
   "sessions": [
     {
       "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
@@ -106,8 +106,8 @@
     },
     {
       "id": "da426938-a264-41d1-9115-95fc1489f387",
-      "startedAt": "2026-09-07T16:00:24.771+00:00",
-      "endedAt": "2026-09-07T16:02:22.359+00:00",
+      "startedAt": "2026-09-07T16:00:24.771Z",
+      "endedAt": "2026-09-07T16:02:22.359Z",
       "facets": [
         "Topic: Shopping"
       ],
@@ -126,20 +126,20 @@
         },
         {
           "id": "31da32d7-0b40-4771-95ff-0b8c70796505",
-          "misses": 1,
-          "result": "missed"
+          "result": "missed",
+          "misses": 1
         },
         {
           "id": "7498d725-63aa-4045-b5ae-657e960dec76",
-          "misses": 1,
-          "result": "missed"
+          "result": "missed",
+          "misses": 1
         }
       ]
     },
     {
       "id": "04514dd8-ffd0-43ed-92ea-eb7e0543585a",
-      "startedAt": "2026-09-07T16:04:01.389+00:00",
-      "endedAt": "2026-09-07T16:04:12.105+00:00",
+      "startedAt": "2026-09-07T16:04:01.389Z",
+      "endedAt": "2026-09-07T16:04:12.105Z",
       "facets": [
         "Topic: School"
       ],
@@ -152,8 +152,8 @@
     },
     {
       "id": "dae79ac9-eac1-4fb2-b512-2da133bba010",
-      "startedAt": "2026-09-08T23:25:50.944+00:00",
-      "endedAt": "2026-09-08T23:26:43.983+00:00",
+      "startedAt": "2026-09-08T23:25:50.944Z",
+      "endedAt": "2026-09-08T23:26:43.983Z",
       "facets": [
         "Source: Nakama 1-5"
       ],
@@ -224,8 +224,8 @@
     },
     {
       "id": "58d25c6e-6dc9-4415-bb81-d45491a59425",
-      "startedAt": "2026-09-09T19:17:53.321Z",
-      "endedAt": "2026-09-09T19:20:12.035Z",
+      "startedAt": "2026-09-09T19:17:53.321+00:00",
+      "endedAt": "2026-09-09T19:20:12.035+00:00",
       "facets": [
         "Topic: Time"
       ],
@@ -294,8 +294,8 @@
     },
     {
       "id": "89be91ea-6da2-455f-b91f-e50f4ac00ca4",
-      "startedAt": "2026-09-09T19:27:41.177Z",
-      "endedAt": "2026-09-09T19:28:01.221Z",
+      "startedAt": "2026-09-09T19:27:41.177+00:00",
+      "endedAt": "2026-09-09T19:28:01.221+00:00",
       "facets": [
         "Topic: Education",
         "Type: Kanji"
@@ -311,8 +311,280 @@
         },
         {
           "id": "6c519a94-dcdb-41b1-a2b5-321a844c550c",
+          "misses": 1,
+          "result": "missed"
+        }
+      ]
+    },
+    {
+      "id": "5ef68693-39f7-4bcc-836f-b6ea1c048161",
+      "startedAt": "2026-09-11T00:59:09.612Z",
+      "endedAt": "2026-09-11T01:00:37.092Z",
+      "facets": [
+        "Topic: Counters"
+      ],
+      "results": [
+        {
+          "id": "3215a067-31a6-401c-bc3c-8f9ddd2070d2",
+          "result": "easy"
+        },
+        {
+          "id": "ab1c9831-1bdb-4dfe-b451-9fbfb72bc935",
+          "result": "easy"
+        },
+        {
+          "id": "aa4b8664-ebaf-4453-a19c-bb6212ebee1c",
+          "result": "easy"
+        },
+        {
+          "id": "a2cff6e7-da31-4205-a060-8d12b343c297",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "873ef5c3-b014-47c0-878d-911b7d026913",
+      "startedAt": "2026-09-11T21:08:17.718Z",
+      "endedAt": "2026-09-11T21:11:19.691Z",
+      "facets": [
+        "Topic: Locations"
+      ],
+      "results": [
+        {
+          "id": "0b099079-33de-487e-a87f-d47dcf193981",
+          "result": "easy"
+        },
+        {
+          "id": "e461e66b-601c-4ae9-9bb7-66e0ad5f4856",
+          "result": "easy"
+        },
+        {
+          "id": "df568c67-36cd-4a17-9f43-832cd6151b2e",
+          "result": "missed",
+          "misses": 2
+        },
+        {
+          "id": "964cec51-b572-472f-8c40-9696ceec57ce",
+          "result": "easy"
+        },
+        {
+          "id": "6c519a94-dcdb-41b1-a2b5-321a844c550c",
+          "result": "work"
+        },
+        {
+          "id": "fbf78f63-c84d-438e-90c6-9c640626bd02",
+          "result": "missed",
+          "misses": 2
+        },
+        {
+          "id": "18ed6813-a1dd-4572-bf7d-de2f1e8f9d6e",
           "result": "missed",
           "misses": 1
+        },
+        {
+          "id": "5d801934-5927-4591-a1ca-0845566e64d8",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "72d83a60-286a-419f-a5b7-71ccbf4d7ecf",
+      "startedAt": "2026-09-13T14:21:09.565+00:00",
+      "endedAt": "2026-09-13T14:21:20.72+00:00",
+      "facets": [
+        "Type: Vocab"
+      ],
+      "results": [
+        {
+          "id": "a1",
+          "result": "easy"
+        },
+        {
+          "id": "a4",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "36db99d2-517f-494a-bc67-6950cb89aa5e",
+      "startedAt": "2026-09-15T01:08:35.675Z",
+      "endedAt": "2026-09-15T01:09:19.385Z",
+      "facets": [
+        "Source: Nakama 1-8"
+      ],
+      "results": [
+        {
+          "id": "2542636e-b71d-4ce9-90fc-f0017e221cd1",
+          "result": "easy"
+        },
+        {
+          "id": "5b0ccc29-5320-4c19-a6ab-18bef7f98899",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "1c6d4964-54af-4cac-9f85-e01cf40d1185",
+          "result": "easy"
+        },
+        {
+          "id": "83403a4d-ec95-447d-8d9d-0f6e22ffb84e",
+          "result": "easy"
+        },
+        {
+          "id": "2b6d6d12-2b68-47d9-ac5e-7ed2862f092e",
+          "result": "easy"
+        },
+        {
+          "id": "027b04d1-522e-4ede-a8f6-2f7445261988",
+          "result": "easy"
+        },
+        {
+          "id": "53330e92-ff2a-4fcd-9995-5cd431fa63d9",
+          "result": "easy"
+        },
+        {
+          "id": "cf34bf58-db70-4fcf-b912-9e0159603c14",
+          "result": "easy"
+        },
+        {
+          "id": "0ce0492e-3e76-430f-a372-1ac5dd1f10f2",
+          "result": "easy"
+        },
+        {
+          "id": "1aef569b-6900-4f1c-9f9b-699038a2526b",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "761e5d8b-6660-49f3-ba36-15c81933abae",
+      "startedAt": "2026-09-15T17:40:06.998+00:00",
+      "endedAt": "2026-09-15T17:40:11.479+00:00",
+      "facets": [
+        "Topic: Set Phrases"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "a3",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "d36b1903-80b6-4f89-8e1a-f33dac0e78c0",
+      "startedAt": "2026-09-15T17:40:45.303+00:00",
+      "endedAt": "2026-09-15T17:40:50.707+00:00",
+      "facets": [
+        "Source: Nakama 2-2"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "88c723d1-ade8-4bb2-9ace-f1df05dd4e35",
+          "misses": 1,
+          "result": "missed"
+        }
+      ]
+    },
+    {
+      "id": "ef756956-1275-4a32-b58f-64d35060bd1e",
+      "startedAt": "2026-09-16T17:21:03.56+00:00",
+      "endedAt": "2026-09-16T17:21:11.165+00:00",
+      "facets": [
+        "Type: Grammar"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "a5",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "4c9e0f8b-886f-47c6-adc0-1c6ea23f570d",
+      "startedAt": "2026-09-16T18:44:31.717+00:00",
+      "endedAt": "2026-09-16T18:46:52.082+00:00",
+      "facets": [
+        "Topic: Directions"
+      ],
+      "side": "english",
+      "results": [
+        {
+          "id": "c2331e31-1293-4fc0-a26c-da37d2847d6c",
+          "result": "work"
+        },
+        {
+          "id": "e0dcf3c9-8a6b-41fe-b8ff-6edb3006e8c4",
+          "misses": 1,
+          "result": "missed"
+        },
+        {
+          "id": "a2643b41-ab32-4c13-a304-df290d8ad4f8",
+          "result": "easy"
+        },
+        {
+          "id": "e461e66b-601c-4ae9-9bb7-66e0ad5f4856",
+          "result": "easy"
+        },
+        {
+          "id": "0f0a1bf2-4e48-4205-8b9f-997d0e0ac06c",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "5c4d5cf4-c183-4242-9d4e-71cfb4fffa42",
+      "startedAt": "2026-09-16T19:07:22.817+00:00",
+      "endedAt": "2026-09-16T19:07:50.743+00:00",
+      "facets": [
+        "Topic: Education"
+      ],
+      "side": "english",
+      "results": [
+        {
+          "id": "717df3a2-db64-42fc-a115-608f5764b171",
+          "result": "easy"
+        },
+        {
+          "id": "6c519a94-dcdb-41b1-a2b5-321a844c550c",
+          "result": "work"
+        },
+        {
+          "id": "3215a067-31a6-401c-bc3c-8f9ddd2070d2",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "bb2cf007-b7b8-46d6-a2a3-974f8b9a50f4",
+      "startedAt": "2026-09-19T23:46:37.764Z",
+      "endedAt": "2026-09-19T23:48:33.100Z",
+      "facets": [
+        "Topic: Particles"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "bbef1486-4239-4657-ac9c-a6744d2af4fb",
+          "result": "easy"
+        },
+        {
+          "id": "da643302-4469-453d-8073-1720e0ae7fcf",
+          "result": "easy"
+        },
+        {
+          "id": "a5",
+          "result": "easy"
+        },
+        {
+          "id": "044ef051-f09a-4b1f-b56e-52f27c091d6b",
+          "result": "easy"
+        },
+        {
+          "id": "b0f348dd-58f0-4a5c-8798-b81035f10987",
+          "result": "easy"
         }
       ]
     }
