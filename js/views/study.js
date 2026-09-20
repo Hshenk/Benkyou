@@ -1,7 +1,7 @@
 import { TYPE_LABELS, SIDE_CUES, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
 import { getCards, getSessions, recordStudy, addSession, onChange } from "../storage.js";
-import { toggleScript } from "../script-toggle.js";
+import { toggleScript, frontFurigana } from "../settings.js";
 import { canonicalTag, splitTag } from "../tags.js";
 import { cardStats, weakest, stalest } from "../stats.js";
 import { syncSessions } from "../sync.js";
@@ -291,7 +291,7 @@ function nextCard() {
 
     cardFace.dataset.type = card.type;
     cardFace.dataset.side = english ? 'english' : 'japanese';
-    cardFace.dataset.furigana = 'hidden';
+    cardFace.dataset.furigana = frontFurigana();
 
     faceEnglish.hidden = !english;
     faceQuestion.hidden = english;

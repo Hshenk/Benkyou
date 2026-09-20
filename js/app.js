@@ -1,5 +1,5 @@
 import { initShell, showView, viewFromUrl, DEFAULT_VIEW } from './views/shell.js';
-import { initScriptToggle } from './script-toggle.js';
+import { initSettings } from './settings.js';
 import { initCards } from './views/cards.js';
 import { initEditor, openEditor } from './views/editor.js';
 import { initStudy } from './views/study.js';
@@ -13,7 +13,7 @@ import { initPractice } from './views/practice.js';
 
 
 initShell();
-initScriptToggle();
+initSettings();
 
 initEditor({
     onDone: () => showView('cards'),

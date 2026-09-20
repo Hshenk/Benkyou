@@ -33,11 +33,49 @@
                     <button class="nav__btn" type="button" data-view="stats">Stats</button>
                 </nav>
 
-                <button class="btn btn--sm btn--ghost script-toggle" type="button" id="script-toggle" aria-pressed="false"
-                title="Show handwritten (textbook) kanji forms">
-                    <span lang="ja" aria-hidden="true">手</span>
-                    <span class="script-toggle__text">Handwritten</span>
-                </button>
+                <button class="btn btn--sm btn--ghost" type="button" id="settings-btn"
+                        popovertarget="settings-panel">Settings</button>
+
+                <div class="settings" id="settings-panel" popover>
+                    <h2 class="settings__title">Settings</h2>
+
+                    <fieldset class="settings__group">
+                        <legend class="settings__legend">Furigana on the question</legend>
+
+                        <label class="settings__option">
+                            <input type="radio" name="furigana" value="reveal" checked>
+                            <span class="settings__label">With the answer</span>
+                        </label>
+
+                        <label class="settings__option">
+                            <input type="radio" name="furigana" value="hover">
+                            <span class="settings__label">On hover</span>
+                        </label>
+
+                        <label class="settings__option">
+                            <input type="radio" name="furigana" value="always">
+                            <span class="settings__label">Always</span>
+                        </label>
+
+                        <p class="settings__help">The answer side always shows it.</p>
+                    </fieldset>
+
+                    <fieldset class="settings__group">
+                        <legend class="settings__legend">Japanese text</legend>
+
+                        <label class="settings__option">
+                            <input type="checkbox" id="setting-hand">
+                            <span class="settings__label">
+                                Handwritten forms <kbd>F</kbd>
+                            </span>
+                        </label>
+
+                        <p class="settings__help">
+                            Textbook shapes rather than printed ones, for 令, 糸, 心 and friends.
+                        </p>
+                    </fieldset>
+                </div>
+
                 <button class="btn btn--sm btn--ghost" type="button" id="account-btn">Sign in</button>
             </div>
             
