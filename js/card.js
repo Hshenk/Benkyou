@@ -54,8 +54,8 @@ export function questionMarkup(card) {
  * What kind of answer do we expect?
  */
 export const SIDE_CUES = {
-    kanji: 'Which kanji?',
-    vocab: 'Which word?',
+    kanji: 'Which kanji is this?',
+    vocab: 'How do you say?',
     sentence: 'Translate',
     grammar: 'Which grammar point?',
 }

@@ -89,7 +89,8 @@
             <!-- ---- Stage 1: selection ---- -->
             <div class="stage" id="stage-select">
                 <h2 class="view__title">Study</h2>
-                <p class="view__hint">Select what you want to work on. Nothing ticked means "any"
+                <p class="view__hint">Click to include, again to exclude, again to clear. Nothing included in a
+                group means "any".
                 </p>
                 <fieldset class="side-picker">
                     <legend class="side-picker__legend">Show first</legend>
@@ -243,18 +244,19 @@
                 <details class="facet" open>
                     <summary class="facet__summary">
                         <span class="facet__name" data-field="name"></span>
-                        <span class="facet_selected" data-field="selected"></span>
+                        <span class="facet__selected" data-field="selected"></span>
                     </summary>
                     <div class="facet__options" data-field="options"></div>
                 </details>
             </template>
 
             <template id="option-template">
-                <label class="option">
-                    <input class="option__input" type="checkbox">
+                <button class="option" type="button" data-state="off">
+                    <span class="option__mark" aria-hidden="true"></span>
                     <span class="option__label" data-field="label"></span>
                     <span class="option__count" data-field="count"></span>
-                </label>
+                    <span class="visually-hidden" data-field="state"></span>
+                </button>
             </template>
         </section>
 

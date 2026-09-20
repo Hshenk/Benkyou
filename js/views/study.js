@@ -22,6 +22,20 @@ const focusNote = document.querySelector('#focus-note');
 
 const selection = new Map();
 
+// Tags that start out excluded, such as supplementary vocab
+const EXCLUDED_BY_DEFAULT = new Set(['Topic: Supplementary']);
+const NEXT_STATE = { off: 'include', include: 'exclude', exclude: 'off'};
+const STATE_WORDS = { off: 'not filtered', include: 'included', exclude: 'excluded' };
+
+function defaultState(namespace, value) {
+    return EXCLUDED_BY_DEFAULT.has(`${namespace}: ${value}`) ? 'exclude' : 'off';
+}
+
+function stateOf(namespace, value) {
+    return selection.get(namespace)?.get(value) ?? 'off';
+}
+
+
 function valuesFor(card, namespace) {
     if (namespace === 'Type') return new Set([TYPE_LABELS[card.type]]);
 
@@ -63,17 +77,28 @@ function buildFacets(cards) {
 
 function buildPool(cards, chosenBy) {
     return cards.filter((card) => {
-        for (const [namespace, chosen] of chosenBy) {
-            if (chosen.size === 0) continue;
+        for (const [namespace, states] of chosenBy) {
+            const values = valuesFor(card, namespace);
+            let included = 0;
+            let matched = false;
 
-            const cardValues = valuesFor(card, namespace);
-            const matches = [...chosen].some((v) => cardValues.has(v));
+            for (const [value, state] of states) {
+                if (state === 'exclude' && values.has(value)) return false;
 
-            if (!matches) return false;
+                if (state === 'include') {
+                    included++;
+                    if (values.has(value)) matched = true;
+                }
+            }
+
+            // Included values in a group are an "any of these" rule. A group
+            // with none is a group you didn't filter on.
+            if (included > 0 && !matched) return false;
         }
         return true;
     });
 }
+
 
 const FOCUS_HINTS = {
      all: '',
@@ -99,8 +124,12 @@ function currentPool() {
 
 function facetLabels() {
     const out = [];
-    for (const [namespace, chosen] of selection) {
-        for (const value of chosen) out.push(`${namespace}: ${value}`);
+
+    for (const [namespace, states] of selection) {
+        for (const [value, state] of states) {
+            if (state === 'include') out.push(`${namespace}: ${value}`);
+            else if (state === 'exclude') out.push(`-${namespace}: ${value}`);
+        }
     }
     return out.sort();
 }
@@ -108,19 +137,20 @@ function facetLabels() {
 function renderFacets(cards) {
     const facets = buildFacets(cards);
 
-    // Drop anything selected that no longer exists 
-    for (const [namespace, chosen] of selection) {
+    // Drop anything chosen that no longer exists
+    for (const [namespace, states] of selection) {
         const values = facets.get(namespace);
         if (!values) { selection.delete(namespace); continue; }
-        for (const value of chosen) {
-            if (!values.has(value)) chosen.delete(value);
+        for (const value of states.keys()) {          // CHANGED: keys(), it's a Map now
+            if (!values.has(value)) states.delete(value);
         }
     }
 
     const fragment = document.createDocumentFragment();
 
     for (const [namespace, values] of facets) {
-        if (!selection.has(namespace)) selection.set(namespace, new Set());
+        if (!selection.has(namespace)) selection.set(namespace, new Map());   // CHANGED
+        const states = selection.get(namespace);
 
         const node = facetTemplate.content.firstElementChild.cloneNode(true);
         node.dataset.namespace = namespace;
@@ -129,12 +159,16 @@ function renderFacets(cards) {
         const optionsBox = node.querySelector('[data-field="options"]');
 
         for (const value of [...values.keys()].sort()) {
+            // NEW: first sight of a value decides its state. After that the map
+            // remembers what you set it to, including 'off'.
+            if (!states.has(value)) states.set(value, defaultState(namespace, value));
+
             const option = optionTemplate.content.firstElementChild.cloneNode(true);
             option.dataset.namespace = namespace;
             option.dataset.value = value;
             option.querySelector('[data-field="label"]').textContent = value;
-            option.querySelector('.option__input').checked = selection.get(namespace).has(value);
             optionsBox.append(option);
+            // REMOVED: the line that set .option__input.checked
         }
 
         fragment.append(node);
@@ -143,6 +177,7 @@ function renderFacets(cards) {
     facetsEl.replaceChildren(fragment);
     updateFacetUI();
 }
+
 
 /**
  * How many cards this option would contribute 
@@ -160,19 +195,29 @@ function countFor(namespace, value) {
 function updateFacetUI() {
     for (const option of facetsEl.querySelectorAll('.option')) {
         const { namespace, value } = option.dataset;
-        const input = option.querySelector('.option__input');
+        const state = stateOf(namespace, value);
         const n = countFor(namespace, value);
 
+        option.dataset.state = state;
+        option.querySelector('[data-field="state"]').textContent = STATE_WORDS[state];
         option.querySelector('[data-field="count"]').textContent = n;
-        input.disabled = n === 0 && !input.checked;
+
+        // An option worth nothing is only dead weight while it's doing nothing.
+        option.disabled = n === 0 && state === 'off';
     }
 
     for (const facet of facetsEl.querySelectorAll('.facet')) {
-        const chosen = selection.get(facet.dataset.namespace);
-        facet.querySelector('[data-field="selected"]').textContent = 
-            chosen.size ? `${chosen.size} selected` : ''
-    }
+        const states = [...selection.get(facet.dataset.namespace).values()];
+        const included = states.filter((s) => s === 'include').length;
+        const excluded = states.filter((s) => s === 'exclude').length;
 
+        const parts = [];
+        if (included) parts.push(`${included} included`);
+        if (excluded) parts.push(`${excluded} excluded`);
+
+        facet.querySelector('[data-field="selected"]').textContent = parts.join(', ');
+    }
+    
     const matched = buildPool(getCards(), selection);
     const pool = applyFocus(matched);
     const mode = focusMode.value;
@@ -420,28 +465,28 @@ function endSession() {
 
 export function initStudy() {
     // --- Selection ---
-    facetsEl.addEventListener('change', (event) => {
-        const input = event.target;
-        if (!input.matches('.option__input')) return;
+    facetsEl.addEventListener('click', (event) => {
+        const option = event.target.closest('.option');
+        if (!option) return;
 
-        const { namespace, value } = input.closest('.option').dataset;
-        const chosen = selection.get(namespace);
-
-        if (input.checked) chosen.add(value);
-        else chosen.delete(value);
+        const { namespace, value } = option.dataset;
+        const states = selection.get(namespace);
+        states.set(value, NEXT_STATE[states.get(value) ?? 'off']);
 
         updateFacetUI();
     });
 
     clearBtn.addEventListener('click', () => {
-        for (const chosen of selection.values()) chosen.clear();
-        for (const input of facetsEl.querySelectorAll('.option__input')) input.checked = false;
+        for (const [namespace, states] of selection) {
+            for (const value of states.keys()) states.set(value, defaultState(namespace, value));
+        }
 
         focusMode.value = 'all';
         focusLimitField.hidden = false;
 
         updateFacetUI();
     });
+
 
 
     startBtn.addEventListener('click', () => {

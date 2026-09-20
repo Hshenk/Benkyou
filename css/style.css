@@ -120,6 +120,11 @@ legend {
   --grade-familiar:  #7ec9ed;
   --grade-mastered:  #f2e075;
 
+  /* --- Facet states: light blue in, orange out --- */
+  --include: #7ec9ed;
+  --exclude: #d88445;
+
+
   /* --- Activity heatmap: one hue, brighter = more reps --- */
   --heat-1: #68521e;
   --heat-2: #977523;
@@ -828,23 +833,60 @@ main {
 
 /* ------ Facet options ------ */
 .option {
-    display: flex;
     align-items: center;
-    gap: var(--space-2);
+    background: none;
+    border: 0;
     border-radius: var(--radius);
+    color: inherit;
     cursor: pointer;
+    display: flex;
+    font: inherit;
+    gap: var(--space-2);
     padding: var(--space-1) var(--space-2);
+    text-align: left;
+    width: 100%;
 }
 
 .option:hover {
     background: var(--surface-2);
 }
 
-.option__input {
+.option__mark {
+    align-items: center;
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+    display: flex;
     flex: none;
-    width: 15px;
-    height: 15px;
-    margin: 0;
+    font-size: 11px;
+    height: 16px;
+    justify-content: center;
+    line-height: 1;
+    width: 16px;
+}
+
+.option[data-state="include"] .option__mark {
+    background: var(--include);
+    border-color: var(--include);
+    color: var(--text-invert);
+}
+
+.option[data-state="include"] .option__mark::before {
+    content: "✓";
+}
+
+.option[data-state="exclude"] .option__mark {
+    background: var(--exclude);
+    border-color: var(--exclude);
+    color: var(--text-invert);
+}
+
+.option[data-state="exclude"] .option__mark::before {
+    content: "✕";
+}
+
+.option[data-state="exclude"] .option__label {
+    color: var(--text-muted);
+    text-decoration: line-through;
 }
 
 .option__label {
@@ -859,12 +901,12 @@ main {
     margin-left: auto;
 }
 
-.option:has(:disabled) {
+.option:disabled {
     color: var(--text-faint);
     cursor: default;
 }
 
-.option:has(:disabled):hover {
+.option:disabled:hover {
     background: none;
 }
 
