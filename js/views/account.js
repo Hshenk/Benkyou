@@ -40,7 +40,7 @@ export async function initAccount() {
         const action = event.target.closest('[data-account]')?.dataset.account;
         if (!action) return;
 
-        if (action === 'close') { dialog.closest(); return; }
+        if (action === 'close') { dialog.close(); return; }
 
         if (action === 'signout') {
             await signOut();

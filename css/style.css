@@ -726,6 +726,41 @@ main {
     font-variant-numeric: tabular-nums;
 }
 
+/* ------ Duplicate groups ------ */
+.dupe-head {
+    align-items: baseline;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: var(--space-2);
+    margin-top: var(--space-3);
+    padding: var(--space-2) var(--space-1) 0;
+}
+
+.dupe-head:first-child {
+    border-top: 0;
+    margin-top: 0;
+}
+
+.dupe-head__why {
+    color: var(--text-muted);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.dupe-head__count {
+    color: var(--text-faint);
+    font-size: 13px;
+    margin-left: auto;
+}
+
+.btn[aria-pressed="true"] {
+    background: var(--surface-3);
+    border-color: var(--border-strong);
+}
+
+
 /* ------ Type badge ------ */
 .type-badge {
     border-radius: var(--radius);

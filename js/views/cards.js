@@ -4,6 +4,7 @@ import { getCards, deleteCard, onChange, getCard } from "../storage.js";
 import { tokenize, plainText } from '../tokenize.js';
 import { canonicalTag } from '../tags.js';
 import { SORTS, sortCards } from '../sort.js';
+import { findDuplicates } from '../duplicates.js';
 
 // --- Card List ---
 const cardList = document.querySelector('#card-list');
@@ -12,10 +13,15 @@ const cardEmpty = document.querySelector('#card-empty');
 const searchInput = document.querySelector('#card-search');
 const rowTemplate = document.querySelector('#card-row-template');
 const sortBar = document.querySelector('#sort-bar');
+const dupesBtn = document.querySelector('#dupes-btn');
+const dupeHeadTemplate = document.querySelector('#dupe-head-template');
+
+
 
 let activeSort = 'default';
 let dir = 1;
 let SORT_KEY = 'benkyou:sort';
+let dupesMode = false;
 
 function buildRow(card) {
     const row = rowTemplate.content.firstElementChild.cloneNode(true);
@@ -66,6 +72,35 @@ function renderCards(cards, query = '') {
         : 'No cards yet. Create one from New Card.';
 }
 
+function buildDupeHead(group) {
+    const head = dupeHeadTemplate.content.firstElementChild.cloneNode(true);
+    const n = group.cards.length;
+
+    head.querySelector('[data-field="why"]').textContent = group.reasons.join(' · ');
+    head.querySelector('[data-field="count"]').textContent = `${n} cards`;
+
+    return head;
+}
+
+function renderDuplicates() {
+    const groups = findDuplicates(getCards());
+    const fragment = document.createDocumentFragment();
+
+    for (const group of groups) {
+        fragment.append(buildDupeHead(group));
+        for (const card of group.cards) fragment.append(buildRow(card));
+    }
+
+    cardList.replaceChildren(fragment);
+
+    const cards = groups.reduce((n, group) => n + group.cards.length, 0);
+    cardCount.textContent = groups.length === 0
+        ? 'No possible duplicates'
+        : `${groups.length} group${groups.length === 1 ? '' : 's'} · ${cards} cards`;
+    cardEmpty.hidden = groups.length > 0;
+    cardEmpty.textContent = 'No two cards share a reading or a meaning.';
+}
+
 // --- Search ---
 function searchableText(card) {
     return [
@@ -82,6 +117,11 @@ function filterCards(query) {
 }
 
 function rerender() {
+    if (dupesMode) {
+        renderDuplicates();
+        return;
+    }
+
     const query = searchInput.value;
     renderCards(sortCards(filterCards(query), activeSort, dir), query);
 }
@@ -116,6 +156,20 @@ export function initCards(options = {}) {
             deleteCard(id);
         }
     });
+
+    // Detect duplicate button
+    dupesBtn.addEventListener('click', () => {
+        dupesMode = !dupesMode;
+
+        dupesBtn.setAttribute('aria-pressed', String(dupesMode));
+
+        // Search and sort don't apply to groups, so say so rather than lying.
+        searchInput.disabled = dupesMode;
+        sortBar.hidden = dupesMode;
+
+        rerender();
+    });
+
 
     onChange(rerender);
 

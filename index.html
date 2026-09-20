@@ -299,6 +299,9 @@
                 <button class="btn btn--sm" type="button" id="export-btn">Export</button>
                 <button class="btn btn--sm btn--ghost" type="button" id="import-btn">Import</button>
                 <button class="btn btn--sm btn--ghost" type="button" id="sync-btn">Check repo</button>
+                <button class="btn btn--sm btn--ghost" type="button" id="dupes-btn"
+                aria-pressed="false">Duplicates</button>
+
                 <input type="file" id="import-file" accept="application/json,.json" hidden>
             </div>
 
@@ -323,6 +326,14 @@
             <ul class="card-list" id="card-list" role="list"></ul>
 
             <p class="empty" id="card-empty" hidden></p>
+
+            <template id="dupe-head-template">
+                <li class="dupe-head">
+                    <span class="dupe-head__why" data-field="why"></span>
+                    <span class="dupe-head__count" data-field="count"></span>
+                </li>
+            </template>
+
 
             <template id="card-row-template">
                 <li class="card-row">
