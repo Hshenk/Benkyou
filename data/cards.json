@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 16,
-  "exportedAt": "2026-09-19T23:50:53.360Z",
+  "version": 19,
+  "exportedAt": "2026-09-23T17:30:37.988Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -2074,7 +2074,7 @@
     },
     {
       "createdAt": "2026-09-07T00:22:03.604Z",
-      "updatedAt": "2026-09-07T00:22:03.604Z",
+      "updatedAt": "2026-09-23T16:39:40.162Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -2082,7 +2082,9 @@
       "notes": "友達 【ともだち】 friend, companion",
       "tags": [
         "Level: N5",
-        "Source: Nakama 1-7"
+        "Source: Nakama 1-7",
+        "Topic: People",
+        "Topic: Relationships"
       ],
       "data": {
         "character": "友",
@@ -2765,7 +2767,7 @@
     },
     {
       "createdAt": "2026-09-19T22:29:28.009Z",
-      "updatedAt": "2026-09-19T22:37:24.227Z",
+      "updatedAt": "2026-09-23T15:25:11.059Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -2775,7 +2777,7 @@
         "Source: Nakama 1-2"
       ],
       "data": {
-        "expression": "アジア研究[けんきゅう]",
+        "expression": "アジア 研究[けんきゅう]",
         "reading": "アジアけんきゅう"
       },
       "id": "e2bf18fa-2cbc-44af-a4dc-6323d257b2d1"
@@ -2783,7 +2785,7 @@
     {
       "createdAt": "2026-09-19T22:30:11.996Z",
       "updatedAt": "2026-09-19T22:34:46.859Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "England",
@@ -2854,7 +2856,7 @@
     {
       "createdAt": "2026-09-19T22:34:37.447Z",
       "updatedAt": "2026-09-19T22:34:37.447Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Australia",
@@ -2872,7 +2874,7 @@
     {
       "createdAt": "2026-09-19T22:35:14.799Z",
       "updatedAt": "2026-09-19T22:35:14.799Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "America",
@@ -2908,7 +2910,7 @@
     {
       "createdAt": "2026-09-19T22:39:18.192Z",
       "updatedAt": "2026-09-19T22:39:18.192Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Canada",
@@ -2926,7 +2928,7 @@
     {
       "createdAt": "2026-09-19T22:40:11.585Z",
       "updatedAt": "2026-09-19T22:40:11.585Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "South Korea",
@@ -3071,7 +3073,7 @@
     {
       "createdAt": "2026-09-19T22:46:48.022Z",
       "updatedAt": "2026-09-19T22:46:48.022Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Spain",
@@ -3143,7 +3145,7 @@
     {
       "createdAt": "2026-09-19T22:50:11.491Z",
       "updatedAt": "2026-09-19T22:50:11.491Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Taiwan",
@@ -3161,7 +3163,7 @@
     {
       "createdAt": "2026-09-19T22:50:58.658Z",
       "updatedAt": "2026-09-19T22:50:58.658Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "China",
@@ -3214,7 +3216,7 @@
     {
       "createdAt": "2026-09-19T22:52:53.956Z",
       "updatedAt": "2026-09-19T22:52:53.956Z",
-      "timesSeen": 0,
+      "timesSeen": 2,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Japan",
@@ -3250,7 +3252,7 @@
     {
       "createdAt": "2026-09-19T22:53:46.330Z",
       "updatedAt": "2026-09-19T22:53:46.330Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "France",
@@ -3286,7 +3288,7 @@
     {
       "createdAt": "2026-09-19T22:54:49.744Z",
       "updatedAt": "2026-09-19T22:54:49.744Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Mexico",
@@ -3817,8 +3819,8 @@
     {
       "createdAt": "2026-09-19T23:30:11.295Z",
       "updatedAt": "2026-09-19T23:44:59.925Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 2,
       "type": "vocab",
       "meaning": "Chemistry",
       "notes": "",
@@ -4049,8 +4051,8 @@
     {
       "createdAt": "2026-09-19T23:42:19.440Z",
       "updatedAt": "2026-09-19T23:44:38.371Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Biology",
       "notes": "",
@@ -4108,8 +4110,8 @@
     {
       "createdAt": "2026-09-19T23:44:30.691Z",
       "updatedAt": "2026-09-19T23:44:30.691Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 2,
       "type": "vocab",
       "meaning": "Physics",
       "notes": "",
@@ -4124,6 +4126,960 @@
         "reading": "ぶつりがく"
       },
       "id": "469145fc-417f-43c8-ac17-50e04e539d82"
+    },
+    {
+      "createdAt": "2026-09-23T16:34:10.175Z",
+      "updatedAt": "2026-09-23T16:34:10.175Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "male",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-10",
+        "Topic: People"
+      ],
+      "data": {
+        "character": "男",
+        "onyomi": [
+          "ダン",
+          "ナン"
+        ],
+        "kunyomi": [
+          "おとこ",
+          "お"
+        ],
+        "strokes": 7
+      },
+      "id": "f5cf1fe0-a8c4-4a55-8ce1-9ac6296b7920"
+    },
+    {
+      "createdAt": "2026-09-23T16:35:14.016Z",
+      "updatedAt": "2026-09-23T16:35:14.016Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "woman, female",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-10",
+        "Topic: People"
+      ],
+      "data": {
+        "character": "女",
+        "onyomi": [
+          "ジョ",
+          "ニョ",
+          "ニョウ"
+        ],
+        "kunyomi": [
+          "おんな",
+          "め"
+        ],
+        "strokes": 3
+      },
+      "id": "7f983824-0f49-4e52-ad46-86ce0d387a65"
+    },
+    {
+      "createdAt": "2026-09-23T16:36:24.563Z",
+      "updatedAt": "2026-09-23T16:38:54.225Z",
+      "timesSeen": 2,
+      "timesMissed": 1,
+      "type": "kanji",
+      "meaning": "eye, class, look, insight, experience, care, favor",
+      "notes": "As a counter - order, item (of a budget revision, etc.), counter for played stones, counter for surrounded points.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-10",
+        "Topic: Body",
+        "Topic: Counters"
+      ],
+      "data": {
+        "character": "目",
+        "onyomi": [
+          "モク",
+          "ボク"
+        ],
+        "kunyomi": [
+          "め",
+          "-め",
+          "ま-"
+        ],
+        "strokes": 5
+      },
+      "id": "d4217532-0d07-4d20-aafd-8f2db932b010"
+    },
+    {
+      "createdAt": "2026-09-23T16:36:57.916Z",
+      "updatedAt": "2026-09-23T16:36:57.916Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "mouth",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Body",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "character": "口",
+        "onyomi": [
+          "コウ",
+          "ク"
+        ],
+        "kunyomi": [
+          "くち"
+        ],
+        "strokes": 3
+      },
+      "id": "96e25697-7408-4977-94fd-a2dcb2ad8d02"
+    },
+    {
+      "createdAt": "2026-09-23T16:37:36.295Z",
+      "updatedAt": "2026-09-23T16:37:36.295Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "ear",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "character": "耳",
+        "onyomi": [
+          "ジ"
+        ],
+        "kunyomi": [
+          "みみ"
+        ],
+        "strokes": 6
+      },
+      "id": "6be207cf-c99c-46b5-b31d-a7b097fdaa2b"
+    },
+    {
+      "createdAt": "2026-09-23T16:38:40.066Z",
+      "updatedAt": "2026-09-23T16:38:40.066Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "leg, foot, be sufficient, counter for pairs of footwear",
+      "notes": "As a counter - pairs of socks, shoes, etc.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-10",
+        "Topic: Body",
+        "Topic: Counters"
+      ],
+      "data": {
+        "character": "足",
+        "onyomi": [
+          "ソク"
+        ],
+        "kunyomi": [
+          "あし",
+          "た.りる",
+          "た.る",
+          "た.す"
+        ],
+        "strokes": 7
+      },
+      "id": "f7b4b1c2-3f97-4958-bcb7-4618f6d6b679"
+    },
+    {
+      "createdAt": "2026-09-23T16:40:40.365Z",
+      "updatedAt": "2026-09-23T16:40:40.365Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Hand",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "character": "手",
+        "onyomi": [
+          "シュ",
+          "ズ"
+        ],
+        "kunyomi": [
+          "て",
+          "て-",
+          "-て",
+          "た-"
+        ],
+        "strokes": 4
+      },
+      "id": "a5a543c3-f592-461e-a0a4-d5df9026396c"
+    },
+    {
+      "createdAt": "2026-09-23T16:41:35.058Z",
+      "updatedAt": "2026-09-23T16:41:35.058Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Father",
+      "notes": "父母 【フボ】Parents",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-10",
+        "Topic: People",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "character": "父",
+        "onyomi": [
+          "フ"
+        ],
+        "kunyomi": [
+          "ちち"
+        ],
+        "strokes": 4
+      },
+      "id": "5408454c-4902-442d-941d-5eaa5cb9c3a3"
+    },
+    {
+      "createdAt": "2026-09-23T16:42:26.750Z",
+      "updatedAt": "2026-09-23T16:42:26.750Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Mother",
+      "notes": "母国 【ボコク】 one's home country, one's homeland",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-10",
+        "Topic: People",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "character": "母",
+        "onyomi": [
+          "ボ"
+        ],
+        "kunyomi": [
+          "はは",
+          "も"
+        ],
+        "strokes": 5
+      },
+      "id": "3e9950cb-8bfc-4f10-9315-079ed9d4c867"
+    },
+    {
+      "createdAt": "2026-09-23T16:43:43.133Z",
+      "updatedAt": "2026-09-23T16:43:43.133Z",
+      "timesSeen": 2,
+      "timesMissed": 1,
+      "type": "kanji",
+      "meaning": "Elder sister",
+      "notes": "姉 【シ】 honorific suffix used after the name of a woman of equal or higher status.\n姉妹 【シマイ】 sisters.",
+      "tags": [
+        "Level: N4",
+        "Topic: Relationships",
+        "Topic: People",
+        "Topic: Suffix",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "character": "姉",
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "あね",
+          "はは"
+        ],
+        "strokes": 8
+      },
+      "id": "1ec1093d-4e9f-4208-b164-92c1d20ae664"
+    },
+    {
+      "createdAt": "2026-09-23T16:44:31.831Z",
+      "updatedAt": "2026-09-23T16:44:57.617Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Elder brother, big brother",
+      "notes": "兄弟 【キョウダイ】 Siblings.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: People"
+      ],
+      "data": {
+        "character": "兄",
+        "onyomi": [
+          "ケイ",
+          "キョウ"
+        ],
+        "kunyomi": [
+          "あに"
+        ],
+        "strokes": 5
+      },
+      "id": "f5e65d16-00b5-4ef5-82bc-c6df7791a4a0"
+    },
+    {
+      "createdAt": "2026-09-23T16:45:33.107Z",
+      "updatedAt": "2026-09-23T16:45:33.107Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Younger sister",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: People",
+        "Topic: Relationships",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "character": "妹",
+        "onyomi": [
+          "マイ"
+        ],
+        "kunyomi": [
+          "いもうと"
+        ],
+        "strokes": 8
+      },
+      "id": "7253bcfc-d97a-4557-908e-36636932f862"
+    },
+    {
+      "createdAt": "2026-09-23T16:46:35.837Z",
+      "updatedAt": "2026-09-23T16:46:35.837Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Younger brother, faithful service to elders",
+      "notes": "弟子 【デシ】 pupil, disciple",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-10",
+        "Topic: People",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "character": "弟",
+        "onyomi": [
+          "テイ",
+          "ダイ",
+          "デ"
+        ],
+        "kunyomi": [
+          "おとうと"
+        ],
+        "strokes": 7
+      },
+      "id": "f6b28e2a-1bb8-43b4-97d4-d1b857515152"
+    },
+    {
+      "createdAt": "2026-09-23T16:47:42.563Z",
+      "updatedAt": "2026-09-23T16:47:42.563Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "House, home, family, professional, expert, performer",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Locations",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "character": "家",
+        "onyomi": [
+          "カ",
+          "ケ"
+        ],
+        "kunyomi": [
+          "いえ",
+          "や",
+          "うち"
+        ],
+        "strokes": 10
+      },
+      "id": "669af272-9e45-4878-a49f-e117540079c7"
+    },
+    {
+      "createdAt": "2026-09-23T16:49:06.702Z",
+      "updatedAt": "2026-09-23T16:49:06.702Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Tribe, family",
+      "notes": "家族 [かぞく] - Family",
+      "tags": [
+        "Level: N4",
+        "Topic: Relationships",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "character": "族",
+        "onyomi": [
+          "ゾク"
+        ],
+        "kunyomi": [],
+        "strokes": 11
+      },
+      "id": "9d59734f-d59d-4dc2-aa02-ecf3d28e519e"
+    },
+    {
+      "createdAt": "2026-09-23T16:50:51.014Z",
+      "updatedAt": "2026-09-23T16:50:51.014Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Both, old Japanese coin, counter for carriages (e.g., in a train), two",
+      "notes": "両親 [りょうしん] Both parents.",
+      "tags": [
+        "Level: N3",
+        "Topic: Counters",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "character": "両",
+        "onyomi": [
+          "リョウ"
+        ],
+        "kunyomi": [
+          "てる",
+          "ふたつ"
+        ],
+        "strokes": 6
+      },
+      "id": "a8d71edf-cf03-4c62-bb00-49c397286dee"
+    },
+    {
+      "createdAt": "2026-09-23T16:53:09.996Z",
+      "updatedAt": "2026-09-23T16:53:09.996Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Parent, intimacy, relative, familiarity, dealer (cards)",
+      "notes": "両親【りょうしん】- Both parents.",
+      "tags": [
+        "Level: N4",
+        "Topic: Relationships",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "character": "親",
+        "onyomi": [
+          "シン"
+        ],
+        "kunyomi": [
+          "おや",
+          "おや-",
+          "した.しい",
+          "した.しむ"
+        ],
+        "strokes": 16
+      },
+      "id": "b08af854-e39d-4124-bd3f-450dedda40f1"
+    },
+    {
+      "createdAt": "2026-09-23T16:53:38.700Z",
+      "updatedAt": "2026-09-23T16:53:38.700Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: People"
+      ],
+      "data": {
+        "character": "子",
+        "onyomi": [
+          "シ",
+          "ス",
+          "ツ"
+        ],
+        "kunyomi": [
+          "こ",
+          "-こ",
+          "ね"
+        ],
+        "strokes": 3
+      },
+      "id": "da6d4b09-6ccb-46b2-b649-5cc0bcdd5392"
+    },
+    {
+      "createdAt": "2026-09-23T17:04:52.380Z",
+      "updatedAt": "2026-09-23T17:04:52.380Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Heavens, sky, imperial",
+      "notes": "天気 - てんき - Weather",
+      "tags": [
+        "Level: N5",
+        "Topic: Nature",
+        "Topic: Weather",
+        "Source: Nakama 1-11",
+        "Topic: Religion"
+      ],
+      "data": {
+        "character": "天",
+        "onyomi": [
+          "テン"
+        ],
+        "kunyomi": [
+          "あまつ",
+          "あめ",
+          "あま-"
+        ],
+        "strokes": 4
+      },
+      "id": "6573c276-1c15-45c0-a8fd-a90f58b5c95f"
+    },
+    {
+      "createdAt": "2026-09-23T17:05:47.634Z",
+      "updatedAt": "2026-09-23T17:05:47.634Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Spirit, mind, air, atmosphere, mood",
+      "notes": "天気 - てんき - Weather",
+      "tags": [
+        "Level: N5",
+        "Topic: Religion",
+        "Topic: Weather",
+        "Topic: Nature",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "気",
+        "onyomi": [
+          "キ",
+          "ケ"
+        ],
+        "kunyomi": [
+          "いき",
+          "き"
+        ],
+        "strokes": 6
+      },
+      "id": "0f685e2b-ed6e-4a9b-af53-f43e21a5564b"
+    },
+    {
+      "createdAt": "2026-09-23T17:06:19.364Z",
+      "updatedAt": "2026-09-23T17:06:19.364Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Rain",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Weather",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "雨",
+        "onyomi": [
+          "ウ"
+        ],
+        "kunyomi": [
+          "あめ",
+          "あま-",
+          "-さめ"
+        ],
+        "strokes": 8
+      },
+      "id": "d7565a21-d251-4318-a78a-640bae44e8cf"
+    },
+    {
+      "createdAt": "2026-09-23T17:06:44.451Z",
+      "updatedAt": "2026-09-23T17:06:44.451Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Snow",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Topic: Weather",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "雪",
+        "onyomi": [
+          "セツ"
+        ],
+        "kunyomi": [
+          "ゆき"
+        ],
+        "strokes": 11
+      },
+      "id": "ab6131b3-3639-4909-ab00-2d42b3de89bc"
+    },
+    {
+      "createdAt": "2026-09-23T17:07:49.494Z",
+      "updatedAt": "2026-09-23T17:07:49.494Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Wind, air, style, manner",
+      "notes": "風邪 【かぜ】 (common) cold, influenza, flu.",
+      "tags": [
+        "Level: N4",
+        "Topic: Weather",
+        "Topic: Health",
+        "Source: Nakama 1-11",
+        "Topic: Nature"
+      ],
+      "data": {
+        "character": "風",
+        "onyomi": [
+          "フウ",
+          "フ"
+        ],
+        "kunyomi": [
+          "かぜ",
+          "かざ-"
+        ],
+        "strokes": 9
+      },
+      "id": "1346d3cf-bf27-48a8-8505-2a36a47b6210"
+    },
+    {
+      "createdAt": "2026-09-23T17:08:39.212Z",
+      "updatedAt": "2026-09-23T17:08:39.212Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Clear up",
+      "notes": "晴天 【セイテン】 Fine weather",
+      "tags": [
+        "Level: N3",
+        "Topic: Weather",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "晴",
+        "onyomi": [
+          "セイ"
+        ],
+        "kunyomi": [
+          "は.れる",
+          "は.れ",
+          "は.れ-",
+          "-ば.れ",
+          "は.らす"
+        ],
+        "strokes": 12
+      },
+      "id": "b03a38fa-f385-4e1c-9ec9-bdd72bc91f02"
+    },
+    {
+      "createdAt": "2026-09-23T17:09:09.752Z",
+      "updatedAt": "2026-09-23T17:09:09.752Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Warm",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 1-10",
+        "Topic: Weather"
+      ],
+      "data": {
+        "character": "温",
+        "onyomi": [
+          "オン"
+        ],
+        "kunyomi": [
+          "あたた.か",
+          "あたた.かい",
+          "あたた.まる",
+          "あたた.める",
+          "ぬく"
+        ],
+        "strokes": 12
+      },
+      "id": "85ebbff4-dd0f-4a72-afca-00cba534befc"
+    },
+    {
+      "createdAt": "2026-09-23T17:10:05.182Z",
+      "updatedAt": "2026-09-23T17:10:05.182Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Degrees, occurrence, time, counter for occurrences, consider, attitude",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Counters",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "度",
+        "onyomi": [
+          "ド",
+          "ト",
+          "タク"
+        ],
+        "kunyomi": [
+          "たび",
+          "-た.い"
+        ],
+        "strokes": 9
+      },
+      "id": "693e86b5-10e1-4f20-a9c6-4516066faaf1"
+    },
+    {
+      "createdAt": "2026-09-23T17:11:29.677Z",
+      "updatedAt": "2026-09-23T17:11:29.677Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "East",
+      "notes": "東京　とうきょう",
+      "tags": [
+        "Level: N5",
+        "Topic: Directions",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "東",
+        "onyomi": [
+          "トウ"
+        ],
+        "kunyomi": [
+          "ひがし"
+        ],
+        "strokes": 8
+      },
+      "id": "bfe69905-3263-4e99-84d3-af30a4abcf59"
+    },
+    {
+      "createdAt": "2026-09-23T17:12:05.932Z",
+      "updatedAt": "2026-09-23T17:12:05.932Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "West, Spain",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Directions",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "西",
+        "onyomi": [
+          "セイ",
+          "サイ",
+          "ス"
+        ],
+        "kunyomi": [
+          "にし"
+        ],
+        "strokes": 6
+      },
+      "id": "11b8f800-a7b2-48e5-affb-fbca20341555"
+    },
+    {
+      "createdAt": "2026-09-23T17:12:41.112Z",
+      "updatedAt": "2026-09-23T17:12:41.112Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "South",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Directions",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "南",
+        "onyomi": [
+          "ナン",
+          "ナ"
+        ],
+        "kunyomi": [
+          "みなみ"
+        ],
+        "strokes": 9
+      },
+      "id": "44ba9857-b662-4362-909a-bd000cd434e7"
+    },
+    {
+      "createdAt": "2026-09-23T17:13:39.336Z",
+      "updatedAt": "2026-09-23T17:13:39.336Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "North",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Directions",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "北",
+        "onyomi": [
+          "ホク"
+        ],
+        "kunyomi": [
+          "きた"
+        ],
+        "strokes": 5
+      },
+      "id": "7f4bb048-ecfc-449c-a77b-ee9d5a97cefa"
+    },
+    {
+      "createdAt": "2026-09-23T17:14:16.875Z",
+      "updatedAt": "2026-09-23T17:14:16.875Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Cold",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Topic: Weather",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "寒",
+        "onyomi": [
+          "カン"
+        ],
+        "kunyomi": [
+          "さむ.い"
+        ],
+        "strokes": 12
+      },
+      "id": "00473b5d-b7bd-4dff-95cb-4ccbc088d1eb"
+    },
+    {
+      "createdAt": "2026-09-23T17:14:56.261Z",
+      "updatedAt": "2026-09-23T17:18:01.703Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Sultry, hot (weather) , summer heat",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "character": "暑",
+        "onyomi": [
+          "ショ"
+        ],
+        "kunyomi": [
+          "あつ.い"
+        ],
+        "strokes": 12
+      },
+      "id": "583dfd28-0346-4625-a97f-93b380027a1f"
+    },
+    {
+      "createdAt": "2026-09-23T17:15:42.674Z",
+      "updatedAt": "2026-09-23T17:15:42.674Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Many, frequent, much",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Numbers",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "多",
+        "onyomi": [
+          "タ"
+        ],
+        "kunyomi": [
+          "おお.い",
+          "まさ.に",
+          "まさ.る"
+        ],
+        "strokes": 6
+      },
+      "id": "178a267b-7fb1-43a5-abe4-68a4313e7161"
+    },
+    {
+      "createdAt": "2026-09-23T17:16:20.405Z",
+      "updatedAt": "2026-09-23T17:16:20.405Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Few, little",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-11",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "character": "少",
+        "onyomi": [
+          "ショウ"
+        ],
+        "kunyomi": [
+          "すく.ない",
+          "すこ.し"
+        ],
+        "strokes": 4
+      },
+      "id": "1a6cf745-d472-4c1e-a05c-518466a95ef9"
+    },
+    {
+      "createdAt": "2026-09-23T17:17:39.993Z",
+      "updatedAt": "2026-09-23T17:17:39.993Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Cool, cold (beer, person), chill",
+      "notes": "This refers to an object, not the temperature. 寒 For weather",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "character": "冷",
+        "onyomi": [
+          "レイ"
+        ],
+        "kunyomi": [
+          "つめ.たい",
+          "ひ.える",
+          "ひ.や",
+          "ひ.ややか",
+          "ひ.やす",
+          "ひ.やかす",
+          "さ.める",
+          "さ.ます"
+        ],
+        "strokes": 7
+      },
+      "id": "f0e8e56c-acb1-4e9e-8702-ccd5b76f58bd"
     }
   ]
 }

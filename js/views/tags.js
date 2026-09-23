@@ -1,5 +1,5 @@
 import { tagCounts, renameTag, deleteTag, normalizeAllTags, onChange } from "../storage.js";
-import { splitTag, canonicalTag, reservedNamespace } from "../tags.js";
+import { splitTag, canonicalTag, reservedNamespace, compareTags } from "../tags.js";
 
 const groupsEl = document.querySelector('#tag-groups');
 const emptyEl = document.querySelector('#tag-empty');
@@ -21,7 +21,7 @@ function groupTags() {
     }
 
     for (const list of groups.values()) {
-    list.sort((a, b) => a.value.localeCompare(b.value));
+    list.sort((a, b) => compareTags(a.value, b.value))
     }
 
     return new Map([...groups].sort((a, b) => a[0].localeCompare(b[0])));

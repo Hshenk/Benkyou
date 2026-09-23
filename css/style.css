@@ -104,6 +104,9 @@ legend {
   --radius:    3px;
   --radius-lg: 5px;
 
+  /* --- Local Only --- */
+  --local-only: #d88445;
+
   /* --- Highlight colors --- */
   --hl-red:       #ff9a9c;
   --hl-red-bg:    rgb(203 64 66 / 0.20);
@@ -585,6 +588,29 @@ main {
 .notation__swatch[data-color="blue"]   { background: var(--hl-blue); }
 .notation__swatch[data-color="yellow"] { background: var(--hl-yellow); }
 
+/* ------ Notation preview ------ */
+.preview {
+    border-left: 2px solid var(--border-strong);
+    margin-top: var(--space-2);
+    padding: 0 0 0 var(--space-3);
+}
+
+.preview__label {
+    color: var(--text-faint);
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.preview__body {
+    font-size: 20px;
+}
+
+.preview__body a {
+    /* It renders as a link so you can see it parsed, but it isn't a way out. */
+    cursor: default;
+}
+
 /* ------ Segmented control ------ */
 .segmented {
     display: inline-flex;
@@ -719,7 +745,7 @@ main {
 
 .card-row {
     display: grid;
-    grid-template-columns: 76px minmax(0, 1.1fr) minmax(0, 1fr) auto;
+    grid-template-columns: 10px 76px minmax(0, 1.1fr) minmax(0, 1fr) auto;
     align-items: center;
     gap: var(--space-3);
     padding: var(--space-3) var(--space-2);
@@ -764,6 +790,22 @@ main {
     color: var(--text-faint);
     font-size: 13px;
     font-variant-numeric: tabular-nums;
+}
+
+/* ------ Local Only indicator ------ */
+.repo-flag {
+    border-radius: 50%;
+    height: 9px;
+    justify-self: center;
+    width: 9px;
+}
+
+.repo-flag[data-state="new"] {
+    background: var(--local-only);
+}
+
+.repo-flag[data-state="edited"] {
+    border: 2px solid var(--local-only);
 }
 
 /* ------ Duplicate groups ------ */

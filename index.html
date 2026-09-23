@@ -337,6 +337,8 @@
 
             <template id="card-row-template">
                 <li class="card-row">
+                    <span class="repo-flag" data-field="repo"></span>
+
                     <span class="type-badge" data-field="type"></span>
 
                     <p class="card-row__jp" lang="ja" data-field="expression"></p>
@@ -428,6 +430,12 @@
                         </div>
 
                         <input class="input input--jp" type="text" lang="ja" id="vocab-expression" name="expression" placeholder="食[た]べる">
+
+                        <div class="preview" data-preview="vocab-expression" hidden>
+                            <span class="preview__label">Preview</span>                      
+                            <p class="preview__body has-ruby" lang="ja" aria-hidden="true"></p>
+                        </div> 
+
                         <p class="field__help">
                             Furigana in square brackets - <code>漢字[かんじ]</code>.
                             <br>
@@ -484,7 +492,7 @@
                 <fieldset class="field-grid" data-type-fields="sentence" hidden>
                     <div class="field field--full">
                         <label class="field__label" for="sentence-expression">Sentence</label>
-                        <div class="notation" data-field="sentence-example">
+                        <div class="notation" data-field="sentence-expression">
                             <button class="notation__btn" type="button" data-insert="red" title="Red highlight (Alt+1)">
                                 <span class="notation__swatch" data-color="red" aria-hidden="true"></span>Red
                             </button>
@@ -503,6 +511,12 @@
                         </div>
 
                         <textarea class="input input--jp textarea" lang="ja" rows="2" id="sentence-expression" name="expression" placeholder="お 願[ねが]いします"></textarea>
+
+                        <div class="preview" data-preview="sentence-expression" hidden>
+                            <span class="preview__label">Preview</span>                      
+                            <p class="preview__body has-ruby" lang="ja" aria-hidden="true"></p>
+                        </div> 
+
                         <p class="field__help">
                             <code>Alt + (1, 2, or 3)</code> for colors. 
                             <code>Alt + 4</code> for Furigana. <code>Alt + 5</code> for Link to Jisho.
@@ -547,6 +561,12 @@
 
                         <textarea class="input input--jp textarea" lang="ja" rows="2" id="grammar-example"
                         name="example" placeholder="私[わたし]*b:は* 学生[がくせい]です"></textarea>
+
+                        <div class="preview" data-preview="grammar-example" hidden>
+                            <span class="preview__label">Preview</span>                      
+                            <p class="preview__body has-ruby" lang="ja" aria-hidden="true"></p>
+                        </div> 
+
                         <p class="field__help">
                             Mark the pint with <code>*b:は*</code> — <code>r</code>,
                             <code>b</code>, <code>y</code> for red, blue, yellow.

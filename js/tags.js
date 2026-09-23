@@ -57,3 +57,11 @@ export function reservedNamespace(tag) {
     const ns = splitTag(tag).namespace.toLowerCase();
     return RESERVED_NAMESPACES.has(ns) ? ns : null;
 }
+
+/**
+ * Compare tag text the way a person reads it: "Nakama 1-9" before "Nakama 1-10".
+ */
+export const compareTags = new Intl.Collator(undefined, {
+    numeric: true,
+    sensitivity: 'base',
+}).compare;

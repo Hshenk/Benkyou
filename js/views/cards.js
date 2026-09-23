@@ -1,6 +1,6 @@
 import { TYPE_LABELS, cardText } from '../card.js';
 import { renderJapanese } from '../render.js';
-import { getCards, deleteCard, onChange, getCard } from "../storage.js";
+import { getCards, deleteCard, onChange, getCard, repoStatus } from "../storage.js";
 import { tokenize, plainText } from '../tokenize.js';
 import { canonicalTag } from '../tags.js';
 import { SORTS, sortCards } from '../sort.js';
@@ -16,6 +16,10 @@ const sortBar = document.querySelector('#sort-bar');
 const dupesBtn = document.querySelector('#dupes-btn');
 const dupeHeadTemplate = document.querySelector('#dupe-head-template');
 
+const REPO_LABELS = {
+    new: 'Not in the repo file yet',
+    edited: 'Edited since the repo file',
+};
 
 
 let activeSort = 'default';
@@ -32,6 +36,16 @@ function buildRow(card) {
     const badge = field('type');
     badge.textContent = TYPE_LABELS[card.type];
     badge.dataset.type = card.type;
+
+        const status = repoStatus(card);
+    if (REPO_LABELS[status]) {
+        const flag = field('repo');
+        flag.dataset.state = status;
+        flag.title = REPO_LABELS[status];
+        flag.setAttribute('role', 'img');
+        flag.setAttribute('aria-label', REPO_LABELS[status]);
+    }
+
 
     renderJapanese(field('expression'), cardText(card), { links: false });
     field('meaning').textContent = card.meaning;

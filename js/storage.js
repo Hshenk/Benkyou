@@ -3,7 +3,7 @@
  * This is the only file that touches localStorage
  * Views import from here
  */
-import { canonicalTag, tagKey, normalizeTags } from "./tags.js";
+import { canonicalTag, tagKey, normalizeTags, compareTags } from "./tags.js";
 import { emptyLog, mergeSessions } from "./sessions.js";
 
 const COLLECTION_KEY = 'benkyou:collection';
@@ -21,6 +21,15 @@ const bus = new EventTarget();
 
 function emptyCollection() {
     return { schemaVersion: SCHEMA_VERSION, version: 0, exportedAt: null, deletedIds: [], cards: [] };
+}
+
+function defaultDevice() {
+    return {
+        dirty: false,
+        lastSyncedVersion: 0,
+        lastExportedAt: null,
+        repo: { version: 0, cards: null },
+    };
 }
 
 function stamp(card) {
@@ -51,10 +60,12 @@ function load() {
     }
 
     try {
-        device = JSON.parse(localStorage.getItem(DEVICE_KEY) ?? 'null')
-            ?? { dirty: false, lastSyncedVersion: 0, lastExportedAt: null};
+        device = {
+            ...defaultDevice(),
+            ...JSON.parse(localStorage.getItem(DEVICE_KEY) ?? 'null'),
+        };
     } catch {
-        device = { dirty: false, lastSyncedVersion: 0, lastExportedAt: null};
+        device = defaultDevice();
     }
 
     try {
@@ -128,7 +139,7 @@ export function allTags() {
             if (!byKey.has(key)) byKey.set(key, canonicalTag(tag));
         }
     }
-    return [...byKey.values()].sort();
+    return [...byKey.values()].sort(compareTags);
 }
 
 // --- Writing ---
@@ -178,6 +189,34 @@ export function lastExportedAt() {
     return device.lastExportedAt;
 }
 
+function snapshotOf(payload) {
+    const cards = {};
+    for (const card of payload.cards ?? []) {
+        cards[card.id] = card.updatedAt ?? '';
+    }
+    return { version: payload.version ?? 0, cards };
+}
+
+// Remember which cards the shared file holds so the card list can display which are local only
+export function recordRepoSnapshot(payload) {
+    const version = payload.version ?? 0;
+
+    if (device.repo.cards !== null && version <= device.repo.version) return false;
+
+    device.repo = snapshotOf(payload);
+    return write();
+}
+
+// Where a card stands relative to the shared file
+// unkown, new, edited, or synced
+export function repoStatus(card) {
+    const known = device.repo.cards;
+    if (!known) return 'unknown';
+
+    if (!Object.hasOwn(known, card.id)) return 'new';
+    return known[card.id] === (card.updatedAt ?? '') ? 'synced' : 'edited';
+}
+
 /**
  * The collection as it would be exported
  * Nothing is committed yet
@@ -198,6 +237,7 @@ export function commitExport(payload) {
     device.dirty = false;
     device.lastSyncedVersion = payload.version;
     device.lastExportedAt = payload.exportedAt;
+    device.repo = snapshotOf(payload);
 
     write();
 }

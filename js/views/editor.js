@@ -1,7 +1,8 @@
 import { getCard, saveCard, allTags } from "../storage.js";
-import { canonicalTag, tagKey, reservedNamespace, splitTag } from "../tags.js";
+import { canonicalTag, tagKey, reservedNamespace, splitTag, compareTags } from "../tags.js";
 import { loadKanjiSheet, levelTag, meaningText, LEVEL_NAMESPACE } from "../kanji.js";
 import { initNotation } from "../notation.js";
+import { initPreviews } from "../preview.js";
 
 // --- Editor ---
 const editorTitle = document.querySelector('#view-editor .view__title');
@@ -13,6 +14,7 @@ const autofillBtn = document.querySelector('#kanji-autofill-btn');
 
 
 let editingId = null;
+let refreshPreviews = () => {};
 let tags = [];
 let onDone = () => {};
 
@@ -89,7 +91,7 @@ function refreshTagSuggestions() {
     }
 
     tagSuggestions.replaceChildren();
-    for (const value of [...suggestions].sort()) {
+    for (const value of [...suggestions].sort(compareTags)) {
         const option = document.createElement('option');
         option.value = value;
         tagSuggestions.append(option);
@@ -109,6 +111,7 @@ export function openEditor(id = null) {
     if (!card) {
         setTags([]);
         showTypeFields(editorForm.querySelector('input[name="cardType"]:checked').value);
+        refreshPreviews();
         return;
     }
 
@@ -128,6 +131,7 @@ export function openEditor(id = null) {
     }
 
     setTags(card.tags ?? []);
+    refreshPreviews();
 }
 
 const editorForm = document.querySelector('#editor-form');
@@ -175,6 +179,7 @@ export function initEditor(options = {}) {
 
     // Notation
     initNotation(editorForm);
+    refreshPreviews = initPreviews(editorForm);
 
     // --- Tags ---
     tagInput.addEventListener('keydown', (event) => {

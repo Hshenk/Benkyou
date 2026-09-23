@@ -2,7 +2,7 @@ import { TYPE_LABELS, SIDE_CUES, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
 import { getCards, getSessions, recordStudy, addSession, onChange } from "../storage.js";
 import { toggleScript, frontFurigana } from "../settings.js";
-import { canonicalTag, splitTag } from "../tags.js";
+import { canonicalTag, splitTag, compareTags } from "../tags.js";
 import { cardStats, weakest, stalest } from "../stats.js";
 import { syncSessions } from "../sync.js";
 import { STUDY_SIDES } from "../sessions.js";
@@ -158,7 +158,7 @@ function renderFacets(cards) {
 
         const optionsBox = node.querySelector('[data-field="options"]');
 
-        for (const value of [...values.keys()].sort()) {
+        for (const value of [...values.keys()].sort(compareTags)) {
             // NEW: first sight of a value decides its state. After that the map
             // remembers what you set it to, including 'off'.
             if (!states.has(value)) states.set(value, defaultState(namespace, value));

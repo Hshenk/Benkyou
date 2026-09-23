@@ -1,6 +1,6 @@
 import {
     getCollection, buildExport, commitExport, replaceCollection, lastSyncedVersion, isDirty, onChange,
-    markSynced, getSessions, buildSessionExport, importSessions,
+    markSynced, getSessions, buildSessionExport, importSessions, recordRepoSnapshot,
 } from '../storage.js';
 import {
     serialize, parseCollection, diffCollections, mergeCollection, syncDecision,
@@ -223,6 +223,8 @@ async function checkRepo({ quiet = true } = {}) {
         if (!quiet) alert('Could not read data/cards.json - see the console for details.');
         return;
     }
+
+    recordRepoSnapshot(remote);
 
     const decision = syncDecision({
         remoteVersion: remote.version,

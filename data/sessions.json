@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-19T23:50:53.388Z",
+  "exportedAt": "2026-09-23T17:30:38.153Z",
   "sessions": [
     {
       "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
@@ -106,8 +106,8 @@
     },
     {
       "id": "da426938-a264-41d1-9115-95fc1489f387",
-      "startedAt": "2026-09-07T16:00:24.771Z",
-      "endedAt": "2026-09-07T16:02:22.359Z",
+      "startedAt": "2026-09-07T16:00:24.771+00:00",
+      "endedAt": "2026-09-07T16:02:22.359+00:00",
       "facets": [
         "Topic: Shopping"
       ],
@@ -126,20 +126,20 @@
         },
         {
           "id": "31da32d7-0b40-4771-95ff-0b8c70796505",
-          "result": "missed",
-          "misses": 1
+          "misses": 1,
+          "result": "missed"
         },
         {
           "id": "7498d725-63aa-4045-b5ae-657e960dec76",
-          "result": "missed",
-          "misses": 1
+          "misses": 1,
+          "result": "missed"
         }
       ]
     },
     {
       "id": "04514dd8-ffd0-43ed-92ea-eb7e0543585a",
-      "startedAt": "2026-09-07T16:04:01.389Z",
-      "endedAt": "2026-09-07T16:04:12.105Z",
+      "startedAt": "2026-09-07T16:04:01.389+00:00",
+      "endedAt": "2026-09-07T16:04:12.105+00:00",
       "facets": [
         "Topic: School"
       ],
@@ -152,8 +152,8 @@
     },
     {
       "id": "dae79ac9-eac1-4fb2-b512-2da133bba010",
-      "startedAt": "2026-09-08T23:25:50.944Z",
-      "endedAt": "2026-09-08T23:26:43.983Z",
+      "startedAt": "2026-09-08T23:25:50.944+00:00",
+      "endedAt": "2026-09-08T23:26:43.983+00:00",
       "facets": [
         "Source: Nakama 1-5"
       ],
@@ -202,8 +202,8 @@
     },
     {
       "id": "85cc1020-7335-46dd-9629-8f470db6cf77",
-      "startedAt": "2026-09-09T16:54:47.213+00:00",
-      "endedAt": "2026-09-09T16:54:59.05+00:00",
+      "startedAt": "2026-09-09T16:54:47.213Z",
+      "endedAt": "2026-09-09T16:54:59.050Z",
       "facets": [
         "Topic: Food"
       ],
@@ -224,8 +224,8 @@
     },
     {
       "id": "58d25c6e-6dc9-4415-bb81-d45491a59425",
-      "startedAt": "2026-09-09T19:17:53.321+00:00",
-      "endedAt": "2026-09-09T19:20:12.035+00:00",
+      "startedAt": "2026-09-09T19:17:53.321Z",
+      "endedAt": "2026-09-09T19:20:12.035Z",
       "facets": [
         "Topic: Time"
       ],
@@ -294,8 +294,8 @@
     },
     {
       "id": "89be91ea-6da2-455f-b91f-e50f4ac00ca4",
-      "startedAt": "2026-09-09T19:27:41.177+00:00",
-      "endedAt": "2026-09-09T19:28:01.221+00:00",
+      "startedAt": "2026-09-09T19:27:41.177Z",
+      "endedAt": "2026-09-09T19:28:01.221Z",
       "facets": [
         "Topic: Education",
         "Type: Kanji"
@@ -311,15 +311,15 @@
         },
         {
           "id": "6c519a94-dcdb-41b1-a2b5-321a844c550c",
-          "misses": 1,
-          "result": "missed"
+          "result": "missed",
+          "misses": 1
         }
       ]
     },
     {
       "id": "5ef68693-39f7-4bcc-836f-b6ea1c048161",
-      "startedAt": "2026-09-11T00:59:09.612Z",
-      "endedAt": "2026-09-11T01:00:37.092Z",
+      "startedAt": "2026-09-11T00:59:09.612+00:00",
+      "endedAt": "2026-09-11T01:00:37.092+00:00",
       "facets": [
         "Topic: Counters"
       ],
@@ -344,8 +344,8 @@
     },
     {
       "id": "873ef5c3-b014-47c0-878d-911b7d026913",
-      "startedAt": "2026-09-11T21:08:17.718Z",
-      "endedAt": "2026-09-11T21:11:19.691Z",
+      "startedAt": "2026-09-11T21:08:17.718+00:00",
+      "endedAt": "2026-09-11T21:11:19.691+00:00",
       "facets": [
         "Topic: Locations"
       ],
@@ -360,8 +360,8 @@
         },
         {
           "id": "df568c67-36cd-4a17-9f43-832cd6151b2e",
-          "result": "missed",
-          "misses": 2
+          "misses": 2,
+          "result": "missed"
         },
         {
           "id": "964cec51-b572-472f-8c40-9696ceec57ce",
@@ -373,13 +373,13 @@
         },
         {
           "id": "fbf78f63-c84d-438e-90c6-9c640626bd02",
-          "result": "missed",
-          "misses": 2
+          "misses": 2,
+          "result": "missed"
         },
         {
           "id": "18ed6813-a1dd-4572-bf7d-de2f1e8f9d6e",
-          "result": "missed",
-          "misses": 1
+          "misses": 1,
+          "result": "missed"
         },
         {
           "id": "5d801934-5927-4591-a1ca-0845566e64d8",
@@ -407,8 +407,8 @@
     },
     {
       "id": "36db99d2-517f-494a-bc67-6950cb89aa5e",
-      "startedAt": "2026-09-15T01:08:35.675Z",
-      "endedAt": "2026-09-15T01:09:19.385Z",
+      "startedAt": "2026-09-15T01:08:35.675+00:00",
+      "endedAt": "2026-09-15T01:09:19.385+00:00",
       "facets": [
         "Source: Nakama 1-8"
       ],
@@ -419,8 +419,8 @@
         },
         {
           "id": "5b0ccc29-5320-4c19-a6ab-18bef7f98899",
-          "result": "missed",
-          "misses": 1
+          "misses": 1,
+          "result": "missed"
         },
         {
           "id": "1c6d4964-54af-4cac-9f85-e01cf40d1185",
@@ -458,12 +458,11 @@
     },
     {
       "id": "761e5d8b-6660-49f3-ba36-15c81933abae",
-      "startedAt": "2026-09-15T17:40:06.998+00:00",
-      "endedAt": "2026-09-15T17:40:11.479+00:00",
+      "startedAt": "2026-09-15T17:40:06.998Z",
+      "endedAt": "2026-09-15T17:40:11.479Z",
       "facets": [
         "Topic: Set Phrases"
       ],
-      "side": "japanese",
       "results": [
         {
           "id": "a3",
@@ -473,17 +472,16 @@
     },
     {
       "id": "d36b1903-80b6-4f89-8e1a-f33dac0e78c0",
-      "startedAt": "2026-09-15T17:40:45.303+00:00",
-      "endedAt": "2026-09-15T17:40:50.707+00:00",
+      "startedAt": "2026-09-15T17:40:45.303Z",
+      "endedAt": "2026-09-15T17:40:50.707Z",
       "facets": [
         "Source: Nakama 2-2"
       ],
-      "side": "japanese",
       "results": [
         {
           "id": "88c723d1-ade8-4bb2-9ace-f1df05dd4e35",
-          "misses": 1,
-          "result": "missed"
+          "result": "missed",
+          "misses": 1
         }
       ]
     },
@@ -494,7 +492,6 @@
       "facets": [
         "Type: Grammar"
       ],
-      "side": "japanese",
       "results": [
         {
           "id": "a5",
@@ -504,8 +501,8 @@
     },
     {
       "id": "4c9e0f8b-886f-47c6-adc0-1c6ea23f570d",
-      "startedAt": "2026-09-16T18:44:31.717+00:00",
-      "endedAt": "2026-09-16T18:46:52.082+00:00",
+      "startedAt": "2026-09-16T18:44:31.717Z",
+      "endedAt": "2026-09-16T18:46:52.082Z",
       "facets": [
         "Topic: Directions"
       ],
@@ -517,8 +514,8 @@
         },
         {
           "id": "e0dcf3c9-8a6b-41fe-b8ff-6edb3006e8c4",
-          "misses": 1,
-          "result": "missed"
+          "result": "missed",
+          "misses": 1
         },
         {
           "id": "a2643b41-ab32-4c13-a304-df290d8ad4f8",
@@ -536,8 +533,8 @@
     },
     {
       "id": "5c4d5cf4-c183-4242-9d4e-71cfb4fffa42",
-      "startedAt": "2026-09-16T19:07:22.817+00:00",
-      "endedAt": "2026-09-16T19:07:50.743+00:00",
+      "startedAt": "2026-09-16T19:07:22.817Z",
+      "endedAt": "2026-09-16T19:07:50.743Z",
       "facets": [
         "Topic: Education"
       ],
@@ -584,6 +581,302 @@
         },
         {
           "id": "b0f348dd-58f0-4a5c-8798-b81035f10987",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "4fb950cb-8902-4fa8-b327-51531bda88f9",
+      "startedAt": "2026-09-20T15:24:45.925Z",
+      "endedAt": "2026-09-20T15:26:36.595Z",
+      "facets": [
+        "Source: Nakama 1-2",
+        "Topic: Science"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "a674919a-3f30-47e3-adb1-532837a01acb",
+          "result": "missed",
+          "misses": 2
+        },
+        {
+          "id": "0fde2b95-f79c-464f-b0ec-73cafb8e2654",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "469145fc-417f-43c8-ac17-50e04e539d82",
+          "result": "missed",
+          "misses": 2
+        }
+      ]
+    },
+    {
+      "id": "f4770a45-fe2f-464b-bd06-1131710904ed",
+      "startedAt": "2026-09-20T16:44:48.423Z",
+      "endedAt": "2026-09-20T16:45:30.641Z",
+      "facets": [
+        "-Topic: Supplementary",
+        "Topic: Countries"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "f2bdf947-d915-45f5-934b-67c2db852a71",
+          "result": "easy"
+        },
+        {
+          "id": "2df8f61d-c452-49d1-add7-c888872a73c1",
+          "result": "easy"
+        },
+        {
+          "id": "99ec4bb2-b373-475a-a660-57dee13a54f0",
+          "result": "easy"
+        },
+        {
+          "id": "28af6d21-85c0-4151-9f08-23f9179f2e9d",
+          "result": "easy"
+        },
+        {
+          "id": "aa1236ae-55da-43fc-ad2c-6b72cfb62baa",
+          "result": "easy"
+        },
+        {
+          "id": "2f9f20cd-c9d9-4813-8756-31f6fb265d5f",
+          "result": "easy"
+        },
+        {
+          "id": "ec41267e-d6f7-4610-8ad0-c92e8fb60627",
+          "result": "easy"
+        },
+        {
+          "id": "d484fb0f-a0f9-47e2-857e-c9db6d50d0dc",
+          "result": "easy"
+        },
+        {
+          "id": "2bdc3e65-8618-4dca-9f6a-1c8ee4390ca4",
+          "result": "easy"
+        },
+        {
+          "id": "7d609800-8ba0-46d3-b750-a371d5d7753c",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "7bedc077-9b54-47c9-84a4-f0f71854ddf1",
+      "startedAt": "2026-09-20T16:45:36.755Z",
+      "endedAt": "2026-09-20T16:48:17.200Z",
+      "facets": [
+        "-Topic: Supplementary",
+        "Topic: Countries"
+      ],
+      "side": "english",
+      "results": [
+        {
+          "id": "d484fb0f-a0f9-47e2-857e-c9db6d50d0dc",
+          "result": "easy"
+        },
+        {
+          "id": "aa1236ae-55da-43fc-ad2c-6b72cfb62baa",
+          "result": "easy"
+        },
+        {
+          "id": "7d609800-8ba0-46d3-b750-a371d5d7753c",
+          "result": "work"
+        },
+        {
+          "id": "99ec4bb2-b373-475a-a660-57dee13a54f0",
+          "result": "work"
+        },
+        {
+          "id": "f2bdf947-d915-45f5-934b-67c2db852a71",
+          "result": "easy"
+        },
+        {
+          "id": "9f68f205-4a03-456e-8cf9-50284e708561",
+          "result": "work"
+        },
+        {
+          "id": "2f9f20cd-c9d9-4813-8756-31f6fb265d5f",
+          "result": "easy"
+        },
+        {
+          "id": "ec41267e-d6f7-4610-8ad0-c92e8fb60627",
+          "result": "easy"
+        },
+        {
+          "id": "28af6d21-85c0-4151-9f08-23f9179f2e9d",
+          "result": "easy"
+        },
+        {
+          "id": "2df8f61d-c452-49d1-add7-c888872a73c1",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "76f95b02-f69a-48e4-ab71-d8aeff44e22c",
+      "startedAt": "2026-09-22T02:47:22.552+00:00",
+      "endedAt": "2026-09-22T02:49:57.141+00:00",
+      "facets": [
+        "-Topic: Supplementary",
+        "Source: Nakama 1-2"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "ce0a4df7-c93a-4867-8ab1-b0dd8c8d1edf",
+          "misses": 2,
+          "result": "missed"
+        },
+        {
+          "id": "4b247f67-9f9d-4660-ae66-187756efe241",
+          "misses": 1,
+          "result": "missed"
+        },
+        {
+          "id": "45e90281-aabe-4410-8501-4e6e3a61e550",
+          "misses": 1,
+          "result": "missed"
+        },
+        {
+          "id": "775abdf1-3086-41d4-89b1-f9caee71839c",
+          "result": "easy"
+        },
+        {
+          "id": "53f68597-6dd3-4ae7-83e6-8c359fb58eca",
+          "result": "easy"
+        },
+        {
+          "id": "32dafb4c-d07c-4c80-8609-20ecbe2c31f2",
+          "result": "easy"
+        },
+        {
+          "id": "9f731904-479b-4b17-831c-b0e04f4cc6b9",
+          "result": "easy"
+        },
+        {
+          "id": "f18143d4-80fd-4c4e-b9da-a588a00ec6de",
+          "result": "easy"
+        },
+        {
+          "id": "e2bf18fa-2cbc-44af-a4dc-6323d257b2d1",
+          "result": "easy"
+        },
+        {
+          "id": "9edc6929-162a-48dc-bdac-6d73801f18d9",
+          "misses": 1,
+          "result": "missed"
+        }
+      ]
+    },
+    {
+      "id": "ac6e8264-ebfd-431f-8be0-06d0ebff5fc1",
+      "startedAt": "2026-09-23T03:12:05.218+00:00",
+      "endedAt": "2026-09-23T03:13:40.349+00:00",
+      "facets": [
+        "-Topic: Supplementary",
+        "Topic: Nature"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "f4166649-36ae-4098-8b7a-512f38c4ecee",
+          "result": "easy"
+        },
+        {
+          "id": "2f10c708-36d0-4022-aad7-de5da5f4f108",
+          "result": "easy"
+        },
+        {
+          "id": "3b56d1a9-c1c1-44be-81f9-eec5fb199f0b",
+          "misses": 1,
+          "result": "missed"
+        },
+        {
+          "id": "d0d4dff1-059c-4471-a45a-445ce8ba1218",
+          "result": "easy"
+        },
+        {
+          "id": "04c0c815-5cb8-4468-bcc1-edc33c33167f",
+          "result": "easy"
+        },
+        {
+          "id": "56aa801e-bd2a-4028-91ad-1ed37f8f0273",
+          "result": "easy"
+        },
+        {
+          "id": "e1d9bb03-0f53-475f-a0e5-e49761629929",
+          "misses": 1,
+          "result": "missed"
+        },
+        {
+          "id": "13cd4246-1455-4323-a843-9032ae62c16f",
+          "result": "easy"
+        },
+        {
+          "id": "66f7d5ab-f74f-4b57-b914-71adde462c78",
+          "result": "easy"
+        },
+        {
+          "id": "32d1f222-a5f0-4e97-b603-c12d3ebc3ace",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "9b0f7c6e-db3c-4092-ab6e-f92f1f815298",
+      "startedAt": "2026-09-23T17:27:47.946Z",
+      "endedAt": "2026-09-23T17:29:18.501Z",
+      "facets": [
+        "-Topic: Supplementary",
+        "Source: Nakama 1-10",
+        "Source: Nakama 1-11"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "6be207cf-c99c-46b5-b31d-a7b097fdaa2b",
+          "result": "easy"
+        },
+        {
+          "id": "7f983824-0f49-4e52-ad46-86ce0d387a65",
+          "result": "easy"
+        },
+        {
+          "id": "96e25697-7408-4977-94fd-a2dcb2ad8d02",
+          "result": "easy"
+        },
+        {
+          "id": "3e9950cb-8bfc-4f10-9315-079ed9d4c867",
+          "result": "easy"
+        },
+        {
+          "id": "f7b4b1c2-3f97-4958-bcb7-4618f6d6b679",
+          "result": "easy"
+        },
+        {
+          "id": "1ec1093d-4e9f-4208-b164-92c1d20ae664",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "d4217532-0d07-4d20-aafd-8f2db932b010",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "a5a543c3-f592-461e-a0a4-d5df9026396c",
+          "result": "easy"
+        },
+        {
+          "id": "f5cf1fe0-a8c4-4a55-8ce1-9ac6296b7920",
+          "result": "easy"
+        },
+        {
+          "id": "5408454c-4902-442d-941d-5eaa5cb9c3a3",
           "result": "easy"
         }
       ]
