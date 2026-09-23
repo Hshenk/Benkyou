@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 19,
-  "exportedAt": "2026-09-23T17:30:37.988Z",
+  "version": 20,
+  "exportedAt": "2026-09-23T18:00:04.751Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -5080,6 +5080,473 @@
         "strokes": 7
       },
       "id": "f0e8e56c-acb1-4e9e-8702-ccd5b76f58bd"
+    },
+    {
+      "createdAt": "2026-09-23T17:42:17.497Z",
+      "updatedAt": "2026-09-23T17:42:17.497Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Springtime, spring (season)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Time",
+        "Topic: Nature",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "character": "春",
+        "onyomi": [
+          "シュン"
+        ],
+        "kunyomi": [
+          "はる"
+        ],
+        "strokes": 9
+      },
+      "id": "d05e368e-77b9-44d4-a79c-ae0ef7bb2b35"
+    },
+    {
+      "createdAt": "2026-09-23T17:42:46.397Z",
+      "updatedAt": "2026-09-23T17:42:46.397Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Summer",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Time",
+        "Topic: Nature",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "character": "夏",
+        "onyomi": [
+          "カ",
+          "ガ",
+          "ゲ"
+        ],
+        "kunyomi": [
+          "なつ"
+        ],
+        "strokes": 10
+      },
+      "id": "623b3139-b789-4a82-870d-c582af895ad4"
+    },
+    {
+      "createdAt": "2026-09-23T17:43:16.363Z",
+      "updatedAt": "2026-09-23T17:43:16.363Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Autumn",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-12",
+        "Topic: Time",
+        "Topic: Nature"
+      ],
+      "data": {
+        "character": "秋",
+        "onyomi": [
+          "シュウ"
+        ],
+        "kunyomi": [
+          "あき",
+          "とき"
+        ],
+        "strokes": 9
+      },
+      "id": "11f49fec-c954-442f-9e0b-7b300767a4ec"
+    },
+    {
+      "createdAt": "2026-09-23T17:43:42.105Z",
+      "updatedAt": "2026-09-23T17:43:42.105Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Winter",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Time",
+        "Topic: Nature",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "character": "冬",
+        "onyomi": [
+          "トウ"
+        ],
+        "kunyomi": [
+          "ふゆ"
+        ],
+        "strokes": 5
+      },
+      "id": "b325b859-2b91-43ca-8b89-af7c2a1d1543"
+    },
+    {
+      "createdAt": "2026-09-23T17:44:35.663Z",
+      "updatedAt": "2026-09-23T17:44:35.663Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Morning, dynasty, regime, epoch, period, (North) Korea",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Topic: Time",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "character": "朝",
+        "onyomi": [
+          "チョウ"
+        ],
+        "kunyomi": [
+          "あさ"
+        ],
+        "strokes": 12
+      },
+      "id": "bcae07f2-7ae2-4df6-aae0-700597951faa"
+    },
+    {
+      "createdAt": "2026-09-23T17:45:26.982Z",
+      "updatedAt": "2026-09-23T17:45:26.982Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Daytime, noon",
+      "notes": "昼食 【チュウショク】 Lunch",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "昼",
+        "onyomi": [
+          "チュウ"
+        ],
+        "kunyomi": [
+          "ひる"
+        ],
+        "strokes": 9
+      },
+      "id": "78996c62-0595-4692-adb6-2a58c46ef709"
+    },
+    {
+      "createdAt": "2026-09-23T17:45:54.429Z",
+      "updatedAt": "2026-09-23T17:45:54.429Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Nightfall, night",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "晩",
+        "onyomi": [
+          "バン"
+        ],
+        "kunyomi": [],
+        "strokes": 12
+      },
+      "id": "9ac25037-9d82-45ff-a133-a788ab031cc9"
+    },
+    {
+      "createdAt": "2026-09-23T17:47:57.405Z",
+      "updatedAt": "2026-09-23T17:47:57.405Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Noon, sign of the horse, 11AM-1PM, seventh sign of Chinese zodiac",
+      "notes": "午前 【ゴゼン】 morning, a.m.\n午後 【ゴゴ】 afternoon, p.m.",
+      "tags": [
+        "Level: N5",
+        "Topic: Time",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "character": "午",
+        "onyomi": [
+          "ゴ"
+        ],
+        "kunyomi": [
+          "うま"
+        ],
+        "strokes": 4
+      },
+      "id": "fc2ad291-2a42-4d0e-a63f-68a13ab18006"
+    },
+    {
+      "createdAt": "2026-09-23T17:48:35.966Z",
+      "updatedAt": "2026-09-23T17:48:35.966Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "In front, before",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Topic: Time",
+        "Topic: Directions",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "character": "前",
+        "onyomi": [
+          "ゼン"
+        ],
+        "kunyomi": [
+          "まえ",
+          "-まえ"
+        ],
+        "strokes": 9
+      },
+      "id": "0975e44a-af31-4a3e-9728-d53db6751432"
+    },
+    {
+      "createdAt": "2026-09-23T17:49:17.441Z",
+      "updatedAt": "2026-09-23T17:49:17.441Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Behind, back, later",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-12",
+        "Topic: Directions",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "後",
+        "onyomi": [
+          "ゴ",
+          "コウ"
+        ],
+        "kunyomi": [
+          "のち",
+          "うし.ろ",
+          "うしろ",
+          "あと",
+          "おく.れる"
+        ],
+        "strokes": 9
+      },
+      "id": "5a22146e-c5e0-4ba3-a656-23e6699fa460"
+    },
+    {
+      "createdAt": "2026-09-23T17:51:16.965Z",
+      "updatedAt": "2026-09-23T17:51:16.965Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Gone, past, quit, (to) leave, elapse, eliminate, divorce",
+      "notes": "去年 【キョネン】 Last year.\n去る 【さる】 To leave.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "去",
+        "onyomi": [
+          "キョ",
+          "コ"
+        ],
+        "kunyomi": [
+          "さ.る",
+          "-さ.る"
+        ],
+        "strokes": 5
+      },
+      "id": "8457a992-7741-488b-9e9f-567f50bc6c04"
+    },
+    {
+      "createdAt": "2026-09-23T17:52:57.057Z",
+      "updatedAt": "2026-09-23T17:52:57.057Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Yesterday, previous",
+      "notes": "昨日【きのう】Yesterday",
+      "tags": [
+        "Level: N3",
+        "Topic: Time",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "character": "昨",
+        "onyomi": [
+          "サク"
+        ],
+        "kunyomi": [],
+        "strokes": 9
+      },
+      "id": "571138cc-7ce6-40e7-9262-2eba29e9f911"
+    },
+    {
+      "createdAt": "2026-09-23T17:54:40.706Z",
+      "updatedAt": "2026-09-23T17:54:40.706Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Submit, offer, present, serve (meal), accompany",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "character": "供",
+        "onyomi": [
+          "キョウ",
+          "ク",
+          "クウ",
+          "グ"
+        ],
+        "kunyomi": [
+          "そな.える",
+          "とも",
+          "-ども"
+        ],
+        "strokes": 8
+      },
+      "id": "0c212c5b-b5d9-4acf-a229-5a28b38574b7"
+    },
+    {
+      "createdAt": "2026-09-23T17:57:11.072Z",
+      "updatedAt": "2026-09-23T17:57:11.072Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Beginning, former time, origin",
+      "notes": "元気【げんき】Healthy, well.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-12",
+        "Topic: Health",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "元",
+        "onyomi": [
+          "ゲン",
+          "ガン"
+        ],
+        "kunyomi": [
+          "もと"
+        ],
+        "strokes": 4
+      },
+      "id": "eb3f4dac-1420-4e3d-ae23-9345cfc3d195"
+    },
+    {
+      "createdAt": "2026-09-23T17:58:17.881Z",
+      "updatedAt": "2026-09-23T17:58:17.881Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Think",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-12",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "character": "思",
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "おも.う",
+          "おもえら.く",
+          "おぼ.す"
+        ],
+        "strokes": 9
+      },
+      "id": "430d0ef1-6281-4558-b8c3-52b2e1774773"
+    },
+    {
+      "createdAt": "2026-09-23T17:58:48.956Z",
+      "updatedAt": "2026-09-23T17:58:48.956Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Bright, light",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 1-12",
+        "Topic: Nature"
+      ],
+      "data": {
+        "character": "明",
+        "onyomi": [
+          "メイ",
+          "ミョウ",
+          "ミン"
+        ],
+        "kunyomi": [
+          "あ.かり",
+          "あか.るい",
+          "あか.るむ",
+          "あか.らむ",
+          "あき.らか",
+          "あ.ける",
+          "-あ.け",
+          "あ.く",
+          "あ.くる",
+          "あ.かす"
+        ],
+        "strokes": 8
+      },
+      "id": "413b8295-bea8-4e4a-b4b8-7673531941a1"
+    },
+    {
+      "createdAt": "2026-09-23T17:59:45.290Z",
+      "updatedAt": "2026-09-23T17:59:45.290Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "-times, round, game, revolve, counter for occurrences",
+      "notes": "回 【カイ】 counter for occurrences",
+      "tags": [
+        "Level: N3",
+        "Topic: Counters",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "character": "回",
+        "onyomi": [
+          "カイ",
+          "エ"
+        ],
+        "kunyomi": [
+          "まわ.る",
+          "-まわ.る",
+          "-まわ.り",
+          "まわ.す",
+          "-まわ.す",
+          "まわ.し-",
+          "-まわ.し",
+          "もとお.る",
+          "か.える"
+        ],
+        "strokes": 6
+      },
+      "id": "3f638fe8-67ec-40ee-813f-6f9510786043"
     }
   ]
 }
