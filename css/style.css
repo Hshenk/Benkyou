@@ -545,6 +545,46 @@ main {
     line-height: 1.6;
 }
 
+/* ------ Notation toolbar ------ */
+.notation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+    margin-bottom: var(--space-1);
+}
+
+.notation__btn {
+    align-items: center;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text-muted);
+    display: flex;
+    font-size: 12px;
+    gap: var(--space-1);
+    padding: 2px var(--space-2);
+    transition: background-color 120ms ease, color 120ms ease;
+}
+
+.notation__btn:hover {
+    background: var(--surface-3);
+    color: var(--text);
+}
+
+.notation__btn:active {
+    background: var(--surface-1);
+}
+
+.notation__swatch {
+    border-radius: 2px;
+    height: 10px;
+    width: 10px;
+}
+
+.notation__swatch[data-color="red"]    { background: var(--hl-red); }
+.notation__swatch[data-color="blue"]   { background: var(--hl-blue); }
+.notation__swatch[data-color="yellow"] { background: var(--hl-yellow); }
+
 /* ------ Segmented control ------ */
 .segmented {
     display: inline-flex;

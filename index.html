@@ -417,9 +417,22 @@
                 <fieldset class="field-grid" data-type-fields="vocab">
                     <div class="field field--full">
                         <label class="field__label" for="vocab-expression">Expression</label>
+
+                        <div class="notation" data-field="vocab-expression">
+                            <button class="notation__btn" type="button" data-insert="furigana" title="Furigana brackets (Alt+4)">
+                                Furigana
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="link" title="Link (Alt+5)">
+                                Link
+                            </button>
+                        </div>
+
                         <input class="input input--jp" type="text" lang="ja" id="vocab-expression" name="expression" placeholder="食[た]べる">
                         <p class="field__help">
                             Furigana in square brackets - <code>漢字[かんじ]</code>.
+                            <br>
+                            <code>Alt + (1, 2, or 3)</code> for colors. 
+                            <code>Alt + 4</code> for Furigana. <code>Alt + 5</code> for Link to Jisho.
                         </p>
                     </div>
 
@@ -471,7 +484,29 @@
                 <fieldset class="field-grid" data-type-fields="sentence" hidden>
                     <div class="field field--full">
                         <label class="field__label" for="sentence-expression">Sentence</label>
+                        <div class="notation" data-field="sentence-example">
+                            <button class="notation__btn" type="button" data-insert="red" title="Red highlight (Alt+1)">
+                                <span class="notation__swatch" data-color="red" aria-hidden="true"></span>Red
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="blue" title="Blue highlight (Alt+2)">
+                                <span class="notation__swatch" data-color="blue" aria-hidden="true"></span>Blue
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="yellow" title="Yellow highlight (Alt+3)">
+                                <span class="notation__swatch" data-color="yellow" aria-hidden="true"></span>Yellow
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="furigana" title="Furigana brackets (Alt+4)">
+                                Furigana
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="link" title="Link (Alt+5)">
+                                Link
+                            </button>
+                        </div>
+
                         <textarea class="input input--jp textarea" lang="ja" rows="2" id="sentence-expression" name="expression" placeholder="お 願[ねが]いします"></textarea>
+                        <p class="field__help">
+                            <code>Alt + (1, 2, or 3)</code> for colors. 
+                            <code>Alt + 4</code> for Furigana. <code>Alt + 5</code> for Link to Jisho.
+                        </p>
                     </div>
 
                     <div class="field field--full">
@@ -490,11 +525,34 @@
 
                     <div class="field field--full">
                         <label class="field__label" for="grammar-example">Example sentence</label>
+
+                        <div class="notation" data-field="grammar-example">
+                            <button class="notation__btn" type="button" data-insert="red" title="Red highlight (Alt+1)">
+                                <span class="notation__swatch" data-color="red" aria-hidden="true"></span>Red
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="blue" title="Blue highlight (Alt+2)">
+                                <span class="notation__swatch" data-color="blue" aria-hidden="true"></span>Blue
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="yellow" title="Yellow highlight (Alt+3)">
+                                <span class="notation__swatch" data-color="yellow" aria-hidden="true"></span>Yellow
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="furigana" title="Furigana brackets (Alt+4)">
+                                Furigana
+                            </button>
+                            <button class="notation__btn" type="button" data-insert="link" title="Link (Alt+5)">
+                                Link
+                            </button>
+                        </div>
+
+
                         <textarea class="input input--jp textarea" lang="ja" rows="2" id="grammar-example"
                         name="example" placeholder="私[わたし]*b:は* 学生[がくせい]です"></textarea>
                         <p class="field__help">
                             Mark the pint with <code>*b:は*</code> — <code>r</code>,
                             <code>b</code>, <code>y</code> for red, blue, yellow.
+                            <br>
+                            <code>Alt + (1, 2, or 3)</code> for colors. 
+                            <code>Alt + 4</code> for Furigana. <code>Alt + 5</code> for Link to Jisho.
                         </p>
                     </div>
                 </fieldset>

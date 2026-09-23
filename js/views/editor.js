@@ -1,6 +1,7 @@
 import { getCard, saveCard, allTags } from "../storage.js";
 import { canonicalTag, tagKey, reservedNamespace, splitTag } from "../tags.js";
 import { loadKanjiSheet, levelTag, meaningText, LEVEL_NAMESPACE } from "../kanji.js";
+import { initNotation } from "../notation.js";
 
 // --- Editor ---
 const editorTitle = document.querySelector('#view-editor .view__title');
@@ -171,6 +172,9 @@ export function initEditor(options = {}) {
     autofillBtn.addEventListener('click', () => {
         autofillKanji();
     });
+
+    // Notation
+    initNotation(editorForm);
 
     // --- Tags ---
     tagInput.addEventListener('keydown', (event) => {
