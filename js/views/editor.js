@@ -3,6 +3,8 @@ import { canonicalTag, tagKey, reservedNamespace, splitTag, compareTags } from "
 import { loadKanjiSheet, levelTag, meaningText, LEVEL_NAMESPACE } from "../kanji.js";
 import { initNotation } from "../notation.js";
 import { initPreviews } from "../preview.js";
+import { loadVocabSheet, searchVocab, classLabels, classTags, CLASS_NAMESPACE } from "../vocab.js";
+import { tokenize, plainText } from "../tokenize.js";
 
 // --- Editor ---
 const editorTitle = document.querySelector('#view-editor .view__title');
@@ -11,12 +13,20 @@ const tagInput = document.querySelector('#card-tags');
 const tagSuggestions = document.querySelector('#tag-suggestions');
 const autofillStatus = document.querySelector('#kanji-autofill-status');
 const autofillBtn = document.querySelector('#kanji-autofill-btn');
+const vocabExpression = document.querySelector('#vocab-expression');
+const vocabReading = document.querySelector('#vocab-reading');
+const vocabList = document.querySelector('#vocab-suggestions');
+const vocabStatus = document.querySelector('#vocab-autofill-status');
 
 
 let editingId = null;
 let refreshPreviews = () => {};
 let tags = [];
 let onDone = () => {};
+// Vocab autofill
+let suggestions = [];
+let activeIndex = -1;
+let lastPick = null;
 
 
 function splitList(value) {
@@ -104,6 +114,8 @@ export function openEditor(id = null) {
 
     editorForm.reset();
     clearAutofillStatus();
+    closeSuggestions();
+    lastPick = null;
     refreshTagSuggestions();
 
     editorTitle.textContent = card ? 'Edit card' : 'New Card';
@@ -177,6 +189,55 @@ export function initEditor(options = {}) {
         autofillKanji();
     });
 
+
+    // --- Vocab suggestions ---
+    vocabExpression.addEventListener('focus', () => {
+        loadVocabSheet();
+    });
+
+    vocabExpression.addEventListener('input', () => {
+        updateSuggestions();
+    });
+
+    vocabExpression.addEventListener('blur', () => {
+        closeSuggestions();
+    });
+
+    vocabExpression.addEventListener('keydown', (event) => {
+        if (event.isComposing || vocabList.hidden) return;
+
+        const count = suggestions.length;
+
+        switch (event.key) {
+            case 'ArrowDown':
+                event.preventDefault();
+                setActive((activeIndex + 1) % count);
+                break;
+            case 'ArrowUp':
+                event.preventDefault();
+                setActive(activeIndex <= 0 ? count - 1 : activeIndex - 1);
+                break;
+            case 'Enter':
+                if (activeIndex < 0) return;
+                event.preventDefault();
+                pickVocab(suggestions[activeIndex]);
+                break;
+            case 'Escape':
+                event.preventDefault();
+                closeSuggestions();
+                break;
+        }
+    });
+
+    // Focus moves on mousedown. Cancel that and the input keeps it
+    vocabList.addEventListener('mousedown', (event) => event.preventDefault());
+
+    vocabList.addEventListener('click', (event) => {
+        const row = event.target.closest('.suggest__option');
+        if (row) pickVocab(suggestions[Number(row.dataset.index)]);
+    });
+
+
     // Notation
     initNotation(editorForm);
     refreshPreviews = initPreviews(editorForm);
@@ -241,18 +302,152 @@ export function initEditor(options = {}) {
     openEditor(null);
 }
 
-function setAutofillStatus(text, state = '') {
-    autofillStatus.textContent = text;
+// Is there already a tag in this namespace?
+function hasTagIn(namespace) {
+    return tags.some((t) => splitTag(canonicalTag(t)).namespace === namespace);
+}
+
+function setAutofillStatus(text, state = '', el = autofillStatus) {
+    el.textContent = text;
     if (state === '') {
-        delete autofillStatus.dataset.state;
+        delete el.dataset.state;
     } else {
-        autofillStatus.dataset.state = state;
+        el.dataset.state = state;
     }
 }
 
+
 function clearAutofillStatus() {
     setAutofillStatus('')
+    setAutofillStatus('', '', vocabStatus);
     autofillStatus.dataset.char = '';
+}
+
+// --- Vocab Suggestions ---
+
+// What's typed in expression, without notation or spaces
+function vocabQuery() {
+    return plainText(tokenize(vocabExpression.value)).replace(/[\s~～〜]/g, '');
+}
+
+async function updateSuggestions() {
+    const query = vocabQuery();
+    if (!query) {
+        closeSuggestions();
+        return;
+    }
+
+    const sheet = await loadVocabSheet();
+    if (!sheet) {
+        closeSuggestions();
+        setAutofillStatus('Could not load vocab data', 'error', vocabStatus);
+        return;
+    }
+
+    // User kept typing or left the field
+    if (query !== vocabQuery() || document.activeElement !== vocabExpression) return;
+
+    showSuggestions(searchVocab(sheet, query));
+}
+
+function suggestionRow(entry, i) {
+    const row = document.createElement('li');
+    row.className = 'suggest__option';
+    row.id = `vocab-option-${i}`;
+    row.dataset.index = i;
+    row.title = entry.meaning;
+    row.setAttribute('role', 'option');
+    row.setAttribute('aria-selected', 'false');
+
+    const word = document.createElement('span');
+    word.className = 'suggest__word';
+    word.lang = 'ja';
+    word.textContent = entry.word;
+
+    const reading = document.createElement('span');
+    reading.className = 'suggest__reading';
+    reading.lang = 'ja';
+    reading.textContent = entry.reading === entry.word ? '' : entry.reading;
+
+    const meaning = document.createElement('span');
+    meaning.className = 'suggest__meaning';
+    meaning.textContent = entry.meaning;
+
+    const meta = document.createElement('span');
+    meta.className = 'suggest__meta';
+    meta.textContent = [entry.jlpt ? `N${entry.jlpt}` : '', ...classLabels(entry)]
+        .filter(Boolean)
+        .join(' · ');
+
+    row.append(word, reading, meaning, meta);
+    return row;
+}
+
+function showSuggestions(entries) {
+    suggestions = entries;
+    activeIndex = -1;
+
+    vocabList.replaceChildren(...entries.map(suggestionRow));
+    vocabList.hidden = entries.length === 0;
+
+    vocabExpression.setAttribute('aria-expanded', String(!vocabList.hidden));
+    vocabExpression.removeAttribute('aria-activedescendant');
+}
+
+function closeSuggestions() {
+    showSuggestions([]);
+}
+
+function setActive(index) {
+    vocabList.children[activeIndex]?.setAttribute('aria-selected', 'false');
+    activeIndex = index;
+
+    const row = vocabList.children[index];
+    row.setAttribute('aria-selected', 'true');
+    row.scrollIntoView({ block: 'nearest' });
+    vocabExpression.setAttribute('aria-activedescendant', row.id);
+}
+
+function pickVocab(entry) {
+    closeSuggestions();
+
+    const meaningField = editorForm.querySelector('#card-meaning');
+
+    // A second pick replaces what the first one filled
+    if (lastPick) {
+        if (meaningField.value === lastPick.meaning) meaningField.value = '';
+        setTags(tags.filter((t) => !lastPick.tags.includes(t)));
+    }
+
+    const filled = ['expression'];
+    vocabExpression.value = entry.furigana;
+
+    // Kana-only words leave reading blank
+    const reading = entry.reading === entry.word ? '' : entry.reading;
+    vocabReading.value = reading;
+    if (reading) filled.push('reading');
+
+    let filledMeaning = null;
+    if (!meaningField.value.trim()) {
+        meaningField.value = filledMeaning = entry.meaning;
+        filled.push('meaning');
+    }
+
+    // Tags, only in namespaces the card doesn't use yet
+    const added = [];
+    const level = levelTag(entry);
+    if (level && !hasTagIn(LEVEL_NAMESPACE)) added.push(level);
+    if (!hasTagIn(CLASS_NAMESPACE)) added.push(...classTags(entry));
+    if (added.length > 0) setTags([...tags, ...added]);
+
+    lastPick = { meaning: filledMeaning, tags: added };
+
+    let report = `Filled: ${filled.join(', ')}.`;
+    if (added.length > 0) report += ` Added ${added.join(', ')}.`;
+    if (!entry.jlpt) report += ' Not on a JLPT list.';
+    setAutofillStatus(report, 'filled', vocabStatus);
+
+    refreshPreviews();
 }
 
 async function autofillKanji() {
@@ -303,20 +498,9 @@ async function autofillKanji() {
 
     // Tag level
     const tag = levelTag(entry);
-    let exists = false;
     let addedTag = false;
 
-    // Check if a level tag already exists
-    for (const t of tags ?? []) {
-        const { namespace, value } = splitTag(canonicalTag(t));
-
-        if (namespace === LEVEL_NAMESPACE) {
-            exists = true;
-            break;
-        }
-    }
-
-    if (tag && !exists) {
+    if (tag && !hasTagIn(LEVEL_NAMESPACE)) {
         setTags([...tags, tag]);
         addedTag = true;
     }

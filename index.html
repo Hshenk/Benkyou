@@ -429,7 +429,13 @@
                             </button>
                         </div>
 
-                        <input class="input input--jp" type="text" lang="ja" id="vocab-expression" name="expression" placeholder="食[た]べる">
+                        <div class="combo">
+                            <input class="input input--jp" type="text" lang="ja" id="vocab-expression" name="expression"
+                                placeholder="食[た]べる" role="combobox" aria-autocomplete="list"
+                                aria-expanded="false" aria-controls="vocab-suggestions">
+                            <ul class="suggest" id="vocab-suggestions" role="listbox" aria-label="Dictionary matches" hidden></ul>
+                        </div>
+
 
                         <div class="preview" data-preview="vocab-expression" hidden>
                             <span class="preview__label">Preview</span>                      
@@ -437,6 +443,8 @@
                         </div> 
 
                         <p class="field__help">
+                            Type a word or its reading to pick it from the dictionary: <code>↓</code> to choose, <code>Enter</code> to fill.
+                            <br>
                             Furigana in square brackets - <code>漢字[かんじ]</code>.
                             <br>
                             <code>Alt + (1, 2, or 3)</code> for colors. 
@@ -448,6 +456,14 @@
                         <label class="field__label" for="vocab-reading">Reading</label>
                         <input class="input input--jp" type="text" lang="ja" id="vocab-reading" name="reading" placeholder="たべる">
                     </div>
+
+                    <p class="field--full autofill__status" id="vocab-autofill-status" aria-live="polite"></p>
+
+                    <p class="field--full autofill__credit">
+                        Vocab data from <a href="https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project" target="_blank" rel="noopener">JMdict</a>
+                        © EDRDG, CC BY-SA 4.0 · JLPT levels from Jonathan Waller's lists
+                    </p>
+
                 </fieldset>
                 
                 <!-- ---- Kanji Fields ---- -->
