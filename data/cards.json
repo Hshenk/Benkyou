@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 24,
-  "exportedAt": "2026-09-25T16:22:56.332Z",
+  "version": 26,
+  "exportedAt": "2026-09-25T18:52:48.780Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -7247,6 +7247,2717 @@
         "example": "秀句代をあり*y:ました*か。"
       },
       "id": "8263aa1d-0ee6-491f-a747-48fd32bdbc6d"
+    },
+    {
+      "createdAt": "2026-09-25T16:51:18.336Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Apartment (abbr.)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Locations",
+        "Source: Nakama 1-4",
+        "Topic: Cities And Towns"
+      ],
+      "data": {
+        "expression": "アパート",
+        "reading": ""
+      },
+      "id": "764c4d25-6b70-44aa-9f52-a9b20e4db973"
+    },
+    {
+      "createdAt": "2026-09-25T16:52:26.534Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Station",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Cities And Towns",
+        "Source: Nakama 1-4",
+        "Topic: Travel",
+        "Topic: Transportation"
+      ],
+      "data": {
+        "expression": "駅[えき]",
+        "reading": "えき"
+      },
+      "id": "ac474caf-b4f3-4a83-b352-50073ccc5770"
+    },
+    {
+      "createdAt": "2026-09-25T16:53:03.434Z",
+      "updatedAt": "2026-09-25T17:05:10.147Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Pencil",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Art",
+        "Source: Nakama 1-4",
+        "Topic: Hobbies",
+        "Topic: School",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "鉛筆[えんぴつ]",
+        "reading": "えんぴつ"
+      },
+      "id": "18ac7c31-4e6d-420a-9581-3e913b7b1166"
+    },
+    {
+      "createdAt": "2026-09-25T16:54:07.560Z",
+      "updatedAt": "2026-09-25T16:54:07.560Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Luggage, bag, basket",
+      "notes": "Usually written with just Kana, but 鞄 is correct.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Travel",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "かばん",
+        "reading": ""
+      },
+      "id": "61a85e1d-ba1e-4ea5-a663-9324aa46e804"
+    },
+    {
+      "createdAt": "2026-09-25T16:54:41.917Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Café, cafe, coffeehouse",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Topic: Locations",
+        "Topic: Cities And Towns",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "カフェ",
+        "reading": ""
+      },
+      "id": "b8aea644-6628-4861-be87-866ded21f5c6"
+    },
+    {
+      "createdAt": "2026-09-25T16:56:33.527Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Japanese-style coffee shop, tearoom, café",
+      "notes": "Traditional term for a coffee shop as opposed to the more recent カフェ",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Cities And Towns",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "喫茶店[きっさてん]",
+        "reading": "きっさてん"
+      },
+      "id": "9ddd32bd-cee5-4151-a391-3afa5aa28efb"
+    },
+    {
+      "createdAt": "2026-09-25T16:57:09.227Z",
+      "updatedAt": "2026-09-25T16:57:09.227Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Textbook",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: School",
+        "Topic: Education"
+      ],
+      "data": {
+        "expression": "教科書[きょうかしょ]",
+        "reading": "きょうかしょ"
+      },
+      "id": "5b300a03-cf50-41b5-b200-dd2f687def02"
+    },
+    {
+      "createdAt": "2026-09-25T16:57:43.704Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bank",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Cities And Towns",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "銀行[ぎんこう]",
+        "reading": "ぎんこう"
+      },
+      "id": "69b71b37-600f-4913-a8cc-8a5ef4f7f55e"
+    },
+    {
+      "createdAt": "2026-09-25T16:58:15.139Z",
+      "updatedAt": "2026-09-25T17:04:57.471Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Eraser",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Topic: Art",
+        "Source: Nakama 1-4",
+        "Topic: School",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "消[け]しゴム",
+        "reading": "けしゴム"
+      },
+      "id": "1a0fea6e-818b-47da-ac69-ccc33dd2c436"
+    },
+    {
+      "createdAt": "2026-09-25T16:58:45.012Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A park",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Cities And Towns",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "公園[こうえん]",
+        "reading": "こうえん"
+      },
+      "id": "e6c9d2b2-d1a0-4f4c-9014-5f0485464537"
+    },
+    {
+      "createdAt": "2026-09-25T16:59:13.016Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Police box",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Cities And Towns",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "交番[こうばん]",
+        "reading": "こうばん"
+      },
+      "id": "1eb02586-88b8-4f7a-948e-397b7d1a1e65"
+    },
+    {
+      "createdAt": "2026-09-25T16:59:45.702Z",
+      "updatedAt": "2026-09-25T16:59:45.702Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This area, around here",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Topic: Locations",
+        "Topic: Directions",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "この 辺[へん]",
+        "reading": "このへん"
+      },
+      "id": "a4fca07b-ad8f-4dea-83c2-d21915696f26"
+    },
+    {
+      "createdAt": "2026-09-25T17:00:05.884Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Convenience store",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Locations",
+        "Topic: Cities And Towns"
+      ],
+      "data": {
+        "expression": "コンビニ",
+        "reading": ""
+      },
+      "id": "4f0b1487-97a5-42bf-90b5-691a24ee2ece"
+    },
+    {
+      "createdAt": "2026-09-25T17:00:58.566Z",
+      "updatedAt": "2026-09-25T17:00:58.566Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dictionary",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Education"
+      ],
+      "data": {
+        "expression": "辞書[じしょ]",
+        "reading": "じしょ"
+      },
+      "id": "e8cfcb04-ab6d-4fd7-9ebc-9aad18f29a9d"
+    },
+    {
+      "createdAt": "2026-09-25T17:01:28.055Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Supermarket",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Locations",
+        "Topic: Cities And Towns",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "スーパー",
+        "reading": ""
+      },
+      "id": "528751cc-dec2-46fb-94b0-e39e20c512cd"
+    },
+    {
+      "createdAt": "2026-09-25T17:01:52.227Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Building",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Locations",
+        "Topic: Cities And Towns"
+      ],
+      "data": {
+        "expression": "建物[たてもの]",
+        "reading": "たてもの"
+      },
+      "id": "6faa7a79-2cc6-4ed2-b926-102052cd50c5"
+    },
+    {
+      "createdAt": "2026-09-25T17:02:14.188Z",
+      "updatedAt": "2026-09-25T17:02:14.188Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Test",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-4",
+        "Topic: Education",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "テスト",
+        "reading": ""
+      },
+      "id": "08c33703-d77c-46dd-89bd-ff010467d684"
+    },
+    {
+      "createdAt": "2026-09-25T17:02:32.330Z",
+      "updatedAt": "2026-09-25T17:04:46.409Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Notebook",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Education",
+        "Topic: School",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "ノート",
+        "reading": ""
+      },
+      "id": "0358f1cb-f912-41b8-8f12-2e2b42406c53"
+    },
+    {
+      "createdAt": "2026-09-25T17:02:57.756Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(abbr.) building",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Cities And Towns",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "ビル",
+        "reading": ""
+      },
+      "id": "2de9435a-11e4-4c1b-a24f-93b9113a5224"
+    },
+    {
+      "createdAt": "2026-09-25T17:03:25.476Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hospital",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Locations",
+        "Topic: Health",
+        "Topic: Cities And Towns"
+      ],
+      "data": {
+        "expression": "病院[びょういん]",
+        "reading": "びょういん"
+      },
+      "id": "c8663e3c-8d17-4b31-a647-66983f4b13ef"
+    },
+    {
+      "createdAt": "2026-09-25T17:03:57.599Z",
+      "updatedAt": "2026-09-25T17:04:39.554Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Pen",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: School",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "ペン",
+        "reading": ""
+      },
+      "id": "09be572f-2c53-486a-bee7-d68807175c91"
+    },
+    {
+      "createdAt": "2026-09-25T17:04:32.887Z",
+      "updatedAt": "2026-09-25T17:04:32.887Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Ball-point pen",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: School",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "ボールペン",
+        "reading": ""
+      },
+      "id": "89fa5493-52e2-4722-8b40-c0dde6ca4f89"
+    },
+    {
+      "createdAt": "2026-09-25T17:05:38.294Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bookstore, bookshop",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Cities And Towns",
+        "Topic: Locations",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "本屋[ほんや]",
+        "reading": "ほんや"
+      },
+      "id": "579f5696-ff6b-4dac-978d-b10d06fe278b"
+    },
+    {
+      "createdAt": "2026-09-25T17:06:10.342Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Town; city",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Cities And Towns",
+        "Source: Nakama 1-4",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "町[まち]",
+        "reading": "まち"
+      },
+      "id": "072b57b7-ef38-4eb3-85a4-425f66b8516c"
+    },
+    {
+      "createdAt": "2026-09-25T17:06:50.932Z",
+      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Post office",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Cities And Towns",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "郵便局[ゆうびんきょく]",
+        "reading": "ゆうびんきょく"
+      },
+      "id": "dd7839f5-dfe3-4860-a7e8-a56c53eb53e6"
+    },
+    {
+      "createdAt": "2026-09-25T17:08:02.444Z",
+      "updatedAt": "2026-09-25T17:08:02.444Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hostel, dormitory",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-4",
+        "Topic: Locations",
+        "Topic: Education",
+        "Topic: School",
+        "Topic: Cities And Towns"
+      ],
+      "data": {
+        "expression": "寮[りょう]",
+        "reading": "りょう"
+      },
+      "id": "31bc08c9-aff0-481e-bcd1-27ffc4bfbbb5"
+    },
+    {
+      "createdAt": "2026-09-25T17:08:27.518Z",
+      "updatedAt": "2026-09-25T17:08:27.518Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Restaurant",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Locations",
+        "Topic: Food",
+        "Topic: Cities And Towns",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "レストラン",
+        "reading": ""
+      },
+      "id": "a815535f-b1b8-4d93-af2f-1966ce76c38a"
+    },
+    {
+      "createdAt": "2026-09-25T17:09:50.175Z",
+      "updatedAt": "2026-09-25T17:09:50.175Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(humble) to be (animate), to exist (Used for animate beings)",
+      "notes": "Usually written as just kana, but 居る is correct.",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "いる",
+        "reading": "いる"
+      },
+      "id": "a12574f4-0c60-44d2-b3f8-8c77e1200472"
+    },
+    {
+      "createdAt": "2026-09-25T17:10:12.937Z",
+      "updatedAt": "2026-09-25T17:10:12.937Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "There, over there, that place",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Source: Nakama 1-4",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "あそこ",
+        "reading": ""
+      },
+      "id": "9ff58309-4eae-4e4b-9cdf-1680289f93b0"
+    },
+    {
+      "createdAt": "2026-09-25T17:10:27.052Z",
+      "updatedAt": "2026-09-25T17:10:27.052Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "That one (over there)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Topic: Directions",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "あれ",
+        "reading": ""
+      },
+      "id": "b92d2fe4-b1dd-4808-b757-96d115778fa5"
+    },
+    {
+      "createdAt": "2026-09-25T17:10:41.859Z",
+      "updatedAt": "2026-09-25T17:10:41.859Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Here, this place",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Topic: Directions",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "ここ",
+        "reading": ""
+      },
+      "id": "c456728f-f137-4989-8d78-17fc5fb3d02c"
+    },
+    {
+      "createdAt": "2026-09-25T17:11:01.516Z",
+      "updatedAt": "2026-09-25T17:11:01.516Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This one",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Topic: Directions",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "これ",
+        "reading": ""
+      },
+      "id": "5ef9a8e3-ded4-4c1e-9a59-b7c4d978f388"
+    },
+    {
+      "createdAt": "2026-09-25T17:11:17.140Z",
+      "updatedAt": "2026-09-25T17:11:17.140Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "That place, there; bottom, sole",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Source: Nakama 1-4",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "そこ",
+        "reading": ""
+      },
+      "id": "e2703a65-38fc-4e36-8345-bc50868bf74c"
+    },
+    {
+      "createdAt": "2026-09-25T17:11:41.635Z",
+      "updatedAt": "2026-09-25T17:11:41.635Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "That one",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Topic: Directions",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "それ",
+        "reading": ""
+      },
+      "id": "63142ad0-0229-42fc-9eb7-e45f8474d838"
+    },
+    {
+      "createdAt": "2026-09-25T17:12:07.126Z",
+      "updatedAt": "2026-09-25T17:12:07.126Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Blue",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-4",
+        "Topic: Colors"
+      ],
+      "data": {
+        "expression": "青[あお]い",
+        "reading": "あおい"
+      },
+      "id": "e1d250ac-36bf-460d-a1ec-7542e4d1bdf7"
+    },
+    {
+      "createdAt": "2026-09-25T17:12:28.517Z",
+      "updatedAt": "2026-09-25T17:12:28.517Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Red",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Topic: Colors",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "赤[あか]い",
+        "reading": "あかい"
+      },
+      "id": "d4a49169-d64a-49a6-acab-f88e2fa8d48a"
+    },
+    {
+      "createdAt": "2026-09-25T17:12:50.049Z",
+      "updatedAt": "2026-09-25T17:12:50.049Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "New",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "新[あたら]しい",
+        "reading": "あたらしい"
+      },
+      "id": "942d1418-ea02-4e61-b5ab-5b9408d583bf"
+    },
+    {
+      "createdAt": "2026-09-25T17:13:23.365Z",
+      "updatedAt": "2026-09-25T17:13:23.365Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Good",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-4",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "いい",
+        "reading": ""
+      },
+      "id": "a7c51fc1-21a3-4600-b9d0-467f91680f8f"
+    },
+    {
+      "createdAt": "2026-09-25T17:13:46.038Z",
+      "updatedAt": "2026-09-25T17:13:46.038Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Big, large",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "大[おお]きい",
+        "reading": "おおきい"
+      },
+      "id": "d1bcd3e6-ac38-45f4-8d80-b0b1875c1b4e"
+    },
+    {
+      "createdAt": "2026-09-25T17:14:07.315Z",
+      "updatedAt": "2026-09-25T17:14:07.315Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Yellow",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Topic: Colors",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "黄色[きいろ]い",
+        "reading": "きいろい"
+      },
+      "id": "c88bed18-b6ba-4afa-aa03-d599724551a9"
+    },
+    {
+      "createdAt": "2026-09-25T17:14:23.104Z",
+      "updatedAt": "2026-09-25T17:14:23.104Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Black; dark",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Topic: Colors",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "黒[くろ]い",
+        "reading": "くろい"
+      },
+      "id": "372452ff-2561-4346-b2ce-8a4eea253eed"
+    },
+    {
+      "createdAt": "2026-09-25T17:14:39.162Z",
+      "updatedAt": "2026-09-25T17:14:39.162Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "White",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-4",
+        "Topic: Colors"
+      ],
+      "data": {
+        "expression": "白[しろ]い",
+        "reading": "しろい"
+      },
+      "id": "0bbc2467-0cea-412f-a6ea-ca8b9e406656"
+    },
+    {
+      "createdAt": "2026-09-25T17:15:13.656Z",
+      "updatedAt": "2026-09-25T17:15:13.656Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tall (building or object), high; expensive",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-4",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "高[たか]い",
+        "reading": "たかい"
+      },
+      "id": "d1e37370-1f6b-4d72-8977-bb8769fe2029"
+    },
+    {
+      "createdAt": "2026-09-25T17:15:30.484Z",
+      "updatedAt": "2026-09-25T17:15:30.484Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Small, little",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "小[ちい]さい",
+        "reading": "ちいさい"
+      },
+      "id": "e7f1afe9-ce14-454d-ac51-e25e98ea63e8"
+    },
+    {
+      "createdAt": "2026-09-25T17:15:56.744Z",
+      "updatedAt": "2026-09-25T17:15:56.744Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Brown",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: い-adjective",
+        "Source: Nakama 1-4",
+        "Topic: Colors"
+      ],
+      "data": {
+        "expression": "茶色[ちゃいろ]い",
+        "reading": "ちゃいろい"
+      },
+      "id": "a8c351ac-ed13-4db7-a98b-1bb1d38ddb06"
+    },
+    {
+      "createdAt": "2026-09-25T17:16:19.160Z",
+      "updatedAt": "2026-09-25T17:16:19.160Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Old (in reference to objects, not people), aged, ancient",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-4",
+        "Topic: History"
+      ],
+      "data": {
+        "expression": "古[ふる]い",
+        "reading": "ふるい"
+      },
+      "id": "8ff2d76d-cc6b-4b65-a48d-3a4d238c70a6"
+    },
+    {
+      "createdAt": "2026-09-25T17:16:55.020Z",
+      "updatedAt": "2026-09-25T17:16:55.020Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Pretty, clean, tidy",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Source: Nakama 1-4",
+        "Topic: Cleaning"
+      ],
+      "data": {
+        "expression": "綺麗[きれい]",
+        "reading": "きれい"
+      },
+      "id": "0a843525-7d4e-435f-a93c-5043d8a314c1"
+    },
+    {
+      "createdAt": "2026-09-25T17:17:20.319Z",
+      "updatedAt": "2026-09-25T17:17:20.319Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Famous",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Source: Nakama 1-4",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "有名[ゆうめい]",
+        "reading": "ゆうめい"
+      },
+      "id": "5c742c61-3695-4314-bf03-fc531bb318cd"
+    },
+    {
+      "createdAt": "2026-09-25T17:18:24.443Z",
+      "updatedAt": "2026-09-25T17:18:24.443Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Splendid, fine, nice",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "立派[りっぱ]",
+        "reading": "りっぱ"
+      },
+      "id": "b8c7e4ef-5a70-48cd-980c-811cd8bb9aed"
+    },
+    {
+      "createdAt": "2026-09-25T17:18:42.691Z",
+      "updatedAt": "2026-09-25T17:18:42.691Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Who?",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Topic: Questions",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "誰[だれ]",
+        "reading": "だれ"
+      },
+      "id": "9845f1b8-c139-4d5b-9cc7-74fbdd6cd663"
+    },
+    {
+      "createdAt": "2026-09-25T17:19:18.761Z",
+      "updatedAt": "2026-09-25T17:19:18.761Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Which one?",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Topic: Questions",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "どれ",
+        "reading": ""
+      },
+      "id": "10776d3c-bb58-41a8-83d6-c454b782e0a5"
+    },
+    {
+      "createdAt": "2026-09-25T17:19:45.242Z",
+      "updatedAt": "2026-09-25T17:19:45.242Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "What?, what kind of?",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pre-noun",
+        "Topic: Questions",
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "どんな",
+        "reading": ""
+      },
+      "id": "41e12db1-6b81-4049-85ea-9f161f5e682d"
+    },
+    {
+      "createdAt": "2026-09-25T17:21:09.860Z",
+      "updatedAt": "2026-09-25T17:21:09.860Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Very, (Often used with 'Thank you' or 'sorry')",
+      "notes": "どうもありがとう。どうもすみません。",
+      "tags": [
+        "Level: N5",
+        "Class: Interjection",
+        "Class: Adverb",
+        "Source: Nakama 1-4",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "どうも",
+        "reading": ""
+      },
+      "id": "d10e8274-420d-4a08-940c-b096326c03d6"
+    },
+    {
+      "createdAt": "2026-09-25T17:21:43.490Z",
+      "updatedAt": "2026-09-25T17:21:43.490Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Very (much), greatly, exceedingly (Always used in the affermative form)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-4",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "とても",
+        "reading": ""
+      },
+      "id": "003706b1-d339-4089-9ef1-008a3bbbecf4"
+    },
+    {
+      "createdAt": "2026-09-25T17:22:50.458Z",
+      "updatedAt": "2026-09-25T17:22:50.458Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "~ shop",
+      "notes": "Example: 本屋。",
+      "tags": [
+        "Level: N5",
+        "Class: Suffix",
+        "Topic: Suffix",
+        "Topic: Shopping",
+        "Source: Nakama 1-4",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "~屋[や]",
+        "reading": "や"
+      },
+      "id": "f5829257-833f-4595-934f-7c3c0187a10a"
+    },
+    {
+      "createdAt": "2026-09-25T17:23:26.646Z",
+      "updatedAt": "2026-09-25T17:23:26.646Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(abbr.) department store",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Locations",
+        "Topic: Cities And Towns",
+        "Source: Nakama 1-4",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "デパート",
+        "reading": ""
+      },
+      "id": "b0af2d23-37c4-4a17-b8f5-4009070f94c4"
+    },
+    {
+      "createdAt": "2026-09-25T17:28:05.172Z",
+      "updatedAt": "2026-09-25T17:28:05.172Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "This, that, that over there, which? (Pronouns to refer to things)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "これ、それ、あれ、どれ",
+        "example": "*r:これ*、*b:それ*、*y:あれ*、*r:どれ* ||\n*r:これ*は 私[わたし]のえんぴつぃです"
+      },
+      "id": "335854ec-c48b-4831-b8a6-16f774a534e2"
+    },
+    {
+      "createdAt": "2026-09-25T17:32:00.696Z",
+      "updatedAt": "2026-09-25T17:32:00.696Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "Where is the dictionary? Where is Ms. Kim?",
+      "notes": "Used for asking or giving the location of objects or people.",
+      "tags": [
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "～は～にあります/います",
+        "example": "辞書[じしょ]*b:は*どこ*y:に**r:ありますか*。キムさん*b:は*どこ*y:に**r:いますか*。"
+      },
+      "id": "3716b516-0f4e-40c0-af16-67e2626d6cc7"
+    },
+    {
+      "createdAt": "2026-09-25T17:34:13.964Z",
+      "updatedAt": "2026-09-25T17:34:13.964Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Wow, it is a large house, isn't it?",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "へえ、大きいうちですね。",
+        "literal": ""
+      },
+      "id": "c17b19e3-7731-4024-bb0b-477eaea21f8c"
+    },
+    {
+      "createdAt": "2026-09-25T17:38:20.480Z",
+      "updatedAt": "2026-09-25T17:38:20.480Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "It is not large. It is not good. (Polite, negative adjectives.)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "Adj~くありません。",
+        "example": "大き*r:くないです*。大き*r:くありません*。よ*r:くありません*。"
+      },
+      "id": "0406bde5-d568-48a1-a475-28f9264fe711"
+    },
+    {
+      "createdAt": "2026-09-25T17:40:49.498Z",
+      "updatedAt": "2026-09-25T17:40:49.498Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "There is a bookstore in the university.",
+      "notes": "AにBがあります。Means there is a person/object (B) in a certain location (A).",
+      "tags": [
+        "Source: Nakama 1-4",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "～に～があります。",
+        "example": "大学[だいがく]*b:に*本屋[ほんや]*y:が**r:あります*。"
+      },
+      "id": "bee9d0a6-6346-496a-a5db-0b28038e4e2f"
+    },
+    {
+      "createdAt": "2026-09-25T17:44:02.146Z",
+      "updatedAt": "2026-09-25T17:44:02.146Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "You know, there is a kanji test today.",
+      "notes": "~よ expresses expectation that the other person does not already know the information and the speaker is imparting new knowledge. It can sound pushy or overly aggressive if overused.",
+      "tags": [
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "~よ",
+        "example": "今日[きょう]、漢字[かんじ]のテストがあります*b:よ*。"
+      },
+      "id": "884470e4-be22-4034-a701-0e954f42ca5c"
+    },
+    {
+      "createdAt": "2026-09-25T17:46:13.216Z",
+      "updatedAt": "2026-09-25T17:46:13.216Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "Wow, it is a nice park, isn't it?",
+      "notes": "~ね is similar to saying \"~isn't it?\". It indicates that the speaker believes the listener shares the same information or opinion.",
+      "tags": [
+        "Source: Nakama 1-4"
+      ],
+      "data": {
+        "expression": "~ね",
+        "example": "ああ、立派[りっぱ]な公園[こうえん]です*b:ね*。"
+      },
+      "id": "4691b1a2-1092-425f-b5fb-0bd40b29e792"
+    },
+    {
+      "createdAt": "2026-09-25T17:52:42.444Z",
+      "updatedAt": "2026-09-25T17:52:42.444Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Above (up, top, etc.), over, on top of",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Directions",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "上[うえ]",
+        "reading": "うえ"
+      },
+      "id": "fddd68d4-a3a3-4ef8-9ef3-be45055d8cbb"
+    },
+    {
+      "createdAt": "2026-09-25T17:53:04.420Z",
+      "updatedAt": "2026-09-25T17:53:04.420Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Back, behind, rear",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Directions",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "後[うし]ろ",
+        "reading": "うしろ"
+      },
+      "id": "a1f6fa36-63a7-4a71-84a3-9bdc56dc7de3"
+    },
+    {
+      "createdAt": "2026-09-25T17:53:26.359Z",
+      "updatedAt": "2026-09-25T17:53:26.359Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Under, below, beneath",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Directions",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "下[した]",
+        "reading": "した"
+      },
+      "id": "95ab9acd-1aac-41b1-a336-a34d1d9f9212"
+    },
+    {
+      "createdAt": "2026-09-25T17:53:46.750Z",
+      "updatedAt": "2026-09-25T17:53:46.750Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Outside, exterior",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "外[そと]",
+        "reading": "そと"
+      },
+      "id": "bd9b3400-d919-41e2-bf51-3701484b4967"
+    },
+    {
+      "createdAt": "2026-09-25T17:54:11.898Z",
+      "updatedAt": "2026-09-25T17:54:11.898Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Nearby; in the neighborhood",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Directions",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "近[ちか]く",
+        "reading": "ちかく"
+      },
+      "id": "6d092302-fd53-4111-98f3-65428ac3c64f"
+    },
+    {
+      "createdAt": "2026-09-25T17:54:36.175Z",
+      "updatedAt": "2026-09-25T17:54:36.175Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Next to, next door to",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Directions",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "隣[となり]",
+        "reading": "となり"
+      },
+      "id": "ce45ed00-2b2a-4988-873b-08490f43424a"
+    },
+    {
+      "createdAt": "2026-09-25T17:54:53.471Z",
+      "updatedAt": "2026-09-25T17:54:53.471Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Inside, middle, among",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "中[なか]",
+        "reading": "なか"
+      },
+      "id": "87a31041-090c-46a2-82e5-4031935d633e"
+    },
+    {
+      "createdAt": "2026-09-25T17:55:36.439Z",
+      "updatedAt": "2026-09-25T17:55:36.439Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Left hand side, to the left",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "左[ひだり]",
+        "reading": "ひだり"
+      },
+      "id": "5dc7e914-73f6-4780-896f-03cee51f71f6"
+    },
+    {
+      "createdAt": "2026-09-25T17:55:58.640Z",
+      "updatedAt": "2026-09-25T17:55:58.640Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Right hand side, to the right",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "右[みぎ]",
+        "reading": "みぎ"
+      },
+      "id": "191f8dfd-3643-4c75-9460-985bb056eb30"
+    },
+    {
+      "createdAt": "2026-09-25T17:56:36.656Z",
+      "updatedAt": "2026-09-25T17:56:36.656Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Beside; side; width; at the side of",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "横[よこ]",
+        "reading": "よこ"
+      },
+      "id": "5fba7ae2-097d-41e5-9b7c-803d28b81007"
+    },
+    {
+      "createdAt": "2026-09-25T17:56:57.948Z",
+      "updatedAt": "2026-09-25T17:56:57.948Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chair",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic Furniture"
+      ],
+      "data": {
+        "expression": "椅子[いす]",
+        "reading": "いす"
+      },
+      "id": "b65cfbcc-7b12-4b87-add6-01f2d60d0dfc"
+    },
+    {
+      "createdAt": "2026-09-25T17:57:21.260Z",
+      "updatedAt": "2026-09-25T17:57:21.260Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dog",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Animals",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "犬[いぬ]",
+        "reading": "いぬ"
+      },
+      "id": "6694fe84-b9db-4830-88e4-d8156ab98e51"
+    },
+    {
+      "createdAt": "2026-09-25T17:57:50.278Z",
+      "updatedAt": "2026-09-25T17:57:50.278Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A painting; a picture; a drawing",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Art",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "絵[え]",
+        "reading": "え"
+      },
+      "id": "87b4e865-b72c-44d2-b873-d7e80d26b6b1"
+    },
+    {
+      "createdAt": "2026-09-25T17:59:00.892Z",
+      "updatedAt": "2026-09-25T17:59:00.892Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Japanese-style closet, storage space",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "押[お]し 入[い]れ",
+        "reading": "おしいれ"
+      },
+      "id": "08a44796-7677-44d6-9d99-a5c723858ead"
+    },
+    {
+      "createdAt": "2026-09-25T18:00:10.454Z",
+      "updatedAt": "2026-09-25T18:00:10.454Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "School cafeteria",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-5",
+        "Topic: School",
+        "Topic: Food",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "学食[がくしょく]",
+        "reading": "がくしょく"
+      },
+      "id": "f6f2e3ed-ffe1-4bb6-9a72-bd405da1bee0"
+    },
+    {
+      "createdAt": "2026-09-25T18:01:15.871Z",
+      "updatedAt": "2026-09-25T18:01:15.871Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Meeting hall, assembly hall",
+      "notes": "学生会館 - Student Union Building.",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Cities And Towns",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "会館[かいかん]",
+        "reading": "かいかん"
+      },
+      "id": "dce186f4-4d59-4139-ba0e-49719e359247"
+    },
+    {
+      "createdAt": "2026-09-25T18:01:35.979Z",
+      "updatedAt": "2026-09-25T18:01:35.979Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "River",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "川[かわ]",
+        "reading": "かわ"
+      },
+      "id": "e5ba963f-c793-4cd1-93ef-dcae65318739"
+    },
+    {
+      "createdAt": "2026-09-25T18:03:20.809Z",
+      "updatedAt": "2026-09-25T18:03:20.809Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Mountain",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Nature",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "山[やま]",
+        "reading": "やま"
+      },
+      "id": "d9e3ffa5-ef56-46b5-845e-3e9057d42dfe"
+    },
+    {
+      "createdAt": "2026-09-25T18:04:14.590Z",
+      "updatedAt": "2026-09-25T18:04:14.590Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tree, wood, timber",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "木[き]",
+        "reading": "き"
+      },
+      "id": "6726965a-52d9-4805-9989-690c980e2b18"
+    },
+    {
+      "createdAt": "2026-09-25T18:04:38.006Z",
+      "updatedAt": "2026-09-25T18:04:38.006Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Classroom",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: School",
+        "Topic: Education",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "教室[きょうしつ]",
+        "reading": "きょうしつ"
+      },
+      "id": "46861018-80aa-4b03-b950-8f1b29a54a65"
+    },
+    {
+      "createdAt": "2026-09-25T18:04:58.068Z",
+      "updatedAt": "2026-09-25T18:04:58.068Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Car, vehicle",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Transportation",
+        "Topic: Cities And Towns"
+      ],
+      "data": {
+        "expression": "車[くるま]",
+        "reading": "くるま"
+      },
+      "id": "efba601e-065c-4c95-89cf-55702cf5927f"
+    },
+    {
+      "createdAt": "2026-09-25T18:06:54.087Z",
+      "updatedAt": "2026-09-25T18:06:54.087Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Mobile phone, cell phone",
+      "notes": "Sometimes shortened to just 携帯. スマホ refers to a smart phone.",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Technology"
+      ],
+      "data": {
+        "expression": "携帯電話[けいたいでんわ]",
+        "reading": "けいたいでんわ"
+      },
+      "id": "72259425-851c-4d30-a216-5b65f0536d2d"
+    },
+    {
+      "createdAt": "2026-09-25T18:07:11.833Z",
+      "updatedAt": "2026-09-25T18:07:11.833Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Smartphone, smart phone",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Social",
+        "Topic: Technology"
+      ],
+      "data": {
+        "expression": "スマホ",
+        "reading": ""
+      },
+      "id": "74f48100-6683-4b6c-b1f1-6e2269a906d8"
+    },
+    {
+      "createdAt": "2026-09-25T18:07:51.566Z",
+      "updatedAt": "2026-09-25T18:07:51.566Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Blackboard",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: School",
+        "Topic: Education",
+        "Topic Furniture"
+      ],
+      "data": {
+        "expression": "黒板[こくばん]",
+        "reading": "こくばん"
+      },
+      "id": "88287386-2545-469a-9d9a-e6c556155ea8"
+    },
+    {
+      "createdAt": "2026-09-25T18:08:21.749Z",
+      "updatedAt": "2026-09-25T18:08:21.749Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Computer",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Technology"
+      ],
+      "data": {
+        "expression": "コンピュータ",
+        "reading": ""
+      },
+      "id": "a652bbb3-5748-4dc1-84ba-dee80556424d"
+    },
+    {
+      "createdAt": "2026-09-25T18:08:41.955Z",
+      "updatedAt": "2026-09-25T18:08:41.955Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bicycle",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Transportation"
+      ],
+      "data": {
+        "expression": "自転車[じてんしゃ]",
+        "reading": "じてんしゃ"
+      },
+      "id": "202844f1-1fc0-44dc-beaf-9b9a227e67b7"
+    },
+    {
+      "createdAt": "2026-09-25T18:09:07.852Z",
+      "updatedAt": "2026-09-25T18:09:07.852Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A picture; a photograph",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "写真[しゃしん]",
+        "reading": "しゃしん"
+      },
+      "id": "3374b795-7833-4801-b697-48592063dc4c"
+    },
+    {
+      "createdAt": "2026-09-25T18:09:37.500Z",
+      "updatedAt": "2026-09-25T18:09:37.500Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sofa, couch",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic Furniture"
+      ],
+      "data": {
+        "expression": "ソファ",
+        "reading": ""
+      },
+      "id": "1572f7dd-a484-417e-a3b5-c2267e780d61"
+    },
+    {
+      "createdAt": "2026-09-25T18:10:31.042Z",
+      "updatedAt": "2026-09-25T18:10:31.042Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Gymnasium",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: School",
+        "Topic: Sports And Athletics",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "体育館[たいいくかん]",
+        "reading": "たいいくかん"
+      },
+      "id": "303b4fac-ff61-4320-a9df-0115cb265fd7"
+    },
+    {
+      "createdAt": "2026-09-25T18:11:37.530Z",
+      "updatedAt": "2026-09-25T18:13:03.631Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chest, drawers, dresser",
+      "notes": "Usually written with just kana, but 箪笥 is correct.",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic Furniture",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "たんす",
+        "reading": ""
+      },
+      "id": "20397365-18fc-4614-9664-b9c1920a25dc"
+    },
+    {
+      "createdAt": "2026-09-25T18:12:56.185Z",
+      "updatedAt": "2026-09-25T18:12:56.185Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Desk",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic Furniture",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "机[つくえ]",
+        "reading": "つくえ"
+      },
+      "id": "08ca3a28-68dc-419f-ba09-12db8e731a71"
+    },
+    {
+      "createdAt": "2026-09-25T18:13:46.202Z",
+      "updatedAt": "2026-09-25T18:13:46.202Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Table",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic Furniture"
+      ],
+      "data": {
+        "expression": "テーブル",
+        "reading": ""
+      },
+      "id": "32bf0ede-59d0-43a1-bfae-af33bd9e538b"
+    },
+    {
+      "createdAt": "2026-09-25T18:14:09.895Z",
+      "updatedAt": "2026-09-25T18:14:09.895Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A telephone",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-5",
+        "Topic: Technology"
+      ],
+      "data": {
+        "expression": "電話[でんわ]",
+        "reading": "でんわ"
+      },
+      "id": "47186a08-ac65-48b0-9a14-691e819b1796"
+    },
+    {
+      "createdAt": "2026-09-25T18:14:28.344Z",
+      "updatedAt": "2026-09-25T18:14:28.344Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Door (Western style)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic Furniture",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "ドア",
+        "reading": ""
+      },
+      "id": "a37ff55d-7993-49f2-ac5a-4e5f90010f1b"
+    },
+    {
+      "createdAt": "2026-09-25T18:14:44.403Z",
+      "updatedAt": "2026-09-25T18:14:44.403Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bathroom; toilet",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Locations",
+        "Topic Furniture"
+      ],
+      "data": {
+        "expression": "トイレ",
+        "reading": ""
+      },
+      "id": "83c6a411-d683-4132-b2e8-3f9bed52d629"
+    },
+    {
+      "createdAt": "2026-09-25T18:15:29.276Z",
+      "updatedAt": "2026-09-25T18:15:29.276Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A watch; a clock",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Time",
+        "Topic: Accessories",
+        "Topic: Technology"
+      ],
+      "data": {
+        "expression": "時計[とけい]",
+        "reading": "とけい"
+      },
+      "id": "3d8edeaf-cb9e-4c36-8dde-005877c599d7"
+    },
+    {
+      "createdAt": "2026-09-25T18:17:00.416Z",
+      "updatedAt": "2026-09-25T18:17:00.416Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Place",
+      "notes": "Depending on the usage, it often is just written in kana.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-5",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "所[ところ]",
+        "reading": "ところ"
+      },
+      "id": "e7c9fd2a-ba6e-4a53-9e6f-12c9cab98db6"
+    },
+    {
+      "createdAt": "2026-09-25T18:17:19.212Z",
+      "updatedAt": "2026-09-25T18:17:19.212Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cat",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Animals"
+      ],
+      "data": {
+        "expression": "猫[ねこ]",
+        "reading": "ねこ"
+      },
+      "id": "44892f33-d01b-4e08-af8f-7a9f94ce6c97"
+    },
+    {
+      "createdAt": "2026-09-25T18:17:39.846Z",
+      "updatedAt": "2026-09-25T18:17:39.846Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bus; bath; bass",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Transportation"
+      ],
+      "data": {
+        "expression": "バス",
+        "reading": ""
+      },
+      "id": "11c1d500-657b-4cc4-a124-5785dd1b0442"
+    },
+    {
+      "createdAt": "2026-09-25T18:18:14.226Z",
+      "updatedAt": "2026-09-25T18:18:14.226Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Video; video tape; VCR",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Technology"
+      ],
+      "data": {
+        "expression": "ビデオ",
+        "reading": ""
+      },
+      "id": "9530c3e4-a5a1-4801-bb3c-d8ca0d77a6ad"
+    },
+    {
+      "createdAt": "2026-09-25T18:18:31.527Z",
+      "updatedAt": "2026-09-25T18:18:31.527Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Man, person",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: People"
+      ],
+      "data": {
+        "expression": "人[ひと]",
+        "reading": "ひと"
+      },
+      "id": "38d2768f-69b2-4c57-aa24-a7b42d23a629"
+    },
+    {
+      "createdAt": "2026-09-25T18:18:54.201Z",
+      "updatedAt": "2026-09-25T18:18:54.201Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Futon",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic Furniture"
+      ],
+      "data": {
+        "expression": "布団[ふとん]",
+        "reading": "ふとん"
+      },
+      "id": "3edf467c-c6e5-42ed-8048-47e3e4c5e818"
+    },
+    {
+      "createdAt": "2026-09-25T18:19:08.843Z",
+      "updatedAt": "2026-09-25T18:19:08.843Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bed",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic Furniture"
+      ],
+      "data": {
+        "expression": "ベッド",
+        "reading": ""
+      },
+      "id": "d045bcd6-10d6-4623-8303-59d7c4e5b8a7"
+    },
+    {
+      "createdAt": "2026-09-25T18:19:43.620Z",
+      "updatedAt": "2026-09-25T18:19:43.620Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A room",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "部屋[へや]",
+        "reading": "へや"
+      },
+      "id": "319f5fae-440b-43b9-815b-0d8df5d2e2aa"
+    },
+    {
+      "createdAt": "2026-09-25T18:20:07.425Z",
+      "updatedAt": "2026-09-25T18:20:07.425Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bookshelf",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic Furniture",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "本棚[ほんだな]",
+        "reading": "ほんだな"
+      },
+      "id": "0ffef72f-bc48-4a2f-9fbd-00b77420c431"
+    },
+    {
+      "createdAt": "2026-09-25T18:20:29.684Z",
+      "updatedAt": "2026-09-25T18:20:29.684Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Window",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "窓[まど]",
+        "reading": "まど"
+      },
+      "id": "07f0876c-8aae-4762-9487-ccc5edac1899"
+    },
+    {
+      "createdAt": "2026-09-25T18:20:47.955Z",
+      "updatedAt": "2026-09-25T18:20:47.955Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Thing (concrete object)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "物[もの]",
+        "reading": "もの"
+      },
+      "id": "b7f57947-522c-4eda-9758-a67e5b0ff8c9"
+    },
+    {
+      "createdAt": "2026-09-25T18:22:16.628Z",
+      "updatedAt": "2026-09-25T18:22:16.628Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Room (Katakana, used with other words)",
+      "notes": "Used in conjunction with other words, not usually on its own. Examples: ルームメイト、コンピュータルーム。",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "ルーム",
+        "reading": ""
+      },
+      "id": "868a4097-8a38-4f81-8992-9bdde1104c99"
+    },
+    {
+      "createdAt": "2026-09-25T18:22:53.849Z",
+      "updatedAt": "2026-09-25T18:22:53.849Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "It takes, it costs (amount of time, money) (v.i.)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-5",
+        "Topic: Time",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "かかる",
+        "reading": ""
+      },
+      "id": "1e5edab6-bc80-435d-9952-7cc46d637385"
+    },
+    {
+      "createdAt": "2026-09-25T18:23:54.031Z",
+      "updatedAt": "2026-09-25T18:23:54.031Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "that over there; like that, that way",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pre-noun",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "あの+Noun",
+        "reading": ""
+      },
+      "id": "690c7a76-5108-42cf-be9e-88de3dd33a37"
+    },
+    {
+      "createdAt": "2026-09-25T18:24:04.552Z",
+      "updatedAt": "2026-09-25T18:24:04.552Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pre-noun",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "この",
+        "reading": ""
+      },
+      "id": "3d5cb493-c395-4d59-97e9-cd407462a27e"
+    },
+    {
+      "createdAt": "2026-09-25T18:24:15.970Z",
+      "updatedAt": "2026-09-25T18:24:15.970Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "That",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pre-noun",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "その",
+        "reading": ""
+      },
+      "id": "ed640ff1-beb7-4f3a-a3fb-c470c7057325"
+    },
+    {
+      "createdAt": "2026-09-25T18:24:51.090Z",
+      "updatedAt": "2026-09-25T18:24:51.090Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Which___?",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pre-noun",
+        "Source: Nakama 1-5",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "どの",
+        "reading": ""
+      },
+      "id": "05c76a62-ed10-44ac-a7db-7ab3e4eb33dd"
+    },
+    {
+      "createdAt": "2026-09-25T18:26:08.260Z",
+      "updatedAt": "2026-09-25T18:26:08.260Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bright (in reference to personality or weather); cheerful",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "明[あか]るい",
+        "reading": "あかるい"
+      },
+      "id": "0235cfb7-db29-4bb3-a7f0-180282222ef8"
+    },
+    {
+      "createdAt": "2026-09-25T18:26:17.734Z",
+      "updatedAt": "2026-09-25T18:26:17.734Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dark, gloomy",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "暗[くら]い",
+        "reading": "くらい"
+      },
+      "id": "a9a65da3-1bf7-4976-9c48-26fdfcc05c68"
+    },
+    {
+      "createdAt": "2026-09-25T18:26:40.593Z",
+      "updatedAt": "2026-09-25T18:26:40.593Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Narrow; not spacious",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "狭[せま]い",
+        "reading": "せまい"
+      },
+      "id": "db2f0f44-d6de-433a-ba30-1d9141a989cb"
+    },
+    {
+      "createdAt": "2026-09-25T18:27:12.131Z",
+      "updatedAt": "2026-09-25T18:27:12.131Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fast, quick",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "速[はや]い",
+        "reading": "はやい"
+      },
+      "id": "1b35f2e9-f737-49f8-9877-422f7782a9ac"
+    },
+    {
+      "createdAt": "2026-09-25T18:27:26.142Z",
+      "updatedAt": "2026-09-25T18:27:26.142Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Spacious; wide; broad",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "広[ひろ]い",
+        "reading": "ひろい"
+      },
+      "id": "5c0d2410-0aca-4992-876b-ffd08a75646c"
+    },
+    {
+      "createdAt": "2026-09-25T18:27:42.010Z",
+      "updatedAt": "2026-09-25T18:27:42.010Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Quiet, calm",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "静[しず]か",
+        "reading": "しずか"
+      },
+      "id": "0de05388-ec19-4e4c-b7a2-4fab44fc3344"
+    },
+    {
+      "createdAt": "2026-09-25T18:30:18.650Z",
+      "updatedAt": "2026-09-25T18:30:18.650Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "In front of the desk",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-5",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "机[つくえ]の前[まえ]",
+        "literal": ""
+      },
+      "id": "ea5d90c8-2e9c-48ff-bebb-a1e32ef1af48"
+    },
+    {
+      "createdAt": "2026-09-25T18:32:53.827Z",
+      "updatedAt": "2026-09-25T18:32:53.827Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "That big one? (Using big as a pronoun)",
+      "notes": "Noun/Adjective + の acts as a pronoun, referring back to a previously discussed thing. It is very rarely used for people.",
+      "tags": [
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "大きいの",
+        "example": "その*y:大きい**b:の*ですか。"
+      },
+      "id": "9790776a-0a37-4bd2-b838-6c90a38ed078"
+    },
+    {
+      "createdAt": "2026-09-25T18:35:21.040Z",
+      "updatedAt": "2026-09-25T18:35:21.040Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "I went from the apartment to the student union building.",
+      "notes": "から (from) まで (until, to)",
+      "tags": [
+        "Source: Nakama 1-5",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "～から～まで",
+        "example": "アパート*b:から*学生会館[がくせいかいかん]*b:まで*行[い]きました。"
+      },
+      "id": "39d82820-bb14-4b37-85d3-d445c838cd06"
+    },
+    {
+      "createdAt": "2026-09-25T18:39:02.172Z",
+      "updatedAt": "2026-09-25T18:41:47.585Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "to return home by bus.",
+      "notes": "～で Can refer to (means of which or means by which) something was done.\nバスで、テレビで (Such as 'saw it through television')、えんぴつで (With a pencil).\nTo walk, is special, it uses あるいて instead.",
+      "tags": [
+        "Source: Nakama 1-5",
+        "Topic: Travel",
+        "Topic: Transportation",
+        "Class: Particle",
+        "Topic: Particles",
+        "Class: Suffix",
+        "Topic: Suffix"
+      ],
+      "data": {
+        "expression": "～で",
+        "example": "バス*b:で*帰[かえ]ります。"
+      },
+      "id": "cc44d39b-0a19-4a0d-abdf-30051a2a8846"
+    },
+    {
+      "createdAt": "2026-09-25T18:41:08.218Z",
+      "updatedAt": "2026-09-25T18:41:35.419Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "I slept about 8 hours.",
+      "notes": "～ぐらい or ～くらい can be used interchangeably and both express that it is an approximation.",
+      "tags": [
+        "Source: Nakama 1-5",
+        "Topic: Time",
+        "Class: Particle",
+        "Topic: Particles",
+        "Class: Suffix",
+        "Topic: Suffix",
+        "Level: N5"
+      ],
+      "data": {
+        "expression": "～ぐらい or ～くらい",
+        "example": "8時間[じかん]*b:ぐらい*寝[ね]ました。"
+      },
+      "id": "decfe34e-f3d9-4e81-87c3-f09f4fccefa3"
+    },
+    {
+      "createdAt": "2026-09-25T18:43:38.416Z",
+      "updatedAt": "2026-09-25T18:43:38.416Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "But, however",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Conjunction",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "でも",
+        "reading": ""
+      },
+      "id": "117ef5e0-71d3-4eb7-bb78-93b86decfb57"
+    },
+    {
+      "createdAt": "2026-09-25T18:44:51.904Z",
+      "updatedAt": "2026-09-25T18:44:51.904Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Please come in.",
+      "notes": "",
+      "tags": [
+        "Topic: Expressions",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "上[あ]がって下[く]さい。",
+        "literal": ""
+      },
+      "id": "d3c52b60-495f-4be3-86d2-5fcbd75bf1d0"
+    },
+    {
+      "createdAt": "2026-09-25T18:46:09.448Z",
+      "updatedAt": "2026-09-25T18:46:09.448Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "(to travel) on foot",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-5",
+        "Topic: Travel",
+        "Topic: Transportation"
+      ],
+      "data": {
+        "expression": "歩[ある]いて",
+        "literal": ""
+      },
+      "id": "1bb0cd65-4d20-4f82-a10b-513db6b8e7e9"
+    },
+    {
+      "createdAt": "2026-09-25T18:47:15.680Z",
+      "updatedAt": "2026-09-25T18:47:15.680Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Welcome! / Comin in.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-5",
+        "Level: N3",
+        "Class: Interjection",
+        "Topic: Greetings"
+      ],
+      "data": {
+        "expression": "いらっしゃい",
+        "reading": ""
+      },
+      "id": "0c9f822d-d6d7-462d-bf92-4ef31f127372"
+    },
+    {
+      "createdAt": "2026-09-25T18:48:13.402Z",
+      "updatedAt": "2026-09-25T18:48:13.402Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Excuse me for disturbing you",
+      "notes": "Literally \"I will intrude on you\". It is said before going into someone's house or apartment.",
+      "tags": [
+        "Level: N2",
+        "Class: Expression",
+        "Source: Nakama 1-5"
+      ],
+      "data": {
+        "expression": "お 邪魔[じゃま]します",
+        "reading": "おじゃまします"
+      },
+      "id": "ae5ae2f8-ac08-4e39-b6fd-3322308c7308"
+    },
+    {
+      "createdAt": "2026-09-25T18:49:10.093Z",
+      "updatedAt": "2026-09-25T18:49:10.093Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "May I come in, Is anyone here",
+      "notes": "Usually written with just kana, but 御免下さい is correct.",
+      "tags": [
+        "Level: N2",
+        "Class: Expression",
+        "Source: Nakama 1-5",
+        "Topic: Greetings"
+      ],
+      "data": {
+        "expression": "ごめんください",
+        "reading": ""
+      },
+      "id": "8e8b172d-0b07-426d-b924-4a81e7bbabf6"
+    },
+    {
+      "createdAt": "2026-09-25T18:49:56.360Z",
+      "updatedAt": "2026-09-25T18:49:56.360Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "How long, how far, how much (Expecting an estimate)",
+      "notes": "",
+      "tags": [
+        "Class: Expression",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-5",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "どのぐらい",
+        "reading": ""
+      },
+      "id": "f39ad631-62fd-4147-bb1d-9034ae7c275e"
+    },
+    {
+      "createdAt": "2026-09-25T18:51:03.901Z",
+      "updatedAt": "2026-09-25T18:51:03.901Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Media center",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-5",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "メディアセンター",
+        "reading": ""
+      },
+      "id": "cb5af9de-86a8-4148-a37c-72c2195b2daf"
     }
   ]
 }

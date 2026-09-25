@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-25T16:22:56.502Z",
+  "exportedAt": "2026-09-25T18:52:48.832Z",
   "sessions": [
     {
       "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
@@ -1034,6 +1034,23 @@
           "id": "5bd8d531-07fd-460c-a6e6-d1dfa93f6abe",
           "result": "missed",
           "misses": 1
+        }
+      ]
+    },
+    {
+      "id": "d9313101-34b5-4e61-885a-0a0488e826be",
+      "startedAt": "2026-09-25T17:28:11.352Z",
+      "endedAt": "2026-09-25T17:28:23.028Z",
+      "facets": [
+        "-Topic: Supplementary",
+        "Source: Nakama 1-4",
+        "Type: Grammar"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "335854ec-c48b-4831-b8a6-16f774a534e2",
+          "result": "easy"
         }
       ]
     }
