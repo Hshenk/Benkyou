@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-25T18:52:48.832Z",
+  "exportedAt": "2026-09-25T19:09:41.272Z",
   "sessions": [
     {
       "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
@@ -1051,6 +1051,120 @@
         {
           "id": "335854ec-c48b-4831-b8a6-16f774a534e2",
           "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "7db19c6f-691d-41ce-919e-7f5cc8234575",
+      "startedAt": "2026-09-25T18:54:10.662Z",
+      "endedAt": "2026-09-25T18:55:50.846Z",
+      "facets": [
+        "-Topic: Supplementary",
+        "Source: Nakama 1-5"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "5dc7e914-73f6-4780-896f-03cee51f71f6",
+          "result": "easy"
+        },
+        {
+          "id": "a1f6fa36-63a7-4a71-84a3-9bdc56dc7de3",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "fddd68d4-a3a3-4ef8-9ef3-be45055d8cbb",
+          "result": "easy"
+        },
+        {
+          "id": "191f8dfd-3643-4c75-9460-985bb056eb30",
+          "result": "easy"
+        },
+        {
+          "id": "87a31041-090c-46a2-82e5-4031935d633e",
+          "result": "easy"
+        },
+        {
+          "id": "ce45ed00-2b2a-4988-873b-08490f43424a",
+          "result": "missed",
+          "misses": 2
+        },
+        {
+          "id": "5fba7ae2-097d-41e5-9b7c-803d28b81007",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "95ab9acd-1aac-41b1-a336-a34d1d9f9212",
+          "result": "easy"
+        },
+        {
+          "id": "6d092302-fd53-4111-98f3-65428ac3c64f",
+          "result": "easy"
+        },
+        {
+          "id": "bd9b3400-d919-41e2-bf51-3701484b4967",
+          "result": "easy"
+        }
+      ]
+    },
+    {
+      "id": "45d88302-ee83-4470-be44-09cac6fcf2e8",
+      "startedAt": "2026-09-25T18:56:01.192Z",
+      "endedAt": "2026-09-25T18:58:24.778Z",
+      "facets": [
+        "-Topic: Supplementary",
+        "Source: Nakama 1-5",
+        "Type: Grammar",
+        "Type: Sentence",
+        "Type: Vocab"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "f6f2e3ed-ffe1-4bb6-9a72-bd405da1bee0",
+          "result": "work"
+        },
+        {
+          "id": "6726965a-52d9-4805-9989-690c980e2b18",
+          "result": "easy"
+        },
+        {
+          "id": "dce186f4-4d59-4139-ba0e-49719e359247",
+          "result": "work"
+        },
+        {
+          "id": "d9e3ffa5-ef56-46b5-845e-3e9057d42dfe",
+          "result": "easy"
+        },
+        {
+          "id": "08a44796-7677-44d6-9d99-a5c723858ead",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "e5ba963f-c793-4cd1-93ef-dcae65318739",
+          "result": "easy"
+        },
+        {
+          "id": "87b4e865-b72c-44d2-b873-d7e80d26b6b1",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "b65cfbcc-7b12-4b87-add6-01f2d60d0dfc",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "6694fe84-b9db-4830-88e4-d8156ab98e51",
+          "result": "easy"
+        },
+        {
+          "id": "46861018-80aa-4b03-b950-8f1b29a54a65",
+          "result": "missed",
+          "misses": 1
         }
       ]
     }
