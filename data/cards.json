@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 21,
-  "exportedAt": "2026-09-24T17:15:22.142Z",
+  "version": 22,
+  "exportedAt": "2026-09-25T16:09:43.767Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -96,17 +96,18 @@
     },
     {
       "createdAt": "2026-09-02T15:23:40.237Z",
-      "updatedAt": "2026-09-24T16:21:21.813Z",
+      "updatedAt": "2026-09-25T15:06:15.257Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "id": "a4",
       "type": "vocab",
-      "meaning": "study, diligence",
+      "meaning": "Study, diligence",
       "tags": [
         "Topic: School",
         "Level: N4",
         "Class: Noun",
-        "Class: する-verb"
+        "Class: する-verb",
+        "Source: Nakama 1-3"
       ],
       "data": {
         "expression": "勉強[べんきょう]",
@@ -2207,16 +2208,18 @@
     },
     {
       "createdAt": "2026-09-07T00:34:51.250Z",
-      "updatedAt": "2026-09-07T00:34:51.250Z",
+      "updatedAt": "2026-09-25T15:22:13.174Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
-      "meaning": "part, minute of time, segment",
+      "meaning": "Part, minute of time, segment",
       "notes": "",
       "tags": [
         "Topic: Time",
         "Level: N5",
-        "Source: Nakama 1-7"
+        "Source: Nakama 1-7",
+        "Class: Counter",
+        "Topic: Counters"
       ],
       "data": {
         "character": "分",
@@ -2324,7 +2327,7 @@
     },
     {
       "createdAt": "2026-09-07T00:50:35.242Z",
-      "updatedAt": "2026-09-07T00:50:35.242Z",
+      "updatedAt": "2026-09-25T14:12:40.112Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -2333,7 +2336,8 @@
       "tags": [
         "Level: N4",
         "Source: Nakama 1-9",
-        "Topic: Food"
+        "Topic: Food",
+        "Topic: Drinks"
       ],
       "data": {
         "character": "飲",
@@ -3385,8 +3389,8 @@
     {
       "createdAt": "2026-09-19T22:56:31.746Z",
       "updatedAt": "2026-09-24T16:49:21.525Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Next year, the year to come",
       "notes": "",
@@ -3683,7 +3687,7 @@
     {
       "createdAt": "2026-09-19T23:16:43.476Z",
       "updatedAt": "2026-09-24T16:57:30.475Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "(Suffix) Time",
@@ -3745,7 +3749,7 @@
     {
       "createdAt": "2026-09-19T23:19:05.124Z",
       "updatedAt": "2026-09-24T16:58:32.782Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "(Suffix) -year",
@@ -4946,8 +4950,8 @@
     {
       "createdAt": "2026-09-23T17:10:05.182Z",
       "updatedAt": "2026-09-23T17:10:05.182Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "Degrees, occurrence, time, counter for occurrences, consider, attitude",
       "notes": "",
@@ -5213,7 +5217,7 @@
     {
       "createdAt": "2026-09-23T17:42:17.497Z",
       "updatedAt": "2026-09-23T17:42:17.497Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Springtime, spring (season)",
@@ -5239,7 +5243,7 @@
     {
       "createdAt": "2026-09-23T17:42:46.397Z",
       "updatedAt": "2026-09-23T17:42:46.397Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Summer",
@@ -5267,8 +5271,8 @@
     {
       "createdAt": "2026-09-23T17:43:16.363Z",
       "updatedAt": "2026-09-23T17:43:16.363Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 2,
       "type": "kanji",
       "meaning": "Autumn",
       "notes": "",
@@ -5294,7 +5298,7 @@
     {
       "createdAt": "2026-09-23T17:43:42.105Z",
       "updatedAt": "2026-09-23T17:43:42.105Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Winter",
@@ -5320,7 +5324,7 @@
     {
       "createdAt": "2026-09-23T17:44:35.663Z",
       "updatedAt": "2026-09-23T17:44:35.663Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Morning, dynasty, regime, epoch, period, (North) Korea",
@@ -5345,8 +5349,8 @@
     {
       "createdAt": "2026-09-23T17:45:26.982Z",
       "updatedAt": "2026-09-23T17:45:26.982Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 2,
       "type": "kanji",
       "meaning": "Daytime, noon",
       "notes": "昼食 【チュウショク】 Lunch",
@@ -5676,6 +5680,1602 @@
         "strokes": 6
       },
       "id": "3f638fe8-67ec-40ee-813f-6f9510786043"
+    },
+    {
+      "createdAt": "2026-09-25T13:59:54.066Z",
+      "updatedAt": "2026-09-25T14:00:57.675Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Morning",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-3",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "朝[あさ]",
+        "reading": "あさ"
+      },
+      "id": "a477d895-ab7d-4d3c-ab22-4b21343a628e"
+    },
+    {
+      "createdAt": "2026-09-25T14:00:38.131Z",
+      "updatedAt": "2026-09-25T14:08:39.817Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "breakfast",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-3",
+        "Topic: Food",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "朝御飯[あさごはん]",
+        "reading": "あさごはん"
+      },
+      "id": "d7443408-e240-4f57-b472-da6292c347d3"
+    },
+    {
+      "createdAt": "2026-09-25T14:01:41.505Z",
+      "updatedAt": "2026-09-25T14:01:41.505Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Day after tomorrow",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "明後日[あさって]",
+        "reading": "あさって"
+      },
+      "id": "8ee23cba-865c-48fe-acf6-ddb78b7471b1"
+    },
+    {
+      "createdAt": "2026-09-25T14:02:05.258Z",
+      "updatedAt": "2026-09-25T14:02:05.258Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tomorrow",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "明日[あした]",
+        "reading": "あした"
+      },
+      "id": "c1c0c2f5-e278-4733-b816-f2c04e531810"
+    },
+    {
+      "createdAt": "2026-09-25T14:06:05.149Z",
+      "updatedAt": "2026-09-25T14:06:05.149Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Home; house; my place",
+      "notes": "Usually written as kana alone, but it's technically 家.\nThis is essentially the same equivalent of \"House\" vs \"Home\" with 家【いえ】meaning the physical building and うち referring to the more personal concept of your space to live.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Locations",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "うち",
+        "reading": ""
+      },
+      "id": "72d63b90-a9b2-4d42-a119-531f435d47e6"
+    },
+    {
+      "createdAt": "2026-09-25T14:06:59.967Z",
+      "updatedAt": "2026-09-25T14:06:59.967Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Movie, film",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-3",
+        "Topic: Hobbies",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "映画[えいが]",
+        "reading": "えいが"
+      },
+      "id": "cf20a303-47ae-4072-aa35-c78f276810ae"
+    },
+    {
+      "createdAt": "2026-09-25T14:07:29.017Z",
+      "updatedAt": "2026-09-25T14:07:29.017Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "The day before yesterday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "一昨日[おととい]",
+        "reading": "おととい"
+      },
+      "id": "5bd8d531-07fd-460c-a6e6-d1dfa93f6abe"
+    },
+    {
+      "createdAt": "2026-09-25T14:08:30.427Z",
+      "updatedAt": "2026-09-25T14:08:30.427Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A bath",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Routines",
+        "Source: Nakama 1-3",
+        "Topic Furniture"
+      ],
+      "data": {
+        "expression": "お 風呂[ふろ]",
+        "reading": "おふろ"
+      },
+      "id": "28829056-c29f-448a-b9ac-cc3b8b8d39e0"
+    },
+    {
+      "createdAt": "2026-09-25T14:09:26.258Z",
+      "updatedAt": "2026-09-25T14:09:26.258Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "School",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: School",
+        "Topic: Education",
+        "Source: Nakama 1-3",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "学校[がっこう]",
+        "reading": "がっこう"
+      },
+      "id": "9cd5dfcb-2540-4c9f-91b9-63d9bc73e11e"
+    },
+    {
+      "createdAt": "2026-09-25T14:09:52.088Z",
+      "updatedAt": "2026-09-25T14:09:52.088Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tuesday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "火曜日[かようび]",
+        "reading": "かようび"
+      },
+      "id": "ae9f8acf-b579-41c1-aa4e-9e399fea7764"
+    },
+    {
+      "createdAt": "2026-09-25T14:10:17.080Z",
+      "updatedAt": "2026-09-25T14:10:17.080Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Yesterday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "昨日[きのう]",
+        "reading": "きのう"
+      },
+      "id": "a6ef9d5a-e6eb-4323-970e-5ad6bf9730ca"
+    },
+    {
+      "createdAt": "2026-09-25T14:10:44.403Z",
+      "updatedAt": "2026-09-25T14:10:44.403Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Today, this day",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "今日[きょう]",
+        "reading": "きょう"
+      },
+      "id": "5122fc8d-935d-487c-ac7d-c85f04bbc69d"
+    },
+    {
+      "createdAt": "2026-09-25T14:11:03.303Z",
+      "updatedAt": "2026-09-25T14:11:03.303Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Friday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "金曜日[きんようび]",
+        "reading": "きんようび"
+      },
+      "id": "ee8a46de-763e-4c4f-988a-26db125b9cdd"
+    },
+    {
+      "createdAt": "2026-09-25T14:11:28.436Z",
+      "updatedAt": "2026-09-25T14:11:28.436Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A class",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: School",
+        "Topic: Education",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "クラス",
+        "reading": ""
+      },
+      "id": "3bd0be87-74a0-483b-911b-529edd9b7211"
+    },
+    {
+      "createdAt": "2026-09-25T14:11:51.559Z",
+      "updatedAt": "2026-09-25T14:11:51.559Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Monday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "月曜日[げつようび]",
+        "reading": "げつようび"
+      },
+      "id": "924c2634-9aa7-4ce1-9b6d-30c67c1d6543"
+    },
+    {
+      "createdAt": "2026-09-25T14:12:19.907Z",
+      "updatedAt": "2026-09-25T14:12:19.907Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Coffee",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Food",
+        "Topic: Drinks",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "コーヒー",
+        "reading": ""
+      },
+      "id": "ffe38d81-5377-4aa5-b6c1-7bd9c24f1096"
+    },
+    {
+      "createdAt": "2026-09-25T14:48:29.328Z",
+      "updatedAt": "2026-09-25T14:48:29.328Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rice (cooked); meal",
+      "notes": "Usually written with just ご, but technically 御飯 is also correct.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Food",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "ご 飯[はん]",
+        "reading": "ごはん"
+      },
+      "id": "69ef836e-9459-451e-a776-71b1989d13f6"
+    },
+    {
+      "createdAt": "2026-09-25T14:48:55.513Z",
+      "updatedAt": "2026-09-25T14:48:55.513Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This week",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "今週[こんしゅう]",
+        "reading": "こんしゅう"
+      },
+      "id": "b8a2b2d6-e2d4-4161-a9cf-0a117dbb1a6c"
+    },
+    {
+      "createdAt": "2026-09-25T14:49:52.371Z",
+      "updatedAt": "2026-09-25T14:49:52.371Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tonight, this evening",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-3",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "今晩[こんばん]",
+        "reading": "こんばん"
+      },
+      "id": "15810421-0173-4897-aaac-eff6b9adad7a"
+    },
+    {
+      "createdAt": "2026-09-25T14:50:28.042Z",
+      "updatedAt": "2026-09-25T14:50:28.042Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Shower",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Routines",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "シャワー",
+        "reading": ""
+      },
+      "id": "3dd19ce9-75fc-4e25-87db-9fe6bc2dbf63"
+    },
+    {
+      "createdAt": "2026-09-25T14:51:14.910Z",
+      "updatedAt": "2026-09-25T14:51:14.910Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Weekend",
+      "notes": "",
+      "tags": [
+        "Class: Adverb",
+        "Class: Noun",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "週末[しゅうまつ]",
+        "reading": "しゅうまつ"
+      },
+      "id": "73a5be04-404e-486a-9e6c-5aafc230c822"
+    },
+    {
+      "createdAt": "2026-09-25T14:52:43.396Z",
+      "updatedAt": "2026-09-25T14:52:43.396Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Lesson; class; teaching",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-3",
+        "Topic: Education",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "授業[じゅぎょう]",
+        "reading": "じゅぎょう"
+      },
+      "id": "0777c2d6-cccf-4d19-bacb-e5e000da045d"
+    },
+    {
+      "createdAt": "2026-09-25T14:53:13.022Z",
+      "updatedAt": "2026-09-25T14:53:13.022Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Homework",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: School",
+        "Topic: Education",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "宿題[しゅくだい]",
+        "reading": "しゅくだい"
+      },
+      "id": "38287728-a14a-4520-8f9e-b51c2c3450ca"
+    },
+    {
+      "createdAt": "2026-09-25T14:53:30.782Z",
+      "updatedAt": "2026-09-25T14:53:30.782Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Wednesday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-3",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "水曜日[すいようび]",
+        "reading": "すいようび"
+      },
+      "id": "591ed9ef-d8db-44cf-9bf6-6d4c109d29b7"
+    },
+    {
+      "createdAt": "2026-09-25T14:54:51.656Z",
+      "updatedAt": "2026-09-25T14:54:51.656Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Living, life; to live",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "生活[せいかつ]",
+        "reading": "せいかつ"
+      },
+      "id": "19e86518-ef45-43bf-873c-da96922b6526"
+    },
+    {
+      "createdAt": "2026-09-25T14:55:28.616Z",
+      "updatedAt": "2026-09-25T14:55:28.616Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Last week",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "先週[せんしゅう]",
+        "reading": "せんしゅう"
+      },
+      "id": "256247c9-b4e3-41b3-b068-be29a0c82d5f"
+    },
+    {
+      "createdAt": "2026-09-25T14:56:09.551Z",
+      "updatedAt": "2026-09-25T14:56:09.551Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Next",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Speech",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "次[つぎ]",
+        "reading": "つぎ"
+      },
+      "id": "88afc2bb-58d3-4c82-b274-eaabc0c11da3"
+    },
+    {
+      "createdAt": "2026-09-25T14:56:51.883Z",
+      "updatedAt": "2026-09-25T14:56:51.883Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Television, TV",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Hobbies",
+        "Source: Nakama 1-3",
+        "Topic Furniture",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "テレビ",
+        "reading": ""
+      },
+      "id": "90a9e462-7c5b-444a-bb61-d8db689aa744"
+    },
+    {
+      "createdAt": "2026-09-25T14:57:45.945Z",
+      "updatedAt": "2026-09-25T14:57:45.945Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Telephone number, phone number",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-3",
+        "Topic: Social"
+      ],
+      "data": {
+        "expression": "電話番号[でんわばんごう]",
+        "reading": "でんわばんごう"
+      },
+      "id": "06f54f8b-3706-47c6-a89b-c43224a913b7"
+    },
+    {
+      "createdAt": "2026-09-25T14:59:05.458Z",
+      "updatedAt": "2026-09-25T14:59:05.458Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Library",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-3",
+        "Topic: Locations",
+        "Topic: Education"
+      ],
+      "data": {
+        "expression": "図書館[としょかん]",
+        "reading": "としょかん"
+      },
+      "id": "b708e6a0-6bfe-421a-b56f-cdbba657fffc"
+    },
+    {
+      "createdAt": "2026-09-25T15:00:06.405Z",
+      "updatedAt": "2026-09-25T15:00:06.405Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Saturday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "土曜日[どようび]",
+        "reading": "どようび"
+      },
+      "id": "8d757c52-1b92-4dff-9fa3-30fdefb953a3"
+    },
+    {
+      "createdAt": "2026-09-25T15:00:29.939Z",
+      "updatedAt": "2026-09-25T15:00:29.939Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sunday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "日曜日[にちようび]",
+        "reading": "にちようび"
+      },
+      "id": "dcd758d9-4004-4290-b5ce-d43f6358ceec"
+    },
+    {
+      "createdAt": "2026-09-25T15:01:22.839Z",
+      "updatedAt": "2026-09-25T15:01:22.839Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Evening",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "晩[ばん]",
+        "reading": "ばん"
+      },
+      "id": "9043ba27-f70b-434f-a2dd-64b544215ff9"
+    },
+    {
+      "createdAt": "2026-09-25T15:02:32.070Z",
+      "updatedAt": "2026-09-25T15:02:32.070Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "dinner, evening meal",
+      "notes": "Also spelt as 晩ご飯",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Food",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "晩御飯[ばんごはん]",
+        "reading": "ばんごはん"
+      },
+      "id": "56c1f121-a4ce-4d14-afd6-cc78bbdd3d5a"
+    },
+    {
+      "createdAt": "2026-09-25T15:02:56.798Z",
+      "updatedAt": "2026-09-25T15:02:56.798Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Noon, daytime",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "昼[ひる]",
+        "reading": "ひる"
+      },
+      "id": "fd7928eb-68cb-4720-ad57-4df0a2c7a8be"
+    },
+    {
+      "createdAt": "2026-09-25T15:05:27.623Z",
+      "updatedAt": "2026-09-25T15:05:27.623Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Lunch, midday meal",
+      "notes": "Also written as 昼御飯, but the 御 is often substituted for just ご",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Food",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "昼[ひる]ご 飯[はん]",
+        "reading": "ひるごはん"
+      },
+      "id": "e1bdb58a-ec5b-4f6d-9829-36145cc66fb8"
+    },
+    {
+      "createdAt": "2026-09-25T15:06:42.242Z",
+      "updatedAt": "2026-09-25T15:06:42.242Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Book",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Education",
+        "Topic: School",
+        "Source: Nakama 1-3",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "本[ほん]",
+        "reading": "ほん"
+      },
+      "id": "fbf2dbf7-e2a2-44e4-b232-80bdff51d605"
+    },
+    {
+      "createdAt": "2026-09-25T15:07:07.195Z",
+      "updatedAt": "2026-09-25T15:07:07.195Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Every morning",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "毎朝[まいあさ]",
+        "reading": "まいあさ"
+      },
+      "id": "3273f958-0d20-4f72-b44f-c1683dcf9b43"
+    },
+    {
+      "createdAt": "2026-09-25T15:07:31.075Z",
+      "updatedAt": "2026-09-25T15:07:31.075Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Every week",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "毎週[まいしゅう]",
+        "reading": "まいしゅう"
+      },
+      "id": "9a825a31-d531-4ab8-955d-e6ff7d4defaf"
+    },
+    {
+      "createdAt": "2026-09-25T15:08:04.315Z",
+      "updatedAt": "2026-09-25T15:08:04.315Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Every day",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "毎日[まいにち]",
+        "reading": "まいにち"
+      },
+      "id": "a017ece6-09b8-42f3-9f73-9ecef5859c05"
+    },
+    {
+      "createdAt": "2026-09-25T15:08:29.297Z",
+      "updatedAt": "2026-09-25T15:08:29.297Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Every night",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Topic: Routines",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "毎晩[まいばん]",
+        "reading": "まいばん"
+      },
+      "id": "32b2cb5c-6c27-4da9-a493-85c94a350264"
+    },
+    {
+      "createdAt": "2026-09-25T15:08:49.360Z",
+      "updatedAt": "2026-09-25T15:08:49.360Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Thursday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Time",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "木曜日[もくようび]",
+        "reading": "もくようび"
+      },
+      "id": "146f7bd3-3772-4123-b320-10d7f8aa517b"
+    },
+    {
+      "createdAt": "2026-09-25T15:12:55.219Z",
+      "updatedAt": "2026-09-25T15:12:55.219Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To live, to be, to exist",
+      "notes": "Frequently written as just ある, but technically it is 有る.",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "ある（有る）",
+        "reading": "ある"
+      },
+      "id": "ae40de65-06e7-4fef-9f98-688c813a014a"
+    },
+    {
+      "createdAt": "2026-09-25T15:13:23.532Z",
+      "updatedAt": "2026-09-25T15:13:23.532Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To go",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-3",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "行[い]く",
+        "reading": "いく"
+      },
+      "id": "e0dc0a13-c0a1-4e9c-b163-992c779aaad0"
+    },
+    {
+      "createdAt": "2026-09-25T15:13:53.502Z",
+      "updatedAt": "2026-09-25T15:13:53.502Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To go back, to go home, to return",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-3",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "帰[かえ]る",
+        "reading": "かえる"
+      },
+      "id": "cf8bac8a-81af-4452-ac33-977932cf532d"
+    },
+    {
+      "createdAt": "2026-09-25T15:14:46.358Z",
+      "updatedAt": "2026-09-25T15:14:46.358Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To drink",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Topic: Drinks",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "飲[の]む",
+        "reading": "のむ"
+      },
+      "id": "d3834150-fc88-414b-b31a-5db896d3b826"
+    },
+    {
+      "createdAt": "2026-09-25T15:15:08.473Z",
+      "updatedAt": "2026-09-25T15:15:08.473Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To enter, to contain, to hold",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "入[はい]る",
+        "reading": "はいる"
+      },
+      "id": "b723d44c-d716-4cda-9e4b-3e5346ca151f"
+    },
+    {
+      "createdAt": "2026-09-25T15:15:36.862Z",
+      "updatedAt": "2026-09-25T15:15:36.862Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To read",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-3",
+        "Topic: Education",
+        "Topic: School",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "読[よ]む",
+        "reading": "よむ"
+      },
+      "id": "5da99397-75c4-4ab4-a340-ae223e63c156"
+    },
+    {
+      "createdAt": "2026-09-25T15:16:06.231Z",
+      "updatedAt": "2026-09-25T15:16:06.231Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To bathe, to shower",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Topic: Routines",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "浴[あ]びる",
+        "reading": "あびる"
+      },
+      "id": "6ba5bb2f-24ef-4a97-87a1-8c1ea74be320"
+    },
+    {
+      "createdAt": "2026-09-25T15:16:51.684Z",
+      "updatedAt": "2026-09-25T15:16:51.684Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To get up (e.g., from sleeping); to happen",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-3",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "起[お]きる",
+        "reading": "おきる"
+      },
+      "id": "4cdd5bfd-be12-4fd7-9b2d-f615ec366498"
+    },
+    {
+      "createdAt": "2026-09-25T15:17:10.186Z",
+      "updatedAt": "2026-09-25T15:17:10.186Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To eat",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-3",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "食[た]べる",
+        "reading": "たべる"
+      },
+      "id": "267c8110-bfb6-4039-a8d3-c5665baf1a24"
+    },
+    {
+      "createdAt": "2026-09-25T15:17:39.445Z",
+      "updatedAt": "2026-09-25T15:17:39.445Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To sleep; to go to sleep; to go to bed",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "寝[ね]る",
+        "reading": "ねる"
+      },
+      "id": "dad6c61f-8669-4a01-b419-e69312aa7580"
+    },
+    {
+      "createdAt": "2026-09-25T15:18:05.410Z",
+      "updatedAt": "2026-09-25T15:18:05.410Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To see, to look, to watch",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "見[み]る",
+        "reading": "みる"
+      },
+      "id": "82c7df73-646b-4bc3-a5f9-99270360cd7b"
+    },
+    {
+      "createdAt": "2026-09-25T15:18:32.110Z",
+      "updatedAt": "2026-09-25T15:18:32.110Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To come",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Irregular Verb",
+        "Source: Nakama 1-3",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "来[く]る",
+        "reading": "くる"
+      },
+      "id": "9b8f21e7-d6f7-45e3-ba9c-a66ad3998c8c"
+    },
+    {
+      "createdAt": "2026-09-25T15:19:01.164Z",
+      "updatedAt": "2026-09-25T15:19:01.164Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To do",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Irregular Verb",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "する",
+        "reading": ""
+      },
+      "id": "51d7b41e-73ca-435b-83d0-94b24a3df008"
+    },
+    {
+      "createdAt": "2026-09-25T15:20:11.299Z",
+      "updatedAt": "2026-09-25T15:20:11.299Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To study",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: する-verb",
+        "Source: Nakama 1-3",
+        "Topic: Education",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "勉強[べんきょう]する",
+        "reading": "べんきょうする"
+      },
+      "id": "872cf20f-10c4-45b5-9de4-9916d585dc25"
+    },
+    {
+      "createdAt": "2026-09-25T15:20:30.565Z",
+      "updatedAt": "2026-09-25T15:20:46.240Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "When?",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Pronoun",
+        "Topic: Questions",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "いつ",
+        "reading": ""
+      },
+      "id": "d755a3ad-f96a-42c1-904e-3dadf2c7a40a"
+    },
+    {
+      "createdAt": "2026-09-25T15:21:23.936Z",
+      "updatedAt": "2026-09-25T15:21:23.936Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Zero",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Numbers",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "ゼロ",
+        "reading": ""
+      },
+      "id": "2729eb22-69d6-4565-bda6-17c02b3a64c8"
+    },
+    {
+      "createdAt": "2026-09-25T15:23:54.949Z",
+      "updatedAt": "2026-09-25T15:25:03.964Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Not very often (Used with negative verb forms)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-3",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "あまり",
+        "reading": "あまり"
+      },
+      "id": "ad7aec50-0104-447a-a04e-d2164773f64a"
+    },
+    {
+      "createdAt": "2026-09-25T15:24:25.113Z",
+      "updatedAt": "2026-09-25T15:24:58.751Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Always, usually, every time, never (with neg. verb)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-3",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "いつも",
+        "reading": ""
+      },
+      "id": "fdb2bb9d-c14f-4e62-88a7-2d8d573b41f6"
+    },
+    {
+      "createdAt": "2026-09-25T15:24:53.720Z",
+      "updatedAt": "2026-09-25T15:24:53.720Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Not at all; wholly, entirely",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Adverb",
+        "Source: Nakama 1-3",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "全然[ぜんぜん]",
+        "reading": "ぜんぜん"
+      },
+      "id": "b7771801-b2f7-4069-a646-0dea749ea40c"
+    },
+    {
+      "createdAt": "2026-09-25T15:26:09.321Z",
+      "updatedAt": "2026-09-25T15:26:23.689Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Generally, usually",
+      "notes": "Usually written as just kana, but 大抵 is correct.",
+      "tags": [
+        "Level: N4",
+        "Class: な-adjective",
+        "Class: Adverb",
+        "Class: Noun",
+        "Source: Nakama 1-3",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "たいてい",
+        "reading": "たいてい"
+      },
+      "id": "92ccc8b8-5b46-4d13-99d0-e2771f099c10"
+    },
+    {
+      "createdAt": "2026-09-25T15:26:45.101Z",
+      "updatedAt": "2026-09-25T15:26:45.101Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sometimes",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Class: Noun",
+        "Topic: Routines",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "時々[ときどき]",
+        "reading": "ときどき"
+      },
+      "id": "f8a5e498-65b8-4282-9db2-478107180c52"
+    },
+    {
+      "createdAt": "2026-09-25T15:27:10.428Z",
+      "updatedAt": "2026-09-25T15:27:10.428Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Frequently, often (much); well, skillfully",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Topic: Routines",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "よく",
+        "reading": ""
+      },
+      "id": "f1b691be-daa9-4224-8771-dc0011f48ca6"
+    },
+    {
+      "createdAt": "2026-09-25T15:39:09.962Z",
+      "updatedAt": "2026-09-25T15:44:13.777Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "At, in, on, etc. (Particle for location of action or event)",
+      "notes": "",
+      "tags": [
+        "Class: Particle",
+        "Source: Nakama 1-3",
+        "Topic: Locations",
+        "Topic: Particles"
+      ],
+      "data": {
+        "expression": "~で",
+        "example": "図書館[としょかん]*b:で*勉強[べんきょう]します。"
+      },
+      "id": "79db6659-62b1-433b-8c65-4678c33a86ae"
+    },
+    {
+      "createdAt": "2026-09-25T15:41:52.279Z",
+      "updatedAt": "2026-09-25T15:43:56.541Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "At, in, on, to (Particle for a point of time, goal, activty)",
+      "notes": "",
+      "tags": [
+        "Class: Particle",
+        "Source: Nakama 1-3",
+        "Topic: Directions",
+        "Topic: Travel",
+        "Topic: Time",
+        "Topic: Particles"
+      ],
+      "data": {
+        "expression": "~に",
+        "example": "10時[じ]*b:に*寝[ね]ます。クラス*y:に*行[い]きます。"
+      },
+      "id": "984ddca0-403b-4d35-97a8-326bdf745a99"
+    },
+    {
+      "createdAt": "2026-09-25T15:43:33.801Z",
+      "updatedAt": "2026-09-25T15:43:41.646Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "To, towards, for (Particle for direction)",
+      "notes": "Written as へ, but pronounced as え",
+      "tags": [
+        "Class: Particle",
+        "Topic: Directions",
+        "Source: Nakama 1-3",
+        "Topic: Particles"
+      ],
+      "data": {
+        "expression": "~へ",
+        "example": "学校[がっこう]*b:へ*行[い]きます。"
+      },
+      "id": "ef90d9fb-ba47-481c-ac2b-28d09aebe5ba"
+    },
+    {
+      "createdAt": "2026-09-25T15:45:31.770Z",
+      "updatedAt": "2026-09-25T15:45:31.770Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "Particle to indicate direct object of action",
+      "notes": "",
+      "tags": [
+        "Class: Particle",
+        "Topic: Particles",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "~を",
+        "example": "本[ほん]*b:を*読[よ]みます。"
+      },
+      "id": "69a0e48a-a887-4d95-9118-475f2a69c689"
+    },
+    {
+      "createdAt": "2026-09-25T15:46:38.199Z",
+      "updatedAt": "2026-09-25T15:46:38.199Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This, current (Prefix)",
+      "notes": "Examples: 今晩、今週",
+      "tags": [
+        "Level: N2",
+        "Class: Prefix",
+        "Topic: Prefix",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "今[こん]~",
+        "reading": "こん"
+      },
+      "id": "6106f129-ce9f-4a04-a0b1-6a13fd28b132"
+    },
+    {
+      "createdAt": "2026-09-25T15:47:12.670Z",
+      "updatedAt": "2026-09-25T15:47:12.670Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Every~ (Prefix)",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Prefix",
+        "Source: Nakama 1-3",
+        "Topic: Prefix",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "毎[まい]",
+        "reading": "まい"
+      },
+      "id": "3a58ce99-8d4d-46c9-bf07-642f550f0bb2"
+    },
+    {
+      "createdAt": "2026-09-25T15:48:17.779Z",
+      "updatedAt": "2026-09-25T15:48:41.140Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "About, toward, approximately (time) suffix",
+      "notes": "Usually written with Kana only, but 頃 is correct too.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Class: Suffix",
+        "Source: Nakama 1-3",
+        "Topic: Suffix"
+      ],
+      "data": {
+        "expression": "~ごろ",
+        "reading": ""
+      },
+      "id": "d9e22e77-2d03-4ec0-a635-69f1fa658568"
+    },
+    {
+      "createdAt": "2026-09-25T15:49:32.569Z",
+      "updatedAt": "2026-09-25T15:49:32.569Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Day of the week (Suffix)",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: Suffix",
+        "Topic: Suffix",
+        "Source: Nakama 1-3",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "~曜日[ようび]",
+        "reading": "ようび"
+      },
+      "id": "4b5c82f9-ea8b-4f59-a1b6-2f795206d6cc"
+    },
+    {
+      "createdAt": "2026-09-25T15:54:52.739Z",
+      "updatedAt": "2026-09-25T15:54:52.739Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "~ minutes",
+      "notes": "Standard rule: にふん\nExceptions:\nいっぷん、さんぷん、よんぷん、ろっぷん\nななふん、はっぷん、じゅっぷん\nQuestion: なんぷん",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Time",
+        "Topic: Numbers",
+        "Class: Counter",
+        "Topic: Counters"
+      ],
+      "data": {
+        "expression": "~分[ふん]",
+        "reading": "ふん"
+      },
+      "id": "696efafe-3af2-4f05-82e3-b3bf93ab96ba"
+    },
+    {
+      "createdAt": "2026-09-25T15:58:25.720Z",
+      "updatedAt": "2026-09-25T15:58:25.720Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "There is ___ present",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-3",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "~があるます。",
+        "example": "本*b:が**y:あります*。"
+      },
+      "id": "d67102f2-e478-46b6-b216-97222b5ebc2a"
+    },
+    {
+      "createdAt": "2026-09-25T16:00:17.868Z",
+      "updatedAt": "2026-09-25T16:00:17.868Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Have you eaten breakfast?",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-3",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "朝[あさ]ご飯[はん]を食[た]べましたか。",
+        "literal": ""
+      },
+      "id": "62e4be3d-2fcd-423e-9438-f1ac42812fa8"
+    },
+    {
+      "createdAt": "2026-09-25T16:01:01.085Z",
+      "updatedAt": "2026-09-25T16:01:01.085Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "No, I have not eaten.",
+      "notes": "",
+      "tags": [
+        "Topic: Food",
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "いいえ、食[た]べませんでした。",
+        "literal": ""
+      },
+      "id": "840bc9e3-57cc-48cf-847d-c064ab2de238"
+    },
+    {
+      "createdAt": "2026-09-25T16:04:16.478Z",
+      "updatedAt": "2026-09-25T16:04:16.478Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "I have not (eaten). (Polite, negative, past tense)",
+      "notes": "う-Verbs: 行きませんでした。\nる-Verbs: たべませんでした。\nIrregular: きませんでした。しませんでした。",
+      "tags": [
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "~ませんでした。",
+        "example": "食べ*r:ませんでした*。"
+      },
+      "id": "dd381428-6ab2-41e3-99eb-c78e8a93aecb"
+    },
+    {
+      "createdAt": "2026-09-25T16:08:16.639Z",
+      "updatedAt": "2026-09-25T16:08:16.639Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "-Past tense, affirmative, formal verb.",
+      "notes": "う-Verbs: いきました。\nる-Verbs: たべました。\nIrregular: 来ました。しました。",
+      "tags": [
+        "Source: Nakama 1-3"
+      ],
+      "data": {
+        "expression": "~ましたか。",
+        "example": "秀句代をあり*y:ました*か。"
+      },
+      "id": "8263aa1d-0ee6-491f-a747-48fd32bdbc6d"
     }
   ]
 }
