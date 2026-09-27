@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "exportedAt": "2026-09-25T19:09:41.272Z",
+  "exportedAt": "2026-09-27T16:22:22.422Z",
   "sessions": [
     {
       "id": "11ca127c-59d3-4f01-9333-51d5f4ddaeef",
@@ -1165,6 +1165,59 @@
           "id": "46861018-80aa-4b03-b950-8f1b29a54a65",
           "result": "missed",
           "misses": 1
+        }
+      ]
+    },
+    {
+      "id": "5af3dbcb-f2af-44e0-bd34-9cdc145f451e",
+      "startedAt": "2026-09-27T03:34:14.510Z",
+      "endedAt": "2026-09-27T03:35:57.708Z",
+      "facets": [
+        "-Topic: Supplementary",
+        "Source: Nakama 1-5"
+      ],
+      "side": "japanese",
+      "results": [
+        {
+          "id": "303b4fac-ff61-4320-a9df-0115cb265fd7",
+          "result": "work"
+        },
+        {
+          "id": "88287386-2545-469a-9d9a-e6c556155ea8",
+          "result": "easy"
+        },
+        {
+          "id": "20397365-18fc-4614-9664-b9c1920a25dc",
+          "result": "easy"
+        },
+        {
+          "id": "efba601e-065c-4c95-89cf-55702cf5927f",
+          "result": "easy"
+        },
+        {
+          "id": "72259425-851c-4d30-a216-5b65f0536d2d",
+          "result": "easy"
+        },
+        {
+          "id": "202844f1-1fc0-44dc-beaf-9b9a227e67b7",
+          "result": "missed",
+          "misses": 1
+        },
+        {
+          "id": "74f48100-6683-4b6c-b1f1-6e2269a906d8",
+          "result": "easy"
+        },
+        {
+          "id": "3374b795-7833-4801-b697-48592063dc4c",
+          "result": "easy"
+        },
+        {
+          "id": "a652bbb3-5748-4dc1-84ba-dee80556424d",
+          "result": "easy"
+        },
+        {
+          "id": "1572f7dd-a484-417e-a3b5-c2267e780d61",
+          "result": "easy"
         }
       ]
     }

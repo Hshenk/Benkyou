@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 27,
-  "exportedAt": "2026-09-25T19:09:41.108Z",
+  "version": 28,
+  "exportedAt": "2026-09-27T16:22:22.047Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -1363,7 +1363,7 @@
     },
     {
       "createdAt": "2026-09-06T23:41:15.099Z",
-      "updatedAt": "2026-09-07T00:16:49.093Z",
+      "updatedAt": "2026-09-27T15:22:56.066Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -1373,7 +1373,8 @@
         "Level: N5",
         "Source: Nakama 1-5",
         "Topic: Education",
-        "Topic: Counters"
+        "Topic: Counters",
+        "Topic: Reading"
       ],
       "data": {
         "character": "本",
@@ -2662,7 +2663,7 @@
     },
     {
       "createdAt": "2026-09-07T01:24:30.866Z",
-      "updatedAt": "2026-09-07T01:24:30.866Z",
+      "updatedAt": "2026-09-27T15:23:25.502Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -2670,7 +2671,8 @@
       "notes": "",
       "tags": [
         "Level: N5",
-        "Source: Nakama 1-9"
+        "Source: Nakama 1-9",
+        "Topic: Reading"
       ],
       "data": {
         "character": "読",
@@ -4426,7 +4428,7 @@
     },
     {
       "createdAt": "2026-09-23T16:41:35.058Z",
-      "updatedAt": "2026-09-23T16:41:35.058Z",
+      "updatedAt": "2026-09-27T15:36:44.172Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -4436,7 +4438,8 @@
         "Level: N5",
         "Source: Nakama 1-10",
         "Topic: People",
-        "Topic: Relationships"
+        "Topic: Relationships",
+        "Topic: Family"
       ],
       "data": {
         "character": "父",
@@ -4452,7 +4455,7 @@
     },
     {
       "createdAt": "2026-09-23T16:42:26.750Z",
-      "updatedAt": "2026-09-23T16:42:26.750Z",
+      "updatedAt": "2026-09-27T15:36:37.114Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
@@ -4462,7 +4465,8 @@
         "Level: N5",
         "Source: Nakama 1-10",
         "Topic: People",
-        "Topic: Relationships"
+        "Topic: Relationships",
+        "Topic: Family"
       ],
       "data": {
         "character": "母",
@@ -4479,7 +4483,7 @@
     },
     {
       "createdAt": "2026-09-23T16:43:43.133Z",
-      "updatedAt": "2026-09-23T16:43:43.133Z",
+      "updatedAt": "2026-09-27T15:36:59.728Z",
       "timesSeen": 2,
       "timesMissed": 1,
       "type": "kanji",
@@ -4490,7 +4494,8 @@
         "Topic: Relationships",
         "Topic: People",
         "Topic: Suffix",
-        "Source: Nakama 1-10"
+        "Source: Nakama 1-10",
+        "Topic: Family"
       ],
       "data": {
         "character": "姉",
@@ -4507,7 +4512,7 @@
     },
     {
       "createdAt": "2026-09-23T16:44:31.831Z",
-      "updatedAt": "2026-09-23T16:44:57.617Z",
+      "updatedAt": "2026-09-27T15:37:14.045Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -4517,7 +4522,8 @@
         "Level: N4",
         "Source: Nakama 1-10",
         "Topic: Relationships",
-        "Topic: People"
+        "Topic: People",
+        "Topic: Family"
       ],
       "data": {
         "character": "兄",
@@ -4534,7 +4540,7 @@
     },
     {
       "createdAt": "2026-09-23T16:45:33.107Z",
-      "updatedAt": "2026-09-23T16:45:33.107Z",
+      "updatedAt": "2026-09-27T15:36:53.518Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -4544,7 +4550,8 @@
         "Level: N4",
         "Topic: People",
         "Topic: Relationships",
-        "Source: Nakama 1-10"
+        "Source: Nakama 1-10",
+        "Topic: Family"
       ],
       "data": {
         "character": "妹",
@@ -4560,7 +4567,7 @@
     },
     {
       "createdAt": "2026-09-23T16:46:35.837Z",
-      "updatedAt": "2026-09-23T16:46:35.837Z",
+      "updatedAt": "2026-09-27T15:37:07.010Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -4570,7 +4577,8 @@
         "Level: N4",
         "Source: Nakama 1-10",
         "Topic: People",
-        "Topic: Relationships"
+        "Topic: Relationships",
+        "Topic: Family"
       ],
       "data": {
         "character": "弟",
@@ -4588,7 +4596,7 @@
     },
     {
       "createdAt": "2026-09-23T16:47:42.563Z",
-      "updatedAt": "2026-09-23T16:47:42.563Z",
+      "updatedAt": "2026-09-27T15:37:52.244Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -4597,7 +4605,8 @@
       "tags": [
         "Level: N4",
         "Topic: Locations",
-        "Source: Nakama 1-10"
+        "Source: Nakama 1-10",
+        "Topic: Family"
       ],
       "data": {
         "character": "家",
@@ -4616,7 +4625,7 @@
     },
     {
       "createdAt": "2026-09-23T16:49:06.702Z",
-      "updatedAt": "2026-09-23T16:49:06.702Z",
+      "updatedAt": "2026-09-27T15:37:46.011Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -4625,7 +4634,8 @@
       "tags": [
         "Level: N4",
         "Topic: Relationships",
-        "Source: Nakama 1-10"
+        "Source: Nakama 1-10",
+        "Topic: Family"
       ],
       "data": {
         "character": "族",
@@ -4665,7 +4675,7 @@
     },
     {
       "createdAt": "2026-09-23T16:53:09.996Z",
-      "updatedAt": "2026-09-23T16:53:09.996Z",
+      "updatedAt": "2026-09-27T15:37:40.371Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -4674,7 +4684,8 @@
       "tags": [
         "Level: N4",
         "Topic: Relationships",
-        "Source: Nakama 1-10"
+        "Source: Nakama 1-10",
+        "Topic: Family"
       ],
       "data": {
         "character": "親",
@@ -6402,7 +6413,7 @@
     },
     {
       "createdAt": "2026-09-25T15:06:42.242Z",
-      "updatedAt": "2026-09-25T15:06:42.242Z",
+      "updatedAt": "2026-09-27T15:22:50.553Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -6414,7 +6425,8 @@
         "Topic: Education",
         "Topic: School",
         "Source: Nakama 1-3",
-        "Topic: Hobbies"
+        "Topic: Hobbies",
+        "Topic: Reading"
       ],
       "data": {
         "expression": "本[ほん]",
@@ -6631,7 +6643,7 @@
     },
     {
       "createdAt": "2026-09-25T15:15:36.862Z",
-      "updatedAt": "2026-09-25T15:15:36.862Z",
+      "updatedAt": "2026-09-27T15:23:13.143Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -6643,7 +6655,8 @@
         "Source: Nakama 1-3",
         "Topic: Education",
         "Topic: School",
-        "Topic: Hobbies"
+        "Topic: Hobbies",
+        "Topic: Reading"
       ],
       "data": {
         "expression": "読[よ]む",
@@ -7377,7 +7390,7 @@
     },
     {
       "createdAt": "2026-09-25T16:57:09.227Z",
-      "updatedAt": "2026-09-25T16:57:09.227Z",
+      "updatedAt": "2026-09-27T15:22:43.488Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -7388,7 +7401,8 @@
         "Class: Noun",
         "Source: Nakama 1-4",
         "Topic: School",
-        "Topic: Education"
+        "Topic: Education",
+        "Topic: Reading"
       ],
       "data": {
         "expression": "教科書[きょうかしょ]",
@@ -7608,7 +7622,7 @@
     },
     {
       "createdAt": "2026-09-25T17:02:32.330Z",
-      "updatedAt": "2026-09-25T17:04:46.409Z",
+      "updatedAt": "2026-09-27T15:23:01.856Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -7620,7 +7634,8 @@
         "Source: Nakama 1-4",
         "Topic: Education",
         "Topic: School",
-        "Topic: Office"
+        "Topic: Office",
+        "Topic: Reading"
       ],
       "data": {
         "expression": "ノート",
@@ -7715,7 +7730,7 @@
     },
     {
       "createdAt": "2026-09-25T17:05:38.294Z",
-      "updatedAt": "2026-09-25T17:07:03.499Z",
+      "updatedAt": "2026-09-27T15:22:33.774Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -7726,7 +7741,8 @@
         "Source: Nakama 1-4",
         "Topic: Cities And Towns",
         "Topic: Locations",
-        "Topic: Shopping"
+        "Topic: Shopping",
+        "Topic: Reading"
       ],
       "data": {
         "expression": "本屋[ほんや]",
@@ -8928,7 +8944,7 @@
     {
       "createdAt": "2026-09-25T18:04:58.068Z",
       "updatedAt": "2026-09-25T18:04:58.068Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Car, vehicle",
@@ -8949,7 +8965,7 @@
     {
       "createdAt": "2026-09-25T18:06:54.087Z",
       "updatedAt": "2026-09-25T18:06:54.087Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Mobile phone, cell phone",
@@ -8968,7 +8984,7 @@
     {
       "createdAt": "2026-09-25T18:07:11.833Z",
       "updatedAt": "2026-09-25T18:07:11.833Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Smartphone, smart phone",
@@ -8988,7 +9004,7 @@
     {
       "createdAt": "2026-09-25T18:07:51.566Z",
       "updatedAt": "2026-09-25T19:09:30.839Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Blackboard",
@@ -9010,7 +9026,7 @@
     {
       "createdAt": "2026-09-25T18:08:21.749Z",
       "updatedAt": "2026-09-25T18:08:21.749Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Computer",
@@ -9030,8 +9046,8 @@
     {
       "createdAt": "2026-09-25T18:08:41.955Z",
       "updatedAt": "2026-09-25T18:08:41.955Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Bicycle",
       "notes": "",
@@ -9050,7 +9066,7 @@
     {
       "createdAt": "2026-09-25T18:09:07.852Z",
       "updatedAt": "2026-09-25T18:09:07.852Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "A picture; a photograph",
@@ -9069,7 +9085,7 @@
     {
       "createdAt": "2026-09-25T18:09:37.500Z",
       "updatedAt": "2026-09-25T19:09:30.839Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Sofa, couch",
@@ -9089,7 +9105,7 @@
     {
       "createdAt": "2026-09-25T18:10:31.042Z",
       "updatedAt": "2026-09-25T18:10:31.042Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Gymnasium",
@@ -9110,7 +9126,7 @@
     {
       "createdAt": "2026-09-25T18:11:37.530Z",
       "updatedAt": "2026-09-25T19:09:30.839Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Chest, drawers, dresser",
@@ -9416,7 +9432,7 @@
     },
     {
       "createdAt": "2026-09-25T18:20:07.425Z",
-      "updatedAt": "2026-09-25T19:09:30.839Z",
+      "updatedAt": "2026-09-27T15:22:23.867Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -9427,7 +9443,8 @@
         "Class: Noun",
         "Source: Nakama 1-5",
         "Topic: Furniture",
-        "Topic: Office"
+        "Topic: Office",
+        "Topic: Reading"
       ],
       "data": {
         "expression": "本棚[ほんだな]",
@@ -9958,6 +9975,1372 @@
         "reading": ""
       },
       "id": "cb5af9de-86a8-4148-a37c-72c2195b2daf"
+    },
+    {
+      "createdAt": "2026-09-27T15:05:49.817Z",
+      "updatedAt": "2026-09-27T16:01:14.676Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Part-time job",
+      "notes": "パート is a synonym.",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-6",
+        "Topic: Jobs"
+      ],
+      "data": {
+        "expression": "アルバイト",
+        "reading": ""
+      },
+      "id": "203f3eca-0161-404f-a605-e0c725e8996f"
+    },
+    {
+      "createdAt": "2026-09-27T15:06:35.829Z",
+      "updatedAt": "2026-09-27T15:09:19.190Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Exercise",
+      "notes": "運動します。For \"To exercise\" the を is often dropped.",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: する-verb",
+        "Topic: Sports And Athletics",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "運動[うんどう]",
+        "reading": "うんどう"
+      },
+      "id": "df8ca78e-6815-4132-a7c6-4ca06b6b4573"
+    },
+    {
+      "createdAt": "2026-09-27T15:06:58.787Z",
+      "updatedAt": "2026-09-27T15:32:53.424Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Music",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Music",
+        "Source: Nakama 1-6",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "音楽[おんがく]",
+        "reading": "おんがく"
+      },
+      "id": "38667130-dc5d-439a-b13c-f14343d5f377"
+    },
+    {
+      "createdAt": "2026-09-27T15:09:03.746Z",
+      "updatedAt": "2026-09-27T15:09:03.746Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Shopping",
+      "notes": "買い物します。For \"To go shopping\" を is often dropped.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-6",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "買[か]い 物[もの]",
+        "reading": "かいもの"
+      },
+      "id": "c93e4aa0-7ab3-4caf-a156-819e5a8f4a38"
+    },
+    {
+      "createdAt": "2026-09-27T15:10:09.576Z",
+      "updatedAt": "2026-09-27T15:32:38.140Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Game",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Games",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "ゲーム",
+        "reading": ""
+      },
+      "id": "d701c8f2-a227-4f7b-bf49-15882126ad89"
+    },
+    {
+      "createdAt": "2026-09-27T15:10:45.667Z",
+      "updatedAt": "2026-09-27T15:10:45.667Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Concert",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Music",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "コンサート",
+        "reading": ""
+      },
+      "id": "96c2882c-1158-4d7d-9f33-7799651b9987"
+    },
+    {
+      "createdAt": "2026-09-27T15:12:54.370Z",
+      "updatedAt": "2026-09-27T15:12:54.370Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Next time, one of these days, now, this time, near future,",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-6",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "今度[こんど]",
+        "reading": "こんど"
+      },
+      "id": "0c53fb48-fb2e-40b3-ac32-a8521c09bbf4"
+    },
+    {
+      "createdAt": "2026-09-27T15:15:14.913Z",
+      "updatedAt": "2026-09-27T15:23:36.573Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Magazine, journal",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Culture",
+        "Topic: Reading"
+      ],
+      "data": {
+        "expression": "雑誌[ざっし]",
+        "reading": "ざっし"
+      },
+      "id": "35fa21b0-89df-415e-bed6-8e7f1086858f"
+    },
+    {
+      "createdAt": "2026-09-27T15:16:26.951Z",
+      "updatedAt": "2026-09-27T15:17:06.853Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Walk, stroll",
+      "notes": "散歩します。For \"To take a walk\", the を is often dropped.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-6",
+        "Topic: Transportation",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "散歩[さんぽ]",
+        "reading": "さんぽ"
+      },
+      "id": "73d3c9f4-c608-4261-9863-dae257960aa8"
+    },
+    {
+      "createdAt": "2026-09-27T15:17:43.439Z",
+      "updatedAt": "2026-09-27T15:18:10.649Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Work, job, occupation, employment",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Topic: Jobs",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "仕事[しごと]",
+        "reading": "しごと"
+      },
+      "id": "0155aee1-5fdf-4638-8854-cad6c22229a6"
+    },
+    {
+      "createdAt": "2026-09-27T15:20:22.170Z",
+      "updatedAt": "2026-09-27T15:20:22.170Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Question, inquiry",
+      "notes": "質問します。For \"To ask a question\", the を is often dropped.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-6",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "質問[しつもん]",
+        "reading": "しつもん"
+      },
+      "id": "92d9d503-885d-4f48-8a77-ccd94490fd19"
+    },
+    {
+      "createdAt": "2026-09-27T15:20:47.662Z",
+      "updatedAt": "2026-09-27T15:20:47.662Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Jogging",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Class: する-verb",
+        "Topic: Sports And Athletics",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "ジョギング",
+        "reading": ""
+      },
+      "id": "e6a0d0db-a81c-46dd-a718-f5368732b057"
+    },
+    {
+      "createdAt": "2026-09-27T15:22:09.444Z",
+      "updatedAt": "2026-09-27T15:22:09.444Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Newspaper",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Reading"
+      ],
+      "data": {
+        "expression": "新聞[しんぶん]",
+        "reading": "しんぶん"
+      },
+      "id": "01cdbb80-df88-4f85-bef4-bd856cb14ecf"
+    },
+    {
+      "createdAt": "2026-09-27T15:25:22.903Z",
+      "updatedAt": "2026-09-27T15:25:22.903Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Washing, laundry",
+      "notes": "～の洗濯をします。For \"To wash ___\".",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-6",
+        "Topic: Routines"
+      ],
+      "data": {
+        "expression": "洗濯[せんたく]",
+        "reading": "せんたく"
+      },
+      "id": "5c3486f4-056e-4afd-8d83-a6a1f7112da9"
+    },
+    {
+      "createdAt": "2026-09-27T15:26:51.050Z",
+      "updatedAt": "2026-09-27T15:26:51.050Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cleaning, sweeping",
+      "notes": "～の掃除をします。\"To clean up\".",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-6",
+        "Topic: Routines",
+        "Topic: Cleaning"
+      ],
+      "data": {
+        "expression": "掃除[そうじ]",
+        "reading": "そうじ"
+      },
+      "id": "76636413-4551-4c55-872c-73a65aad872b"
+    },
+    {
+      "createdAt": "2026-09-27T15:27:13.161Z",
+      "updatedAt": "2026-09-27T15:27:13.161Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Letter",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Reading",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "手紙[てがみ]",
+        "reading": "てがみ"
+      },
+      "id": "22f8a964-1043-497b-881e-b98ab050b456"
+    },
+    {
+      "createdAt": "2026-09-27T15:27:39.404Z",
+      "updatedAt": "2026-09-27T15:32:08.385Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tennis",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Sports And Athletics",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "テニス",
+        "reading": ""
+      },
+      "id": "b932c891-f1ad-4e18-a3eb-df2915ede3e5"
+    },
+    {
+      "createdAt": "2026-09-27T15:28:06.959Z",
+      "updatedAt": "2026-09-27T15:28:06.959Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Friend",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Relationships",
+        "Topic: People"
+      ],
+      "data": {
+        "expression": "友達[ともだち]",
+        "reading": "ともだち"
+      },
+      "id": "f93ef1d7-1973-470d-8df3-080776395a0a"
+    },
+    {
+      "createdAt": "2026-09-27T15:29:17.039Z",
+      "updatedAt": "2026-09-27T15:29:17.039Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Party (social gathering)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Culture",
+        "Topic: Events"
+      ],
+      "data": {
+        "expression": "パーティ",
+        "reading": ""
+      },
+      "id": "0d1a3677-14dc-45bf-8449-11d879740129"
+    },
+    {
+      "createdAt": "2026-09-27T15:30:25.964Z",
+      "updatedAt": "2026-09-27T15:30:25.964Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Picnic",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Topic: Events",
+        "Source: Nakama 1-6",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "ピクニック",
+        "reading": ""
+      },
+      "id": "8a5ac59d-3793-4009-bba5-73b75fa87b66"
+    },
+    {
+      "createdAt": "2026-09-27T15:30:57.982Z",
+      "updatedAt": "2026-09-27T15:30:57.982Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Swimming pool",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "プール",
+        "reading": ""
+      },
+      "id": "d33db624-c88a-43ac-b894-f859a0d57582"
+    },
+    {
+      "createdAt": "2026-09-27T15:31:22.463Z",
+      "updatedAt": "2026-09-27T15:31:22.463Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Email",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-6",
+        "Topic: Reading",
+        "Topic: Technology"
+      ],
+      "data": {
+        "expression": "メール",
+        "reading": ""
+      },
+      "id": "23e617d7-32aa-4e7a-97ee-8cac2ce3af5a"
+    },
+    {
+      "createdAt": "2026-09-27T15:31:58.343Z",
+      "updatedAt": "2026-09-27T15:34:27.611Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rest; absence; a day off",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "休[やす]み",
+        "reading": "やすみ"
+      },
+      "id": "339af6c4-4098-42ab-981b-6d4d23296841"
+    },
+    {
+      "createdAt": "2026-09-27T15:34:08.485Z",
+      "updatedAt": "2026-09-27T15:34:08.485Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A holiday; day off",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "休[やす]みの日[ひ]",
+        "reading": "やすみ"
+      },
+      "id": "455dd0fb-50ab-4fac-9f31-77ed290174b8"
+    },
+    {
+      "createdAt": "2026-09-27T15:35:16.759Z",
+      "updatedAt": "2026-09-27T15:36:11.089Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Parents (lit., both parents)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Relationships",
+        "Topic: People",
+        "Topic: Family",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "両親[りょうしん]",
+        "reading": "りょうしん"
+      },
+      "id": "61831344-74a1-4be4-879a-a27a9eea734d"
+    },
+    {
+      "createdAt": "2026-09-27T15:35:59.111Z",
+      "updatedAt": "2026-09-27T15:35:59.111Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cooking; cuisine",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Topic: Food",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "料理[りょうり]",
+        "reading": "りょうり"
+      },
+      "id": "12cf6f32-8a64-4952-ba3a-a0c93ff94037"
+    },
+    {
+      "createdAt": "2026-09-27T15:38:38.265Z",
+      "updatedAt": "2026-09-27T15:38:38.265Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To meet, to see",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "会[あ]う",
+        "reading": "あう"
+      },
+      "id": "4a748c97-12f3-4664-b804-e96b12b74ead"
+    },
+    {
+      "createdAt": "2026-09-27T15:39:51.158Z",
+      "updatedAt": "2026-09-27T15:39:51.158Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Play",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Games"
+      ],
+      "data": {
+        "expression": "遊[あそ]び",
+        "reading": "あそび"
+      },
+      "id": "7bcf3943-f264-4c64-88c1-d4927325a41d"
+    },
+    {
+      "createdAt": "2026-09-27T15:40:23.168Z",
+      "updatedAt": "2026-09-27T15:40:23.168Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To walk",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-6",
+        "Topic: Transportation"
+      ],
+      "data": {
+        "expression": "歩[ある]く",
+        "reading": "あるく"
+      },
+      "id": "f08f209d-bd91-4721-942d-ac91726ad6e3"
+    },
+    {
+      "createdAt": "2026-09-27T15:40:53.759Z",
+      "updatedAt": "2026-09-27T15:40:53.759Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To say",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "言[い]う",
+        "reading": "いう"
+      },
+      "id": "605e85b5-5912-405b-896f-697e6862d268"
+    },
+    {
+      "createdAt": "2026-09-27T15:41:17.812Z",
+      "updatedAt": "2026-09-27T15:41:17.812Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Swimming",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "泳[およ]ぎ",
+        "reading": "およぎ"
+      },
+      "id": "7d8496be-d0f0-46c8-8394-29a893f1c7ee"
+    },
+    {
+      "createdAt": "2026-09-27T15:41:41.925Z",
+      "updatedAt": "2026-09-27T15:41:41.925Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To write",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-6",
+        "Topic: Education"
+      ],
+      "data": {
+        "expression": "書[か]く",
+        "reading": "かく"
+      },
+      "id": "532f0b49-2307-48ba-a140-2ec8ae434155"
+    },
+    {
+      "createdAt": "2026-09-27T15:42:28.734Z",
+      "updatedAt": "2026-09-27T15:42:28.734Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To hear, to listen, to ask",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-6",
+        "Topic: Music"
+      ],
+      "data": {
+        "expression": "聞[き]く",
+        "reading": "きく"
+      },
+      "id": "3f90318e-6479-4b62-a2b7-24608395c1c7"
+    },
+    {
+      "createdAt": "2026-09-27T15:43:19.697Z",
+      "updatedAt": "2026-09-27T15:43:19.697Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To speak",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "話[はな]す",
+        "reading": "はなす"
+      },
+      "id": "b956e7b1-94c2-413f-a94f-310dfc69ab03"
+    },
+    {
+      "createdAt": "2026-09-27T15:43:44.446Z",
+      "updatedAt": "2026-09-27T15:43:44.446Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To wait",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "待[ま]つ",
+        "reading": "まつ"
+      },
+      "id": "2ffaca7f-8775-4105-b898-5e5c90203f4f"
+    },
+    {
+      "createdAt": "2026-09-27T15:44:07.411Z",
+      "updatedAt": "2026-09-27T15:44:07.411Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "to call (one's name); to invite",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "呼[よ]ぶ",
+        "reading": "よぶ"
+      },
+      "id": "91028fc8-037e-4dc0-ad68-a0c40325be77"
+    },
+    {
+      "createdAt": "2026-09-27T15:44:39.872Z",
+      "updatedAt": "2026-09-27T15:44:39.872Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To dial/call (e.g., phone); to sit down",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "かける",
+        "reading": ""
+      },
+      "id": "71b59318-dfdf-4e73-bd86-4065b6410c20"
+    },
+    {
+      "createdAt": "2026-09-27T15:45:31.751Z",
+      "updatedAt": "2026-09-27T15:45:31.751Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To go out; to depart",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-6",
+        "Topic: Transportation",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "出[で]かける",
+        "reading": "でかける"
+      },
+      "id": "c47e72bd-dd21-41c5-bbeb-083d64f67116"
+    },
+    {
+      "createdAt": "2026-09-27T15:45:59.987Z",
+      "updatedAt": "2026-09-27T15:45:59.987Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Busy (people, days)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "忙[いそが]しい",
+        "reading": "いそがしい"
+      },
+      "id": "a3c01bad-08c2-40bc-bbed-3ecf48a21851"
+    },
+    {
+      "createdAt": "2026-09-27T15:46:25.721Z",
+      "updatedAt": "2026-09-27T15:46:25.721Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To be happy; to be glad",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: い-adjective",
+        "Topic: Emotions",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "嬉[うれ]しい",
+        "reading": "うれしい"
+      },
+      "id": "9ab16c6c-58cc-4662-af83-f9c83c9ac94c"
+    },
+    {
+      "createdAt": "2026-09-27T15:46:49.286Z",
+      "updatedAt": "2026-09-27T15:46:49.286Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Interesting, amusing",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "面白[おもしろ]い",
+        "reading": "おもしろい"
+      },
+      "id": "82f7075e-c734-41f3-92a6-7928ac3cb054"
+    },
+    {
+      "createdAt": "2026-09-27T15:47:07.811Z",
+      "updatedAt": "2026-09-27T15:47:07.811Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sad, sorrowful",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: い-adjective",
+        "Source: Nakama 1-6",
+        "Topic: Emotions"
+      ],
+      "data": {
+        "expression": "悲[かな]しい",
+        "reading": "かなしい"
+      },
+      "id": "b310bd2e-a9bf-4cac-9a3c-1b376d6b5530"
+    },
+    {
+      "createdAt": "2026-09-27T15:47:33.033Z",
+      "updatedAt": "2026-09-27T15:47:33.033Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Lonely, lonesome",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: い-adjective",
+        "Source: Nakama 1-6",
+        "Topic: Emotions"
+      ],
+      "data": {
+        "expression": "寂[さび]しい",
+        "reading": "さびしい"
+      },
+      "id": "f4ea6a8b-1db2-4890-a3c7-699d3e7aeca4"
+    },
+    {
+      "createdAt": "2026-09-27T15:47:47.606Z",
+      "updatedAt": "2026-09-27T15:47:47.606Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Enjoyable, fun",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-6",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "楽[たの]しい",
+        "reading": "たのしい"
+      },
+      "id": "f7e62308-62f6-4b7f-a29b-8706756960e9"
+    },
+    {
+      "createdAt": "2026-09-27T15:48:14.232Z",
+      "updatedAt": "2026-09-27T15:48:14.232Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Boring, dull; insignificant",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "つまらない",
+        "reading": ""
+      },
+      "id": "82978542-dae4-4506-89f3-a0c67d6e2994"
+    },
+    {
+      "createdAt": "2026-09-27T15:48:32.923Z",
+      "updatedAt": "2026-09-27T15:48:32.923Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Difficult",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "難[むずか]しい",
+        "reading": "むずかしい"
+      },
+      "id": "838a9ec5-3ba4-4e41-9072-28f8e3ffc2b8"
+    },
+    {
+      "createdAt": "2026-09-27T15:49:02.600Z",
+      "updatedAt": "2026-09-27T15:49:02.600Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Easy, plain, simple",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "易[やさ]しい",
+        "reading": "やさしい"
+      },
+      "id": "2fce0a47-e610-4b60-ae1c-25864acc6607"
+    },
+    {
+      "createdAt": "2026-09-27T15:49:54.352Z",
+      "updatedAt": "2026-09-27T15:49:54.352Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Health(y), energetic",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Health",
+        "Topic: Emotions"
+      ],
+      "data": {
+        "expression": "元気[げんき]",
+        "reading": "げんき"
+      },
+      "id": "532a0e9d-e327-4263-bf02-f7de47a104db"
+    },
+    {
+      "createdAt": "2026-09-27T15:50:21.600Z",
+      "updatedAt": "2026-09-27T15:50:21.600Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Regret; regrettable",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "残念[ざんねん]",
+        "reading": "ざんねん"
+      },
+      "id": "8bdb2c49-1fce-47db-b2df-27a95e6ac03e"
+    },
+    {
+      "createdAt": "2026-09-27T15:50:45.629Z",
+      "updatedAt": "2026-09-27T15:50:45.629Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "It's ok (all right); No need to worry; Everything is under control",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Topic: Emotions",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "大丈夫[だいじょうぶ]",
+        "reading": "だいじょうぶ"
+      },
+      "id": "a8c9adf6-a54b-4502-ac48-256d51932419"
+    },
+    {
+      "createdAt": "2026-09-27T15:51:05.287Z",
+      "updatedAt": "2026-09-27T15:51:05.287Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Very; difficult, hard",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "大変[たいへん]",
+        "reading": "たいへん"
+      },
+      "id": "e9b4c9f8-cb8b-4976-a388-939bc80e3f4c"
+    },
+    {
+      "createdAt": "2026-09-27T15:51:28.409Z",
+      "updatedAt": "2026-09-27T15:51:28.409Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bustling, busy",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "にぎやか",
+        "reading": ""
+      },
+      "id": "bd9baf62-157a-453b-af3a-4df566abf593"
+    },
+    {
+      "createdAt": "2026-09-27T15:51:48.892Z",
+      "updatedAt": "2026-09-27T16:02:46.671Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Free time, leisure",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-6",
+        "Topic: Hobbies",
+        "Topic: Invitations"
+      ],
+      "data": {
+        "expression": "暇[ひま]",
+        "reading": "ひま"
+      },
+      "id": "4724d12f-e21a-4505-b3aa-3f1a8de296bf"
+    },
+    {
+      "createdAt": "2026-09-27T15:52:09.584Z",
+      "updatedAt": "2026-09-27T15:52:09.584Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "How, in what way",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-6",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "どう",
+        "reading": ""
+      },
+      "id": "5f9c01b7-fc72-4810-aa71-3e2a3716faca"
+    },
+    {
+      "createdAt": "2026-09-27T15:52:44.437Z",
+      "updatedAt": "2026-09-27T15:52:44.437Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Together",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "一緒[いっしょ]に",
+        "reading": "いっしょ"
+      },
+      "id": "f6b928f2-cd43-4b49-92f3-48b489367d70"
+    },
+    {
+      "createdAt": "2026-09-27T15:53:47.417Z",
+      "updatedAt": "2026-09-27T15:53:47.417Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Certainly, by all means; without fail",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Adverb",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "是非[ぜひ]",
+        "reading": "ぜひ"
+      },
+      "id": "90d78dce-b682-477b-a5cd-11a1968c60c7"
+    },
+    {
+      "createdAt": "2026-09-27T15:54:55.338Z",
+      "updatedAt": "2026-09-27T15:54:55.338Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Slowly, at ease",
+      "notes": "ゆっくり増す。\"To relax\" or \"To take it easy\"",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Class: する-verb",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "ゆっくり",
+        "reading": ""
+      },
+      "id": "ad1d59dc-c54f-4b0b-8a6d-d2613f87c5e0"
+    },
+    {
+      "createdAt": "2026-09-27T15:55:22.045Z",
+      "updatedAt": "2026-09-27T15:55:22.045Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "And",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Conjunction",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "そして",
+        "reading": ""
+      },
+      "id": "35e41b29-1d55-436f-80f2-32bef79d2c95"
+    },
+    {
+      "createdAt": "2026-09-27T15:57:09.462Z",
+      "updatedAt": "2026-09-27T15:58:36.598Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "I'm a little busy.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6",
+        "Topic: Invitations"
+      ],
+      "data": {
+        "expression": "ちょっと都合が悪くて",
+        "literal": "Sorry, it's a little inconvenient."
+      },
+      "id": "29989c38-765c-4cd0-95c8-6dc546e90df2"
+    },
+    {
+      "createdAt": "2026-09-27T15:58:20.007Z",
+      "updatedAt": "2026-09-27T15:58:20.007Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Sorry, I have some errands to attend to.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6",
+        "Topic: Invitations"
+      ],
+      "data": {
+        "expression": "ちょっと用事があって。",
+        "literal": ""
+      },
+      "id": "823604b9-af04-4396-82a6-6ed448541e8b"
+    },
+    {
+      "createdAt": "2026-09-27T16:05:42.243Z",
+      "updatedAt": "2026-09-27T16:08:21.027Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "It was red. (Polite, negative adjective)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6",
+        "Class: い-adjective"
+      ],
+      "data": {
+        "expression": "～かったです",
+        "example": "赤[あか]*r:かった*です。"
+      },
+      "id": "9ba186c6-795c-451b-8ec9-0baa5e458848"
+    },
+    {
+      "createdAt": "2026-09-27T16:07:51.101Z",
+      "updatedAt": "2026-09-27T16:07:51.101Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "It was not red. (Polite, past-tense, negative)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6",
+        "Class: い-adjective"
+      ],
+      "data": {
+        "expression": "～くありませんでした。～くなかったです。",
+        "example": "赤[あか]*r:くありませんでした*。 赤[あか]*r:くなかったです*。"
+      },
+      "id": "91d4ef98-d0d3-4df7-903f-a69a857908f4"
+    },
+    {
+      "createdAt": "2026-09-27T16:09:37.182Z",
+      "updatedAt": "2026-09-27T16:11:32.286Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "It was pretty. (Polite, past-tense adjective)",
+      "notes": "",
+      "tags": [
+        "Class: な-adjective",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "Adj~でした。",
+        "example": "きれい*b:でした。*"
+      },
+      "id": "9adc7514-31ed-4329-88d6-ee047016ce51"
+    },
+    {
+      "createdAt": "2026-09-27T16:11:12.231Z",
+      "updatedAt": "2026-09-27T16:11:59.272Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "It was not pretty. (Polite, past-tense, negative adjective).",
+      "notes": "",
+      "tags": [
+        "Class: な-adjective",
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "Adj~ありませんでした。",
+        "example": "きれい*y:じゃ**r:ありませんでした*。きれい*y:じゃ**r:なかったです*。"
+      },
+      "id": "d0a8d9aa-dc04-4087-a3a4-86115126089c"
+    },
+    {
+      "createdAt": "2026-09-27T16:13:59.856Z",
+      "updatedAt": "2026-09-27T16:14:16.342Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "Please eat. (Te-form)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6",
+        "Class: Ru-verb"
+      ],
+      "data": {
+        "expression": "て-form る-Verbs",
+        "example": "食[た]べ*b:て*ください。"
+      },
+      "id": "4f77d13f-d151-4c53-a8a6-82a6e1f74212"
+    },
+    {
+      "createdAt": "2026-09-27T16:15:34.642Z",
+      "updatedAt": "2026-09-27T16:15:34.642Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "Please listen. (て-form)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6",
+        "Class: U-verb"
+      ],
+      "data": {
+        "expression": "て-form う-Verbs",
+        "example": "聞い*b:て*ください。"
+      },
+      "id": "1009d0f2-128e-4002-bc75-1c0f721d55c3"
+    },
+    {
+      "createdAt": "2026-09-27T16:17:19.765Z",
+      "updatedAt": "2026-09-27T16:19:41.064Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "I read the newspaper and went to school. (Using て-form)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "新聞[しんぶん]を 読[よ]ん*b:で*、 学校[がっこ]に 行[い]きます。",
+        "literal": ""
+      },
+      "id": "4c970aee-3e0a-4b79-9f76-a8aa274ff360"
+    },
+    {
+      "createdAt": "2026-09-27T16:18:38.387Z",
+      "updatedAt": "2026-09-27T16:18:38.387Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "I walked my dog and went out. (Using て-Form)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "犬[いぬ]の散歩[さんぽ]をして、 出[で]かけました。",
+        "literal": ""
+      },
+      "id": "08d1181e-16d2-4834-926f-ee6a1eb9ed0e"
+    },
+    {
+      "createdAt": "2026-09-27T16:21:17.665Z",
+      "updatedAt": "2026-09-27T16:21:17.665Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Ms. Ueda is kind and pretty (Using て-form of adjective).",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-6"
+      ],
+      "data": {
+        "expression": "上田[うえだ]さんは 優[やさ]しく*b:て*、きれいです。",
+        "literal": ""
+      },
+      "id": "455eeee4-0790-4303-bb62-6db8e1bdef3c"
     }
   ]
 }
