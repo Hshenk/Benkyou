@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 28,
-  "exportedAt": "2026-09-27T16:22:22.047Z",
+  "version": 29,
+  "exportedAt": "2026-09-27T16:56:05.060Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -11341,6 +11341,1208 @@
         "literal": ""
       },
       "id": "455eeee4-0790-4303-bb62-6db8e1bdef3c"
+    },
+    {
+      "createdAt": "2026-09-27T16:25:57.050Z",
+      "updatedAt": "2026-09-27T16:25:57.050Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Say, word",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "言",
+        "onyomi": [
+          "ゲン",
+          "ゴン"
+        ],
+        "kunyomi": [
+          "い.う",
+          "こと"
+        ],
+        "strokes": 7
+      },
+      "id": "223e295d-1a46-4c68-9158-37fa0755e4b5"
+    },
+    {
+      "createdAt": "2026-09-27T16:26:44.570Z",
+      "updatedAt": "2026-09-27T16:28:36.690Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Leaf, plane, lobe, needle, blade, spear, counter for flat things, fragment, piece",
+      "notes": "葉 【ヨウ】 counter for leaves, pieces of paper, etc.",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-3",
+        "Topic: Counters"
+      ],
+      "data": {
+        "character": "葉",
+        "onyomi": [
+          "ヨウ"
+        ],
+        "kunyomi": [
+          "は"
+        ],
+        "strokes": 12
+      },
+      "id": "73983802-ab60-4904-8436-eec89ea7dc04"
+    },
+    {
+      "createdAt": "2026-09-27T16:27:41.181Z",
+      "updatedAt": "2026-09-27T16:30:13.689Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Sino-, China",
+      "notes": "漢字[かんじ]\n漢[かん] The Han Dynasty.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3",
+        "Topic: History"
+      ],
+      "data": {
+        "character": "漢",
+        "onyomi": [
+          "カン"
+        ],
+        "kunyomi": [],
+        "strokes": 13
+      },
+      "id": "5f86b211-b982-4c0c-9300-73c46e97e3c1"
+    },
+    {
+      "createdAt": "2026-09-27T16:29:54.250Z",
+      "updatedAt": "2026-09-27T16:29:54.250Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Character, letter, word, section of village",
+      "notes": "漢字[かんじ]",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "字",
+        "onyomi": [
+          "ジ"
+        ],
+        "kunyomi": [
+          "あざ",
+          "あざな",
+          "-な"
+        ],
+        "strokes": 6
+      },
+      "id": "3e67d3d6-297b-4583-8d20-01d27d9d750d"
+    },
+    {
+      "createdAt": "2026-09-27T16:30:43.555Z",
+      "updatedAt": "2026-09-27T16:30:43.555Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Substance, quality, matter, temperament",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "質",
+        "onyomi": [
+          "シツ",
+          "シチ",
+          "チ"
+        ],
+        "kunyomi": [
+          "たち",
+          "ただ.す",
+          "もと",
+          "わりふ"
+        ],
+        "strokes": 15
+      },
+      "id": "b3d789a4-a20d-49e5-a7aa-0bad2950fc5e"
+    },
+    {
+      "createdAt": "2026-09-27T16:31:47.554Z",
+      "updatedAt": "2026-09-27T16:31:47.554Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Question, ask, problem",
+      "notes": "問 【モン】 Counter for questions",
+      "tags": [
+        "Level: N4",
+        "Topic: Questions",
+        "Source: Nakama 2-3",
+        "Topic: Counters"
+      ],
+      "data": {
+        "character": "問",
+        "onyomi": [
+          "モン"
+        ],
+        "kunyomi": [
+          "と.う",
+          "と.い",
+          "とん"
+        ],
+        "strokes": 11
+      },
+      "id": "4d09e033-b6e0-4975-8c90-cbaa4dd6f636"
+    },
+    {
+      "createdAt": "2026-09-27T16:32:18.311Z",
+      "updatedAt": "2026-09-27T16:32:18.311Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Graduate, soldier, private, die",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "卒",
+        "onyomi": [
+          "ソツ",
+          "シュツ"
+        ],
+        "kunyomi": [
+          "そっ.する",
+          "お.える",
+          "お.わる",
+          "ついに",
+          "にわか"
+        ],
+        "strokes": 8
+      },
+      "id": "51d9eced-b834-487b-9f04-c7e43e7e5d30"
+    },
+    {
+      "createdAt": "2026-09-27T16:33:21.837Z",
+      "updatedAt": "2026-09-27T16:33:35.509Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Business, vocation, arts, performance",
+      "notes": "授業　（じゅぎょう）（Class）",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "業",
+        "onyomi": [
+          "ギョウ",
+          "ゴウ"
+        ],
+        "kunyomi": [
+          "わざ"
+        ],
+        "strokes": 13
+      },
+      "id": "732e9bfa-068e-4421-b318-033b2704a7ce"
+    },
+    {
+      "createdAt": "2026-09-27T16:34:14.621Z",
+      "updatedAt": "2026-09-27T16:34:14.621Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Impart, instruct, grant, confer",
+      "notes": "授業（じゅぎょう）（Class）",
+      "tags": [
+        "Level: N1",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "授",
+        "onyomi": [
+          "ジュ"
+        ],
+        "kunyomi": [
+          "さず.ける",
+          "さず.かる"
+        ],
+        "strokes": 11
+      },
+      "id": "b9c2db0f-065d-4f8d-884b-94097350d4f0"
+    },
+    {
+      "createdAt": "2026-09-27T16:34:41.661Z",
+      "updatedAt": "2026-09-27T16:34:41.661Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Attend, doing, official, serve",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "仕",
+        "onyomi": [
+          "シ",
+          "ジ"
+        ],
+        "kunyomi": [
+          "つか.える"
+        ],
+        "strokes": 5
+      },
+      "id": "951117e6-081a-40ad-a335-39d98104fb87"
+    },
+    {
+      "createdAt": "2026-09-27T16:35:06.613Z",
+      "updatedAt": "2026-09-27T16:35:54.658Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Matter, thing, fact, business, reason, possibly",
+      "notes": "仕事 （しごと）(Work, Job)",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "事",
+        "onyomi": [
+          "ジ",
+          "ズ"
+        ],
+        "kunyomi": [
+          "こと",
+          "つか.う",
+          "つか.える"
+        ],
+        "strokes": 8
+      },
+      "id": "751d4357-c3f2-49dd-a539-a92d3f44bb07"
+    },
+    {
+      "createdAt": "2026-09-27T16:36:28.544Z",
+      "updatedAt": "2026-09-27T16:36:28.544Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Tie, bind, contract, join, organize, do up hair, fasten",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "結",
+        "onyomi": [
+          "ケツ",
+          "ケチ"
+        ],
+        "kunyomi": [
+          "むす.ぶ",
+          "ゆ.う",
+          "ゆ.わえる"
+        ],
+        "strokes": 12
+      },
+      "id": "4fc3c81c-3f24-4073-85ec-0b281e1904c5"
+    },
+    {
+      "createdAt": "2026-09-27T16:37:23.902Z",
+      "updatedAt": "2026-09-27T16:37:23.902Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Marriage",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-3",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "character": "婚",
+        "onyomi": [
+          "コン"
+        ],
+        "kunyomi": [],
+        "strokes": 11
+      },
+      "id": "9855bdfc-f9b1-4a8c-8f29-e8f211f7cdfe"
+    },
+    {
+      "createdAt": "2026-09-27T16:37:47.738Z",
+      "updatedAt": "2026-09-27T16:37:47.738Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Style, ceremony, rite, function, method, system, form, expression",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "式",
+        "onyomi": [
+          "シキ"
+        ],
+        "kunyomi": [],
+        "strokes": 6
+      },
+      "id": "d6b3b63e-c1d6-46f3-b84e-5c3f49878824"
+    },
+    {
+      "createdAt": "2026-09-27T16:38:14.918Z",
+      "updatedAt": "2026-09-27T16:38:14.918Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Company, firm, office, association, shrine",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3",
+        "Topic: Jobs",
+        "Topic: Office"
+      ],
+      "data": {
+        "character": "社",
+        "onyomi": [
+          "シャ"
+        ],
+        "kunyomi": [
+          "やしろ"
+        ],
+        "strokes": 7
+      },
+      "id": "9e37b10a-4bda-4e8b-9759-4fe2bd261a9a"
+    },
+    {
+      "createdAt": "2026-09-27T16:38:35.042Z",
+      "updatedAt": "2026-09-27T16:38:35.042Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Same, agree, equal",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "同",
+        "onyomi": [
+          "ドウ"
+        ],
+        "kunyomi": [
+          "おな.じ"
+        ],
+        "strokes": 6
+      },
+      "id": "7d4222b0-41da-48cf-9c87-7dcfc63ed886"
+    },
+    {
+      "createdAt": "2026-09-27T16:39:02.820Z",
+      "updatedAt": "2026-09-27T16:39:02.820Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Difference, differ",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "違",
+        "onyomi": [
+          "イ"
+        ],
+        "kunyomi": [
+          "ちが.う",
+          "ちが.い",
+          "ちが.える",
+          "-ちが.える",
+          "たが.う",
+          "たが.える"
+        ],
+        "strokes": 13
+      },
+      "id": "977a3b06-c273-4577-9ff6-d166281c4de1"
+    },
+    {
+      "createdAt": "2026-09-27T16:39:39.802Z",
+      "updatedAt": "2026-09-27T16:39:39.802Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Detain, fasten, halt, stop, to keep, to stay",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "留",
+        "onyomi": [
+          "リュウ",
+          "ル"
+        ],
+        "kunyomi": [
+          "と.める",
+          "と.まる",
+          "とど.める",
+          "とど.まる",
+          "るうぶる"
+        ],
+        "strokes": 10
+      },
+      "id": "3169f1b6-7ac3-4f33-9ae3-54ffe1fdc520"
+    },
+    {
+      "createdAt": "2026-09-27T16:40:42.344Z",
+      "updatedAt": "2026-09-27T16:40:42.344Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Accomplished, reach, arrive, attain",
+      "notes": "友達【ともだち】",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "達",
+        "onyomi": [
+          "タツ",
+          "ダ"
+        ],
+        "kunyomi": [
+          "-たち"
+        ],
+        "strokes": 12
+      },
+      "id": "86141579-42e5-49fa-a777-d863db1c727b"
+    },
+    {
+      "createdAt": "2026-09-27T16:40:58.277Z",
+      "updatedAt": "2026-09-27T16:40:58.277Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Electricity",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "電",
+        "onyomi": [
+          "デン"
+        ],
+        "kunyomi": [],
+        "strokes": 13
+      },
+      "id": "4f6258d0-fc21-43b0-87ab-63daf9e4006e"
+    },
+    {
+      "createdAt": "2026-09-27T16:41:12.594Z",
+      "updatedAt": "2026-09-27T16:41:12.594Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "England, English, hero, outstanding, calyx",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-3",
+        "Topic: Countries"
+      ],
+      "data": {
+        "character": "英",
+        "onyomi": [
+          "エイ"
+        ],
+        "kunyomi": [
+          "はなぶさ"
+        ],
+        "strokes": 8
+      },
+      "id": "f713ee2e-c9a5-4002-b8ec-1ec22b70d8a4"
+    },
+    {
+      "createdAt": "2026-09-27T16:41:42.788Z",
+      "updatedAt": "2026-09-27T16:41:42.788Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "guest, visitor, customer, client",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "客",
+        "onyomi": [
+          "キャク",
+          "カク"
+        ],
+        "kunyomi": [],
+        "strokes": 9
+      },
+      "id": "80521f6d-2c6a-4041-b8ac-56c4b189a285"
+    },
+    {
+      "createdAt": "2026-09-27T16:42:30.040Z",
+      "updatedAt": "2026-09-27T16:42:30.040Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Remainder, leftover, balance",
+      "notes": "残念 （ざんねん）(No good)",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-3"
+      ],
+      "data": {
+        "character": "残",
+        "onyomi": [
+          "ザン",
+          "サン"
+        ],
+        "kunyomi": [
+          "のこ.る",
+          "のこ.す",
+          "そこな.う",
+          "のこ.り"
+        ],
+        "strokes": 10
+      },
+      "id": "7ba541ac-1b48-434d-b971-854d7d6222a9"
+    },
+    {
+      "createdAt": "2026-09-27T16:43:19.616Z",
+      "updatedAt": "2026-09-27T16:46:27.463Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Ill, sick, disease",
+      "notes": "病院（びょういん）(Hospital)",
+      "tags": [
+        "Level: N4",
+        "Topic: Health",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "病",
+        "onyomi": [
+          "ビョウ",
+          "ヘイ"
+        ],
+        "kunyomi": [
+          "や.む",
+          "-や.み",
+          "やまい"
+        ],
+        "strokes": 10
+      },
+      "id": "a7351f02-c058-432b-8fb7-8de485995855"
+    },
+    {
+      "createdAt": "2026-09-27T16:45:39.583Z",
+      "updatedAt": "2026-09-27T16:45:39.583Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Inst., institution, temple, mansion, school",
+      "notes": "病院（びょういん）(Hospital)",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "院",
+        "onyomi": [
+          "イン"
+        ],
+        "kunyomi": [],
+        "strokes": 10
+      },
+      "id": "c653f29c-6c6a-49b7-8307-9edf7f3a058d"
+    },
+    {
+      "createdAt": "2026-09-27T16:46:19.147Z",
+      "updatedAt": "2026-09-27T16:46:19.147Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Doctor, medicine",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "医",
+        "onyomi": [
+          "イ"
+        ],
+        "kunyomi": [
+          "い.やす",
+          "い.する",
+          "くすし"
+        ],
+        "strokes": 7
+      },
+      "id": "b29dc2e2-f8d0-4f27-985b-197ebd61009b"
+    },
+    {
+      "createdAt": "2026-09-27T16:46:47.317Z",
+      "updatedAt": "2026-09-27T16:46:47.317Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Someone, person",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "者",
+        "onyomi": [
+          "シャ"
+        ],
+        "kunyomi": [
+          "もの"
+        ],
+        "strokes": 8
+      },
+      "id": "ff51b417-76c6-4336-b1a5-a225469d65dc"
+    },
+    {
+      "createdAt": "2026-09-27T16:47:14.384Z",
+      "updatedAt": "2026-09-27T16:50:38.027Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Body, substance, object, reality, counter for images",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1",
+        "Topic: Body"
+      ],
+      "data": {
+        "character": "体",
+        "onyomi": [
+          "タイ",
+          "テイ"
+        ],
+        "kunyomi": [
+          "からだ",
+          "かたち"
+        ],
+        "strokes": 7
+      },
+      "id": "2e86eefd-5390-4382-afde-f8a5da1894e2"
+    },
+    {
+      "createdAt": "2026-09-27T16:47:30.284Z",
+      "updatedAt": "2026-09-27T16:50:31.441Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Tooth, cog",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1",
+        "Topic: Body"
+      ],
+      "data": {
+        "character": "歯",
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "よわい",
+          "は",
+          "よわ.い",
+          "よわい.する"
+        ],
+        "strokes": 12
+      },
+      "id": "92101b17-83e2-41c2-84df-e5cc4f914065"
+    },
+    {
+      "createdAt": "2026-09-27T16:49:11.664Z",
+      "updatedAt": "2026-09-27T16:49:11.664Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Unusual, change, strange",
+      "notes": "大変 (たいへん) - Difficult, challenging.\n変体（へんたい）- Pervert",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "変",
+        "onyomi": [
+          "ヘン"
+        ],
+        "kunyomi": [
+          "か.わる",
+          "か.わり",
+          "か.える"
+        ],
+        "strokes": 9
+      },
+      "id": "849368b4-9f67-4a0f-8c71-0e57e8c40a09"
+    },
+    {
+      "createdAt": "2026-09-27T16:49:47.093Z",
+      "updatedAt": "2026-09-27T16:49:47.093Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Heat, temperature, fever, mania, passion",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1",
+        "Topic: Weather"
+      ],
+      "data": {
+        "character": "熱",
+        "onyomi": [
+          "ネツ"
+        ],
+        "kunyomi": [
+          "あつ.い"
+        ],
+        "strokes": 15
+      },
+      "id": "4f2e201c-f3d8-4bf8-b04d-02f8346e16cb"
+    },
+    {
+      "createdAt": "2026-09-27T16:50:08.506Z",
+      "updatedAt": "2026-09-27T16:50:08.506Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Medicine, chemical, enamel, gunpowder, benefit",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1",
+        "Topic: Health"
+      ],
+      "data": {
+        "character": "薬",
+        "onyomi": [
+          "ヤク"
+        ],
+        "kunyomi": [
+          "くすり"
+        ],
+        "strokes": 16
+      },
+      "id": "97208576-4306-4ce9-ad4f-504da359ce62"
+    },
+    {
+      "createdAt": "2026-09-27T16:50:25.832Z",
+      "updatedAt": "2026-09-27T16:50:25.832Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Face, expression",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1",
+        "Topic: Body"
+      ],
+      "data": {
+        "character": "顔",
+        "onyomi": [
+          "ガン"
+        ],
+        "kunyomi": [
+          "かお"
+        ],
+        "strokes": 18
+      },
+      "id": "ee92fb9c-e446-4637-9cab-6e9d2ffd84fe"
+    },
+    {
+      "createdAt": "2026-09-27T16:52:01.518Z",
+      "updatedAt": "2026-09-27T16:52:01.518Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Color",
+      "notes": "色 【ショク】Counter for colors.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1",
+        "Topic: Colors",
+        "Class: Counter"
+      ],
+      "data": {
+        "character": "色",
+        "onyomi": [
+          "ショク",
+          "シキ"
+        ],
+        "kunyomi": [
+          "いろ"
+        ],
+        "strokes": 6
+      },
+      "id": "f9f1bafe-d287-49e6-9ccb-fd1b03fada3c"
+    },
+    {
+      "createdAt": "2026-09-27T16:52:12.572Z",
+      "updatedAt": "2026-09-27T16:52:12.572Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Finger, point to, indicate, put into, play (chess), measure (ruler)",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1",
+        "Topic: Body"
+      ],
+      "data": {
+        "character": "指",
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "ゆび",
+          "さ.す",
+          "-さ.し"
+        ],
+        "strokes": 9
+      },
+      "id": "bfe1d9bc-738f-475f-9cc1-cfbd0f2c5005"
+    },
+    {
+      "createdAt": "2026-09-27T16:52:33.198Z",
+      "updatedAt": "2026-09-27T16:52:33.198Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Cut, cutoff, be sharp",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "切",
+        "onyomi": [
+          "セツ",
+          "サイ"
+        ],
+        "kunyomi": [
+          "き.る",
+          "-き.る",
+          "き.り",
+          "-き.り",
+          "-ぎ.り",
+          "き.れる",
+          "-き.れる",
+          "き.れ",
+          "-き.れ",
+          "-ぎ.れ"
+        ],
+        "strokes": 4
+      },
+      "id": "c41ba2b7-e1d6-4d34-8a80-89e89aaf0c07"
+    },
+    {
+      "createdAt": "2026-09-27T16:52:41.874Z",
+      "updatedAt": "2026-09-27T16:52:41.874Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Walk, counter for steps",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "歩",
+        "onyomi": [
+          "ホ",
+          "ブ",
+          "フ"
+        ],
+        "kunyomi": [
+          "ある.く",
+          "あゆ.む"
+        ],
+        "strokes": 8
+      },
+      "id": "d709a134-3a62-4202-98f1-af51582cb631"
+    },
+    {
+      "createdAt": "2026-09-27T16:53:10.496Z",
+      "updatedAt": "2026-09-27T16:53:10.496Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Run",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "走",
+        "onyomi": [
+          "ソウ"
+        ],
+        "kunyomi": [
+          "はし.る"
+        ],
+        "strokes": 7
+      },
+      "id": "6a5746d5-ed55-4d76-b8a3-d403ae77e58b"
+    },
+    {
+      "createdAt": "2026-09-27T16:53:33.372Z",
+      "updatedAt": "2026-09-27T16:53:33.372Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Exertion, endeavour, encourage, strive, make effort, diligent",
+      "notes": "勉強 【ベンキョウ】Study",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "勉",
+        "onyomi": [
+          "ベン"
+        ],
+        "kunyomi": [
+          "つと.める"
+        ],
+        "strokes": 10
+      },
+      "id": "611274bb-ee4b-4648-9846-259e52cb3201"
+    },
+    {
+      "createdAt": "2026-09-27T16:53:48.027Z",
+      "updatedAt": "2026-09-27T16:53:48.027Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Strong",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "強",
+        "onyomi": [
+          "キョウ",
+          "ゴウ"
+        ],
+        "kunyomi": [
+          "つよ.い",
+          "つよ.まる",
+          "つよ.める",
+          "し.いる",
+          "こわ.い"
+        ],
+        "strokes": 11
+      },
+      "id": "edcbab8b-dc4f-4867-891d-2a95a0d1751b"
+    },
+    {
+      "createdAt": "2026-09-27T16:53:58.339Z",
+      "updatedAt": "2026-09-27T16:53:58.339Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Forget",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "忘",
+        "onyomi": [
+          "ボウ"
+        ],
+        "kunyomi": [
+          "わす.れる"
+        ],
+        "strokes": 7
+      },
+      "id": "adefbf2a-0cbc-4a9d-9a10-1998b1c461dd"
+    },
+    {
+      "createdAt": "2026-09-27T16:54:10.864Z",
+      "updatedAt": "2026-09-27T16:54:10.864Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Early, fast",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "早",
+        "onyomi": [
+          "ソウ",
+          "サッ"
+        ],
+        "kunyomi": [
+          "はや.い",
+          "はや",
+          "はや-",
+          "はや.まる",
+          "はや.める",
+          "さ-"
+        ],
+        "strokes": 6
+      },
+      "id": "8d4b7b31-0746-4935-aac1-72757aa4dbd9"
+    },
+    {
+      "createdAt": "2026-09-27T16:54:35.577Z",
+      "updatedAt": "2026-09-27T16:54:35.577Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Hold, have",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "持",
+        "onyomi": [
+          "ジ"
+        ],
+        "kunyomi": [
+          "も.つ",
+          "-も.ち",
+          "も.てる"
+        ],
+        "strokes": 9
+      },
+      "id": "a621884e-5bca-4d6d-b410-9d41c4276bed"
+    },
+    {
+      "createdAt": "2026-09-27T16:54:49.017Z",
+      "updatedAt": "2026-09-27T16:54:49.017Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Pain, hurt, damage, bruise",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Topic: Health",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "痛",
+        "onyomi": [
+          "ツウ"
+        ],
+        "kunyomi": [
+          "いた.い",
+          "いた.む",
+          "いた.ましい",
+          "いた.める"
+        ],
+        "strokes": 12
+      },
+      "id": "4a68b52e-7b43-4800-939a-4cf1c91b8bfa"
+    },
+    {
+      "createdAt": "2026-09-27T16:55:32.594Z",
+      "updatedAt": "2026-09-27T16:55:52.940Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Head, counter for large animals",
+      "notes": "頭 【トウ】 counter for large animals (e.g. head of cattle), counter for insects in a collection, counter for helmets, masks, etc.",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1",
+        "Topic: Body"
+      ],
+      "data": {
+        "character": "頭",
+        "onyomi": [
+          "トウ",
+          "ズ",
+          "ト"
+        ],
+        "kunyomi": [
+          "あたま",
+          "かしら",
+          "-がしら",
+          "かぶり"
+        ],
+        "strokes": 16
+      },
+      "id": "b4f0b433-56ee-437a-9016-76cfdbaed557"
+    },
+    {
+      "createdAt": "2026-09-27T16:55:46.881Z",
+      "updatedAt": "2026-09-27T16:55:46.881Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Sideways, side, horizontal, width, woof, unreasonable, perverse",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-1"
+      ],
+      "data": {
+        "character": "横",
+        "onyomi": [
+          "オウ"
+        ],
+        "kunyomi": [
+          "よこ"
+        ],
+        "strokes": 15
+      },
+      "id": "fb09fa9b-29da-43c5-a95c-879fa5d304db"
     }
   ]
 }
