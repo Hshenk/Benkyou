@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 29,
-  "exportedAt": "2026-09-27T16:56:05.060Z",
+  "version": 30,
+  "exportedAt": "2026-09-28T16:27:18.529Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -34,6 +34,10 @@
     {
       "id": "a3",
       "deletedAt": "2026-09-25T16:22:23.921Z"
+    },
+    {
+      "id": "72180c7f-645b-4f83-9ba5-793a022a1c1b",
+      "deletedAt": "2026-09-28T15:22:55.424Z"
     }
   ],
   "cards": [
@@ -1469,7 +1473,7 @@
     {
       "createdAt": "2026-09-06T23:47:26.018Z",
       "updatedAt": "2026-09-06T23:47:26.018Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Private, me, I",
@@ -1659,7 +1663,7 @@
     {
       "createdAt": "2026-09-06T23:57:47.190Z",
       "updatedAt": "2026-09-06T23:57:47.190Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "what",
@@ -1759,7 +1763,7 @@
     {
       "createdAt": "2026-09-07T00:04:57.979Z",
       "updatedAt": "2026-09-07T00:04:57.979Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "end, close, tip, powder, posterity",
@@ -5769,7 +5773,7 @@
     },
     {
       "createdAt": "2026-09-25T14:06:59.967Z",
-      "updatedAt": "2026-09-25T14:06:59.967Z",
+      "updatedAt": "2026-09-28T15:17:39.892Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
@@ -5780,7 +5784,8 @@
         "Class: Noun",
         "Source: Nakama 1-3",
         "Topic: Hobbies",
-        "Topic: Culture"
+        "Topic: Culture",
+        "Topic: Film"
       ],
       "data": {
         "expression": "映画[えいが]",
@@ -8136,7 +8141,7 @@
     },
     {
       "createdAt": "2026-09-25T17:15:13.656Z",
-      "updatedAt": "2026-09-25T17:15:13.656Z",
+      "updatedAt": "2026-09-28T15:23:00.805Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -8146,7 +8151,8 @@
         "Level: N5",
         "Class: い-adjective",
         "Source: Nakama 1-4",
-        "Topic: Shopping"
+        "Topic: Shopping",
+        "Source: Nakama 1-7"
       ],
       "data": {
         "expression": "高[たか]い",
@@ -9065,7 +9071,7 @@
     },
     {
       "createdAt": "2026-09-25T18:09:07.852Z",
-      "updatedAt": "2026-09-25T18:09:07.852Z",
+      "updatedAt": "2026-09-28T15:17:51.067Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
@@ -9074,7 +9080,8 @@
       "tags": [
         "Level: N5",
         "Class: Noun",
-        "Source: Nakama 1-5"
+        "Source: Nakama 1-5",
+        "Topic: Film"
       ],
       "data": {
         "expression": "写真[しゃしん]",
@@ -9979,7 +9986,7 @@
     {
       "createdAt": "2026-09-27T15:05:49.817Z",
       "updatedAt": "2026-09-27T16:01:14.676Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Part-time job",
@@ -10000,7 +10007,7 @@
     {
       "createdAt": "2026-09-27T15:06:35.829Z",
       "updatedAt": "2026-09-27T15:09:19.190Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Exercise",
@@ -10021,7 +10028,7 @@
     {
       "createdAt": "2026-09-27T15:06:58.787Z",
       "updatedAt": "2026-09-27T15:32:53.424Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Music",
@@ -10042,7 +10049,7 @@
     {
       "createdAt": "2026-09-27T15:09:03.746Z",
       "updatedAt": "2026-09-27T15:09:03.746Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Shopping",
@@ -10063,7 +10070,7 @@
     {
       "createdAt": "2026-09-27T15:10:09.576Z",
       "updatedAt": "2026-09-27T15:32:38.140Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Game",
@@ -10084,7 +10091,7 @@
     {
       "createdAt": "2026-09-27T15:10:45.667Z",
       "updatedAt": "2026-09-27T15:10:45.667Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Concert",
@@ -10105,8 +10112,8 @@
     {
       "createdAt": "2026-09-27T15:12:54.370Z",
       "updatedAt": "2026-09-27T15:12:54.370Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Next time, one of these days, now, this time, near future,",
       "notes": "",
@@ -12543,6 +12550,2162 @@
         "strokes": 15
       },
       "id": "fb09fa9b-29da-43c5-a95c-879fa5d304db"
+    },
+    {
+      "createdAt": "2026-09-28T14:45:52.390Z",
+      "updatedAt": "2026-09-28T14:45:52.390Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A song",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Music"
+      ],
+      "data": {
+        "expression": "歌[うた]",
+        "reading": "うた"
+      },
+      "id": "180e1413-86cf-4826-ae16-074df5d1def0"
+    },
+    {
+      "createdAt": "2026-09-28T14:46:13.518Z",
+      "updatedAt": "2026-09-28T14:46:13.518Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(green) tea",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "お 茶[ちゃ]",
+        "reading": "おちゃ"
+      },
+      "id": "7d15382c-80af-4ee2-ab8b-be76ecf2a733"
+    },
+    {
+      "createdAt": "2026-09-28T14:46:42.603Z",
+      "updatedAt": "2026-09-28T14:58:26.815Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Orange (fruit, colour)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Colors",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "オレンジ",
+        "reading": ""
+      },
+      "id": "289c1186-9ac3-4f5d-a3fd-a9591f716a58"
+    },
+    {
+      "createdAt": "2026-09-28T14:47:03.160Z",
+      "updatedAt": "2026-09-28T14:47:03.160Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Karaoke",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Music",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "カラオケ",
+        "reading": ""
+      },
+      "id": "8885dd9b-af3c-4361-ae10-ceb89e4efa82"
+    },
+    {
+      "createdAt": "2026-09-28T14:47:50.622Z",
+      "updatedAt": "2026-09-28T14:47:50.622Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Milk (From a cow)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "牛乳[ぎゅうにゅう]",
+        "reading": "ぎゅうにゅう"
+      },
+      "id": "f92a0b31-500d-4f43-93b5-ff17cd590810"
+    },
+    {
+      "createdAt": "2026-09-28T14:48:07.902Z",
+      "updatedAt": "2026-09-28T14:58:17.881Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fruit",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "果物[くだもの]",
+        "reading": "くだもの"
+      },
+      "id": "c5ed7222-11b1-4fb6-8a67-1a62a08cfc71"
+    },
+    {
+      "createdAt": "2026-09-28T14:49:02.024Z",
+      "updatedAt": "2026-09-28T14:49:02.024Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Classical music",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: な-adjective",
+        "Topic: Music",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "クラシック",
+        "reading": ""
+      },
+      "id": "5636e37d-6fae-42a0-88ec-8f5cb3f7a697"
+    },
+    {
+      "createdAt": "2026-09-28T14:49:35.331Z",
+      "updatedAt": "2026-09-28T14:49:35.331Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cake",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "ケーキ",
+        "reading": ""
+      },
+      "id": "f00f3cfa-9ae4-47a1-b910-92598f3d8dd4"
+    },
+    {
+      "createdAt": "2026-09-28T14:50:00.246Z",
+      "updatedAt": "2026-09-28T14:50:00.246Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Black tea",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "紅茶[こうちゃ]",
+        "reading": "こうちゃ"
+      },
+      "id": "d1861957-5710-4ec7-a50c-47f4f5c184a2"
+    },
+    {
+      "createdAt": "2026-09-28T14:50:16.814Z",
+      "updatedAt": "2026-09-28T14:50:16.814Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cola (carbonated soft drink)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "コーラ",
+        "reading": ""
+      },
+      "id": "54a4c39d-66b6-4e11-8425-22674b2f407d"
+    },
+    {
+      "createdAt": "2026-09-28T14:51:30.246Z",
+      "updatedAt": "2026-09-28T14:51:30.246Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Thing(s), matter(s), fact",
+      "notes": "Often written as just kanji, but 事 is correct.",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "こと",
+        "reading": "こと"
+      },
+      "id": "cf9e8102-ee83-4783-ae8e-6485d2dff57e"
+    },
+    {
+      "createdAt": "2026-09-28T14:52:02.219Z",
+      "updatedAt": "2026-09-28T14:52:02.219Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Golf",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Hobbies",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "ゴルフ",
+        "reading": ""
+      },
+      "id": "f05f2486-2aa0-4b31-9477-78c642271d6e"
+    },
+    {
+      "createdAt": "2026-09-28T14:52:29.998Z",
+      "updatedAt": "2026-09-28T14:52:29.998Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fish",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Animals"
+      ],
+      "data": {
+        "expression": "魚[さかな]",
+        "reading": "さかな"
+      },
+      "id": "96a36df6-95b2-4ec8-a3ee-d343bd1df252"
+    },
+    {
+      "createdAt": "2026-09-28T14:52:52.160Z",
+      "updatedAt": "2026-09-28T14:52:52.160Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Alcohol, sake",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "酒[さけ]",
+        "reading": "さけ"
+      },
+      "id": "a50ca354-2f0d-47ce-b453-9340d466869a"
+    },
+    {
+      "createdAt": "2026-09-28T14:53:16.865Z",
+      "updatedAt": "2026-09-28T14:53:16.865Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Jazz",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Topic: Music",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "ジャズ",
+        "reading": ""
+      },
+      "id": "765c29b8-3790-4137-afd5-e558b265ea69"
+    },
+    {
+      "createdAt": "2026-09-28T14:53:40.251Z",
+      "updatedAt": "2026-09-28T14:53:40.251Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Juice, soft drink; deuce",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "ジュース",
+        "reading": ""
+      },
+      "id": "11d8fad6-db16-44a4-a6c4-6119e04a8511"
+    },
+    {
+      "createdAt": "2026-09-28T14:54:03.373Z",
+      "updatedAt": "2026-09-28T14:54:03.373Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hobby; pastime",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Topic: Hobbies",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "趣味[しゅみ]",
+        "reading": "しゅみ"
+      },
+      "id": "463a74e6-407a-475b-846f-25befe32992e"
+    },
+    {
+      "createdAt": "2026-09-28T14:55:13.469Z",
+      "updatedAt": "2026-09-28T14:55:13.469Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Meal; dining",
+      "notes": "食事する。To dine.",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-7",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "食事[しょくじ]",
+        "reading": "しょくじ"
+      },
+      "id": "183a0b35-b7f9-48f7-9aa9-4c0e06f14fb3"
+    },
+    {
+      "createdAt": "2026-09-28T14:55:37.380Z",
+      "updatedAt": "2026-09-28T14:55:52.124Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Ski; skiing",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Hobbies",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "スキー",
+        "reading": ""
+      },
+      "id": "e5a4a7e3-9522-4038-876d-a827d4b11c3f"
+    },
+    {
+      "createdAt": "2026-09-28T14:56:19.419Z",
+      "updatedAt": "2026-09-28T14:56:19.419Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sport(s)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "スポーツ",
+        "reading": ""
+      },
+      "id": "81640370-f589-4cee-b449-7bad13b7a894"
+    },
+    {
+      "createdAt": "2026-09-28T14:56:45.631Z",
+      "updatedAt": "2026-09-28T14:56:45.631Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Gymnastics, physical exercises, calisthenics",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "体操[たいそう]",
+        "reading": "たいそう"
+      },
+      "id": "4219ce64-8764-4fff-97c5-4d0e64fb82ad"
+    },
+    {
+      "createdAt": "2026-09-28T14:57:00.714Z",
+      "updatedAt": "2026-09-28T14:57:00.714Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Food",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "食[た]べ 物[もの]",
+        "reading": "たべもの"
+      },
+      "id": "0ad932bd-216a-480e-9c21-5c35d36b45d2"
+    },
+    {
+      "createdAt": "2026-09-28T14:57:15.826Z",
+      "updatedAt": "2026-09-28T14:57:15.826Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Egg",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "卵[たまご]",
+        "reading": "たまご"
+      },
+      "id": "e2a73a7e-3fde-43ab-845f-98965f47c7d1"
+    },
+    {
+      "createdAt": "2026-09-28T14:57:36.609Z",
+      "updatedAt": "2026-09-28T14:57:36.609Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fishing",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "釣[つり]",
+        "reading": "つり"
+      },
+      "id": "005503da-ff4c-4060-ad82-267856fcc610"
+    },
+    {
+      "createdAt": "2026-09-28T14:58:01.397Z",
+      "updatedAt": "2026-09-28T14:58:01.397Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tomato (Solanum lycopersicum)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "トマト",
+        "reading": ""
+      },
+      "id": "77e42de6-2dac-46f7-a5e0-1a48e1aa4ddf"
+    },
+    {
+      "createdAt": "2026-09-28T14:59:46.991Z",
+      "updatedAt": "2026-09-28T14:59:46.991Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Drive, to go for a drive (For pleasure)",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "ドライブ",
+        "reading": ""
+      },
+      "id": "63a2748c-e1ce-4331-a093-ebc25ad18602"
+    },
+    {
+      "createdAt": "2026-09-28T15:00:09.454Z",
+      "updatedAt": "2026-09-28T15:00:09.454Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Meat",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Food",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "肉[にく]",
+        "reading": "にく"
+      },
+      "id": "f74de432-1173-4696-99d5-5dd6cc1142f5"
+    },
+    {
+      "createdAt": "2026-09-28T15:00:29.659Z",
+      "updatedAt": "2026-09-28T15:00:29.659Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Carrot (Daucus carota)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Topic: Food",
+        "Topic: Plants",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "にんじん",
+        "reading": ""
+      },
+      "id": "7a474196-2f48-425a-91eb-65ef34f950a8"
+    },
+    {
+      "createdAt": "2026-09-28T15:01:17.308Z",
+      "updatedAt": "2026-09-28T15:01:17.308Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Drink, beverage",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "飲[の]み 物[もの]",
+        "reading": "のみもの"
+      },
+      "id": "16f33510-3085-4f90-a5a9-778d906b6307"
+    },
+    {
+      "createdAt": "2026-09-28T15:01:36.763Z",
+      "updatedAt": "2026-09-28T15:01:36.763Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hiking",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "ハイキング",
+        "reading": ""
+      },
+      "id": "edff7b29-e36d-488c-9b7b-fe6430a03fd0"
+    },
+    {
+      "createdAt": "2026-09-28T15:02:56.663Z",
+      "updatedAt": "2026-09-28T15:02:56.663Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Basketball",
+      "notes": "Can be abbreviated as: バスケット、or バスケ",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Hobbies",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "バスケットボール",
+        "reading": ""
+      },
+      "id": "6e196053-02de-4fd9-9ece-b54379ce781c"
+    },
+    {
+      "createdAt": "2026-09-28T15:03:13.396Z",
+      "updatedAt": "2026-09-28T15:03:13.396Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Banana",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Plants",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "バナナ",
+        "reading": ""
+      },
+      "id": "5ba9266b-feda-47c1-9d6b-539c5171dac1"
+    },
+    {
+      "createdAt": "2026-09-28T15:04:11.724Z",
+      "updatedAt": "2026-09-28T15:04:11.724Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hip-Hop music",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Music"
+      ],
+      "data": {
+        "expression": "ヒップホップ",
+        "reading": ""
+      },
+      "id": "b8337ec8-ccb2-406a-8c06-2c245c7aed65"
+    },
+    {
+      "createdAt": "2026-09-28T15:04:25.800Z",
+      "updatedAt": "2026-09-28T15:04:25.800Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Beer",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "ビール",
+        "reading": ""
+      },
+      "id": "540faeda-188c-4f81-beea-6b644e2cbfa4"
+    },
+    {
+      "createdAt": "2026-09-28T15:07:12.227Z",
+      "updatedAt": "2026-09-28T15:09:09.519Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Football (rugby, American football)",
+      "notes": "アメフト is also common, since フットボール can be confused with association football, which is サッカー in Japanese.",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "フットボール",
+        "reading": ""
+      },
+      "id": "7d7a133d-dd95-4201-9508-0688f74fb007"
+    },
+    {
+      "createdAt": "2026-09-28T15:07:46.831Z",
+      "updatedAt": "2026-09-28T15:07:46.831Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Soccer, (association) football",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "サッカー",
+        "reading": ""
+      },
+      "id": "f3f6b712-cb59-46b4-af66-9c4e4ed83dad"
+    },
+    {
+      "createdAt": "2026-09-28T15:09:36.226Z",
+      "updatedAt": "2026-09-28T15:09:36.226Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Pop music, popular music",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Music"
+      ],
+      "data": {
+        "expression": "ポップス",
+        "reading": ""
+      },
+      "id": "ddd9f6f0-4aca-45e6-b2f8-28c41a5f565e"
+    },
+    {
+      "createdAt": "2026-09-28T15:10:08.026Z",
+      "updatedAt": "2026-09-28T15:10:08.026Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Water",
+      "notes": "お水 is common.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "水[みず]",
+        "reading": "みず"
+      },
+      "id": "6197ad75-5e0c-4e4b-b20f-b2b258ce38f5"
+    },
+    {
+      "createdAt": "2026-09-28T15:10:53.598Z",
+      "updatedAt": "2026-09-28T15:10:53.598Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Milk; baby formula; coffee creamer",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "ミルク",
+        "reading": ""
+      },
+      "id": "23d0c6a3-3b34-4fa3-be6b-736c0be4f0a1"
+    },
+    {
+      "createdAt": "2026-09-28T15:11:23.726Z",
+      "updatedAt": "2026-09-28T15:11:23.726Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Baseball",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "野球[やきゅう]",
+        "reading": "やきゅう"
+      },
+      "id": "8cad52be-44e1-435c-91f8-f8732adfcc06"
+    },
+    {
+      "createdAt": "2026-09-28T15:11:41.448Z",
+      "updatedAt": "2026-09-28T15:11:41.448Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Vegetable",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Plants",
+        "Topic: Food",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "野菜[やさい]",
+        "reading": "やさい"
+      },
+      "id": "a583ad02-8383-4c43-97db-18dfb945283b"
+    },
+    {
+      "createdAt": "2026-09-28T15:12:45.956Z",
+      "updatedAt": "2026-09-28T15:12:45.956Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rap (Music), Plastic wrap, cling film, cling wrap",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Music",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "ラップ",
+        "reading": ""
+      },
+      "id": "46c9832d-3a1d-4ca5-8925-26664967c91b"
+    },
+    {
+      "createdAt": "2026-09-28T15:13:36.899Z",
+      "updatedAt": "2026-09-28T15:13:36.899Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Travel, trip",
+      "notes": "旅行する for \"traveling\" or \"to travel\"",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-7",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "旅行[りょこう]",
+        "reading": "りょこう"
+      },
+      "id": "8a38e748-a9c5-46f2-8d42-d1477ec32915"
+    },
+    {
+      "createdAt": "2026-09-28T15:13:57.177Z",
+      "updatedAt": "2026-09-28T15:13:57.177Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Apple (fruit)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "りんご",
+        "reading": ""
+      },
+      "id": "a76982f1-77ad-41f8-9bb5-331f18b8d2b4"
+    },
+    {
+      "createdAt": "2026-09-28T15:14:13.761Z",
+      "updatedAt": "2026-09-28T15:14:13.761Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Lettuce (Lactuca sativa)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Topic: Plants",
+        "Topic: Food",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "レタス",
+        "reading": ""
+      },
+      "id": "eccce22a-daa4-49e2-a6b1-34991bd61d4f"
+    },
+    {
+      "createdAt": "2026-09-28T15:15:38.895Z",
+      "updatedAt": "2026-09-28T15:15:38.895Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rock music; lock",
+      "notes": "Also: ロックンロール for Rock and Roll",
+      "tags": [
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-7",
+        "Topic: Music"
+      ],
+      "data": {
+        "expression": "ロック",
+        "reading": ""
+      },
+      "id": "0da3c357-6574-44d6-8c7f-895298daa463"
+    },
+    {
+      "createdAt": "2026-09-28T15:15:55.094Z",
+      "updatedAt": "2026-09-28T15:15:55.094Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Wine",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Drinks"
+      ],
+      "data": {
+        "expression": "ワイン",
+        "reading": ""
+      },
+      "id": "22df999e-018c-405c-9885-ee86bf016c05"
+    },
+    {
+      "createdAt": "2026-09-28T15:16:17.968Z",
+      "updatedAt": "2026-09-28T15:16:17.968Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To sing",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Topic: Music",
+        "Topic: Hobbies",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "歌[うた]う",
+        "reading": "うたう"
+      },
+      "id": "403020ec-3a78-40c1-92ef-5afb7cbf5fd9"
+    },
+    {
+      "createdAt": "2026-09-28T15:17:32.324Z",
+      "updatedAt": "2026-09-28T15:17:32.324Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To finish, to close",
+      "notes": "映画が終わる - The movie ends",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-7",
+        "Topic: Film"
+      ],
+      "data": {
+        "expression": "終[おわ]る",
+        "reading": "おわる"
+      },
+      "id": "ae45cea0-9135-4e71-a9f5-06d45e4b86d7"
+    },
+    {
+      "createdAt": "2026-09-28T15:18:11.991Z",
+      "updatedAt": "2026-09-28T15:18:11.991Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To make, to create",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "作[つく]る",
+        "reading": "つくる"
+      },
+      "id": "59c9efec-9bf2-4c1d-969c-b29716a8f550"
+    },
+    {
+      "createdAt": "2026-09-28T15:20:34.823Z",
+      "updatedAt": "2026-09-28T15:20:34.823Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To take (a photo), to make (a film)",
+      "notes": "写真を撮る. \"To take a photo\"\nNot to be confused with 取[と]る which also means \"To take\", but which is used for many other purposes such as \"To take a class\" or \"To gather flowers\".",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-7",
+        "Topic: Film"
+      ],
+      "data": {
+        "expression": "撮[と]る",
+        "reading": "とる"
+      },
+      "id": "7cf67977-4742-415e-871a-e14de82659b2"
+    },
+    {
+      "createdAt": "2026-09-28T15:22:01.862Z",
+      "updatedAt": "2026-09-28T15:22:01.862Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(something) begins",
+      "notes": "授業[じゅぎょう]が始[はじ]まる。\"The class begins\"",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "始[はじ]まる",
+        "reading": "はじまる"
+      },
+      "id": "efd6787c-fc27-4850-91c8-8a5ba6708eaa"
+    },
+    {
+      "createdAt": "2026-09-28T15:22:19.802Z",
+      "updatedAt": "2026-09-28T15:22:19.802Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Delicious, tasty",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-7",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "美味[おい]しい",
+        "reading": "おいしい"
+      },
+      "id": "ec9848a9-f044-4713-bc34-a4dbdc875aa4"
+    },
+    {
+      "createdAt": "2026-09-28T15:23:24.521Z",
+      "updatedAt": "2026-09-28T15:23:24.521Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Inexpensive; cheap (things)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-7",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "安[やす]い",
+        "reading": "やすい"
+      },
+      "id": "47c94edd-727a-4a86-b949-979521418693"
+    },
+    {
+      "createdAt": "2026-09-28T15:25:36.727Z",
+      "updatedAt": "2026-09-28T15:25:36.727Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dislike",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Opinions"
+      ],
+      "data": {
+        "expression": "嫌[きら]い",
+        "reading": "きらい"
+      },
+      "id": "fa69d43d-8167-49b1-b7cb-7c1a13d79674"
+    },
+    {
+      "createdAt": "2026-09-28T15:26:05.458Z",
+      "updatedAt": "2026-09-28T15:26:05.458Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To like, liking, fondness, love",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Opinions",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "好[す]き",
+        "reading": "すき"
+      },
+      "id": "7c714e51-c352-4097-b1bc-bf2307f58a0d"
+    },
+    {
+      "createdAt": "2026-09-28T15:26:18.126Z",
+      "updatedAt": "2026-09-28T15:26:18.126Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "More",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "もっと",
+        "reading": ""
+      },
+      "id": "27e94240-1357-4bf3-ae88-52e967fa5f92"
+    },
+    {
+      "createdAt": "2026-09-28T15:27:23.273Z",
+      "updatedAt": "2026-09-28T15:27:23.273Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Big, great; very much (When used as a prefix)",
+      "notes": "Prefix example: 大好き (To like very much)",
+      "tags": [
+        "Level: N3",
+        "Class: Prefix",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Opinions"
+      ],
+      "data": {
+        "expression": "大[だい]",
+        "reading": "だい"
+      },
+      "id": "ede625b4-5788-4bf6-82f9-7d9225f5adc1"
+    },
+    {
+      "createdAt": "2026-09-28T15:28:06.816Z",
+      "updatedAt": "2026-09-28T15:28:06.816Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "And then, after that",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Expression",
+        "Source: Nakama 1-7",
+        "Class: Conjunction",
+        "Topic: Speech"
+      ],
+      "data": {
+        "expression": "それから",
+        "reading": ""
+      },
+      "id": "4f0f151f-1ab7-4f20-8149-b4d17c50def4"
+    },
+    {
+      "createdAt": "2026-09-28T15:28:44.113Z",
+      "updatedAt": "2026-09-28T15:28:44.113Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "For example, e.g.",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Adverb",
+        "Source: Nakama 1-7",
+        "Topic: Speech"
+      ],
+      "data": {
+        "expression": "例[たと]えば",
+        "reading": "たとえば"
+      },
+      "id": "e52ffde2-c232-4798-8dd9-171939fd057c"
+    },
+    {
+      "createdAt": "2026-09-28T15:29:58.889Z",
+      "updatedAt": "2026-09-28T15:29:58.889Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "I neither like, nor dislike it.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-7",
+        "Topic: Opinions",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "*r:好[す]きでも**b:嫌[きら]いでも**y:ありません*。",
+        "literal": ""
+      },
+      "id": "bfd787d3-08fc-41cf-80dd-71a57093fd86"
+    },
+    {
+      "createdAt": "2026-09-28T15:30:42.847Z",
+      "updatedAt": "2026-09-28T15:30:42.847Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "~is a bit...",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-7",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "~(は) ちょっと…",
+        "literal": ""
+      },
+      "id": "f9a812a4-12e5-4125-b61d-7f503f149f91"
+    },
+    {
+      "createdAt": "2026-09-28T15:31:23.766Z",
+      "updatedAt": "2026-09-28T15:31:23.766Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "How about~?",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-7",
+        "Topic: Questions",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "~(は) どうですか。",
+        "literal": ""
+      },
+      "id": "439139c0-7733-4268-aba3-f5d1b2979374"
+    },
+    {
+      "createdAt": "2026-09-28T15:32:01.516Z",
+      "updatedAt": "2026-09-28T15:32:01.516Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Prawn, shrimp, lobster",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Animals",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "えび",
+        "reading": ""
+      },
+      "id": "60fd0222-83f1-4779-8499-82c9631e4f58"
+    },
+    {
+      "createdAt": "2026-09-28T15:32:25.176Z",
+      "updatedAt": "2026-09-28T15:32:25.176Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Beef",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "牛肉[ぎゅうにく]",
+        "reading": "ぎゅうにく"
+      },
+      "id": "ed8a36c3-2191-485d-9929-40a05dea499b"
+    },
+    {
+      "createdAt": "2026-09-28T15:33:03.690Z",
+      "updatedAt": "2026-09-28T15:33:28.177Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chicken meat",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "鶏肉[とりにく]",
+        "reading": "とりにく"
+      },
+      "id": "af896794-5099-4ee7-aa3f-758cfe18f8f4"
+    },
+    {
+      "createdAt": "2026-09-28T15:33:22.216Z",
+      "updatedAt": "2026-09-28T15:33:22.216Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Pork",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "豚肉[ぶたにく]",
+        "reading": "ぶたにく"
+      },
+      "id": "5b3059d8-b9b4-4015-b84a-10c64fdce2da"
+    },
+    {
+      "createdAt": "2026-09-28T15:34:28.748Z",
+      "updatedAt": "2026-09-28T15:34:28.748Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cabbage (Brassica oleracea)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "キャベツ",
+        "reading": ""
+      },
+      "id": "883da870-8413-4fad-bccf-39f9633ddbbb"
+    },
+    {
+      "createdAt": "2026-09-28T15:35:00.233Z",
+      "updatedAt": "2026-09-28T15:35:32.287Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cucumber (Cucumis sativus)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Plants",
+        "Topic: Food",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "きゅうり",
+        "reading": ""
+      },
+      "id": "dc0626f5-afcd-4090-8d08-a5a7f6aad980"
+    },
+    {
+      "createdAt": "2026-09-28T15:35:25.395Z",
+      "updatedAt": "2026-09-28T15:35:25.395Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Onion (Allium cepa)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "玉[たま]ねぎ",
+        "reading": "たまねぎ"
+      },
+      "id": "f16b0ed2-8c18-438d-a184-eefeda6c3976"
+    },
+    {
+      "createdAt": "2026-09-28T15:35:53.123Z",
+      "updatedAt": "2026-09-28T15:35:53.123Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Eggplant (Solanum melongena), aubergine",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "なす",
+        "reading": ""
+      },
+      "id": "f444d59a-3584-4aab-93b2-b522350da3e6"
+    },
+    {
+      "createdAt": "2026-09-28T15:36:19.666Z",
+      "updatedAt": "2026-09-28T15:36:19.666Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Welsh onion (Allium fistulosum), Japanese bunching onion, green onion",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "ねぎ",
+        "reading": ""
+      },
+      "id": "63d66b3f-e4fc-423b-a1f7-0130860eaf82"
+    },
+    {
+      "createdAt": "2026-09-28T15:37:19.156Z",
+      "updatedAt": "2026-09-28T15:37:19.156Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bell pepper (esp. green), green pepper, sweet pepper",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Food",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "ピーマン",
+        "reading": ""
+      },
+      "id": "b499831e-9612-4837-8da1-8673ca07f1b2"
+    },
+    {
+      "createdAt": "2026-09-28T15:37:38.423Z",
+      "updatedAt": "2026-09-28T15:37:38.423Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Spinach (Spinacia oleracea)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Plants",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "ほうれん 草[そう]",
+        "reading": "ほうれんそう"
+      },
+      "id": "4e3c164a-4b7c-43cd-81aa-a60fd03884ff"
+    },
+    {
+      "createdAt": "2026-09-28T15:37:56.101Z",
+      "updatedAt": "2026-09-28T15:37:56.101Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Strawberry (esp. the garden strawberry, Fragaria x ananassa)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Plants",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "いちご",
+        "reading": ""
+      },
+      "id": "4f9806d8-f2f7-483c-b30a-e3d4f53c2e75"
+    },
+    {
+      "createdAt": "2026-09-28T15:38:18.999Z",
+      "updatedAt": "2026-09-28T15:38:18.999Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Grapes",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Food",
+        "Topic: Plants",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "ぶどう",
+        "reading": ""
+      },
+      "id": "4b8f9062-37b2-499d-9576-5882a0589fc4"
+    },
+    {
+      "createdAt": "2026-09-28T15:38:51.288Z",
+      "updatedAt": "2026-09-28T15:38:51.288Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tangerine, mandarin (esp. the satsuma mandarin (Citrus unshiu)), mandarin orange,",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Plants",
+        "Topic: Food",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "みかん",
+        "reading": ""
+      },
+      "id": "62f97dde-9235-4774-8303-944c720d4780"
+    },
+    {
+      "createdAt": "2026-09-28T15:39:11.192Z",
+      "updatedAt": "2026-09-28T15:39:11.192Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Melon (esp. a muskmelon, Cucumis melo)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Plants",
+        "Topic: Food",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "メロン",
+        "reading": ""
+      },
+      "id": "92e3f730-f178-4906-b125-25fa65643027"
+    },
+    {
+      "createdAt": "2026-09-28T15:40:15.777Z",
+      "updatedAt": "2026-09-28T15:40:15.777Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Aerobics",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "エアロビクス",
+        "reading": ""
+      },
+      "id": "14d3b1d0-e37a-4d92-b198-8a5a75f7d457"
+    },
+    {
+      "createdAt": "2026-09-28T15:41:08.516Z",
+      "updatedAt": "2026-09-28T15:41:08.516Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Weight training, strength training",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-7",
+        "Class: Noun",
+        "Topic: Supplementary",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "筋トレ",
+        "reading": ""
+      },
+      "id": "98978ed7-76cd-4795-b5e2-f3164509287a"
+    },
+    {
+      "createdAt": "2026-09-28T15:41:37.797Z",
+      "updatedAt": "2026-09-28T15:41:37.797Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Judo",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "柔道[じゅうどう]",
+        "reading": "じゅうどう"
+      },
+      "id": "7b4e167b-cb08-41b7-acb5-296aefbfc059"
+    },
+    {
+      "createdAt": "2026-09-28T15:42:20.740Z",
+      "updatedAt": "2026-09-28T15:42:20.740Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Swimming",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Sports And Athletics",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "水泳[すいえい]",
+        "reading": "すいえい"
+      },
+      "id": "bf9f0b2f-5391-47a0-8158-356207355478"
+    },
+    {
+      "createdAt": "2026-09-28T15:42:42.319Z",
+      "updatedAt": "2026-09-28T15:42:42.319Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "skate(s), skating",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "スケート",
+        "reading": ""
+      },
+      "id": "55ee3dad-e56d-4b97-8de1-7d62b57a6675"
+    },
+    {
+      "createdAt": "2026-09-28T15:43:09.288Z",
+      "updatedAt": "2026-09-28T15:43:09.288Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Snowboard, snowboarding",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Sports And Athletics",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "スノーボード",
+        "reading": ""
+      },
+      "id": "f772d3ae-a299-4994-983b-12b022febc9f"
+    },
+    {
+      "createdAt": "2026-09-28T15:43:30.085Z",
+      "updatedAt": "2026-09-28T15:43:30.085Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Softball",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "ソフトボール",
+        "reading": ""
+      },
+      "id": "db60f5b0-f5d2-4ac8-ac65-641a3b957ca7"
+    },
+    {
+      "createdAt": "2026-09-28T15:44:04.220Z",
+      "updatedAt": "2026-09-28T15:44:04.220Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Volleyball",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Sports And Athletics",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "バレーボール",
+        "reading": ""
+      },
+      "id": "12ffabd6-07d6-4cad-9f3a-76b863d9b10b"
+    },
+    {
+      "createdAt": "2026-09-28T15:44:38.967Z",
+      "updatedAt": "2026-09-28T15:44:38.967Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bowling (esp. tenpin)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Hobbies",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "ボウリング",
+        "reading": ""
+      },
+      "id": "511e621c-ae0d-4d15-8ff3-1effbe342735"
+    },
+    {
+      "createdAt": "2026-09-28T15:45:56.069Z",
+      "updatedAt": "2026-09-28T15:45:56.069Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Flower arrangement",
+      "notes": "生け花をする. for \"To do flower arrangement\"",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Topic: Culture",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "生[い]け 花[ばな]",
+        "reading": "いけばな"
+      },
+      "id": "2eee6ddf-9c13-4e42-8483-b7adf227a32c"
+    },
+    {
+      "createdAt": "2026-09-28T15:46:36.756Z",
+      "updatedAt": "2026-09-28T15:46:36.756Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dance",
+      "notes": "おどりにいく。To go dancing",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "踊[おど]り",
+        "reading": "おどり"
+      },
+      "id": "d8410c7e-a173-4ac8-8ba3-60ee9ba9de2e"
+    },
+    {
+      "createdAt": "2026-09-28T15:47:49.794Z",
+      "updatedAt": "2026-09-28T15:47:49.794Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To enjoy gardening",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-7",
+        "Class: U-verb",
+        "Topic: Supplementary",
+        "Topic: Hobbies",
+        "Topic: Plants"
+      ],
+      "data": {
+        "expression": "ガーデニングを 楽[たの]しむ",
+        "reading": "ガーデニングをたのしむ"
+      },
+      "id": "bd44d16c-f0e3-4461-b926-679f3e90fe35"
+    },
+    {
+      "createdAt": "2026-09-28T15:48:32.986Z",
+      "updatedAt": "2026-09-28T15:48:32.986Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Guitar",
+      "notes": "ギターを弾[ひ]く - To play guitar.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Hobbies",
+        "Topic: Music"
+      ],
+      "data": {
+        "expression": "ギター",
+        "reading": ""
+      },
+      "id": "9c4ae8aa-edfc-4037-80ee-5ff104a00eb1"
+    },
+    {
+      "createdAt": "2026-09-28T15:49:47.538Z",
+      "updatedAt": "2026-09-28T15:49:47.538Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Postal (postage) stamps",
+      "notes": "切手[きって]を集[あつ]める。To collect stamps",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "切手[きって]",
+        "reading": "きって"
+      },
+      "id": "115c53a9-d3d3-467b-a52c-4f0d4a04e9a7"
+    },
+    {
+      "createdAt": "2026-09-28T15:50:14.246Z",
+      "updatedAt": "2026-09-28T15:50:14.246Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To collect, to gather (v.t.), to assemble",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Ru-verb",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "集[あつ]める",
+        "reading": "あつめる"
+      },
+      "id": "2e9126eb-da57-48fb-8038-6521965c546e"
+    },
+    {
+      "createdAt": "2026-09-28T15:51:06.168Z",
+      "updatedAt": "2026-09-28T15:51:06.168Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cycling, bicycling",
+      "notes": "サイクリングに行く。To go cycling",
+      "tags": [
+        "Class: Noun",
+        "Topic: Hobbies",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "expression": "サイクリング",
+        "reading": ""
+      },
+      "id": "82dea545-be3c-4cbe-a9d1-eedb6135ee9c"
+    },
+    {
+      "createdAt": "2026-09-28T15:52:40.175Z",
+      "updatedAt": "2026-09-28T15:52:40.175Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Politics",
+      "notes": "政治 [せいじ] について話 [はな] す。To talk about politics.",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Politics"
+      ],
+      "data": {
+        "expression": "政治[せいじ]",
+        "reading": "せいじ"
+      },
+      "id": "15948fd8-38e1-4d73-9303-c2da556a3a37"
+    },
+    {
+      "createdAt": "2026-09-28T15:53:26.211Z",
+      "updatedAt": "2026-09-28T15:53:26.211Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Blog",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Social",
+        "Topic: Supplementary",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "ブログ",
+        "reading": ""
+      },
+      "id": "19ca847b-9cbc-4a5e-8fa5-1900c4730c3f"
+    },
+    {
+      "createdAt": "2026-09-28T15:54:01.767Z",
+      "updatedAt": "2026-09-28T15:54:01.767Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A pet",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Animals",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "ペット",
+        "reading": ""
+      },
+      "id": "308e0cc0-7336-4f79-9507-5b271b79296d"
+    },
+    {
+      "createdAt": "2026-09-28T15:55:41.279Z",
+      "updatedAt": "2026-09-28T15:55:41.279Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Volunteer",
+      "notes": "ボランティア活動に参加する。\nボランティアかつどうにさんかする。\nTo participate in a volunteer activity.",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-7",
+        "Topic: Supplementary",
+        "Topic: Jobs"
+      ],
+      "data": {
+        "expression": "ボランティア",
+        "reading": ""
+      },
+      "id": "1861d18b-5dcf-4a92-9ec7-66b6e2dbc97b"
+    },
+    {
+      "createdAt": "2026-09-28T15:57:55.507Z",
+      "updatedAt": "2026-09-28T15:57:55.507Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "My friend likes tennis.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-7",
+        "Topic: Opinions"
+      ],
+      "data": {
+        "expression": "好き",
+        "example": "私[わたち]の 友達[ともだち]*y:は*テニス*y:が* *b:好[す]きです*。"
+      },
+      "id": "4536df07-ec71-4260-a768-efac2abd3a02"
+    },
+    {
+      "createdAt": "2026-09-28T16:00:51.139Z",
+      "updatedAt": "2026-09-28T16:00:51.139Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "I like reading books.",
+      "notes": "Dictionary form is used in conjunction with のが to create a noun phrase.",
+      "tags": [
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "Noun phrases",
+        "example": "私[わたし]は 本[ほん]を *b:読[よ]む**y:のが* 好[す]きです。"
+      },
+      "id": "ab6f2ea6-74a7-4e3d-8601-e6b5555b4621"
+    },
+    {
+      "createdAt": "2026-09-28T16:04:33.862Z",
+      "updatedAt": "2026-09-28T16:04:33.862Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "I cook often. But I do not clean very often.",
+      "notes": "Placing は in the second sentence indicates a strong contrast between the two statements.",
+      "tags": [
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "私[わたし]はよく 料理[りょうり]をします。でも、 掃除[そうじ]*b:は*あまりしません。",
+        "literal": ""
+      },
+      "id": "202790cd-fd24-4bec-9639-68ff26d2d33f"
+    },
+    {
+      "createdAt": "2026-09-28T16:08:49.244Z",
+      "updatedAt": "2026-09-28T16:08:49.244Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "I like black tea, but I don't like gree tea very much.",
+      "notes": "The particle \"が\" can be used in this context to mean \"but\", connecting two contrasting statements. It can also be used to introduce a conversation topic such as: あのう、すみませんが、今何時ですか。\"Um, excuse me, but what time is it?\"",
+      "tags": [
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "Expressing \"but\" as ~が",
+        "example": "紅茶[こうちゃ]は 好[す]きです*b:が*、お 茶[ちゃ]はあまり 好[す]きじゃないです。"
+      },
+      "id": "9b4766e7-edcf-47fd-8ea5-1cb3031f768c"
+    },
+    {
+      "createdAt": "2026-09-28T16:10:21.270Z",
+      "updatedAt": "2026-09-28T16:10:21.270Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Best (most), first, number one",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "一番[いちばん]",
+        "reading": "いちばん"
+      },
+      "id": "8dff04bf-89a6-46d2-99a4-db2cc5ca677a"
+    },
+    {
+      "createdAt": "2026-09-28T16:13:33.962Z",
+      "updatedAt": "2026-09-28T16:13:33.962Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "The library is the biggest building.",
+      "notes": "一番 is used to indicate that something is the first, or most of something. \nYou can indicate the scope of the statement with ~の中 such as: スポーツの中で何が一番面白いですか。\"Which sport is the most interesting?\"",
+      "tags": [
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "Superlatives using 一番",
+        "example": "図書館[としょかん]は *b:一番[いちばん]* 大[おお]きい 建物[たてもの]です。"
+      },
+      "id": "c9522713-6444-4a9a-893f-ff2febb2c283"
+    },
+    {
+      "createdAt": "2026-09-28T16:15:40.917Z",
+      "updatedAt": "2026-09-28T16:15:40.917Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "Kyoto is prettier than Tokyo.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "Comparatives using ~(の)方が ~より",
+        "example": "京都[きょうと]*b:のほうが*東京[とうきょう]*y:より*きらいです。"
+      },
+      "id": "fe09334b-65f3-4a18-81f8-c5ba6b970119"
+    },
+    {
+      "createdAt": "2026-09-28T16:17:21.238Z",
+      "updatedAt": "2026-09-28T16:17:21.238Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "I like Tokyo and Kyoto. (Without a preference over each)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-7",
+        "Topic: Opinions"
+      ],
+      "data": {
+        "expression": "Expressing lack of preference",
+        "example": "東京[とうきょう]*y:も*京都[きょうと]*y:も*好[す]きです。"
+      },
+      "id": "c44d2fc5-9967-4f77-bf92-011a4ec0670b"
+    },
+    {
+      "createdAt": "2026-09-28T16:20:39.647Z",
+      "updatedAt": "2026-09-28T16:20:39.647Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "grammar",
+      "meaning": "I like strawberries, so I often buy some.",
+      "notes": "Plain form + のど gives a meaning/reason behind another statement.",
+      "tags": [
+        "Source: Nakama 1-7"
+      ],
+      "data": {
+        "expression": "Giving reason with plain form + のど",
+        "example": "いちごが 好[す]きな*y:ので*、よく 買[か]います。"
+      },
+      "id": "c5060791-f8d1-492e-aed1-10ea3f6e8a31"
     }
   ]
 }

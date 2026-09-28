@@ -131,7 +131,7 @@ export function openEditor(id = null) {
     showTypeFields(card.type);
 
     const set = (name, value) => {
-        const field = editorForm.querySelector(`[name="${name}"]:not([disabled])`);
+        const field = editorForm.querySelector(`[name="${name}"]:enabled`);
         if (field) field.value = value ?? '';
     };
 
