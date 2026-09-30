@@ -1,5 +1,5 @@
 import { getClient, currentUser, sendMagicLink, signOut } from "../supabase.js";
-import { syncSessions } from "../sync.js";
+import { syncAll } from "../sync.js";
 
 const accountBtn = document.querySelector('#account-btn');
 const dialog = document.querySelector('#account-dialog');
@@ -70,7 +70,7 @@ export async function initAccount() {
         render(session?.user ?? null);
         if (event === 'SIGNED_IN') {
             dialog.close();
-            syncSessions().then((r) => r && console.log('Synced sessions', r));
+            syncAll().then((r) => console.log('Synced', r));
         }
     });
 

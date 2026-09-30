@@ -6,7 +6,7 @@
 const SCHEMA_VERSION = 1;
 
 export function emptyLog() {
-    return { schemaVersion: SCHEMA_VERSION, exportedAt: null, sessions: [] };
+    return { schemaVersion: SCHEMA_VERSION, exportedAt: null, sessions: [], practice: [] };
 }
 
 export const STUDY_SIDES = ['japanese', 'english', 'mix'];
@@ -24,6 +24,13 @@ function isSession(s) {
         && typeof s.id === 'string'
         && typeof s.startedAt === 'string'
         && Array.isArray(s.results);
+}
+
+function isPractice(p) {
+    return p
+        && typeof p.id === 'string'
+        && typeof p.practicedAt === 'string'
+        && Array.isArray(p.kanji);
 }
 
 export function parseLog(text) {
@@ -45,18 +52,31 @@ export function parseLog(text) {
         );
     }
 
-    return { ...emptyLog(), ...data, sessions: data.sessions.filter(isSession) };
+    return {
+        ...emptyLog(),
+        ...data,
+        sessions: data.sessions.filter(isSession),
+        practice: Array.isArray(data.practice) ? data.practice.filter(isPractice) : [],
+    };
+
 }
 
 /**
  * Union by id, oldest first
  */
-export function mergeSessions(mine, theirs) {
+function mergeById(mine, theirs, time) {
     const byId = new Map();
 
-    for (const session of [...mine, ...theirs]) {
-        if (!byId.has(session.id)) byId.set(session.id, session);
+    for (const record of [...mine, ...theirs]) {
+        if (!byId.has(record.id)) byId.set(record.id, record);
     }
 
-    return [...byId.values()].sort((a, b) => a.startedAt.localeCompare(b.startedAt));
+    return [...byId.values()].sort((a, b) => a[time].localeCompare(b[time]));
+}
+export function mergeSessions(mine, theirs) {
+    return mergeById(mine, theirs, 'startedAt');
+}
+
+export function mergePractice(mine, theirs) {
+    return mergeById(mine, theirs, 'practicedAt');
 }

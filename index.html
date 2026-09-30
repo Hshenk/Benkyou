@@ -270,20 +270,29 @@
             <div class="practice-bar">
                 <div class="field practice-bar__field">
                     <label class="field__label" for="practice-input">Kanji</label>
-                    <input class="input input--jp" type="text" lang="ja" id="practice-input"
-                        placeholder="食飲見聞" autocomplete="off" spellcheck="false">
+                    <div class="combo">
+                        <input class="input input--jp" type="text" lang="ja" id="practice-input"
+                            placeholder="食飲見聞" autocomplete="off" spellcheck="false"
+                            role="combobox" aria-autocomplete="list" aria-expanded="false"
+                            aria-controls="practice-suggestions">
+                        <ul class="suggest" id="practice-suggestions" role="listbox" aria-label="Kanji with this reading" hidden></ul>
+                    </div>
                     <p class="field__help" id="practice-count"></p>
                 </div>
 
                 <div class="practice-bar__actions">
                     <button class="btn btn--primary" type="button" id="practice-print">Print sheet</button>
                     <button class="btn" type="button" id="practice-blank">Print blank sheet</button>
+                    <button class="btn" type="button" id="practice-record">Record practice</button>
                 </div>
             </div>
 
             <p class="field__help practice-tip">
                 To download, choose <strong>Save as PDF</strong> as the printer.
             </p>
+
+            <p class="practice-log" id="practice-log" aria-live="polite"></p>
+
 
             <div class="sheet-preview" id="sheet-preview"></div>
         </section>

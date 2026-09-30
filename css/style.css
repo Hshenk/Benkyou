@@ -2342,6 +2342,18 @@ kbd {
     margin-top: var(--space-2);
 }
 
+.practice-log {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-top: var(--space-2);
+    min-height: 1.4em;          /* keeps the preview from jumping when it fills */
+}
+
+.practice-log [lang="ja"] {
+    color: var(--text);
+    font-size: 18px;
+}
+
 .sheet-preview {
     display: grid;
     gap: var(--space-4);

@@ -1,6 +1,6 @@
 import {
     getCollection, buildExport, commitExport, replaceCollection, lastSyncedVersion, isDirty, onChange,
-    markSynced, getSessions, buildSessionExport, importSessions, recordRepoSnapshot,
+    markSynced, getSessions, getPractice, buildSessionExport, importLog, recordRepoSnapshot,
 } from '../storage.js';
 import {
     serialize, parseCollection, diffCollections, mergeCollection, syncDecision,
@@ -158,11 +158,14 @@ async function doImport(file) {
     }
 
     if (Array.isArray(data.sessions) && !Array.isArray(data.cards)) {
-        const before = getSessions().length;
-        importSessions(parseLog(text));
-        alert(`Imported ${getSessions().length - before} new session(s).`);
+        const sessionsBefore = getSessions().length;
+        const practiceBefore = getPractice().length;
+        importLog(parseLog(text));
+        alert(`Imported ${getSessions().length - sessionsBefore} new session(s) and `
+            + `${getPractice().length - practiceBefore} practice record(s).`);
         return;
     }
+
 
     let incoming;
     try {
@@ -216,7 +219,7 @@ export function initTransfer(options = {}) {
 
 async function checkRepo({ quiet = true } = {}) {
     const remoteLog = await fetchSessions();
-    if (remoteLog) importSessions(remoteLog);
+    if (remoteLog) importLog(remoteLog);
 
     const remote = await fetchRepo();
     if (!remote) {

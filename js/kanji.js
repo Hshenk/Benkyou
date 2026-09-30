@@ -2,6 +2,7 @@
  * kanji.js - This is the only file that directly access the kanji data in data/kanji.js
  */
 import { splitTag, canonicalTag } from './tags.js';
+import { toHiragana } from './vocab.js';
 
 const kanjiData = './data/kanji.js';
 
@@ -60,4 +61,46 @@ export function cardLevel(card) {
     }
 
     return easiest;
+}
+
+// --- Search by reading ---
+function readingKey(reading) {
+    return toHiragana(reading.replace(/[.-]/g, ''));
+}
+
+let readingIndex = null;
+
+export function searchKanjiByReading(sheet, query, owned = new Set(), limit = 10) {
+    const key = toHiragana(query);
+    if (!key) return [];
+
+    readingIndex ??= Object.entries(sheet).map(([char, entry]) => ({
+        char,
+        entry,
+        readings: [...entry.on, ...entry.kun].map((text) => ({ text, key: readingKey(text) })),
+    }));
+
+    const found = [];
+
+    for (const { char, entry, readings } of readingIndex) {
+        const matched = readings.filter((r) => r.key.startsWith(key));
+        if (matched.length === 0) continue;
+
+        found.push({
+            char,
+            entry,
+            matched: matched.map((r) => r.text),
+            exact: matched.some((r) => r.key === key),
+            owned: owned.has(char),
+        });
+    }
+
+    const rank = (entry) => entry.freq ?? 2501;
+
+    found.sort((a, b) =>
+        (b.exact - a.exact)
+        || (b.owned - a.owned)
+        || (rank(a.entry) - rank(b.entry)));
+    
+    return found.slice(0, limit);
 }

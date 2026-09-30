@@ -5,6 +5,7 @@ import { initNotation } from "../notation.js";
 import { initPreviews } from "../preview.js";
 import { loadVocabSheet, searchVocab, classLabels, classTags, CLASS_NAMESPACE } from "../vocab.js";
 import { tokenize, plainText } from "../tokenize.js";
+import { initCombobox } from "../combobox.js";
 
 // --- Editor ---
 const editorTitle = document.querySelector('#view-editor .view__title');
@@ -24,9 +25,8 @@ let refreshPreviews = () => {};
 let tags = [];
 let onDone = () => {};
 // Vocab autofill
-let suggestions = [];
-let activeIndex = -1;
 let lastPick = null;
+let closeVocabList = () => {};
 
 
 function splitList(value) {
@@ -114,7 +114,7 @@ export function openEditor(id = null) {
 
     editorForm.reset();
     clearAutofillStatus();
-    closeSuggestions();
+    closeVocabList();
     lastPick = null;
     refreshTagSuggestions();
 
@@ -195,47 +195,14 @@ export function initEditor(options = {}) {
         loadVocabSheet();
     });
 
-    vocabExpression.addEventListener('input', () => {
-        updateSuggestions();
-    });
+    closeVocabList = initCombobox({
+        input: vocabExpression,
+        list: vocabList,
+        search: vocabMatches,
+        renderRow: fillVocabRow,
+        onPick: pickVocab,
+    }).close;
 
-    vocabExpression.addEventListener('blur', () => {
-        closeSuggestions();
-    });
-
-    vocabExpression.addEventListener('keydown', (event) => {
-        if (event.isComposing || vocabList.hidden) return;
-
-        const count = suggestions.length;
-
-        switch (event.key) {
-            case 'ArrowDown':
-                event.preventDefault();
-                setActive((activeIndex + 1) % count);
-                break;
-            case 'ArrowUp':
-                event.preventDefault();
-                setActive(activeIndex <= 0 ? count - 1 : activeIndex - 1);
-                break;
-            case 'Enter':
-                if (activeIndex < 0) return;
-                event.preventDefault();
-                pickVocab(suggestions[activeIndex]);
-                break;
-            case 'Escape':
-                event.preventDefault();
-                closeSuggestions();
-                break;
-        }
-    });
-
-    // Focus moves on mousedown. Cancel that and the input keeps it
-    vocabList.addEventListener('mousedown', (event) => event.preventDefault());
-
-    vocabList.addEventListener('click', (event) => {
-        const row = event.target.closest('.suggest__option');
-        if (row) pickVocab(suggestions[Number(row.dataset.index)]);
-    });
 
 
     // Notation
@@ -330,34 +297,21 @@ function vocabQuery() {
     return plainText(tokenize(vocabExpression.value)).replace(/[\s~～〜]/g, '');
 }
 
-async function updateSuggestions() {
+async function vocabMatches() {
     const query = vocabQuery();
-    if (!query) {
-        closeSuggestions();
-        return;
-    }
+    if (!query) return [];
 
     const sheet = await loadVocabSheet();
-    if (!sheet) {
-        closeSuggestions();
+    if  (!sheet) {
         setAutofillStatus('Could not load vocab data', 'error', vocabStatus);
-        return;
+        return [];
     }
 
-    // User kept typing or left the field
-    if (query !== vocabQuery() || document.activeElement !== vocabExpression) return;
-
-    showSuggestions(searchVocab(sheet, query));
+    return searchVocab(sheet, query);
 }
 
-function suggestionRow(entry, i) {
-    const row = document.createElement('li');
-    row.className = 'suggest__option';
-    row.id = `vocab-option-${i}`;
-    row.dataset.index = i;
+function fillVocabRow(row, entry) {
     row.title = entry.meaning;
-    row.setAttribute('role', 'option');
-    row.setAttribute('aria-selected', 'false');
 
     const word = document.createElement('span');
     word.className = 'suggest__word';
@@ -380,37 +334,11 @@ function suggestionRow(entry, i) {
         .join(' · ');
 
     row.append(word, reading, meaning, meta);
-    return row;
 }
 
-function showSuggestions(entries) {
-    suggestions = entries;
-    activeIndex = -1;
 
-    vocabList.replaceChildren(...entries.map(suggestionRow));
-    vocabList.hidden = entries.length === 0;
-
-    vocabExpression.setAttribute('aria-expanded', String(!vocabList.hidden));
-    vocabExpression.removeAttribute('aria-activedescendant');
-}
-
-function closeSuggestions() {
-    showSuggestions([]);
-}
-
-function setActive(index) {
-    vocabList.children[activeIndex]?.setAttribute('aria-selected', 'false');
-    activeIndex = index;
-
-    const row = vocabList.children[index];
-    row.setAttribute('aria-selected', 'true');
-    row.scrollIntoView({ block: 'nearest' });
-    vocabExpression.setAttribute('aria-activedescendant', row.id);
-}
 
 function pickVocab(entry) {
-    closeSuggestions();
-
     const meaningField = editorForm.querySelector('#card-meaning');
 
     // A second pick replaces what the first one filled

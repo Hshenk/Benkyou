@@ -4,7 +4,7 @@
  * Views import from here
  */
 import { canonicalTag, tagKey, normalizeTags, compareTags } from "./tags.js";
-import { emptyLog, mergeSessions } from "./sessions.js";
+import { emptyLog, mergeSessions, mergePractice } from "./sessions.js";
 
 const COLLECTION_KEY = 'benkyou:collection';
 const DEVICE_KEY = 'benkyou:device';
@@ -69,7 +69,7 @@ function load() {
     }
 
     try {
-        sessionLog = JSON.parse(localStorage.getItem(SESSIONS_KEY) ?? 'null') ?? emptyLog();
+        sessionLog = { ...emptyLog(), ...JSON.parse(localStorage.getItem(SESSIONS_KEY) ?? 'null') };
     } catch {
         sessionLog = emptyLog();
     }
@@ -376,8 +376,18 @@ export function addSession(record) {
     return writeSessions();
 }
 
-export function importSessions(incoming) {
-    sessionLog.sessions = mergeSessions(sessionLog.sessions, incoming.sessions);
+export function importLog(incoming) {
+    sessionLog.sessions = mergeSessions(sessionLog.sessions, incoming.sessions ?? []);
+    sessionLog.practice = mergePractice(sessionLog.practice, incoming.practice ?? []);
+    return writeSessions();
+}
+
+export function getPractice() {
+    return sessionLog.practice;
+}
+
+export function addPractice(record) {
+    sessionLog.practice.push(record);
     return writeSessions();
 }
 

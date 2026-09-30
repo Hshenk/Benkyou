@@ -7,7 +7,7 @@ import { initTransfer } from './views/transfer.js';
 import { initTags } from './views/tags.js';
 import { initStats } from './views/stats.js';
 import { initAccount } from './views/account.js';
-import { syncSessions } from './sync.js';
+import { syncAll } from './sync.js';
 import { initPractice } from './views/practice.js';
 
 
@@ -47,7 +47,9 @@ initStats({
 });
 
 initAccount();
-syncSessions().then((result) => result && console.log('Synced sessions', result));
+syncAll().then((result) => {
+    if (result.sessions || result.practice) console.log('Synced', result);
+});
 
 // "New Card" always shows blank form
 document.querySelector('.nav__btn[data-view="editor"]')

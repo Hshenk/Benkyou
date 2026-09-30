@@ -1,4 +1,11 @@
 import { SHEET, buildPages, cellGlyph, practiceKanji } from "../practice.js";
+import { loadKanjiSheet, searchKanjiByReading, meaningText } from "../kanji.js";
+import { getCards, getPractice, addPractice, onChange } from "../storage.js";
+import { syncPractice } from "../sync.js";
+import { localDay } from "../stats.js";
+import { initCombobox } from "../combobox.js";
+import { replaceSelection } from "../notation.js";
+
 
 const view = document.querySelector('#view-practice');
 const input = document.querySelector('#practice-input');
@@ -7,6 +14,10 @@ const printBtn = document.querySelector('#practice-print');
 const blankBtn = document.querySelector('#practice-blank');
 const preview = document.querySelector('#sheet-preview');
 const printArea = document.querySelector('#print-area');
+const suggestList = document.querySelector('#practice-suggestions');
+const recordBtn = document.querySelector('#practice-record');
+const logEl = document.querySelector('#practice-log');
+
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 
@@ -120,14 +131,126 @@ function render() {
     preview.replaceChildren(...drawPages(pages));
     printBtn.disabled = chars.length === 0;
 
+    const recorded = chars.length > 0 && input.value === recordedText;
+    recordBtn.disabled = chars.length === 0 || recorded;
+    recordBtn.textContent = recorded ? 'Recorded' : 'Record practice';
+
     const plural = pages.length === 1 ? '' : 's';
     countEl.textContent = chars.length === 0
-        ? 'Kana, letters and spaces are skipped.'
+        ? 'Type kanji, or a reading in kana to look one up.'
         : `${chars.length} kanji · ${pages.length} page${plural}`;
 }
 
-// --- Printing ---
+// --- Finding kanji by reading ---
 
+// Kana at the end of a string. ー is listed on its own: Unicode files it under
+// neither script, since both use it.
+const KANA_RUN = /[\p{Script=Hiragana}\p{Script=Katakana}ー]+$/u;
+
+// The kana just before the cursor
+function kanaBeforeCursor() {
+    const end = input.selectionStart;
+    const match = KANA_RUN.exec(input.value.slice(0, end));
+    return match ? { text: match[0], start: match.index, end } : null;
+}
+
+// Characters of kanji cards
+function ownedKanji() {
+    return new Set(getCards()
+        .filter((card) => card.type === 'kanji')
+        .map((card) => card.data?.character?.trim()));
+}
+
+async function kanjiMatches() {
+    const kana = kanaBeforeCursor();
+    if (!kana) return [];
+
+    const sheet = await loadKanjiSheet();
+    if (!sheet) return [];
+
+    return searchKanjiByReading(sheet, kana.text, ownedKanji());
+}
+
+function fillKanjiRow(row, { char, entry, matched, owned }) {
+    row.title = meaningText(entry);
+
+    const glyph = document.createElement('span');
+    glyph.className = 'suggest__word';
+    glyph.lang = 'ja';
+    glyph.textContent = char;
+
+    const readings = document.createElement('span');
+    readings.className = 'suggest__reading';
+    readings.lang = 'ja';
+    readings.textContent = matched.join('、');
+
+    const meaning = document.createElement('span');
+    meaning.className = 'suggest__meaning';
+    meaning.textContent = meaningText(entry);
+
+    const meta = document.createElement('span');
+    meta.className = 'suggest__meta';
+    meta.textContent = [entry.jlpt ? `N${entry.jlpt}` : '', owned ? 'in your cards' : '']
+        .filter(Boolean)
+        .join(' · ');
+
+    row.append(glyph, readings, meaning, meta);
+}
+
+// Swap the kana before the cursor
+function pickKanji({ char }) {
+    const kana = kanaBeforeCursor();
+    if (!kana) return;
+
+    input.setSelectionRange(kana.start, kana.end);
+    replaceSelection(input, char);
+}
+
+// --- Recording Practice ---
+
+// the field's text the last time Record was pressed
+let recordedText = null;
+
+function recordPractice() {
+    const kanji = practiceKanji(input.value);
+    if (kanji.length === 0) return;
+
+    addPractice({
+        id: crypto.randomUUID(),
+        practicedAt: new Date().toISOString(),
+        kanji,
+    });
+
+    recordedText = input.value;
+    render();
+    syncPractice();
+}
+
+// "Practiced today: 食×2 飲", from every record made today
+function renderLog() {
+    const today = localDay(new Date());
+    const counts = new Map();
+
+    for (const record of getPractice()) {
+        if (localDay(record.practicedAt) !== today) continue;
+        for (const char of record.kanji) counts.set(char, (counts.get(char) ?? 0) + 1);
+    }
+
+    if (counts.size === 0) {
+        logEl.replaceChildren();
+        return;
+    }
+
+    const kanji = document.createElement('span');
+    kanji.lang = 'ja';
+    kanji.textContent = [...counts]
+        .map(([char, n]) => (n > 1 ? `${char}×${n}` : char))
+        .join(' ');
+
+    logEl.replaceChildren('Practiced today: ', kanji);
+}
+
+// --- Printing ---
 let savedTitle = null;
 
 // A filename for save as PDF
@@ -188,5 +311,22 @@ export function initPractice() {
 
     window.addEventListener('afterprint', finishPrint);
 
+    // --- Finding kanji by reading ---
+    input.addEventListener('focus', () => {
+        loadKanjiSheet();
+    });
+
+    initCombobox({
+        input,
+        list: suggestList,
+        search: kanjiMatches,
+        renderRow: fillKanjiRow,
+        onPick: pickKanji,
+        autoSelect: true,
+    });
+
+    // --- Recording practice ---
+    recordBtn.addEventListener('click', recordPractice);
+    onChange(renderLog);
     render();
 }

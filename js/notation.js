@@ -22,7 +22,7 @@ const SHORTCUTS = {
 };
 
 // Write over the field's selection
-function replaceSelection(field, text) {
+export function replaceSelection(field, text) {
     field.focus();
 
     // Deprecated, but the only way to insert as if typed so that undo still works
