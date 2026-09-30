@@ -328,5 +328,6 @@ export function initPractice() {
     // --- Recording practice ---
     recordBtn.addEventListener('click', recordPractice);
     onChange(renderLog);
+    renderLog();
     render();
 }
