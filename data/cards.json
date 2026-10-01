@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 32,
-  "exportedAt": "2026-10-01T03:09:31.378Z",
+  "version": 33,
+  "exportedAt": "2026-10-01T14:52:44.259Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -9615,7 +9615,7 @@
     },
     {
       "createdAt": "2026-09-25T18:26:08.260Z",
-      "updatedAt": "2026-09-25T18:26:08.260Z",
+      "updatedAt": "2026-10-01T14:19:03.977Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -9624,7 +9624,8 @@
       "tags": [
         "Level: N5",
         "Class: い-adjective",
-        "Source: Nakama 1-5"
+        "Source: Nakama 1-5",
+        "Topic: Personality"
       ],
       "data": {
         "expression": "明[あか]るい",
@@ -9984,7 +9985,7 @@
     },
     {
       "createdAt": "2026-09-27T15:05:49.817Z",
-      "updatedAt": "2026-09-27T16:01:14.676Z",
+      "updatedAt": "2026-10-01T14:43:39.910Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
@@ -9995,7 +9996,7 @@
         "Class: Noun",
         "Class: する-verb",
         "Source: Nakama 1-6",
-        "Topic: Jobs"
+        "Topic: Occupations"
       ],
       "data": {
         "expression": "アルバイト",
@@ -10174,7 +10175,7 @@
     },
     {
       "createdAt": "2026-09-27T15:17:43.439Z",
-      "updatedAt": "2026-09-27T15:18:10.649Z",
+      "updatedAt": "2026-10-01T14:43:39.910Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -10184,7 +10185,7 @@
         "Level: N5",
         "Class: Noun",
         "Class: する-verb",
-        "Topic: Jobs",
+        "Topic: Occupations",
         "Source: Nakama 1-6"
       ],
       "data": {
@@ -11711,7 +11712,7 @@
     },
     {
       "createdAt": "2026-09-27T16:38:14.918Z",
-      "updatedAt": "2026-09-27T16:38:14.918Z",
+      "updatedAt": "2026-10-01T14:43:39.910Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "kanji",
@@ -11720,7 +11721,7 @@
       "tags": [
         "Level: N4",
         "Source: Nakama 2-3",
-        "Topic: Jobs",
+        "Topic: Occupations",
         "Topic: Office"
       ],
       "data": {
@@ -14531,7 +14532,7 @@
     },
     {
       "createdAt": "2026-09-28T15:55:41.279Z",
-      "updatedAt": "2026-09-28T15:55:41.279Z",
+      "updatedAt": "2026-10-01T14:43:39.910Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -14541,7 +14542,7 @@
         "Class: Noun",
         "Source: Nakama 1-7",
         "Topic: Supplementary",
-        "Topic: Jobs"
+        "Topic: Occupations"
       ],
       "data": {
         "expression": "ボランティア",
@@ -17596,7 +17597,7 @@
     },
     {
       "createdAt": "2026-10-01T02:35:39.128Z",
-      "updatedAt": "2026-10-01T02:35:39.128Z",
+      "updatedAt": "2026-10-01T14:43:39.910Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -17607,7 +17608,7 @@
         "Source: Nakama 1-10",
         "Topic: Office",
         "Topic: People",
-        "Topic: Jobs"
+        "Topic: Occupations"
       ],
       "data": {
         "expression": "会社員[かいしゃいん]",
@@ -18556,7 +18557,7 @@
     },
     {
       "createdAt": "2026-10-01T03:01:50.010Z",
-      "updatedAt": "2026-10-01T03:01:50.010Z",
+      "updatedAt": "2026-10-01T14:17:00.802Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -18566,7 +18567,8 @@
         "Level: N4",
         "Class: な-adjective",
         "Class: Noun",
-        "Source: Nakama 1-10"
+        "Source: Nakama 1-10",
+        "Topic: Personality"
       ],
       "data": {
         "expression": "親切[しんせつ]",
@@ -18768,6 +18770,1038 @@
         "literal": ""
       },
       "id": "7a73d4da-60c3-4abe-bb94-cf88caeb5768"
+    },
+    {
+      "createdAt": "2026-10-01T13:54:17.414Z",
+      "updatedAt": "2026-10-01T13:54:17.414Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cousin (the speaker's) (male)",
+      "notes": "Written as: 従姉妹[いとこ] if female.\nAdd ~さん for someone else's cousin.",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "従兄弟[いとこ]",
+        "reading": "いとこ"
+      },
+      "id": "b07ff6a9-9022-4e58-aaaa-a0a87a837aa2"
+    },
+    {
+      "createdAt": "2026-10-01T13:56:14.431Z",
+      "updatedAt": "2026-10-01T13:56:14.431Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Nephew (the speaker's)",
+      "notes": "甥御さん【おいごさん】for someone else's nephew.",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "甥[おい]",
+        "reading": "おい"
+      },
+      "id": "2c2096c4-f179-476c-a129-99dbc0d537dd"
+    },
+    {
+      "createdAt": "2026-10-01T13:57:38.671Z",
+      "updatedAt": "2026-10-01T13:57:38.671Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(humble) uncle (the speaker's) (older than one's parent)",
+      "notes": "Add ~さん for someone else's uncle.",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "伯父[おじ]",
+        "reading": "おじ"
+      },
+      "id": "2b4007c0-7cb0-4ba9-89a5-bca707b5bdaf"
+    },
+    {
+      "createdAt": "2026-10-01T13:58:18.655Z",
+      "updatedAt": "2026-10-01T13:58:18.655Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Uncle (The speaker's) (younger than one's parent)",
+      "notes": "Add さん for someone else's uncle.",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "叔父[おじ]",
+        "reading": "おじ"
+      },
+      "id": "a719e916-2a3b-448e-9f55-35d00c3f2f9a"
+    },
+    {
+      "createdAt": "2026-10-01T13:59:22.256Z",
+      "updatedAt": "2026-10-01T14:03:43.477Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(humble) aunt (the speaker's) (older than one's parent)",
+      "notes": "Add さん for someone else's aunt.",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "伯母[おば]",
+        "reading": "おば"
+      },
+      "id": "8b1f0848-5ccf-4c22-a092-ca742fbbac72"
+    },
+    {
+      "createdAt": "2026-10-01T13:59:57.912Z",
+      "updatedAt": "2026-10-01T14:03:37.597Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Aunt (the speaker's) (younger than one's parent)",
+      "notes": "Add さん for someone else's aunt.",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: Family",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "叔母[おば]",
+        "reading": "おば"
+      },
+      "id": "00525d58-bc72-4f0a-8a3c-5db5817cb773"
+    },
+    {
+      "createdAt": "2026-10-01T14:00:14.922Z",
+      "updatedAt": "2026-10-01T14:03:32.137Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Relative(s) (the speaker's)",
+      "notes": "ご親戚 for someone else's relatives.",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "親戚[しんせき]",
+        "reading": "しんせき"
+      },
+      "id": "5aeca860-5bb4-4d75-b6cd-a944e6f830f5"
+    },
+    {
+      "createdAt": "2026-10-01T14:01:11.503Z",
+      "updatedAt": "2026-10-01T14:03:25.808Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Niece (the speaker's)",
+      "notes": "姪御さん【めいごさん】for someone else's niece.",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: Family",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "姪[めい]",
+        "reading": "めい"
+      },
+      "id": "f5b0534d-84df-4140-962e-a11b426670dc"
+    },
+    {
+      "createdAt": "2026-10-01T14:02:49.492Z",
+      "updatedAt": "2026-10-01T14:03:18.968Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Grandchild (the speaker's)",
+      "notes": "お孫さん for someone else's grandchild.",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: Family",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "孫[まご]",
+        "reading": "まご"
+      },
+      "id": "0f3a112d-6b4a-4eb1-859d-104fab48f38e"
+    },
+    {
+      "createdAt": "2026-10-01T14:03:13.426Z",
+      "updatedAt": "2026-10-01T14:03:13.426Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chin",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "顎[あご]",
+        "reading": "あご"
+      },
+      "id": "bd00ea29-baf0-4649-b2b7-0232745c953d"
+    },
+    {
+      "createdAt": "2026-10-01T14:04:11.222Z",
+      "updatedAt": "2026-10-01T14:04:11.222Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Arm (in reference to body)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "腕[うで]",
+        "reading": "うで"
+      },
+      "id": "748ecbbb-602a-4edb-b93f-5c763ca1f254"
+    },
+    {
+      "createdAt": "2026-10-01T14:05:05.311Z",
+      "updatedAt": "2026-10-01T14:05:05.311Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Stomach",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "お 腹[なか]",
+        "reading": "おなか"
+      },
+      "id": "abc12f92-a5eb-457d-a79a-d99604a73957"
+    },
+    {
+      "createdAt": "2026-10-01T14:05:25.726Z",
+      "updatedAt": "2026-10-01T14:05:25.726Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Shoulder",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "肩[かた]",
+        "reading": "かた"
+      },
+      "id": "09c07674-d4ec-4595-af7d-0e4a1947c6de"
+    },
+    {
+      "createdAt": "2026-10-01T14:06:39.452Z",
+      "updatedAt": "2026-10-01T14:06:39.452Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Body; health",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body",
+        "Topic: Health"
+      ],
+      "data": {
+        "expression": "体[からだ]",
+        "reading": "からだ"
+      },
+      "id": "8e164c4d-d638-4bd8-b182-cc35f9852d64"
+    },
+    {
+      "createdAt": "2026-10-01T14:06:59.950Z",
+      "updatedAt": "2026-10-01T14:06:59.950Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Lip",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "唇[くちびる]",
+        "reading": "くちびる"
+      },
+      "id": "2967997b-c813-4a93-b24d-40a6ffa73054"
+    },
+    {
+      "createdAt": "2026-10-01T14:07:30.175Z",
+      "updatedAt": "2026-10-01T14:07:30.175Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Neck",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "首[くび]",
+        "reading": "くび"
+      },
+      "id": "738426b3-0918-4697-9710-f4aba997e84f"
+    },
+    {
+      "createdAt": "2026-10-01T14:07:55.803Z",
+      "updatedAt": "2026-10-01T14:07:55.803Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hip, waist",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "腰[こし]",
+        "reading": "こし"
+      },
+      "id": "1b6100fd-5de8-4a7d-b414-2f426d528831"
+    },
+    {
+      "createdAt": "2026-10-01T14:08:37.781Z",
+      "updatedAt": "2026-10-01T14:08:37.781Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Back (of body)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "背中[せなか]",
+        "reading": "せなか"
+      },
+      "id": "15aed550-3784-4998-85ce-5fb7eb91e79d"
+    },
+    {
+      "createdAt": "2026-10-01T14:08:59.522Z",
+      "updatedAt": "2026-10-01T14:08:59.522Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fingernail or toenail",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "爪[つめ]",
+        "reading": "つめ"
+      },
+      "id": "5eb713ad-60f2-42ae-8161-92635688c5e9"
+    },
+    {
+      "createdAt": "2026-10-01T14:09:36.544Z",
+      "updatedAt": "2026-10-01T14:09:36.544Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Throat",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "喉[のど]",
+        "reading": "のど"
+      },
+      "id": "00a5bf2d-8ef2-479d-8874-31f690540211"
+    },
+    {
+      "createdAt": "2026-10-01T14:10:00.492Z",
+      "updatedAt": "2026-10-01T14:10:00.492Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tooth",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "歯[は]",
+        "reading": "は"
+      },
+      "id": "79fb3796-16ea-4491-be86-73368eaece05"
+    },
+    {
+      "createdAt": "2026-10-01T14:10:46.946Z",
+      "updatedAt": "2026-10-01T14:10:46.946Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Beard",
+      "notes": "Usually written with just kana, but 髭 is correct.",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "ひげ",
+        "reading": ""
+      },
+      "id": "ef8077f5-b4cd-45d8-8423-f72bc13a97de"
+    },
+    {
+      "createdAt": "2026-10-01T14:11:21.387Z",
+      "updatedAt": "2026-10-01T14:11:21.387Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cheek",
+      "notes": "Can also use ほお",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "ほっぺた",
+        "reading": ""
+      },
+      "id": "520163af-815c-4860-8004-bd3003fc8370"
+    },
+    {
+      "createdAt": "2026-10-01T14:13:14.488Z",
+      "updatedAt": "2026-10-01T14:13:14.488Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Eyelash",
+      "notes": "Usually written as just kanji, but まつ毛 is correct. \nCan also be condensed into one kanji, 睫, but that's rarely done.",
+      "tags": [
+        "Class: Noun",
+        "Topic: Supplementary",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "まつげ",
+        "reading": ""
+      },
+      "id": "02e646ed-b386-4be9-89db-fb55c9f2ee35"
+    },
+    {
+      "createdAt": "2026-10-01T14:15:30.733Z",
+      "updatedAt": "2026-10-01T14:15:30.733Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Eyebrow",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "眉[まゆ]毛[げ]",
+        "reading": "まゆ"
+      },
+      "id": "0730e533-bf1a-41cd-a829-49cca03edc8d"
+    },
+    {
+      "createdAt": "2026-10-01T14:15:44.016Z",
+      "updatedAt": "2026-10-01T14:15:44.016Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Finger",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "指[ゆび]",
+        "reading": "ゆび"
+      },
+      "id": "881e7b14-6a44-40d9-98dd-ad7ec17f9bcd"
+    },
+    {
+      "createdAt": "2026-10-01T14:16:52.695Z",
+      "updatedAt": "2026-10-01T14:16:52.695Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Shy, bashful, timid",
+      "notes": "",
+      "tags": [
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Personality"
+      ],
+      "data": {
+        "expression": "内気[うちき]",
+        "reading": "うちき"
+      },
+      "id": "507111fa-21d5-4fed-ae74-2ffd95184394"
+    },
+    {
+      "createdAt": "2026-10-01T14:18:35.814Z",
+      "updatedAt": "2026-10-01T14:18:35.814Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Smart (Literally: \"head good\")",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Topic: Personality",
+        "Class: い-adjective"
+      ],
+      "data": {
+        "expression": "頭がいい",
+        "reading": ""
+      },
+      "id": "734a9d22-45e6-455b-9b12-62d74a3d73a4"
+    },
+    {
+      "createdAt": "2026-10-01T14:19:37.853Z",
+      "updatedAt": "2026-10-01T14:25:18.876Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Calm, gentle, quiet",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: な-adjective",
+        "Source: Nakama 1-10",
+        "Topic: Personality",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "穏[おだ]やか",
+        "reading": "おだやか"
+      },
+      "id": "0af82fde-239f-4299-b2a9-804d2c1bdb3c"
+    },
+    {
+      "createdAt": "2026-10-01T14:21:55.251Z",
+      "updatedAt": "2026-10-01T14:25:15.292Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Strong-minded",
+      "notes": "",
+      "tags": [
+        "Class: い-adjective",
+        "Topic: Personality",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "気[き]が 強[つよ]い",
+        "reading": "きがつよい"
+      },
+      "id": "49e56194-5504-477d-802b-5ca5ffa6ce40"
+    },
+    {
+      "createdAt": "2026-10-01T14:23:07.264Z",
+      "updatedAt": "2026-10-01T14:25:05.992Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Patient",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Personality",
+        "Class: い-adjective"
+      ],
+      "data": {
+        "expression": "気[き]が 長[なが]い",
+        "reading": "きがながい"
+      },
+      "id": "a3da968b-9b93-48cf-82db-03a46885feab"
+    },
+    {
+      "createdAt": "2026-10-01T14:23:58.138Z",
+      "updatedAt": "2026-10-01T14:24:57.650Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Impatient, hasty, rash",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Class: い-adjective",
+        "Topic: Personality"
+      ],
+      "data": {
+        "expression": "気[き]が 早[はや]い",
+        "reading": "きがはやい"
+      },
+      "id": "fbb7ae8c-d9fe-4c0c-aac1-01d8596f3553"
+    },
+    {
+      "createdAt": "2026-10-01T14:24:43.132Z",
+      "updatedAt": "2026-10-01T14:26:45.907Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Short-tempered; quick temper; hot temper; impatience",
+      "notes": "Can also use: 短気（な）for short-tempered.",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Class: い-adjective",
+        "Topic: Personality"
+      ],
+      "data": {
+        "expression": "気[き]が短[みじか]い",
+        "reading": "きがみじかい"
+      },
+      "id": "748c49df-1c24-4609-b8c9-c08976355143"
+    },
+    {
+      "createdAt": "2026-10-01T14:27:35.894Z",
+      "updatedAt": "2026-10-01T14:27:35.894Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Weak-minded; timid; faint of heart",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Personality"
+      ],
+      "data": {
+        "expression": "気[き]が 弱[よわ]い",
+        "reading": "きがよわい"
+      },
+      "id": "6218f8ab-bf27-4354-a6e0-e28a636bbe3d"
+    },
+    {
+      "createdAt": "2026-10-01T14:29:03.631Z",
+      "updatedAt": "2026-10-01T14:29:03.631Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dark, gloomy",
+      "notes": "When used to describe a person's personality, it can mean somber or nerdy.",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Personality"
+      ],
+      "data": {
+        "expression": "暗[くら]い",
+        "reading": "くらい"
+      },
+      "id": "d71d4a07-31e5-4a57-a0b4-0b9cd3701314"
+    },
+    {
+      "createdAt": "2026-10-01T14:29:54.518Z",
+      "updatedAt": "2026-10-01T14:29:54.518Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Quick temper; short-tempered; impatient",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Class: な-adjective",
+        "Source: Nakama 1-10",
+        "Topic: Personality",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "短気[たんき]",
+        "reading": "たんき"
+      },
+      "id": "8238b3f4-b222-435d-9874-c89b22a8d2a9"
+    },
+    {
+      "createdAt": "2026-10-01T14:30:52.171Z",
+      "updatedAt": "2026-10-01T14:30:52.171Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Carefree, at leisure",
+      "notes": "のんびりしている to describe someone as easygoing or carefree.",
+      "tags": [
+        "Level: N3",
+        "Class: Adverb",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Personality"
+      ],
+      "data": {
+        "expression": "のんびり",
+        "reading": ""
+      },
+      "id": "a7b7fc97-3c71-4f42-8858-b28a808a3482"
+    },
+    {
+      "createdAt": "2026-10-01T14:31:32.186Z",
+      "updatedAt": "2026-10-01T14:31:32.186Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Diligent, serious, studious",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Personality",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "真面目[まじめ]",
+        "reading": "まじめ"
+      },
+      "id": "562eda1f-5e41-4135-b43e-89a6d4927125"
+    },
+    {
+      "createdAt": "2026-10-01T14:43:13.024Z",
+      "updatedAt": "2026-10-01T14:44:52.661Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Doctor; physician",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Occupations",
+        "Topic: Health"
+      ],
+      "data": {
+        "expression": "医者[いしゃ]",
+        "reading": "いしゃ"
+      },
+      "id": "caaf8b3b-a84a-41a3-ae8d-b3fa89be6a8c"
+    },
+    {
+      "createdAt": "2026-10-01T14:44:17.540Z",
+      "updatedAt": "2026-10-01T14:44:17.540Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Engineer",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Occupations"
+      ],
+      "data": {
+        "expression": "エンジニア",
+        "reading": ""
+      },
+      "id": "49c158af-8e28-4f3a-8983-26f6fc61f5d7"
+    },
+    {
+      "createdAt": "2026-10-01T14:44:45.776Z",
+      "updatedAt": "2026-10-01T14:44:45.776Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(hospital) nurse, registered nurse, RN",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Occupations",
+        "Topic: Supplementary",
+        "Topic: Health"
+      ],
+      "data": {
+        "expression": "看護師[かんごし]",
+        "reading": "かんごし"
+      },
+      "id": "70bad047-3f29-454a-8a27-7e78e6f92553"
+    },
+    {
+      "createdAt": "2026-10-01T14:46:04.947Z",
+      "updatedAt": "2026-10-01T14:46:04.947Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Teacher, instructor",
+      "notes": "You can also use 教員【きょういん】",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: School",
+        "Topic: Occupations"
+      ],
+      "data": {
+        "expression": "教師[きょうし]",
+        "reading": "きょうし"
+      },
+      "id": "c60957a5-97fd-4a01-9f72-016426c0a8e8"
+    },
+    {
+      "createdAt": "2026-10-01T14:46:31.459Z",
+      "updatedAt": "2026-10-01T14:46:31.459Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Government worker, public servant",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Occupations",
+        "Topic: Government"
+      ],
+      "data": {
+        "expression": "公務員[こうむいん]",
+        "reading": "こうむいん"
+      },
+      "id": "ca1f6764-04b7-4930-a5d8-a89f26359a63"
+    },
+    {
+      "createdAt": "2026-10-01T14:46:52.790Z",
+      "updatedAt": "2026-10-01T14:46:52.790Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Salaryman; company employee",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Occupations",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "サラリーマン",
+        "reading": ""
+      },
+      "id": "a00f2d00-116c-4446-b4b8-0dfc3f9fd659"
+    },
+    {
+      "createdAt": "2026-10-01T14:47:20.916Z",
+      "updatedAt": "2026-10-01T14:47:20.916Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Independent business, self-employment",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Occupations",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "自営業[じえいぎょう]",
+        "reading": "じえいぎょう"
+      },
+      "id": "09731eab-aa69-48cd-9802-2a28fb325e98"
+    },
+    {
+      "createdAt": "2026-10-01T14:48:44.617Z",
+      "updatedAt": "2026-10-01T14:48:44.617Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "College professor",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Topic: School",
+        "Topic: Occupations",
+        "Class: Noun",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "大学[だいがく] 教授[きょうじゅ]",
+        "reading": "だいがくきょうじゅ"
+      },
+      "id": "1893b44a-515c-4900-83d8-3239c1ffefb1"
+    },
+    {
+      "createdAt": "2026-10-01T14:49:07.874Z",
+      "updatedAt": "2026-10-01T14:49:07.874Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dentist",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Occupations",
+        "Topic: Health"
+      ],
+      "data": {
+        "expression": "歯医者[はいしゃ]",
+        "reading": "はいしゃ"
+      },
+      "id": "44094521-0e40-4628-b899-bef80acd4c68"
+    },
+    {
+      "createdAt": "2026-10-01T14:49:29.752Z",
+      "updatedAt": "2026-10-01T14:49:29.752Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Lawyer, attorney",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Supplementary",
+        "Topic: Occupations"
+      ],
+      "data": {
+        "expression": "弁護士[べんごし]",
+        "reading": "べんごし"
+      },
+      "id": "7dac9bc8-8f55-457f-b5d9-84928ea980e7"
+    },
+    {
+      "createdAt": "2026-10-01T14:49:56.098Z",
+      "updatedAt": "2026-10-01T14:49:56.098Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Manager",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Occupations",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "マネージャー",
+        "reading": ""
+      },
+      "id": "d8bb9d03-9e8c-4e3c-93c6-d66f00f0db9c"
     }
   ]
 }
