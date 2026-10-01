@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 31,
-  "exportedAt": "2026-10-01T01:50:46.685Z",
+  "version": 32,
+  "exportedAt": "2026-10-01T03:09:31.378Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -17259,6 +17259,1515 @@
         "literal": "As for drinks, what will you decide on?"
       },
       "id": "526354ea-7f21-443c-8d86-4aaef259c35f"
+    },
+    {
+      "createdAt": "2026-10-01T02:24:59.261Z",
+      "updatedAt": "2026-10-01T02:24:59.261Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Foot; leg",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "足[あし]",
+        "reading": "あし"
+      },
+      "id": "5eb3976e-13d4-41a8-9e50-bd101855977a"
+    },
+    {
+      "createdAt": "2026-10-01T02:25:24.919Z",
+      "updatedAt": "2026-10-01T02:25:24.919Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Head",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "頭[あたま]",
+        "reading": "あたま"
+      },
+      "id": "64ff289b-51b8-4604-8627-3dea5bc43034"
+    },
+    {
+      "createdAt": "2026-10-01T02:25:45.890Z",
+      "updatedAt": "2026-10-01T02:29:12.367Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(my) older brother (humble)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "兄[あに]",
+        "reading": "あに"
+      },
+      "id": "547e71b3-724d-47ce-8a4d-9c2dc4fa8f5e"
+    },
+    {
+      "createdAt": "2026-10-01T02:26:00.035Z",
+      "updatedAt": "2026-10-01T02:29:05.954Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(my) older sister (humble)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "姉[あね]",
+        "reading": "あね"
+      },
+      "id": "f9451ff2-2b35-46d8-b16d-d062e18f4429"
+    },
+    {
+      "createdAt": "2026-10-01T02:26:45.732Z",
+      "updatedAt": "2026-10-01T02:29:00.712Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Younger sister (humble)",
+      "notes": "妹さん for someone else's sister.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Family",
+        "Source: Nakama 1-10",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "妹[いもうと]",
+        "reading": "いもうと"
+      },
+      "id": "d913c65e-a54a-42d7-a511-45e6b4aa83b0"
+    },
+    {
+      "createdAt": "2026-10-01T02:27:19.326Z",
+      "updatedAt": "2026-10-01T02:28:56.017Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Mother (Someone else's) (formal)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "お 母[かあ]さん",
+        "reading": "おかあさん"
+      },
+      "id": "16099647-790a-46d2-ae4c-39b97449a8a6"
+    },
+    {
+      "createdAt": "2026-10-01T02:28:40.793Z",
+      "updatedAt": "2026-10-01T02:28:40.793Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(someone else's) wife (hon.)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "奥[おく]さん",
+        "reading": "おくさん"
+      },
+      "id": "7a2920ec-9534-4ecc-b830-bfc06d336246"
+    },
+    {
+      "createdAt": "2026-10-01T02:29:34.741Z",
+      "updatedAt": "2026-10-01T02:29:34.741Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(someone else's) child (polite)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "お 子[こ]さん",
+        "reading": "おこさん"
+      },
+      "id": "5f82861d-1ca3-4aed-9bec-e1a3a93b02a6"
+    },
+    {
+      "createdAt": "2026-10-01T02:31:07.630Z",
+      "updatedAt": "2026-10-01T02:31:07.630Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Grandfather, male senior citizen",
+      "notes": "Usually written with kana alone, but お祖父さん is correct.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: Family"
+      ],
+      "data": {
+        "expression": "おじいさん",
+        "reading": ""
+      },
+      "id": "04318005-77dd-4799-a0a8-d3bd0550638f"
+    },
+    {
+      "createdAt": "2026-10-01T02:31:37.967Z",
+      "updatedAt": "2026-10-01T02:31:37.967Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Father (Someone else's) (formal)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "お 父[とう]さん",
+        "reading": "おとうさん"
+      },
+      "id": "6ac25d5d-2c57-42d2-9fd0-0ccfff80e786"
+    },
+    {
+      "createdAt": "2026-10-01T02:32:21.423Z",
+      "updatedAt": "2026-10-01T02:32:21.423Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Younger brother (The speaker's)",
+      "notes": "弟さん。For someone else's younger brother.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "弟[おとうと]",
+        "reading": "おとうと"
+      },
+      "id": "93284975-16b2-4d0c-855c-4a3e93e205cb"
+    },
+    {
+      "createdAt": "2026-10-01T02:32:54.800Z",
+      "updatedAt": "2026-10-01T02:32:54.800Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Man, male",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Prefix",
+        "Source: Nakama 1-10",
+        "Topic: People"
+      ],
+      "data": {
+        "expression": "男[おとこ]",
+        "reading": "おとこ"
+      },
+      "id": "d5ebdffa-2b49-4ed4-82f2-236623017170"
+    },
+    {
+      "createdAt": "2026-10-01T02:33:14.435Z",
+      "updatedAt": "2026-10-01T02:33:14.435Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(someone else's) older brother (formal)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: Family"
+      ],
+      "data": {
+        "expression": "お 兄[にい]さん",
+        "reading": "おにいさん"
+      },
+      "id": "dd18e1e2-9707-4b1a-bd15-3e3cf39845dd"
+    },
+    {
+      "createdAt": "2026-10-01T02:33:48.943Z",
+      "updatedAt": "2026-10-01T02:33:48.943Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Older sister (Someone else's) (formal)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: Family"
+      ],
+      "data": {
+        "expression": "お 姉[ねえ]さん",
+        "reading": "おねえさん"
+      },
+      "id": "a0efeb33-d13e-47a1-b86f-d6055f5af0b0"
+    },
+    {
+      "createdAt": "2026-10-01T02:34:22.176Z",
+      "updatedAt": "2026-10-01T02:34:51.983Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Grandmother (Someone else's), female senior-citizen",
+      "notes": "Usually written with just kana, but お祖母さん is correct.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "おばあさん",
+        "reading": ""
+      },
+      "id": "58316725-26c4-422a-8f01-a291dabbbd10"
+    },
+    {
+      "createdAt": "2026-10-01T02:35:08.175Z",
+      "updatedAt": "2026-10-01T02:35:08.175Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Woman, female",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Prefix",
+        "Source: Nakama 1-10",
+        "Topic: People"
+      ],
+      "data": {
+        "expression": "女[おんな]",
+        "reading": "おんな"
+      },
+      "id": "929b8e6e-03d4-4a0e-9b69-eca3d8831bee"
+    },
+    {
+      "createdAt": "2026-10-01T02:35:39.128Z",
+      "updatedAt": "2026-10-01T02:35:39.128Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Company employee, office worker, white-collar worker",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Office",
+        "Topic: People",
+        "Topic: Jobs"
+      ],
+      "data": {
+        "expression": "会社員[かいしゃいん]",
+        "reading": "かいしゃいん"
+      },
+      "id": "3bb3da92-bc8e-4123-ad1f-a2ff3a1e01d5"
+    },
+    {
+      "createdAt": "2026-10-01T02:35:56.145Z",
+      "updatedAt": "2026-10-01T02:35:56.145Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Face (body part)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "顔[かお]",
+        "reading": "かお"
+      },
+      "id": "8ad38b89-1794-448f-94be-556d9b0c6b86"
+    },
+    {
+      "createdAt": "2026-10-01T02:36:28.920Z",
+      "updatedAt": "2026-10-01T02:36:28.920Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Family (Speaker's family), members of a family",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "家族[かぞく]",
+        "reading": "かぞく"
+      },
+      "id": "0f4719be-fff1-4d9d-aee2-fac9dd36f2c5"
+    },
+    {
+      "createdAt": "2026-10-01T02:36:45.572Z",
+      "updatedAt": "2026-10-01T02:36:45.572Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hair",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "髪[かみ]",
+        "reading": "かみ"
+      },
+      "id": "9d8aa561-186b-4169-bc91-b0cd47a67b9e"
+    },
+    {
+      "createdAt": "2026-10-01T02:37:13.360Z",
+      "updatedAt": "2026-10-01T02:37:13.360Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Siblings (humble), brothers and sisters",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "兄弟[きょうだい]",
+        "reading": "きょうだい"
+      },
+      "id": "411e9cd5-c699-4449-a0f3-27556a14d060"
+    },
+    {
+      "createdAt": "2026-10-01T02:38:48.416Z",
+      "updatedAt": "2026-10-01T02:38:48.416Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Marriage (get married)",
+      "notes": "と結婚する。To marry\n結婚している。To be married",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: する-verb",
+        "Topic: Relationships",
+        "Topic: Family",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "結婚[けっこん]",
+        "reading": "けっこん"
+      },
+      "id": "714cb919-2e79-422e-b647-27228ac88306"
+    },
+    {
+      "createdAt": "2026-10-01T02:39:10.375Z",
+      "updatedAt": "2026-10-01T02:39:10.375Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Child",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: Suffix",
+        "Source: Nakama 1-10",
+        "Topic: People"
+      ],
+      "data": {
+        "expression": "子[こ]",
+        "reading": "こ"
+      },
+      "id": "b86073f8-1bfb-4ecc-ae14-a5dd83f03148"
+    },
+    {
+      "createdAt": "2026-10-01T02:39:45.807Z",
+      "updatedAt": "2026-10-01T02:39:45.807Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Some else's family",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "ご 家族[かぞく]",
+        "reading": "かぞく"
+      },
+      "id": "5b76d721-e983-4f64-b8d0-848a58aaa98c"
+    },
+    {
+      "createdAt": "2026-10-01T02:40:26.524Z",
+      "updatedAt": "2026-10-01T02:40:26.524Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Siblings (someone else's)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "ご 兄弟[きょうだい]",
+        "reading": "きょうだい"
+      },
+      "id": "1e5f2ae6-9ca7-44dc-b325-9d4c6c932019"
+    },
+    {
+      "createdAt": "2026-10-01T02:41:07.190Z",
+      "updatedAt": "2026-10-01T02:41:07.190Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Husband (Someone else's)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "ご 主人[しゅじん]",
+        "reading": "ごしゅじん"
+      },
+      "id": "49e3a809-c357-4a98-beeb-7ef97b3ae855"
+    },
+    {
+      "createdAt": "2026-10-01T02:41:31.002Z",
+      "updatedAt": "2026-10-01T02:41:31.002Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Child(ren)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: Family",
+        "Topic: People"
+      ],
+      "data": {
+        "expression": "子供[こども]",
+        "reading": "こども"
+      },
+      "id": "0eb2836a-3a57-4924-a817-6a373fb37dd9"
+    },
+    {
+      "createdAt": "2026-10-01T02:41:45.350Z",
+      "updatedAt": "2026-10-01T02:41:45.350Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(one's own) husband",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "主人[しゅじん]",
+        "reading": "しゅじん"
+      },
+      "id": "828795e6-352c-41ad-b06c-21708dbb619f"
+    },
+    {
+      "createdAt": "2026-10-01T02:42:23.481Z",
+      "updatedAt": "2026-10-01T02:42:23.481Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Back (part of the body)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "背[せ]",
+        "reading": "せ"
+      },
+      "id": "99b890df-d9d2-46a6-8bee-f7e88c708178"
+    },
+    {
+      "createdAt": "2026-10-01T02:42:56.870Z",
+      "updatedAt": "2026-10-01T02:42:56.870Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Character, personality",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "性格[せいかく]",
+        "reading": "せいかく"
+      },
+      "id": "149ef6d2-882b-4040-a126-cfb716e92077"
+    },
+    {
+      "createdAt": "2026-10-01T02:43:32.510Z",
+      "updatedAt": "2026-10-01T02:43:32.510Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Grandfather (the speaker's)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "祖父[そふ]",
+        "reading": "そふ"
+      },
+      "id": "fa091f57-e990-4320-bc4e-8c2cd341eb50"
+    },
+    {
+      "createdAt": "2026-10-01T02:44:25.993Z",
+      "updatedAt": "2026-10-01T02:44:25.993Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Grandmother (the speaker's)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "祖母[そぼ]",
+        "reading": "そぼ"
+      },
+      "id": "99812fb2-fe6f-4c5b-a81a-cde6daef7a5d"
+    },
+    {
+      "createdAt": "2026-10-01T02:44:50.353Z",
+      "updatedAt": "2026-10-01T02:44:50.353Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Father (the speaker's)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "父[ちち]",
+        "reading": "ちち"
+      },
+      "id": "a89d5bb3-2d73-48d8-934e-cec01c7eb774"
+    },
+    {
+      "createdAt": "2026-10-01T02:45:24.960Z",
+      "updatedAt": "2026-10-01T02:45:24.960Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Mother (the speaker's)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Family",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "母[はは]",
+        "reading": "はは"
+      },
+      "id": "1c85eacd-2d48-42e1-abfd-41e93c052505"
+    },
+    {
+      "createdAt": "2026-10-01T02:45:50.474Z",
+      "updatedAt": "2026-10-01T02:45:50.474Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Wife (the speaker's) (humble)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: Family"
+      ],
+      "data": {
+        "expression": "妻[つま]",
+        "reading": "つま"
+      },
+      "id": "5c5800c1-edf8-4fa8-8691-4d60eb0e1cec"
+    },
+    {
+      "createdAt": "2026-10-01T02:46:10.807Z",
+      "updatedAt": "2026-10-01T02:46:10.807Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hand, arm",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Body",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "手[て]",
+        "reading": "て"
+      },
+      "id": "31f61130-f83f-45d0-af52-e751b64e7b9a"
+    },
+    {
+      "createdAt": "2026-10-01T02:46:45.309Z",
+      "updatedAt": "2026-10-01T02:46:45.309Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Year, age",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "年[とし]",
+        "reading": "とし"
+      },
+      "id": "76ffe3b5-9df6-47ba-bea1-4996a84fb456"
+    },
+    {
+      "createdAt": "2026-10-01T02:47:08.558Z",
+      "updatedAt": "2026-10-01T02:47:08.558Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Older, senior",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "年上[としうえ]",
+        "reading": "としうえ"
+      },
+      "id": "0d46bae6-06b1-4770-a726-053cf4b8d076"
+    },
+    {
+      "createdAt": "2026-10-01T02:47:22.427Z",
+      "updatedAt": "2026-10-01T02:47:22.427Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Younger, junior",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Topic: Relationships",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "年下[としした]",
+        "reading": "としした"
+      },
+      "id": "1dd470e4-4653-4836-bf27-ddb846b77e4b"
+    },
+    {
+      "createdAt": "2026-10-01T02:47:45.263Z",
+      "updatedAt": "2026-10-01T02:47:45.263Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Nose",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "鼻[はな]",
+        "reading": "はな"
+      },
+      "id": "a2e0ff02-6fa0-4f21-8c48-86a4dffda988"
+    },
+    {
+      "createdAt": "2026-10-01T02:48:19.951Z",
+      "updatedAt": "2026-10-01T02:48:19.951Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(an) only child",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Relationships",
+        "Topic: People",
+        "Topic: Family"
+      ],
+      "data": {
+        "expression": "一人[ひとり]っ 子[こ]",
+        "reading": "ひとりっこ"
+      },
+      "id": "ae960173-49b7-4f39-ba32-8a48c6a6b4d8"
+    },
+    {
+      "createdAt": "2026-10-01T02:48:46.802Z",
+      "updatedAt": "2026-10-01T02:48:46.802Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Blond",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "ブロンド",
+        "reading": ""
+      },
+      "id": "392685b8-a07e-47f1-bfd3-e36006765f4b"
+    },
+    {
+      "createdAt": "2026-10-01T02:49:19.645Z",
+      "updatedAt": "2026-10-01T02:49:19.645Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Middle, centre, center, middle child",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: People",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "真[ま]ん 中[なか]",
+        "reading": "まんなか"
+      },
+      "id": "bd62c6ee-9da2-41d5-834b-62b8b9a563a2"
+    },
+    {
+      "createdAt": "2026-10-01T02:49:38.350Z",
+      "updatedAt": "2026-10-01T02:49:38.350Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Ear",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "耳[みみ]",
+        "reading": "みみ"
+      },
+      "id": "78ce20d9-bc07-4336-a78b-d655b6131ef2"
+    },
+    {
+      "createdAt": "2026-10-01T02:50:08.425Z",
+      "updatedAt": "2026-10-01T02:50:08.425Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Eye",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Topic: Body"
+      ],
+      "data": {
+        "expression": "目[め]",
+        "reading": "め"
+      },
+      "id": "0257b49b-c26c-428d-a0b1-35444efd60d2"
+    },
+    {
+      "createdAt": "2026-10-01T02:50:22.864Z",
+      "updatedAt": "2026-10-01T02:50:22.864Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Eye glasses",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Cloths & Accessories",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "眼鏡[めがね]",
+        "reading": "めがね"
+      },
+      "id": "69a804f9-5d8d-4427-9a72-00beb0c7a986"
+    },
+    {
+      "createdAt": "2026-10-01T02:51:07.558Z",
+      "updatedAt": "2026-10-01T02:51:07.558Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To think, to feel",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: U-verb",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "思[おも]う",
+        "reading": "おもう"
+      },
+      "id": "c2e22347-d6ee-4a61-b148-f89105782b45"
+    },
+    {
+      "createdAt": "2026-10-01T02:51:27.108Z",
+      "updatedAt": "2026-10-01T02:51:57.858Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To wear, to put on (e.g., a hat on the head)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-10",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "かぶる",
+        "reading": ""
+      },
+      "id": "639d388f-a89b-455c-9fba-3ae953bb55cc"
+    },
+    {
+      "createdAt": "2026-10-01T02:51:51.896Z",
+      "updatedAt": "2026-10-01T02:51:51.896Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To reside, to live in",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "住[す]む",
+        "reading": "すむ"
+      },
+      "id": "3a849c89-6a50-4fe4-8529-aadb889b8fea"
+    },
+    {
+      "createdAt": "2026-10-01T02:52:16.384Z",
+      "updatedAt": "2026-10-01T02:52:16.384Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To put on (items below your waist)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-10",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "はく",
+        "reading": ""
+      },
+      "id": "35e738f8-436e-4880-900b-563f1ad303fb"
+    },
+    {
+      "createdAt": "2026-10-01T02:52:31.759Z",
+      "updatedAt": "2026-10-01T02:55:46.214Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To gain weight",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: U-verb",
+        "Source: Nakama 1-10",
+        "Topic: Health"
+      ],
+      "data": {
+        "expression": "太[ふと]る",
+        "reading": "ふとる"
+      },
+      "id": "dd2919bc-e4b8-4dee-9af2-8d081cc06370"
+    },
+    {
+      "createdAt": "2026-10-01T02:53:07.632Z",
+      "updatedAt": "2026-10-01T02:53:07.632Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To understand",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "分[わ]かる",
+        "reading": "わかる"
+      },
+      "id": "30335376-636a-4f2e-8f18-f2b27b5e1952"
+    },
+    {
+      "createdAt": "2026-10-01T02:54:04.414Z",
+      "updatedAt": "2026-10-01T02:54:04.414Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "to put on (e.g., glasses); to hang (e.g., on a wall)",
+      "notes": "Usually uses just kana, but 掛ける is correct.",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-10",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "かける",
+        "reading": "かける"
+      },
+      "id": "bfee5a16-0d19-45e7-ad8a-7dbe3cefd16d"
+    },
+    {
+      "createdAt": "2026-10-01T02:54:26.279Z",
+      "updatedAt": "2026-10-01T02:54:26.279Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To put on (clothes above your waist); to wear",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-10",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "着[き]る",
+        "reading": "きる"
+      },
+      "id": "d9131cb1-1bf1-4ced-8a28-b4a18b64d39c"
+    },
+    {
+      "createdAt": "2026-10-01T02:55:12.036Z",
+      "updatedAt": "2026-10-01T02:55:12.036Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To work (for); to become employed",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "勤[つと]める",
+        "reading": "つとめる"
+      },
+      "id": "a214f86a-18ca-49f9-89f4-12ffe96c8f39"
+    },
+    {
+      "createdAt": "2026-10-01T02:55:40.529Z",
+      "updatedAt": "2026-10-01T02:55:40.529Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To lose weight",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Ru-verb",
+        "Source: Nakama 1-10",
+        "Topic: Health"
+      ],
+      "data": {
+        "expression": "痩[や]せる",
+        "reading": "やせる"
+      },
+      "id": "d6df2d04-c5a4-404b-99d8-16feb3690a5f"
+    },
+    {
+      "createdAt": "2026-10-01T02:56:46.784Z",
+      "updatedAt": "2026-10-01T02:56:46.784Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Attractive, good-looking, stylish",
+      "notes": "",
+      "tags": [
+        "Class: い-adjective",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "かっこいい",
+        "reading": ""
+      },
+      "id": "5bfbd1a5-34ea-46ed-866c-868db71c15d5"
+    },
+    {
+      "createdAt": "2026-10-01T02:56:58.701Z",
+      "updatedAt": "2026-10-01T02:56:58.701Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cute, adorable",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "可愛[かわい]い",
+        "reading": "かわいい"
+      },
+      "id": "9598c8a5-37d4-4298-827b-442233b094b5"
+    },
+    {
+      "createdAt": "2026-10-01T02:57:26.956Z",
+      "updatedAt": "2026-10-01T02:58:33.098Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Square, public square, plaza",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: い-adjective",
+        "Source: Nakama 1-10",
+        "Topic: Shapes",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "四角[しかく]い",
+        "reading": "しかくい"
+      },
+      "id": "95632ba8-c2bb-42d3-8916-008459b1b95e"
+    },
+    {
+      "createdAt": "2026-10-01T02:59:13.799Z",
+      "updatedAt": "2026-10-01T02:59:13.799Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Long, lengthy",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "長[なが]い",
+        "reading": "ながい"
+      },
+      "id": "b7bd9f5a-855f-4fe4-8f75-e646dcfca17e"
+    },
+    {
+      "createdAt": "2026-10-01T02:59:31.222Z",
+      "updatedAt": "2026-10-01T02:59:31.222Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Long and narrow",
+      "notes": "",
+      "tags": [
+        "Class: い-adjective",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "細長[ほそなが]い",
+        "reading": "ほそながい"
+      },
+      "id": "dac48d2e-30f0-4f7a-9517-e6abb138717f"
+    },
+    {
+      "createdAt": "2026-10-01T02:59:58.086Z",
+      "updatedAt": "2026-10-01T02:59:58.086Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Round, circular",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "丸[まる]い",
+        "reading": "まるい"
+      },
+      "id": "e1d4be81-c35a-49f2-9ae9-5161d1900e01"
+    },
+    {
+      "createdAt": "2026-10-01T03:00:18.696Z",
+      "updatedAt": "2026-10-01T03:00:18.696Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Short (length)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "短[みじか]い",
+        "reading": "みじかい"
+      },
+      "id": "11af8b1a-273c-4164-be71-4a847626ec52"
+    },
+    {
+      "createdAt": "2026-10-01T03:00:37.131Z",
+      "updatedAt": "2026-10-01T03:00:37.131Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Be good at, skillful",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "上手[じょうず]",
+        "reading": "じょうず"
+      },
+      "id": "5f8f5371-5488-42eb-b143-17dd230e4d65"
+    },
+    {
+      "createdAt": "2026-10-01T03:01:50.010Z",
+      "updatedAt": "2026-10-01T03:01:50.010Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Kind, kindness",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "親切[しんせつ]",
+        "reading": "しんせつ"
+      },
+      "id": "4fd1af16-3c84-4508-9873-848a821779e7"
+    },
+    {
+      "createdAt": "2026-10-01T03:02:12.339Z",
+      "updatedAt": "2026-10-01T03:02:12.339Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "How many, how old?",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Topic: Questions",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "いくつ",
+        "reading": ""
+      },
+      "id": "377cc55d-0b3a-430c-8f5c-ec0644d1abda"
+    },
+    {
+      "createdAt": "2026-10-01T03:03:19.689Z",
+      "updatedAt": "2026-10-01T03:03:19.689Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Elementary",
+      "notes": "小学校 Elementary School",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: Prefix",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "小[しょう]~",
+        "reading": "しょう"
+      },
+      "id": "e675fcaf-dffe-40f1-b8db-5c33e51ce457"
+    },
+    {
+      "createdAt": "2026-10-01T03:04:53.672Z",
+      "updatedAt": "2026-10-01T03:04:53.672Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Middle~ (Such as Middle School)",
+      "notes": "中学校。Middle School.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "中[ちゅう]~",
+        "reading": "ちゅう"
+      },
+      "id": "ce36ad54-7bee-4e63-b4f2-88e414a1739a"
+    },
+    {
+      "createdAt": "2026-10-01T03:05:19.294Z",
+      "updatedAt": "2026-10-01T03:05:19.294Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "-- honorific form for 人 (ひと) --; way of doing",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-10",
+        "Class: Suffix"
+      ],
+      "data": {
+        "expression": "~方[かた]",
+        "reading": "かた"
+      },
+      "id": "d7f5dff2-59e0-44d4-aca5-4778138b4df0"
+    },
+    {
+      "createdAt": "2026-10-01T03:06:08.238Z",
+      "updatedAt": "2026-10-01T03:06:08.238Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "~ years old",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Counter",
+        "Class: Suffix",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "~歳[さい]",
+        "reading": "さい"
+      },
+      "id": "682a21a5-5ff9-4970-99d2-775c04df3d20"
+    },
+    {
+      "createdAt": "2026-10-01T03:06:26.968Z",
+      "updatedAt": "2026-10-01T03:06:26.968Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for people",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Counter",
+        "Source: Nakama 1-10",
+        "Topic: People"
+      ],
+      "data": {
+        "expression": "~人[にん]",
+        "reading": "にん"
+      },
+      "id": "aded76f1-2715-4775-b550-09f9f34164a4"
+    },
+    {
+      "createdAt": "2026-10-01T03:06:56.178Z",
+      "updatedAt": "2026-10-01T03:06:56.178Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "~st; ~th best",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Suffix",
+        "Source: Nakama 1-10",
+        "Class: Counter"
+      ],
+      "data": {
+        "expression": "番[ばん]",
+        "reading": "ばん"
+      },
+      "id": "0d478b10-5375-4b7e-ba67-08aaf19d9e29"
+    },
+    {
+      "createdAt": "2026-10-01T03:07:31.910Z",
+      "updatedAt": "2026-10-01T03:07:31.910Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "In addition; moreover; besides",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Conjunction",
+        "Source: Nakama 1-10"
+      ],
+      "data": {
+        "expression": "それに",
+        "reading": ""
+      },
+      "id": "25ace388-fe3b-45be-983e-2a8185fb9fc3"
+    },
+    {
+      "createdAt": "2026-10-01T03:08:27.432Z",
+      "updatedAt": "2026-10-01T03:08:27.432Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "No, that's not the case.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "いいえ、そんなことはありません。",
+        "literal": ""
+      },
+      "id": "f82d7021-e922-481b-8132-3dd1eb8ae3ea"
+    },
+    {
+      "createdAt": "2026-10-01T03:09:08.803Z",
+      "updatedAt": "2026-10-01T03:09:08.803Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "No, I still have a long way to go.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-10",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "いいえ、まだまだです。",
+        "literal": ""
+      },
+      "id": "7a73d4da-60c3-4abe-bb94-cf88caeb5768"
     }
   ]
 }
