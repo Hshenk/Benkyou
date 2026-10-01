@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 30,
-  "exportedAt": "2026-09-28T16:27:18.529Z",
+  "version": 31,
+  "exportedAt": "2026-10-01T01:50:46.685Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -1841,7 +1841,7 @@
     {
       "createdAt": "2026-09-07T00:11:41.409Z",
       "updatedAt": "2026-09-07T00:11:41.409Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "New",
@@ -1922,7 +1922,7 @@
     {
       "createdAt": "2026-09-07T00:15:24.686Z",
       "updatedAt": "2026-09-07T00:15:24.686Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "tall, high, expensive",
@@ -2031,8 +2031,8 @@
     {
       "createdAt": "2026-09-07T00:21:11.529Z",
       "updatedAt": "2026-09-07T00:21:11.529Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "Old",
       "notes": "",
@@ -2057,7 +2057,7 @@
     {
       "createdAt": "2026-09-07T00:22:03.604Z",
       "updatedAt": "2026-09-23T16:39:40.162Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "Friend",
@@ -2083,7 +2083,7 @@
     {
       "createdAt": "2026-09-07T00:23:28.646Z",
       "updatedAt": "2026-09-07T00:23:28.646Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "word, speech, language",
@@ -2134,7 +2134,7 @@
     {
       "createdAt": "2026-09-07T00:30:06.399Z",
       "updatedAt": "2026-09-25T16:22:42.051Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "direction, person, alternative",
@@ -2160,7 +2160,7 @@
     {
       "createdAt": "2026-09-07T00:32:05.778Z",
       "updatedAt": "2026-09-07T00:32:05.778Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "turn, number in a series",
@@ -2218,7 +2218,7 @@
     {
       "createdAt": "2026-09-07T00:36:10.250Z",
       "updatedAt": "2026-09-07T00:36:10.250Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "fond, pleasing, to like something",
@@ -2245,7 +2245,7 @@
     {
       "createdAt": "2026-09-07T00:48:06.463Z",
       "updatedAt": "2026-09-07T00:48:06.463Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "rouse, wake up, get up",
@@ -2332,7 +2332,7 @@
     {
       "createdAt": "2026-09-07T00:51:38.986Z",
       "updatedAt": "2026-09-07T00:51:38.986Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "meeting, meet, party, association, interview, join",
@@ -2422,7 +2422,7 @@
     {
       "createdAt": "2026-09-07T00:55:36.732Z",
       "updatedAt": "2026-09-07T00:55:36.732Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "(to) write",
@@ -2448,8 +2448,8 @@
     {
       "createdAt": "2026-09-07T00:56:37.910Z",
       "updatedAt": "2026-09-07T00:56:37.910Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "(to) talk, tale",
       "notes": "",
@@ -2561,8 +2561,8 @@
     {
       "createdAt": "2026-09-07T01:19:58.990Z",
       "updatedAt": "2026-09-07T01:21:25.985Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "hear, ask, listen",
       "notes": "",
@@ -2587,8 +2587,8 @@
     {
       "createdAt": "2026-09-07T01:21:08.267Z",
       "updatedAt": "2026-09-07T01:21:08.267Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "make, production, prepare, build",
       "notes": "",
@@ -2614,7 +2614,7 @@
     {
       "createdAt": "2026-09-07T01:22:48.881Z",
       "updatedAt": "2026-09-07T01:22:48.881Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "lie down, sleep, rest, bed, remain unsold",
@@ -2642,7 +2642,7 @@
     {
       "createdAt": "2026-09-07T01:23:24.453Z",
       "updatedAt": "2026-09-07T01:23:24.453Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "see, hopes, chances, idea, opinion, look at, visible",
@@ -2668,8 +2668,8 @@
     {
       "createdAt": "2026-09-07T01:24:30.866Z",
       "updatedAt": "2026-09-27T15:23:25.502Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 2,
       "type": "kanji",
       "meaning": "(to) read",
       "notes": "",
@@ -2696,7 +2696,7 @@
     {
       "createdAt": "2026-09-19T22:22:06.913Z",
       "updatedAt": "2026-09-24T16:21:55.808Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Excuse Me",
@@ -2717,7 +2717,7 @@
     {
       "createdAt": "2026-09-19T22:25:47.739Z",
       "updatedAt": "2026-09-24T16:22:19.642Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Thank you",
@@ -2737,7 +2737,7 @@
     {
       "createdAt": "2026-09-19T22:27:02.814Z",
       "updatedAt": "2026-09-24T16:22:36.256Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "That",
@@ -3054,8 +3054,8 @@
     {
       "createdAt": "2026-09-19T22:45:52.383Z",
       "updatedAt": "2026-09-24T16:42:50.355Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "This person, this way",
       "notes": "",
@@ -3075,7 +3075,7 @@
     {
       "createdAt": "2026-09-19T22:46:23.061Z",
       "updatedAt": "2026-09-24T16:43:20.681Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Third-year student, junior",
@@ -3113,7 +3113,7 @@
     {
       "createdAt": "2026-09-19T22:47:50.375Z",
       "updatedAt": "2026-09-24T16:43:40.144Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Academic major",
@@ -3134,7 +3134,7 @@
     {
       "createdAt": "2026-09-19T22:48:20.670Z",
       "updatedAt": "2026-09-24T16:43:49.051Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "University",
@@ -3154,8 +3154,8 @@
     {
       "createdAt": "2026-09-19T22:49:34.036Z",
       "updatedAt": "2026-09-24T16:44:16.812Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Graduate Student",
       "notes": "大学生 for undergraduate student",
@@ -3211,7 +3211,7 @@
     {
       "createdAt": "2026-09-19T22:51:38.709Z",
       "updatedAt": "2026-09-24T16:44:53.162Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Name",
@@ -3230,7 +3230,7 @@
     {
       "createdAt": "2026-09-19T22:52:28.396Z",
       "updatedAt": "2026-09-24T16:45:15.466Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Second-year student, sophomore",
@@ -3269,7 +3269,7 @@
     {
       "createdAt": "2026-09-19T22:53:24.834Z",
       "updatedAt": "2026-09-24T16:45:36.541Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Business",
@@ -3308,8 +3308,8 @@
     {
       "createdAt": "2026-09-19T22:54:19.795Z",
       "updatedAt": "2026-09-24T16:48:42.032Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Literature",
       "notes": "",
@@ -3347,7 +3347,7 @@
     {
       "createdAt": "2026-09-19T22:55:50.741Z",
       "updatedAt": "2026-09-24T16:49:10.025Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Fourth-year student, senior",
@@ -3387,8 +3387,8 @@
     {
       "createdAt": "2026-09-19T22:57:27.735Z",
       "updatedAt": "2026-09-24T16:49:35.460Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "International Student",
       "notes": "",
@@ -3407,7 +3407,7 @@
     {
       "createdAt": "2026-09-19T22:58:02.872Z",
       "updatedAt": "2026-09-24T16:49:44.512Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "History",
@@ -3428,7 +3428,7 @@
     {
       "createdAt": "2026-09-19T22:58:49.897Z",
       "updatedAt": "2026-09-24T16:49:54.302Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "I (Normally masculine)",
@@ -3448,7 +3448,7 @@
     {
       "createdAt": "2026-09-19T23:00:03.001Z",
       "updatedAt": "2026-09-24T16:50:05.340Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "I (General)",
@@ -3468,7 +3468,7 @@
     {
       "createdAt": "2026-09-19T23:00:55.015Z",
       "updatedAt": "2026-09-24T16:50:36.184Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "(to) be, is",
@@ -3487,7 +3487,7 @@
     {
       "createdAt": "2026-09-19T23:01:52.224Z",
       "updatedAt": "2026-09-24T16:50:58.695Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Where",
@@ -3509,7 +3509,7 @@
     {
       "createdAt": "2026-09-19T23:02:23.388Z",
       "updatedAt": "2026-09-24T16:51:16.331Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Where (more polite form), which way",
@@ -8142,7 +8142,7 @@
     {
       "createdAt": "2026-09-25T17:15:13.656Z",
       "updatedAt": "2026-09-28T15:23:00.805Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Tall (building or object), high; expensive",
@@ -9256,7 +9256,7 @@
     },
     {
       "createdAt": "2026-09-25T18:15:29.276Z",
-      "updatedAt": "2026-09-25T18:15:29.276Z",
+      "updatedAt": "2026-10-01T00:22:22.865Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
@@ -9267,7 +9267,6 @@
         "Class: Noun",
         "Source: Nakama 1-5",
         "Topic: Time",
-        "Topic: Accessories",
         "Topic: Technology"
       ],
       "data": {
@@ -12554,7 +12553,7 @@
     {
       "createdAt": "2026-09-28T14:45:52.390Z",
       "updatedAt": "2026-09-28T14:45:52.390Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "A song",
@@ -14706,6 +14705,2560 @@
         "example": "いちごが 好[す]きな*y:ので*、よく 買[か]います。"
       },
       "id": "c5060791-f8d1-492e-aed1-10ea3f6e8a31"
+    },
+    {
+      "createdAt": "2026-10-01T00:17:58.842Z",
+      "updatedAt": "2026-10-01T00:19:52.382Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Accessory",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "アクセサリー",
+        "reading": ""
+      },
+      "id": "4edb7834-35b2-4554-ad3d-0d814ea6aad4"
+    },
+    {
+      "createdAt": "2026-10-01T00:18:37.047Z",
+      "updatedAt": "2026-10-01T00:18:37.047Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Department; place where things are sold",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "売[う]り 場[ば]",
+        "reading": "うりば"
+      },
+      "id": "ca9867a7-46f9-4965-8d02-54e9a98f1741"
+    },
+    {
+      "createdAt": "2026-10-01T00:19:04.780Z",
+      "updatedAt": "2026-10-01T00:19:52.383Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Earring",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Topic: Cloths & Accessories",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "イヤリング",
+        "reading": ""
+      },
+      "id": "dd4c1a11-53d0-4c18-b035-c891b685ae81"
+    },
+    {
+      "createdAt": "2026-10-01T00:19:32.989Z",
+      "updatedAt": "2026-10-01T00:19:52.383Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Wristwatch, watch",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "腕時計[うでどけい]",
+        "reading": "うでどけい"
+      },
+      "id": "f177fa20-3e77-4ada-b06b-f3bfc53afb89"
+    },
+    {
+      "createdAt": "2026-10-01T00:21:03.605Z",
+      "updatedAt": "2026-10-01T00:21:03.605Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Customer, guest, visitor",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "お 客様[きゃくさま]",
+        "reading": "おきゃくさま"
+      },
+      "id": "56d78cfa-7f48-4d44-bb1c-e248255db69d"
+    },
+    {
+      "createdAt": "2026-10-01T00:21:53.473Z",
+      "updatedAt": "2026-10-01T00:21:53.473Z",
+      "timesSeen": 2,
+      "timesMissed": 1,
+      "type": "vocab",
+      "meaning": "Umbrella, parasol",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "傘[かさ]",
+        "reading": "かさ"
+      },
+      "id": "24bc4940-3930-4a21-b8e3-4fa8de68b2e2"
+    },
+    {
+      "createdAt": "2026-10-01T00:22:45.943Z",
+      "updatedAt": "2026-10-01T00:22:45.943Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Shoes, footwear",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "靴[くつ]",
+        "reading": "くつ"
+      },
+      "id": "f88367c8-0b77-4796-af62-47c7d73855bb"
+    },
+    {
+      "createdAt": "2026-10-01T00:23:22.476Z",
+      "updatedAt": "2026-10-01T00:23:22.476Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Socks",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "靴下[くつした]",
+        "reading": "くつした"
+      },
+      "id": "3a75f25f-cb51-4527-9296-c4bfa6caf2d3"
+    },
+    {
+      "createdAt": "2026-10-01T00:23:45.793Z",
+      "updatedAt": "2026-10-01T00:23:45.793Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Coat; court (e.g., tennis)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "コート",
+        "reading": ""
+      },
+      "id": "89b9f5b0-6592-4846-82ad-d0d898517a14"
+    },
+    {
+      "createdAt": "2026-10-01T00:24:28.349Z",
+      "updatedAt": "2026-10-01T00:24:28.349Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Jeans",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ジーンズ",
+        "reading": ""
+      },
+      "id": "9efd2cdd-146b-4da0-8bc9-d6742226f5f5"
+    },
+    {
+      "createdAt": "2026-10-01T00:24:51.608Z",
+      "updatedAt": "2026-10-01T00:24:51.608Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Jacket",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ジャケット",
+        "reading": ""
+      },
+      "id": "742142b7-b810-425c-8c06-cb7c25894a44"
+    },
+    {
+      "createdAt": "2026-10-01T00:25:12.765Z",
+      "updatedAt": "2026-10-01T00:25:12.765Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Shirt",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "シャツ",
+        "reading": ""
+      },
+      "id": "2568f1a7-8bb8-4dbb-a9ee-eff3e9bb99d4"
+    },
+    {
+      "createdAt": "2026-10-01T00:25:51.526Z",
+      "updatedAt": "2026-10-01T00:25:51.526Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Foodstuff",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "食品[しょくひん]",
+        "reading": "しょくひん"
+      },
+      "id": "a1095906-d605-48b9-8f2e-65dcc9456e15"
+    },
+    {
+      "createdAt": "2026-10-01T00:26:53.035Z",
+      "updatedAt": "2026-10-01T00:26:53.035Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Menswear",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Topic: Shopping",
+        "Topic: Cloths & Accessories",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "紳士[しんし]服[ふく]",
+        "reading": "しんし"
+      },
+      "id": "24c43ce4-4329-4007-8fc6-d3bad3fc8cfb"
+    },
+    {
+      "createdAt": "2026-10-01T00:27:12.056Z",
+      "updatedAt": "2026-10-01T00:27:12.056Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Suit",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "スーツ",
+        "reading": ""
+      },
+      "id": "a67ae2c4-3298-4d3f-a999-909a8c922627"
+    },
+    {
+      "createdAt": "2026-10-01T00:27:26.012Z",
+      "updatedAt": "2026-10-01T00:27:26.012Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Skirt",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "スカート",
+        "reading": ""
+      },
+      "id": "4c2e031d-4af8-45ef-856e-9f78aa3ef9bf"
+    },
+    {
+      "createdAt": "2026-10-01T00:27:46.525Z",
+      "updatedAt": "2026-10-01T00:27:46.525Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Stockings",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ストッキング",
+        "reading": ""
+      },
+      "id": "e2473118-70e2-4a0e-8710-98b5705d8801"
+    },
+    {
+      "createdAt": "2026-10-01T00:28:02.898Z",
+      "updatedAt": "2026-10-01T00:28:02.898Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sweater",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "セーター",
+        "reading": ""
+      },
+      "id": "745c50c0-01f9-481f-ae41-48b376daac55"
+    },
+    {
+      "createdAt": "2026-10-01T00:28:26.097Z",
+      "updatedAt": "2026-10-01T00:28:26.097Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sale",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "セール",
+        "reading": ""
+      },
+      "id": "59ae4223-f852-48d2-92db-f89075314ea2"
+    },
+    {
+      "createdAt": "2026-10-01T00:28:52.310Z",
+      "updatedAt": "2026-10-01T00:28:52.310Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Birthday",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Events"
+      ],
+      "data": {
+        "expression": "誕生日[たんじょうび]",
+        "reading": "たんじょうび"
+      },
+      "id": "10a72597-732f-4a17-99d1-e0eaf86feb0b"
+    },
+    {
+      "createdAt": "2026-10-01T00:29:41.893Z",
+      "updatedAt": "2026-10-01T00:29:41.893Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Basement, underground",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "地下[ちか]",
+        "reading": "ちか"
+      },
+      "id": "dec721d3-ebef-4b88-a662-0155c373512a"
+    },
+    {
+      "createdAt": "2026-10-01T00:30:40.086Z",
+      "updatedAt": "2026-10-01T00:30:40.086Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "T-shirt",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "Tシャツ",
+        "reading": ""
+      },
+      "id": "caeb1a86-a6b3-4629-9545-a1f988571bdf"
+    },
+    {
+      "createdAt": "2026-10-01T00:30:55.709Z",
+      "updatedAt": "2026-10-01T00:30:55.709Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dress",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ドレス",
+        "reading": ""
+      },
+      "id": "838f3003-38e2-4c7e-b2f1-0b3256c05e0f"
+    },
+    {
+      "createdAt": "2026-10-01T00:31:19.455Z",
+      "updatedAt": "2026-10-01T00:31:19.455Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tie, necktie",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ネクタイ",
+        "reading": ""
+      },
+      "id": "821e25dd-a3fe-418e-8483-b75aa6f68324"
+    },
+    {
+      "createdAt": "2026-10-01T00:31:39.915Z",
+      "updatedAt": "2026-10-01T00:31:39.915Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Box",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "箱[はこ]",
+        "reading": "はこ"
+      },
+      "id": "25fc7b19-e432-4ca6-88c9-fadab44d2d12"
+    },
+    {
+      "createdAt": "2026-10-01T00:32:24.787Z",
+      "updatedAt": "2026-10-01T00:32:24.787Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Underpants; pants; briefs; panties; trousers",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "パンツ",
+        "reading": ""
+      },
+      "id": "02ef1c20-1a8f-40cd-8736-426af94827eb"
+    },
+    {
+      "createdAt": "2026-10-01T00:33:06.136Z",
+      "updatedAt": "2026-10-01T00:33:06.136Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Handbag, purse",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Topic: Cloths & Accessories",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "ハンドバッグ",
+        "reading": ""
+      },
+      "id": "a5990889-58bd-456f-834b-1c0628529e2e"
+    },
+    {
+      "createdAt": "2026-10-01T00:33:39.638Z",
+      "updatedAt": "2026-10-01T00:33:39.638Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Clothes",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Suffix",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "服[ふく]",
+        "reading": "ふく"
+      },
+      "id": "f1ec7b25-8d4a-4bc6-a2f4-c5996dffac47"
+    },
+    {
+      "createdAt": "2026-10-01T00:34:45.098Z",
+      "updatedAt": "2026-10-01T00:34:45.098Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Woman's clothing",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "婦人[ふじん]服[ふく]",
+        "reading": "ふじん"
+      },
+      "id": "6c75c621-b34d-4825-addc-55734536000a"
+    },
+    {
+      "createdAt": "2026-10-01T00:35:28.260Z",
+      "updatedAt": "2026-10-01T00:35:28.260Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Blouse",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ブラウス",
+        "reading": ""
+      },
+      "id": "6d08a355-8a8b-4145-be61-786b9aed1801"
+    },
+    {
+      "createdAt": "2026-10-01T00:37:57.859Z",
+      "updatedAt": "2026-10-01T00:37:57.859Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Stationery (Office Supplies)",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Topic: Shopping",
+        "Source: Nakama 1-8",
+        "Topic: Office"
+      ],
+      "data": {
+        "expression": "文房具[ぶんぼうぐ]",
+        "reading": "ぶんぼうぐ"
+      },
+      "id": "439743b7-3812-4f32-990b-0cc4b0c627b4"
+    },
+    {
+      "createdAt": "2026-10-01T00:38:13.684Z",
+      "updatedAt": "2026-10-01T00:38:13.684Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Belt for western clothes",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ベルト",
+        "reading": ""
+      },
+      "id": "aa671eaf-e167-4d66-a2ee-e105e9e8287d"
+    },
+    {
+      "createdAt": "2026-10-01T00:38:35.185Z",
+      "updatedAt": "2026-10-01T00:38:35.185Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hat; cap",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "帽子[ぼうし]",
+        "reading": "ぼうし"
+      },
+      "id": "1f0cd0b6-cf7f-4ee2-bdda-2c619490e709"
+    },
+    {
+      "createdAt": "2026-10-01T00:39:00.799Z",
+      "updatedAt": "2026-10-01T00:39:00.799Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Store, shop",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Shopping",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "店[みせ]",
+        "reading": "みせ"
+      },
+      "id": "1497e21b-4f5e-4b17-8833-703238945016"
+    },
+    {
+      "createdAt": "2026-10-01T00:39:27.010Z",
+      "updatedAt": "2026-10-01T00:39:27.010Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(finger) ring",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "指輪[ゆびわ]",
+        "reading": "ゆびわ"
+      },
+      "id": "0ef072f5-bbd7-43f8-b774-789d18de4cd8"
+    },
+    {
+      "createdAt": "2026-10-01T00:40:11.524Z",
+      "updatedAt": "2026-10-01T00:40:11.524Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "One-piece dress",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ワンピース",
+        "reading": ""
+      },
+      "id": "21c2302b-60c2-4454-9b9c-0f9306021159"
+    },
+    {
+      "createdAt": "2026-10-01T00:40:33.776Z",
+      "updatedAt": "2026-10-01T00:40:33.776Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To buy",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-8",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "買[か]う",
+        "reading": "かう"
+      },
+      "id": "3d320c34-543f-4e2a-890b-3802ec8476c5"
+    },
+    {
+      "createdAt": "2026-10-01T00:41:35.510Z",
+      "updatedAt": "2026-10-01T00:41:35.510Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To take (a class); to get (a grade)",
+      "notes": "撮[と]る is used for taking photos or recording videos.",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "取[と]る",
+        "reading": "とる"
+      },
+      "id": "66f3c839-5492-4510-a8a5-21e18442d7dc"
+    },
+    {
+      "createdAt": "2026-10-01T00:41:53.383Z",
+      "updatedAt": "2026-10-01T00:41:53.383Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To put in",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "入[い]れる",
+        "reading": "いれる"
+      },
+      "id": "34adbecb-b4db-47fa-a9fb-7b87a00b7af1"
+    },
+    {
+      "createdAt": "2026-10-01T00:42:08.998Z",
+      "updatedAt": "2026-10-01T00:42:08.998Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To show, to display",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "見[み]せる",
+        "reading": "みせる"
+      },
+      "id": "eb99f542-5b68-43e5-92b9-13e70d48e6ae"
+    },
+    {
+      "createdAt": "2026-10-01T00:42:27.965Z",
+      "updatedAt": "2026-10-01T00:42:27.965Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Little, few",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "少[すこ]し",
+        "reading": "すこし"
+      },
+      "id": "4dbed077-cbfb-40c0-b0d0-12e16499b575"
+    },
+    {
+      "createdAt": "2026-10-01T00:43:35.542Z",
+      "updatedAt": "2026-10-01T00:43:35.542Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Many, a lot, much",
+      "notes": "Usually written with just kana, but 沢山 is also correct.",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: な-adjective",
+        "Class: Adverb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "たくさん",
+        "reading": "たくさん"
+      },
+      "id": "068e42a1-2900-4893-a5f1-d26a4f895952"
+    },
+    {
+      "createdAt": "2026-10-01T00:44:11.032Z",
+      "updatedAt": "2026-10-01T00:44:11.032Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A little, somewhat; just a little, somewhat",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "ちょっと",
+        "reading": ""
+      },
+      "id": "c1445453-b7a7-4746-a2aa-fa9a3177862b"
+    },
+    {
+      "createdAt": "2026-10-01T00:44:48.772Z",
+      "updatedAt": "2026-10-01T00:44:48.772Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Another; already; again; more",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "もう",
+        "reading": ""
+      },
+      "id": "6a8152fa-6efb-44fa-b654-cb9689680836"
+    },
+    {
+      "createdAt": "2026-10-01T00:45:24.773Z",
+      "updatedAt": "2026-10-01T00:45:24.773Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A little more",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "もう少し",
+        "reading": ""
+      },
+      "id": "df7491d0-0e28-4fc6-aebb-615ad03a3439"
+    },
+    {
+      "createdAt": "2026-10-01T00:45:55.402Z",
+      "updatedAt": "2026-10-01T00:45:55.402Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A little more",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "もうちょっと",
+        "reading": ""
+      },
+      "id": "f7429a26-41a0-44d0-929c-efd25b3aebbd"
+    },
+    {
+      "createdAt": "2026-10-01T00:47:18.825Z",
+      "updatedAt": "2026-10-01T00:47:18.825Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for stories (floors) of a building",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Suffix",
+        "Class: Counter",
+        "Source: Nakama 1-8",
+        "Topic: Counters"
+      ],
+      "data": {
+        "expression": "階[かい]",
+        "reading": "かい"
+      },
+      "id": "80d06734-67b3-49cf-a1fe-44b107b87782"
+    },
+    {
+      "createdAt": "2026-10-01T00:48:19.735Z",
+      "updatedAt": "2026-10-01T00:48:19.735Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for Japanese currency; Yen",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Class: Suffix",
+        "Class: Counter",
+        "Topic: Counters"
+      ],
+      "data": {
+        "expression": "~円[えん]",
+        "reading": "えん"
+      },
+      "id": "409fdb39-c00e-408e-a9eb-ab5460b806fd"
+    },
+    {
+      "createdAt": "2026-10-01T00:49:04.293Z",
+      "updatedAt": "2026-10-01T00:49:04.293Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for bound objects (e.g. books, magazines)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Counter",
+        "Source: Nakama 1-8",
+        "Topic: Reading"
+      ],
+      "data": {
+        "expression": "冊[さつ]",
+        "reading": "さつ"
+      },
+      "id": "41d429f0-4b2c-4eb1-88fb-437278a9579d"
+    },
+    {
+      "createdAt": "2026-10-01T00:49:54.401Z",
+      "updatedAt": "2026-10-01T00:49:54.401Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "One thing (General counter)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Number",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Class: Counter",
+        "Topic: Counters"
+      ],
+      "data": {
+        "expression": "一[ひと]つ",
+        "reading": "ひとつ"
+      },
+      "id": "5179617b-b1e1-44f2-a426-c70795cd3617"
+    },
+    {
+      "createdAt": "2026-10-01T00:50:48.273Z",
+      "updatedAt": "2026-10-01T00:50:48.273Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for small animals",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Counter",
+        "Source: Nakama 1-8",
+        "Topic: Animals"
+      ],
+      "data": {
+        "expression": "匹[ひき]",
+        "reading": "ひき"
+      },
+      "id": "27f4fd02-5cb6-4c9e-aa4f-327aa95532d7"
+    },
+    {
+      "createdAt": "2026-10-01T00:52:06.926Z",
+      "updatedAt": "2026-10-01T00:52:06.926Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for long, cylindrical objects (e.g. bottles, films, pens, pencils)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-8",
+        "Class: Counter"
+      ],
+      "data": {
+        "expression": "~本[ほん]",
+        "reading": "ほん"
+      },
+      "id": "4d9b3571-3c6e-4bdb-a172-b97109e4de2f"
+    },
+    {
+      "createdAt": "2026-10-01T00:52:51.500Z",
+      "updatedAt": "2026-10-01T00:52:51.500Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for flat/thin things (e.g. film, paper, plates, shirts)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Counter",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "枚[まい]",
+        "reading": "まい"
+      },
+      "id": "ae5afb90-d993-491f-aba3-ae3b16dd0269"
+    },
+    {
+      "createdAt": "2026-10-01T00:56:45.315Z",
+      "updatedAt": "2026-10-01T00:57:05.775Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "How, in what way",
+      "notes": "This is the polite version of どう",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-8",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "いかが",
+        "reading": ""
+      },
+      "id": "f565c7ef-4a17-4dd0-b851-d5b3975c7dee"
+    },
+    {
+      "createdAt": "2026-10-01T00:57:25.305Z",
+      "updatedAt": "2026-10-01T00:57:25.305Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "How many, how old",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-8",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "いくつ",
+        "reading": ""
+      },
+      "id": "32e0fda1-b451-4fe9-beb8-46a3d5a37af3"
+    },
+    {
+      "createdAt": "2026-10-01T00:57:38.522Z",
+      "updatedAt": "2026-10-01T00:57:38.522Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "How much, how many",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-8",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "いくら",
+        "reading": ""
+      },
+      "id": "ff080d27-3cac-4e61-af1a-7a98efe88fdb"
+    },
+    {
+      "createdAt": "2026-10-01T00:57:55.208Z",
+      "updatedAt": "2026-10-01T00:57:55.208Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Why, for what reason",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Source: Nakama 1-8",
+        "Topic: Questions"
+      ],
+      "data": {
+        "expression": "どうして",
+        "reading": ""
+      },
+      "id": "a9e15bdb-ad36-4236-9875-619b4252c545"
+    },
+    {
+      "createdAt": "2026-10-01T00:58:16.900Z",
+      "updatedAt": "2026-10-01T00:58:16.900Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Thousand",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Number",
+        "Source: Nakama 1-8",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "expression": "千[せん]",
+        "reading": "せん"
+      },
+      "id": "52c18f5d-f461-4b19-ac5f-e363c92b4bf2"
+    },
+    {
+      "createdAt": "2026-10-01T00:58:35.086Z",
+      "updatedAt": "2026-10-01T00:58:35.086Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Ten thousand",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Number",
+        "Source: Nakama 1-8",
+        "Topic: Numbers"
+      ],
+      "data": {
+        "expression": "万[まん]",
+        "reading": "まん"
+      },
+      "id": "e63913e1-f1b5-45a2-b389-1ed62d3ded79"
+    },
+    {
+      "createdAt": "2026-10-01T00:59:02.372Z",
+      "updatedAt": "2026-10-01T00:59:09.219Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Welcome",
+      "notes": "",
+      "tags": [
+        "Class: Expression",
+        "Source: Nakama 1-8",
+        "Topic: Greetings",
+        "Topic: Shopping"
+      ],
+      "data": {
+        "expression": "いらっしゃいませ",
+        "reading": ""
+      },
+      "id": "b5a83f43-b264-447c-8fbc-dcb8360211e7"
+    },
+    {
+      "createdAt": "2026-10-01T00:59:37.390Z",
+      "updatedAt": "2026-10-01T00:59:37.390Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "All together",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-8",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "ぜんぶで",
+        "reading": ""
+      },
+      "id": "2995fc36-d061-45b9-8b90-78f72a937c91"
+    },
+    {
+      "createdAt": "2026-10-01T01:00:43.332Z",
+      "updatedAt": "2026-10-01T01:00:43.332Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Please give me~",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Expression",
+        "Topic: Shopping",
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "~を 下[くだ]さい",
+        "reading": "ください"
+      },
+      "id": "71bf5cd9-9bc1-4a43-aa58-31896cb14080"
+    },
+    {
+      "createdAt": "2026-10-01T01:02:43.856Z",
+      "updatedAt": "2026-10-01T01:02:43.856Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Please say it in easier words.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-8"
+      ],
+      "data": {
+        "expression": "やさしい 言葉[ことば]で 言[い]って 下[くだ]さい。",
+        "literal": ""
+      },
+      "id": "c6a89c8d-1239-485d-956b-5f387631f095"
+    },
+    {
+      "createdAt": "2026-10-01T01:03:27.439Z",
+      "updatedAt": "2026-10-01T01:03:27.439Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Linen; hemp",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Supplementary",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "麻[あさ]",
+        "reading": "あさ"
+      },
+      "id": "59f97990-9d45-4f02-9ec9-27fb1e90d34f"
+    },
+    {
+      "createdAt": "2026-10-01T01:03:55.281Z",
+      "updatedAt": "2026-10-01T01:03:55.281Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Wool",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Supplementary",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ウール",
+        "reading": ""
+      },
+      "id": "b29686a6-a1e4-4c1a-9449-342d689bddc9"
+    },
+    {
+      "createdAt": "2026-10-01T01:04:13.709Z",
+      "updatedAt": "2026-10-01T01:04:13.709Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Kimono; Japanese traditional dress",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "着物[きもの]",
+        "reading": "きもの"
+      },
+      "id": "ceda566a-486f-46f2-8fdb-749caa5d30bd"
+    },
+    {
+      "createdAt": "2026-10-01T01:04:28.635Z",
+      "updatedAt": "2026-10-01T01:04:28.635Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cotton",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "コットン",
+        "reading": ""
+      },
+      "id": "ef680988-6775-4df1-8d1d-a7c46e1f0776"
+    },
+    {
+      "createdAt": "2026-10-01T01:04:51.112Z",
+      "updatedAt": "2026-10-01T01:04:51.112Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sandal",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "サンダル",
+        "reading": ""
+      },
+      "id": "6a0fd54b-c20c-43ac-b46e-68b824082ab8"
+    },
+    {
+      "createdAt": "2026-10-01T01:05:15.838Z",
+      "updatedAt": "2026-10-01T01:05:15.838Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Underwear",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "下着[したぎ]",
+        "reading": "したぎ"
+      },
+      "id": "4af76be7-ed13-45b4-84d8-7cac8011a0b7"
+    },
+    {
+      "createdAt": "2026-10-01T01:05:37.387Z",
+      "updatedAt": "2026-10-01T01:05:37.387Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Silk",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "シルク",
+        "reading": ""
+      },
+      "id": "2c4d52ec-df68-4cef-be19-6b05a7dd8783"
+    },
+    {
+      "createdAt": "2026-10-01T01:06:10.710Z",
+      "updatedAt": "2026-10-01T01:06:10.710Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Scarf",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Supplementary",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "スカーフ",
+        "reading": ""
+      },
+      "id": "7880a427-427d-4722-8769-b5a3100b0f6b"
+    },
+    {
+      "createdAt": "2026-10-01T01:06:58.650Z",
+      "updatedAt": "2026-10-01T01:06:58.650Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sneaker, sneakers, trainers",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Supplementary",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "スニーカー",
+        "reading": ""
+      },
+      "id": "7e09ceca-222d-4fb2-a07b-d58080591e25"
+    },
+    {
+      "createdAt": "2026-10-01T01:08:40.374Z",
+      "updatedAt": "2026-10-01T01:08:40.374Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sweat shirt, \"sweats\"",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-8",
+        "Topic: Supplementary",
+        "Class: Noun",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "トレーニングシャツ",
+        "reading": ""
+      },
+      "id": "7f8c13a9-8001-454c-b2c4-4ffbb7c6ad2b"
+    },
+    {
+      "createdAt": "2026-10-01T01:09:20.012Z",
+      "updatedAt": "2026-10-01T01:09:20.012Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hooded sweatshirt, hoodie, hoody",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "パーカー",
+        "reading": ""
+      },
+      "id": "8970934c-3e50-48ee-9536-df95eff1c9e4"
+    },
+    {
+      "createdAt": "2026-10-01T01:09:43.075Z",
+      "updatedAt": "2026-10-01T01:09:43.075Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Boots",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Supplementary",
+        "Topic: Cloths & Accessories"
+      ],
+      "data": {
+        "expression": "ブーツ",
+        "reading": ""
+      },
+      "id": "6450ab04-d13e-40b0-9e5e-bcdd522c0a92"
+    },
+    {
+      "createdAt": "2026-10-01T01:10:05.852Z",
+      "updatedAt": "2026-10-01T01:10:05.852Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bracelet",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-8",
+        "Topic: Cloths & Accessories",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "ブレスレット",
+        "reading": ""
+      },
+      "id": "230c8656-f6f3-44bc-8e4d-26957453e253"
+    },
+    {
+      "createdAt": "2026-10-01T01:14:05.998Z",
+      "updatedAt": "2026-10-01T01:14:05.998Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Ice cream",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Topic: Food",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "アイスクリーム",
+        "reading": ""
+      },
+      "id": "9faf7fde-f51d-440f-9297-d27e87065590"
+    },
+    {
+      "createdAt": "2026-10-01T01:15:06.885Z",
+      "updatedAt": "2026-10-01T01:15:06.885Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Oil",
+      "notes": "脂 is pronounced the same, but is written when referring to fat.",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Topic: Food",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "油[あぶら]",
+        "reading": "あぶら"
+      },
+      "id": "364d392c-cd86-4189-a0ba-72da32f94224"
+    },
+    {
+      "createdAt": "2026-10-01T01:15:36.697Z",
+      "updatedAt": "2026-10-01T01:15:36.697Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "fat, tallow, lard",
+      "notes": "油 is pronounced the same, but is used to refer to oil.",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "脂[あぶら]",
+        "reading": "あぶら"
+      },
+      "id": "a3f1070a-62e7-4509-9180-119542e14262"
+    },
+    {
+      "createdAt": "2026-10-01T01:16:17.932Z",
+      "updatedAt": "2026-10-01T01:16:17.932Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Italy",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Countries"
+      ],
+      "data": {
+        "expression": "イタリア",
+        "reading": ""
+      },
+      "id": "04e3b970-b1da-492b-af34-94534b4a0c9b"
+    },
+    {
+      "createdAt": "2026-10-01T01:16:52.312Z",
+      "updatedAt": "2026-10-01T01:16:52.312Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Udon noodles (Japanese traditional noodles)",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "うどん",
+        "reading": ""
+      },
+      "id": "1503721e-e2c6-45d4-9e2a-bbc870b7302c"
+    },
+    {
+      "createdAt": "2026-10-01T01:17:18.616Z",
+      "updatedAt": "2026-10-01T01:17:18.616Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Curry and rice, rice and curry, curry rice",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "カレーライス",
+        "reading": ""
+      },
+      "id": "eb4fa4c8-33dd-4958-a580-74b78cdd85ee"
+    },
+    {
+      "createdAt": "2026-10-01T01:17:35.065Z",
+      "updatedAt": "2026-10-01T01:17:35.065Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Calorie",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "カロリー",
+        "reading": ""
+      },
+      "id": "a1ab63ea-e233-4084-a7d8-38bc8c49901d"
+    },
+    {
+      "createdAt": "2026-10-01T01:18:12.466Z",
+      "updatedAt": "2026-10-01T01:18:12.466Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cookie, biscuit",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "クッキー",
+        "reading": ""
+      },
+      "id": "ce421c9d-8671-4827-a0a2-c0e9f5aeb4a9"
+    },
+    {
+      "createdAt": "2026-10-01T01:18:52.892Z",
+      "updatedAt": "2026-10-01T01:18:52.892Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sliced raw fish",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "(お)刺身[さしみ]",
+        "reading": "さしみ"
+      },
+      "id": "463ed6f5-e995-477f-bf92-798efcc401a7"
+    },
+    {
+      "createdAt": "2026-10-01T01:19:18.394Z",
+      "updatedAt": "2026-10-01T01:19:18.394Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Salad",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Topic: Plants",
+        "Topic: Food",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "サラダ",
+        "reading": ""
+      },
+      "id": "fe6cc2ed-b679-4f99-af58-146e419bb06f"
+    },
+    {
+      "createdAt": "2026-10-01T01:19:52.158Z",
+      "updatedAt": "2026-10-01T01:19:52.158Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sandwich",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "サンドイッチ",
+        "reading": ""
+      },
+      "id": "9d9ac83a-a8d8-4061-92ad-44eec82cda25"
+    },
+    {
+      "createdAt": "2026-10-01T01:20:12.220Z",
+      "updatedAt": "2026-10-01T01:20:12.220Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(Western) soup",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "スープ",
+        "reading": ""
+      },
+      "id": "6cb3e5a7-88ca-4a52-993c-4bce345f111a"
+    },
+    {
+      "createdAt": "2026-10-01T01:20:34.930Z",
+      "updatedAt": "2026-10-01T01:20:34.930Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sushi, range of dishes made with vinegared rice combined with fish, vegetables, egg, etc.",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "(お)寿司[すし]",
+        "reading": "すし"
+      },
+      "id": "0dedea16-1652-4126-b3f3-ff5148328e26"
+    },
+    {
+      "createdAt": "2026-10-01T01:20:54.438Z",
+      "updatedAt": "2026-10-01T01:20:54.438Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Steak",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "ステーキ",
+        "reading": ""
+      },
+      "id": "2523dad8-f46f-4705-86c5-1ccb49e27b3b"
+    },
+    {
+      "createdAt": "2026-10-01T01:21:11.021Z",
+      "updatedAt": "2026-10-01T01:21:11.021Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Spaghetti",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "スパゲッティ",
+        "reading": ""
+      },
+      "id": "95736a8e-aaba-40cd-8034-1100ca17ce8c"
+    },
+    {
+      "createdAt": "2026-10-01T01:22:31.069Z",
+      "updatedAt": "2026-10-01T01:22:31.069Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Set; combo; Western-style fixed menu",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "セット",
+        "reading": ""
+      },
+      "id": "cbd0a542-83ad-4f20-8131-55b0ad265360"
+    },
+    {
+      "createdAt": "2026-10-01T01:22:59.982Z",
+      "updatedAt": "2026-10-01T01:22:59.982Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Soba (buckwheat noodles)",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "(お)蕎麦[そば]",
+        "reading": "そば"
+      },
+      "id": "4742c114-f075-464f-aae2-85ac8997a2a0"
+    },
+    {
+      "createdAt": "2026-10-01T01:23:15.612Z",
+      "updatedAt": "2026-10-01T01:23:15.612Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cheese",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "チーズ",
+        "reading": ""
+      },
+      "id": "d3ef6371-52a1-44c0-ada0-6e8953bf4dbd"
+    },
+    {
+      "createdAt": "2026-10-01T01:23:30.027Z",
+      "updatedAt": "2026-10-01T01:23:30.027Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chicken",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food",
+        "Topic: Animals"
+      ],
+      "data": {
+        "expression": "チキン",
+        "reading": ""
+      },
+      "id": "d2c9172c-2c23-4e35-9a6a-8f8a3e9d08b0"
+    },
+    {
+      "createdAt": "2026-10-01T01:23:47.945Z",
+      "updatedAt": "2026-10-01T01:23:47.945Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chinese-style fried rice",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "チャーハン",
+        "reading": ""
+      },
+      "id": "026b42b7-aa4f-4d4f-8c38-9a163f67fc21"
+    },
+    {
+      "createdAt": "2026-10-01T01:24:24.199Z",
+      "updatedAt": "2026-10-01T01:31:32.231Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chinese cooking, Chinese food",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "中華料理[ちゅうかりょうり]",
+        "reading": "ちゅうかりょうり"
+      },
+      "id": "8b9fbffd-745a-4c29-b845-e33dd0e5bfd7"
+    },
+    {
+      "createdAt": "2026-10-01T01:24:50.458Z",
+      "updatedAt": "2026-10-01T01:24:50.458Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Order, request",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "注文[ちゅうもん]",
+        "reading": "ちゅうもん"
+      },
+      "id": "ae8e63f3-2686-4502-8dda-dc988f3ee9bd"
+    },
+    {
+      "createdAt": "2026-10-01T01:25:05.714Z",
+      "updatedAt": "2026-10-01T01:25:05.714Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Chocolate",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "チョコレート",
+        "reading": ""
+      },
+      "id": "aef82619-8629-47a5-b9ca-918675879a46"
+    },
+    {
+      "createdAt": "2026-10-01T01:25:43.522Z",
+      "updatedAt": "2026-10-01T01:25:43.522Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Japanese-style dish set; fixed-price lunch, set meal, dinner",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "定食[ていしょく]",
+        "reading": "ていしょく"
+      },
+      "id": "d7787450-70cd-4bfa-9b6c-26dec5c4f75e"
+    },
+    {
+      "createdAt": "2026-10-01T01:25:59.318Z",
+      "updatedAt": "2026-10-01T01:25:59.318Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Dessert",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "デザート",
+        "reading": ""
+      },
+      "id": "6345178d-2b30-48fc-8bd5-013f5de4ebc4"
+    },
+    {
+      "createdAt": "2026-10-01T01:26:36.331Z",
+      "updatedAt": "2026-10-01T01:26:36.331Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tempura, deep-fried fish and vegetables in a light batter",
+      "notes": "Can also be written as 天麩羅",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "天[てん]ぷら",
+        "reading": "てんぷら"
+      },
+      "id": "2a84afaa-36e3-47c9-85b2-1c993ae6806a"
+    },
+    {
+      "createdAt": "2026-10-01T01:26:53.100Z",
+      "updatedAt": "2026-10-01T01:26:53.100Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Toast",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "トースト",
+        "reading": ""
+      },
+      "id": "ea598a6a-9cf2-4f6a-ae78-5df3d36b828a"
+    },
+    {
+      "createdAt": "2026-10-01T01:27:13.426Z",
+      "updatedAt": "2026-10-01T01:27:13.426Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hamburger (in a bun), burger",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "ハンバーガー",
+        "reading": ""
+      },
+      "id": "2e09d72b-59e0-4258-9e9f-d60a3ab79785"
+    },
+    {
+      "createdAt": "2026-10-01T01:27:31.501Z",
+      "updatedAt": "2026-10-01T01:27:31.501Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bread",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "パン",
+        "reading": ""
+      },
+      "id": "73e513ab-3089-4ddf-8965-51ebf2688663"
+    },
+    {
+      "createdAt": "2026-10-01T01:28:11.515Z",
+      "updatedAt": "2026-10-01T01:28:11.515Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Beef",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "ビーフ",
+        "reading": ""
+      },
+      "id": "5e52ccdc-0ae0-4417-b286-b432c96ca8a9"
+    },
+    {
+      "createdAt": "2026-10-01T01:28:42.923Z",
+      "updatedAt": "2026-10-01T01:28:42.923Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Pizza",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Topic: Food",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "ピザ",
+        "reading": ""
+      },
+      "id": "af2e91e0-1c3b-4761-ae0b-aa92a737f61d"
+    },
+    {
+      "createdAt": "2026-10-01T01:28:59.649Z",
+      "updatedAt": "2026-10-01T01:28:59.649Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fried chicken (esp. American-style)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "フライドチキン",
+        "reading": ""
+      },
+      "id": "2f554d39-d2ce-4964-96ea-882351c30c3d"
+    },
+    {
+      "createdAt": "2026-10-01T01:29:43.510Z",
+      "updatedAt": "2026-10-01T01:31:15.843Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Western food, Western dish, Western cooking",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "洋食[ようしょく]",
+        "reading": "ようしょく"
+      },
+      "id": "6ef3030a-336a-48fc-8685-284302ba108b"
+    },
+    {
+      "createdAt": "2026-10-01T01:29:59.642Z",
+      "updatedAt": "2026-10-01T01:30:37.781Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rice (Term when served on a plate)",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "ライス",
+        "reading": ""
+      },
+      "id": "a74063fb-66fc-4eeb-9aec-602fc786094c"
+    },
+    {
+      "createdAt": "2026-10-01T01:30:55.240Z",
+      "updatedAt": "2026-10-01T01:30:55.240Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Ramen, Chinese-style noodles",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "ラーメン",
+        "reading": ""
+      },
+      "id": "70ba3ac3-9653-4d99-b786-171462f1cf6b"
+    },
+    {
+      "createdAt": "2026-10-01T01:31:10.713Z",
+      "updatedAt": "2026-10-01T01:31:10.713Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Japanese food, Japanese dish, Japanese cuisine",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-9",
+        "Topic: Food",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "和食[わしょく]",
+        "reading": "わしょく"
+      },
+      "id": "48dcfee3-94df-4923-8f68-7a778cfcb71c"
+    },
+    {
+      "createdAt": "2026-10-01T01:31:58.145Z",
+      "updatedAt": "2026-10-01T01:31:58.145Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To need",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "要[い]る",
+        "reading": "いる"
+      },
+      "id": "ef895a15-5bed-4e9e-876d-a5a800db477b"
+    },
+    {
+      "createdAt": "2026-10-01T01:32:15.275Z",
+      "updatedAt": "2026-10-01T01:32:15.275Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To request, to ask (a favor)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "頼[たの]む",
+        "reading": "たのむ"
+      },
+      "id": "42e152c1-bde3-4d0f-af30-45f500251bf5"
+    },
+    {
+      "createdAt": "2026-10-01T01:32:38.272Z",
+      "updatedAt": "2026-10-01T01:32:38.272Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Warm",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: い-adjective",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "温[あたた]かい",
+        "reading": "あたたかい"
+      },
+      "id": "7f66ada1-c65c-4530-8df6-64507dd5b7a5"
+    },
+    {
+      "createdAt": "2026-10-01T01:32:57.532Z",
+      "updatedAt": "2026-10-01T01:32:57.532Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hot (objects)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "熱[あつ]い",
+        "reading": "あつい"
+      },
+      "id": "93897dd4-cbb3-4e47-9850-1fb63d550ada"
+    },
+    {
+      "createdAt": "2026-10-01T01:33:21.097Z",
+      "updatedAt": "2026-10-01T01:33:21.097Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Generous, sweet",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "甘[あま]い",
+        "reading": "あまい"
+      },
+      "id": "24103124-5103-4663-9ca5-5b6aa6187a68"
+    },
+    {
+      "createdAt": "2026-10-01T01:33:38.573Z",
+      "updatedAt": "2026-10-01T01:33:38.573Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Many; there are a lot",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "多[おお]い",
+        "reading": "おおい"
+      },
+      "id": "9f34e51c-6cf3-48a2-b26e-2f0d077f256b"
+    },
+    {
+      "createdAt": "2026-10-01T01:33:53.782Z",
+      "updatedAt": "2026-10-01T01:33:53.782Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Solid, hard, firm",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: い-adjective",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "固[かた]い",
+        "reading": "かたい"
+      },
+      "id": "2fe93ac0-e7b8-4685-ae46-e5f0a6491290"
+    },
+    {
+      "createdAt": "2026-10-01T01:34:10.839Z",
+      "updatedAt": "2026-10-01T01:34:10.839Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hot and spicy; salty",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "辛[から]い",
+        "reading": "からい"
+      },
+      "id": "21265d1f-20bd-4672-bccb-b728a2116214"
+    },
+    {
+      "createdAt": "2026-10-01T01:35:08.079Z",
+      "updatedAt": "2026-10-01T01:35:08.079Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Salty (taste)",
+      "notes": "Can also use: しょっぱい",
+      "tags": [
+        "Level: N2",
+        "Class: い-adjective",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "塩辛[しおから]い",
+        "reading": "しおからい"
+      },
+      "id": "b83b9ee6-20ff-42e1-88fd-cf0aee98efbe"
+    },
+    {
+      "createdAt": "2026-10-01T01:35:21.053Z",
+      "updatedAt": "2026-10-01T01:35:21.053Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "A little; a few",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "少[すく]ない",
+        "reading": "すくない"
+      },
+      "id": "81f3e791-d3a3-427f-a7b6-882fe6367cba"
+    },
+    {
+      "createdAt": "2026-10-01T01:36:31.870Z",
+      "updatedAt": "2026-10-01T01:36:31.870Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sour, acid",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: い-adjective",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "酸[す]っぱい",
+        "reading": ""
+      },
+      "id": "7ba80a0d-c848-4c67-b272-9871d234c018"
+    },
+    {
+      "createdAt": "2026-10-01T01:36:55.232Z",
+      "updatedAt": "2026-10-01T01:36:55.232Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cold (things, people)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "冷[つめ]たい",
+        "reading": "つめたい"
+      },
+      "id": "479e99f4-52ec-47e7-a7cb-c33005b82e18"
+    },
+    {
+      "createdAt": "2026-10-01T01:37:59.682Z",
+      "updatedAt": "2026-10-01T01:37:59.682Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bitter",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: い-adjective",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "苦[にが]い",
+        "reading": "にがい"
+      },
+      "id": "6fb45161-7914-43bc-b8eb-503da7f945fb"
+    },
+    {
+      "createdAt": "2026-10-01T01:38:37.954Z",
+      "updatedAt": "2026-10-01T01:38:37.954Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Short, low",
+      "notes": "カロリーが低い (Low in calories)",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "低[ひく]い",
+        "reading": "ひくい"
+      },
+      "id": "dd699936-a2d0-4d14-a1bf-898526b67590"
+    },
+    {
+      "createdAt": "2026-10-01T01:39:03.732Z",
+      "updatedAt": "2026-10-01T01:39:03.732Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Soft (in reference to texture), tender",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: い-adjective",
+        "Source: Nakama 1-9",
+        "Topic: Food"
+      ],
+      "data": {
+        "expression": "柔[やわ]らかい",
+        "reading": "やわらかい"
+      },
+      "id": "80ea70ed-7cdf-454e-86b1-9a3564396504"
+    },
+    {
+      "createdAt": "2026-10-01T01:40:52.972Z",
+      "updatedAt": "2026-10-01T01:40:52.972Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Please do not bother/worry about it.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-9",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "いいえ、どうぞおかまいなく。",
+        "literal": ""
+      },
+      "id": "9f0b5fcf-a893-45d3-acbf-1203035fbfd9"
+    },
+    {
+      "createdAt": "2026-10-01T01:43:39.128Z",
+      "updatedAt": "2026-10-01T01:43:39.128Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "What would you like to drink?",
+      "notes": "~にしますか。indicates a choice, or having decided something.",
+      "tags": [
+        "Source: Nakama 1-9"
+      ],
+      "data": {
+        "expression": "お飲み物は何*b:に**y:しますか。*",
+        "literal": "As for drinks, what will you decide on?"
+      },
+      "id": "526354ea-7f21-443c-8d86-4aaef259c35f"
     }
   ]
 }
