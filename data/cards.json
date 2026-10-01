@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 34,
-  "exportedAt": "2026-10-01T15:17:09.334Z",
+  "version": 35,
+  "exportedAt": "2026-10-01T22:33:01.173Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -16962,12 +16962,12 @@
     },
     {
       "createdAt": "2026-10-01T01:32:38.272Z",
-      "updatedAt": "2026-10-01T01:32:38.272Z",
+      "updatedAt": "2026-10-01T21:49:47.118Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
-      "meaning": "Warm",
-      "notes": "",
+      "meaning": "Warm (object, not weather)",
+      "notes": "Use 暖かい for weather. Same reading.",
       "tags": [
         "Level: N3",
         "Class: い-adjective",
@@ -16981,12 +16981,12 @@
     },
     {
       "createdAt": "2026-10-01T01:32:57.532Z",
-      "updatedAt": "2026-10-01T01:32:57.532Z",
+      "updatedAt": "2026-10-01T21:51:26.466Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Hot (objects)",
-      "notes": "",
+      "notes": "Use 暑い for temperature (Same reading).",
       "tags": [
         "Level: N5",
         "Class: い-adjective",
@@ -19789,6 +19789,1938 @@
         "reading": ""
       },
       "id": "d8bb9d03-9e8c-4e3c-93c6-d66f00f0db9c"
+    },
+    {
+      "createdAt": "2026-10-01T21:26:14.091Z",
+      "updatedAt": "2026-10-01T21:26:40.130Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fall (season)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Topic: Nature",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "秋[あき]",
+        "reading": "あき"
+      },
+      "id": "7cc7652e-afa1-447c-af1b-90fac7fe6875"
+    },
+    {
+      "createdAt": "2026-10-01T21:26:32.945Z",
+      "updatedAt": "2026-10-01T21:26:32.945Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rain",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Nature",
+        "Topic: Weather",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "雨[あめ]",
+        "reading": "あめ"
+      },
+      "id": "90bc1baf-2e77-452e-bfa8-83fb9b52e694"
+    },
+    {
+      "createdAt": "2026-10-01T21:27:02.585Z",
+      "updatedAt": "2026-10-01T21:27:59.240Z",
+      "timesSeen": 3,
+      "timesMissed": 2,
+      "type": "vocab",
+      "meaning": "Temperature",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "温度[おんど]",
+        "reading": "おんど"
+      },
+      "id": "af007a20-bed4-4a2c-bf34-f757ad219685"
+    },
+    {
+      "createdAt": "2026-10-01T21:27:23.968Z",
+      "updatedAt": "2026-10-01T21:27:23.968Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Wind, breeze",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "風[かぜ]",
+        "reading": "かぜ"
+      },
+      "id": "8e64b48b-209d-475e-851f-724dbe86fe73"
+    },
+    {
+      "createdAt": "2026-10-01T21:27:51.110Z",
+      "updatedAt": "2026-10-01T21:27:51.110Z",
+      "timesSeen": 2,
+      "timesMissed": 1,
+      "type": "vocab",
+      "meaning": "Temperature (weather - not used for things)",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "気温[きおん]",
+        "reading": "きおん"
+      },
+      "id": "625eddd7-4417-4271-b81e-49d9469653e5"
+    },
+    {
+      "createdAt": "2026-10-01T21:28:25.686Z",
+      "updatedAt": "2026-10-01T21:28:25.686Z",
+      "timesSeen": 2,
+      "timesMissed": 1,
+      "type": "vocab",
+      "meaning": "Climate",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "気候[きこう]",
+        "reading": "きこう"
+      },
+      "id": "8b518a24-d30d-4580-9b00-a1c3f17cde64"
+    },
+    {
+      "createdAt": "2026-10-01T21:28:47.923Z",
+      "updatedAt": "2026-10-01T21:28:47.923Z",
+      "timesSeen": 4,
+      "timesMissed": 3,
+      "type": "vocab",
+      "meaning": "Season (in reference to weather)",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "季節[きせつ]",
+        "reading": "きせつ"
+      },
+      "id": "a3af3335-178d-496a-9205-d5a5353567eb"
+    },
+    {
+      "createdAt": "2026-10-01T21:29:15.944Z",
+      "updatedAt": "2026-10-01T21:29:15.944Z",
+      "timesSeen": 1,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "North",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "北[きた]",
+        "reading": "きた"
+      },
+      "id": "db052808-5d15-4429-992e-778541c86b98"
+    },
+    {
+      "createdAt": "2026-10-01T21:29:48.743Z",
+      "updatedAt": "2026-10-01T21:29:48.743Z",
+      "timesSeen": 2,
+      "timesMissed": 1,
+      "type": "vocab",
+      "meaning": "Last year",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "去年[きょねん]",
+        "reading": "きょねん"
+      },
+      "id": "fc207e69-b47b-461f-aff4-e9894cc8628b"
+    },
+    {
+      "createdAt": "2026-10-01T21:30:02.490Z",
+      "updatedAt": "2026-10-01T21:30:02.490Z",
+      "timesSeen": 2,
+      "timesMissed": 1,
+      "type": "vocab",
+      "meaning": "Cloud",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Nature",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "雲[くも]",
+        "reading": "くも"
+      },
+      "id": "8b3dec45-972d-4597-ac38-f62689e719b1"
+    },
+    {
+      "createdAt": "2026-10-01T21:30:21.495Z",
+      "updatedAt": "2026-10-01T21:30:21.495Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cloudiness, cloudy weather",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "曇[くも]り",
+        "reading": "くもり"
+      },
+      "id": "ffe897d5-e4e2-4db8-9503-789d923d465b"
+    },
+    {
+      "createdAt": "2026-10-01T21:30:36.922Z",
+      "updatedAt": "2026-10-01T21:30:36.922Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This morning",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "今朝[けさ]",
+        "reading": "けさ"
+      },
+      "id": "5ccfc346-2cb3-4de7-aaa5-7153427e1ef8"
+    },
+    {
+      "createdAt": "2026-10-01T21:30:59.144Z",
+      "updatedAt": "2026-10-01T21:30:59.144Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This year",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "今年[ことし]",
+        "reading": "ことし"
+      },
+      "id": "e725fe5e-4682-4c4a-ba13-dc4371d7e832"
+    },
+    {
+      "createdAt": "2026-10-01T21:31:22.981Z",
+      "updatedAt": "2026-10-01T21:31:22.981Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Recently, nowadays, in recent years, most recent, latest",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "最近[さいきん]",
+        "reading": "さいきん"
+      },
+      "id": "7470a70a-66f4-41b5-b046-fe2940102544"
+    },
+    {
+      "createdAt": "2026-10-01T21:31:53.071Z",
+      "updatedAt": "2026-10-01T21:31:53.071Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Level of humidity",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "湿度[しつど]",
+        "reading": "しつど"
+      },
+      "id": "0674558e-aa61-415f-8e28-5bf38343db7d"
+    },
+    {
+      "createdAt": "2026-10-01T21:32:13.462Z",
+      "updatedAt": "2026-10-01T21:32:13.462Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Typhoon",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Nature",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "台風[たいふう]",
+        "reading": "たいふう"
+      },
+      "id": "f1e84a09-285e-42ee-a3a1-1c98466fa06a"
+    },
+    {
+      "createdAt": "2026-10-01T21:32:39.780Z",
+      "updatedAt": "2026-10-01T22:18:07.789Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rainy season (Specifically Japan's. Usually early June to mid-July)",
+      "notes": "雨期【うき】is the general term in tropical climates.",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "梅雨[つゆ]",
+        "reading": "つゆ"
+      },
+      "id": "67e9254c-4306-42ab-8764-a2039ff293dd"
+    },
+    {
+      "createdAt": "2026-10-01T21:32:56.572Z",
+      "updatedAt": "2026-10-01T21:32:56.572Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Weather",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "天気[てんき]",
+        "reading": "てんき"
+      },
+      "id": "70835ae0-a182-44a8-ae0e-2fc70ea9e3ac"
+    },
+    {
+      "createdAt": "2026-10-01T21:33:27.541Z",
+      "updatedAt": "2026-10-01T21:33:27.541Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Weather forecast",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "天気予報[てんきよほう]",
+        "reading": "てんきよほう"
+      },
+      "id": "ffda3b61-8363-4448-a8f4-245520c5be0e"
+    },
+    {
+      "createdAt": "2026-10-01T21:33:47.528Z",
+      "updatedAt": "2026-10-01T21:33:47.528Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Summer",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "夏[なつ]",
+        "reading": "なつ"
+      },
+      "id": "d145d1fd-c3b3-4cbb-a159-b705bee7eeae"
+    },
+    {
+      "createdAt": "2026-10-01T21:34:16.870Z",
+      "updatedAt": "2026-10-01T21:34:16.870Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Southwest",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "南西[なんせい]",
+        "reading": "なんせい"
+      },
+      "id": "dfe35088-5cb4-44c9-8d7d-e56f7694a66a"
+    },
+    {
+      "createdAt": "2026-10-01T21:34:31.569Z",
+      "updatedAt": "2026-10-01T21:34:31.569Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Southeast",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "南東[なんとう]",
+        "reading": "なんとう"
+      },
+      "id": "6bf14127-8d16-4463-9eb6-f7d47132ae12"
+    },
+    {
+      "createdAt": "2026-10-01T21:34:47.372Z",
+      "updatedAt": "2026-10-01T21:34:47.372Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "West",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Topic: Directions",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "西[にし]",
+        "reading": "にし"
+      },
+      "id": "77fed911-f700-4e22-af84-d2193cb01f98"
+    },
+    {
+      "createdAt": "2026-10-01T21:37:21.176Z",
+      "updatedAt": "2026-10-01T21:37:21.176Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rain shower",
+      "notes": "Often written with kana such as にわか雨。俄 means sudden or abrupt.",
+      "tags": [
+        "Level: N2",
+        "Class: な-adjective",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "俄[にわか]雨[あめ]",
+        "reading": "にわかあめ"
+      },
+      "id": "5a75713b-762c-4fc7-89ba-7e8b14db911d"
+    },
+    {
+      "createdAt": "2026-10-01T21:37:39.095Z",
+      "updatedAt": "2026-10-01T21:37:39.095Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Spring",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Nature",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "春[はる]",
+        "reading": "はる"
+      },
+      "id": "0429244b-033e-4bc7-a52d-0a08d4ebacee"
+    },
+    {
+      "createdAt": "2026-10-01T21:37:55.377Z",
+      "updatedAt": "2026-10-01T21:37:55.377Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Clear (sunny) weather",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "晴[は]れ",
+        "reading": "はれ"
+      },
+      "id": "6d433df4-d50a-4f88-b001-a57ac5f928f8"
+    },
+    {
+      "createdAt": "2026-10-01T21:38:09.290Z",
+      "updatedAt": "2026-10-01T21:38:09.290Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "East",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "東[ひがし]",
+        "reading": "ひがし"
+      },
+      "id": "3aa3d9b9-6423-4c29-a4af-5fb1c5fb90d3"
+    },
+    {
+      "createdAt": "2026-10-01T21:38:31.789Z",
+      "updatedAt": "2026-10-01T21:38:31.789Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Winter",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "冬[ふゆ]",
+        "reading": "ふゆ"
+      },
+      "id": "5edb9b98-fa76-4212-a41c-5d6a17882c4f"
+    },
+    {
+      "createdAt": "2026-10-01T21:39:37.978Z",
+      "updatedAt": "2026-10-01T21:39:37.978Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Direction; way; side",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Topic: Directions",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "方[ほう]",
+        "reading": "ほう"
+      },
+      "id": "012f82a9-5770-4935-961e-87658c42d9e9"
+    },
+    {
+      "createdAt": "2026-10-01T21:39:53.907Z",
+      "updatedAt": "2026-10-01T21:39:53.907Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Northwest",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "北西[ほくせい]",
+        "reading": "ほくせい"
+      },
+      "id": "a1d98aa5-4c5d-4549-9d59-181e183c65e0"
+    },
+    {
+      "createdAt": "2026-10-01T21:40:18.852Z",
+      "updatedAt": "2026-10-01T21:40:18.852Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Northeast",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "北東[ほくとう]",
+        "reading": "ほくとう"
+      },
+      "id": "09b1ed0e-694f-47aa-92ba-7925618f02ea"
+    },
+    {
+      "createdAt": "2026-10-01T21:41:26.090Z",
+      "updatedAt": "2026-10-01T21:41:26.090Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Minus",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-11",
+        "Topic: Math"
+      ],
+      "data": {
+        "expression": "マイナス",
+        "reading": ""
+      },
+      "id": "85f7339f-0fa4-48c5-ba4f-ac8c5814d7d6"
+    },
+    {
+      "createdAt": "2026-10-01T21:41:44.473Z",
+      "updatedAt": "2026-10-01T21:41:44.473Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "South",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Directions"
+      ],
+      "data": {
+        "expression": "南[みなみ]",
+        "reading": "みなみ"
+      },
+      "id": "5d85336b-2091-4d94-9f96-23f2f25bdf74"
+    },
+    {
+      "createdAt": "2026-10-01T21:42:12.192Z",
+      "updatedAt": "2026-10-01T21:42:12.192Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Late afternoon (typically just before dinner time), evening",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "夕方[ゆうがた]",
+        "reading": "ゆうがた"
+      },
+      "id": "a7d5eeb6-6bff-47c6-b029-a7ae2f326d3d"
+    },
+    {
+      "createdAt": "2026-10-01T21:42:30.740Z",
+      "updatedAt": "2026-10-01T21:42:30.740Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Snow",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "雪[ゆき]",
+        "reading": "ゆき"
+      },
+      "id": "418aee17-b1c3-4cfe-b432-3de07745825b"
+    },
+    {
+      "createdAt": "2026-10-01T21:42:49.805Z",
+      "updatedAt": "2026-10-01T21:42:49.805Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Evening, night",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-11",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "夜[よる]",
+        "reading": "よる"
+      },
+      "id": "0d6d72c2-f4b4-45f7-a0a3-efbdbfb218b6"
+    },
+    {
+      "createdAt": "2026-10-01T21:43:11.466Z",
+      "updatedAt": "2026-10-01T21:43:11.466Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To raise, to lift, to go up",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "上[あ]げる",
+        "reading": "あげる"
+      },
+      "id": "43e253bb-92be-4e29-b089-5764045698c1"
+    },
+    {
+      "createdAt": "2026-10-01T21:43:29.339Z",
+      "updatedAt": "2026-10-01T21:43:29.339Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To become cloudy, to become dim",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "曇[くも]る",
+        "reading": "くもる"
+      },
+      "id": "99615fdc-0c9a-4426-85b1-a74d63c7894c"
+    },
+    {
+      "createdAt": "2026-10-01T21:43:43.701Z",
+      "updatedAt": "2026-10-01T21:43:43.701Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To descend, to drop, to fall",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: U-verb",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "下[さが]る",
+        "reading": "さがる"
+      },
+      "id": "de57976e-1f80-4cbb-a25c-af671e98aff0"
+    },
+    {
+      "createdAt": "2026-10-01T21:43:56.137Z",
+      "updatedAt": "2026-10-01T21:45:17.558Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To know, to understand",
+      "notes": "Often used in conjunction with いる。Such as 知っている。For \"To know something\" or 知らない。For \"To not know\"",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "知[し]る",
+        "reading": "しる"
+      },
+      "id": "ebeefd37-0cdc-450e-8039-a440d0f31438"
+    },
+    {
+      "createdAt": "2026-10-01T21:44:18.765Z",
+      "updatedAt": "2026-10-01T21:44:18.765Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Follow, continue, go on",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: U-verb",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "続[つづ]く",
+        "reading": "つづく"
+      },
+      "id": "2513de8b-0c8e-4edf-a50d-1ea1500db555"
+    },
+    {
+      "createdAt": "2026-10-01T21:46:00.877Z",
+      "updatedAt": "2026-10-01T21:46:00.877Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To pile up; to accumulate",
+      "notes": "雪が積もる。Snow accumulates.",
+      "tags": [
+        "Level: N3",
+        "Class: U-verb",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "積[つ]もる",
+        "reading": "つもる"
+      },
+      "id": "b14a2334-2c66-4b7f-8deb-8fba422101c0"
+    },
+    {
+      "createdAt": "2026-10-01T21:46:24.834Z",
+      "updatedAt": "2026-10-01T21:46:24.834Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To blow (wind, etc.)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "吹[ふ]く",
+        "reading": "ふく"
+      },
+      "id": "de7d316d-d540-4dac-a69f-00a5ff9f2d66"
+    },
+    {
+      "createdAt": "2026-10-01T21:46:49.936Z",
+      "updatedAt": "2026-10-01T21:46:49.936Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To precipitate, to fall (e.g., rain, snow, etc.)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "降[ふ]る",
+        "reading": "ふる"
+      },
+      "id": "ab5777da-bbfe-4999-818c-48b13d45dbae"
+    },
+    {
+      "createdAt": "2026-10-01T21:47:52.839Z",
+      "updatedAt": "2026-10-01T21:47:52.839Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To cease, to stop",
+      "notes": "雨が止む。\"The rain stops\"",
+      "tags": [
+        "Level: N4",
+        "Class: U-verb",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "止[や]む",
+        "reading": "やむ"
+      },
+      "id": "d389c3fb-711f-46df-84aa-4daca3c630df"
+    },
+    {
+      "createdAt": "2026-10-01T21:48:35.251Z",
+      "updatedAt": "2026-10-01T21:48:35.251Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To become sunny",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Ru-verb",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "晴[は]れる",
+        "reading": "はれる"
+      },
+      "id": "093d05db-3caa-4903-bfeb-5773e325da9e"
+    },
+    {
+      "createdAt": "2026-10-01T21:50:40.437Z",
+      "updatedAt": "2026-10-01T21:50:40.437Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Warm (Air temperature/weather)",
+      "notes": "Use 温かい for objects. Same reading.",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "暖[あたた]かい",
+        "reading": "あたたかい"
+      },
+      "id": "902ec3fb-734f-457a-9103-fa0129200613"
+    },
+    {
+      "createdAt": "2026-10-01T21:52:38.610Z",
+      "updatedAt": "2026-10-01T21:52:38.610Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hot (in reference to weather), warm",
+      "notes": "Use 熱い for objects and 厚い for \"a warm personality\", both use the same reading.",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "暑[あつ]い",
+        "reading": "あつい"
+      },
+      "id": "665dcfaa-90de-41ec-b68f-17baa9d4f4fc"
+    },
+    {
+      "createdAt": "2026-10-01T21:52:56.221Z",
+      "updatedAt": "2026-10-01T21:52:56.221Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cold (in reference to weather)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "寒[さむ]い",
+        "reading": "さむい"
+      },
+      "id": "b12c82de-359d-4d86-aa2c-e913da526531"
+    },
+    {
+      "createdAt": "2026-10-01T21:53:13.995Z",
+      "updatedAt": "2026-10-01T21:53:13.995Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Cool, refreshing (in reference to weather)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "涼[すず]しい",
+        "reading": "すずしい"
+      },
+      "id": "3e37a490-c471-48cf-8d9c-a7acedb9d9a9"
+    },
+    {
+      "createdAt": "2026-10-01T21:53:27.331Z",
+      "updatedAt": "2026-10-01T21:53:27.331Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Strong, powerful",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "強[つよ]い",
+        "reading": "つよい"
+      },
+      "id": "02a60dfd-ae6f-4d7c-81cc-e860d77b68cc"
+    },
+    {
+      "createdAt": "2026-10-01T21:53:47.686Z",
+      "updatedAt": "2026-10-01T21:53:47.686Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Early",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-11",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "早[はや]い",
+        "reading": "はやい"
+      },
+      "id": "aef3e86b-5044-461e-bda3-2649f97c3ae6"
+    },
+    {
+      "createdAt": "2026-10-01T21:54:13.861Z",
+      "updatedAt": "2026-10-01T21:54:13.861Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Humid, sultry",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: い-adjective",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "蒸[む]し 暑[あつ]い",
+        "reading": "むしあつい"
+      },
+      "id": "919231f5-f3d3-48c8-ba72-c6ea8619a2ce"
+    },
+    {
+      "createdAt": "2026-10-01T21:54:27.225Z",
+      "updatedAt": "2026-10-01T21:54:27.225Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Weak",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "弱[よわ]い",
+        "reading": "よわい"
+      },
+      "id": "3b86f6d3-94a5-4607-851f-ba0d321241e0"
+    },
+    {
+      "createdAt": "2026-10-01T21:54:39.406Z",
+      "updatedAt": "2026-10-01T21:54:39.406Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Bad, sinful; inferior",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: い-adjective",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "悪[わる]い",
+        "reading": "わるい"
+      },
+      "id": "cf5e84be-a140-475b-b865-ae5a1d843358"
+    },
+    {
+      "createdAt": "2026-10-01T21:55:08.409Z",
+      "updatedAt": "2026-10-01T21:55:08.409Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Disagreeable, detestable, unpleasant, yuck",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: な-adjective",
+        "Source: Nakama 1-11"
+      ],
+      "data": {
+        "expression": "嫌[いや]",
+        "reading": "いや"
+      },
+      "id": "dd26439e-0bdb-4163-89ba-883db46a503a"
+    },
+    {
+      "createdAt": "2026-10-01T21:55:46.698Z",
+      "updatedAt": "2026-10-01T21:55:46.698Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Urgent, sudden; steep",
+      "notes": "急に \"Suddenly\"",
+      "tags": [
+        "Level: N4",
+        "Class: な-adjective",
+        "Source: Nakama 1-11",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "急[きゅう]",
+        "reading": "きゅう"
+      },
+      "id": "dfbc52f7-ab84-4112-9d2f-88feec2ccd06"
+    },
+    {
+      "createdAt": "2026-10-01T21:56:21.514Z",
+      "updatedAt": "2026-10-01T21:56:21.514Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for occurrences; ~ degree; ~ point",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Suffix",
+        "Class: Counter",
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "~度[ど]",
+        "reading": "ど"
+      },
+      "id": "b9b5bc87-a8ed-4ad6-a69f-72b8d4d5a887"
+    },
+    {
+      "createdAt": "2026-10-01T21:57:35.316Z",
+      "updatedAt": "2026-10-01T21:57:35.316Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Really, truely, indeed",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: な-adjective",
+        "Source: Nakama 1-11",
+        "Class: Expression",
+        "Topic: Expressions"
+      ],
+      "data": {
+        "expression": "本当[ほんとう]に",
+        "reading": "ほんとう"
+      },
+      "id": "1a8a2936-bf53-411d-a375-0d169c57e62e"
+    },
+    {
+      "createdAt": "2026-10-01T21:58:21.868Z",
+      "updatedAt": "2026-10-01T21:58:21.868Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for months",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Suffix",
+        "Source: Nakama 1-11",
+        "Class: Counter",
+        "Topic: Counters",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "~月[がつ]",
+        "reading": "がつ"
+      },
+      "id": "3979099f-81e6-4d21-82bd-d6394d8a89bc"
+    },
+    {
+      "createdAt": "2026-10-01T21:59:29.465Z",
+      "updatedAt": "2026-10-01T21:59:29.465Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Sunny/clear, then cloudy",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "晴[は]れのち 曇[くも]り",
+        "literal": ""
+      },
+      "id": "e508c229-fc8e-4dcd-a8e6-c914755d0ba7"
+    },
+    {
+      "createdAt": "2026-10-01T22:00:13.799Z",
+      "updatedAt": "2026-10-01T22:00:13.799Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "sentence",
+      "meaning": "Cloudy with occasional rain.",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "曇[くも]り 時々[ときどき] 雨[あめ]",
+        "literal": ""
+      },
+      "id": "18880d04-a3b2-46fd-8511-8ba438e1b215"
+    },
+    {
+      "createdAt": "2026-10-01T22:02:13.785Z",
+      "updatedAt": "2026-10-01T22:03:03.204Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Pacific Ocean side (east side) of Japan",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Directions",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "太平洋側[たいへいようがわ]",
+        "reading": "たいへいようがわ"
+      },
+      "id": "4896dba1-b15e-40e7-b8f1-59dab9267977"
+    },
+    {
+      "createdAt": "2026-10-01T22:02:52.245Z",
+      "updatedAt": "2026-10-01T22:03:08.520Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sea of Japan side (west side) of Japan",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Directions",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "日本海側[にほんかいがわ]",
+        "reading": "にほんかいがわ"
+      },
+      "id": "49604133-dc14-4813-b571-863a41452a65"
+    },
+    {
+      "createdAt": "2026-10-01T22:04:41.282Z",
+      "updatedAt": "2026-10-01T22:05:34.510Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Mountainous area (in any country)",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Locations",
+        "Topic: Directions",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "山岳部[さんがくぶ]",
+        "reading": "さんがくぶ"
+      },
+      "id": "d5abb916-fb6d-4ad9-933f-35779ceabc51"
+    },
+    {
+      "createdAt": "2026-10-01T22:05:27.497Z",
+      "updatedAt": "2026-10-01T22:05:27.497Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Weast coast region (USA)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Directions",
+        "Topic: Locations",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "西海岸[にしかいがん]",
+        "reading": "にしかいがん"
+      },
+      "id": "e00ca881-6a8f-478e-ba6f-50069f5d2d2d"
+    },
+    {
+      "createdAt": "2026-10-01T22:06:28.473Z",
+      "updatedAt": "2026-10-01T22:06:28.473Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Midwest region (USA)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Locations",
+        "Topic: Directions",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "中西部[ちゅうせいぶ]",
+        "reading": "ちゅうせいぶ"
+      },
+      "id": "8091f43f-acf7-4b55-91ab-6ed1a08a82ff"
+    },
+    {
+      "createdAt": "2026-10-01T22:07:00.527Z",
+      "updatedAt": "2026-10-01T22:07:00.527Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Southern part, the south (of a region)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Locations",
+        "Topic: Directions",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "南部[なんぶ]",
+        "reading": "なんぶ"
+      },
+      "id": "a5724a90-1866-4397-93aa-7d846b623af2"
+    },
+    {
+      "createdAt": "2026-10-01T22:07:39.859Z",
+      "updatedAt": "2026-10-01T22:07:39.859Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Southwest region (USA)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Class: Noun",
+        "Topic: Directions",
+        "Topic: Locations",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "南西部[なんせいぶ]",
+        "reading": "なんせいぶ"
+      },
+      "id": "0a71357f-b75f-44e0-9136-0183bf71cf08"
+    },
+    {
+      "createdAt": "2026-10-01T22:08:29.495Z",
+      "updatedAt": "2026-10-01T22:08:29.495Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "East coast region (USA)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Directions",
+        "Topic: Locations",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "東海岸[ひがしかいがん]",
+        "reading": "ひがしかいがん"
+      },
+      "id": "c5ea895a-5eee-4d90-b377-0498ba5ecdd7"
+    },
+    {
+      "createdAt": "2026-10-01T22:10:26.135Z",
+      "updatedAt": "2026-10-01T22:10:26.135Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fahrenheit",
+      "notes": "This is an abbreviation for 華氏温度 【かしおんど】",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "華氏[かし]",
+        "reading": "かし"
+      },
+      "id": "e68edb28-1591-4f6e-870a-deec9a8a2190"
+    },
+    {
+      "createdAt": "2026-10-01T22:10:46.266Z",
+      "updatedAt": "2026-10-01T22:10:46.266Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Atmospheric pressure",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "気圧[きあつ]",
+        "reading": "きあつ"
+      },
+      "id": "aa9abd69-9f98-4649-83ae-0333eaadf412"
+    },
+    {
+      "createdAt": "2026-10-01T22:11:03.583Z",
+      "updatedAt": "2026-10-01T22:11:03.583Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Amount of precipitation, precipitation",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "降水量[こうすいりょう]",
+        "reading": "こうすいりょう"
+      },
+      "id": "857a655b-df40-4920-b096-91e6eb9f34a0"
+    },
+    {
+      "createdAt": "2026-10-01T22:11:43.628Z",
+      "updatedAt": "2026-10-01T22:11:43.628Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Highest temperature",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Class: Noun",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "最高気温[さいこうきおん]",
+        "reading": "さいこうきおん"
+      },
+      "id": "3c59d47d-d934-495a-ad5f-cb435081d502"
+    },
+    {
+      "createdAt": "2026-10-01T22:12:20.739Z",
+      "updatedAt": "2026-10-01T22:12:20.739Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Lowest temperature",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "最低気温[さいていきおん]",
+        "reading": "さいていきおん"
+      },
+      "id": "9b149bbb-8914-4f6d-a859-fe0567d06eb7"
+    },
+    {
+      "createdAt": "2026-10-01T22:13:39.519Z",
+      "updatedAt": "2026-10-01T22:13:39.519Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Celsius, centigrade",
+      "notes": "Abbreviation for 摂氏温度 【せっしおんど】",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "摂氏[せっし]",
+        "reading": "せっし"
+      },
+      "id": "6b660c39-06a6-4f85-ab18-0f7b5dd940d9"
+    },
+    {
+      "createdAt": "2026-10-01T22:14:32.011Z",
+      "updatedAt": "2026-10-01T22:14:32.011Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Weather map",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "天気図[てんきず]",
+        "reading": "てんきず"
+      },
+      "id": "ad951576-f372-41c4-aa54-9feb3dec6b68"
+    },
+    {
+      "createdAt": "2026-10-01T22:18:54.043Z",
+      "updatedAt": "2026-10-01T22:18:54.043Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Rainy season (General term used in tropical climates)",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Supplementary",
+        "Class: Noun",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "雨期[うき]",
+        "reading": "うき"
+      },
+      "id": "418a8759-f617-4efb-bf94-9a2f2eefee6f"
+    },
+    {
+      "createdAt": "2026-10-01T22:19:10.970Z",
+      "updatedAt": "2026-10-01T22:19:10.970Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Storm",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "嵐[あらし]",
+        "reading": "あらし"
+      },
+      "id": "c373f897-0dc5-4b54-a4c8-b9e8056ca1fc"
+    },
+    {
+      "createdAt": "2026-10-01T22:19:42.029Z",
+      "updatedAt": "2026-10-01T22:19:42.029Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hail (e.g., falling ice balls)",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Supplementary",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "霰[あられ]",
+        "reading": "あられ"
+      },
+      "id": "2ffac6f8-4d9f-471e-835a-3a7798445135"
+    },
+    {
+      "createdAt": "2026-10-01T22:20:03.936Z",
+      "updatedAt": "2026-10-01T22:20:03.936Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(flash of) lightning",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Supplementary",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "稲光[いなびかり]",
+        "reading": "いなびかり"
+      },
+      "id": "f6199bdb-0750-4508-add1-ce6cfb885075"
+    },
+    {
+      "createdAt": "2026-10-01T22:20:28.723Z",
+      "updatedAt": "2026-10-01T22:20:28.723Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Thunder",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "雷[かみなり]",
+        "reading": "かみなり"
+      },
+      "id": "cec82fc1-219c-40a3-a2d0-8e244923e2be"
+    },
+    {
+      "createdAt": "2026-10-01T22:20:44.843Z",
+      "updatedAt": "2026-10-01T22:20:44.843Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Fog, mist",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "霧[きり]",
+        "reading": "きり"
+      },
+      "id": "848c6c42-9dc0-470f-949f-409ae7322a39"
+    },
+    {
+      "createdAt": "2026-10-01T22:21:20.287Z",
+      "updatedAt": "2026-10-01T22:21:20.287Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Warning, alarm, alert",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Supplementary",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "警報[けいほう]",
+        "reading": "けいほう"
+      },
+      "id": "87c81901-5038-4577-bb7d-8f9999d3d209"
+    },
+    {
+      "createdAt": "2026-10-01T22:21:42.451Z",
+      "updatedAt": "2026-10-01T22:21:42.451Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Flood",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "洪水[こうずい]",
+        "reading": "こうずい"
+      },
+      "id": "119af276-2fee-4d09-ad29-40525b7828a2"
+    },
+    {
+      "createdAt": "2026-10-01T22:21:59.528Z",
+      "updatedAt": "2026-10-01T22:21:59.528Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Light rain, drizzle",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Supplementary",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "小雨[こさめ]",
+        "reading": "こさめ"
+      },
+      "id": "da4a4adf-ff70-4d6f-854c-2bd4b01df51c"
+    },
+    {
+      "createdAt": "2026-10-01T22:22:21.481Z",
+      "updatedAt": "2026-10-01T22:22:21.481Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tornado, whirlwind, waterspout",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "竜巻[たつまき]",
+        "reading": "たつまき"
+      },
+      "id": "ce461cca-483f-40e1-a649-3ffd191752b9"
+    },
+    {
+      "createdAt": "2026-10-01T22:22:48.684Z",
+      "updatedAt": "2026-10-01T22:22:48.684Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Advisory; alert",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "注意報[ちゅういほう]",
+        "reading": "ちゅういほう"
+      },
+      "id": "4ae0a4ff-9e0c-4fa0-a980-4dc83935caab"
+    },
+    {
+      "createdAt": "2026-10-01T22:23:03.467Z",
+      "updatedAt": "2026-10-01T22:23:03.467Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Tsunami, tidal wave",
+      "notes": "",
+      "tags": [
+        "Level: N1",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "津波[つなみ]",
+        "reading": "つなみ"
+      },
+      "id": "24b30a1b-a780-479d-8d74-ed967a074919"
+    },
+    {
+      "createdAt": "2026-10-01T22:24:16.946Z",
+      "updatedAt": "2026-10-01T22:26:02.023Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Downpour, pouring rain, heavy rain",
+      "notes": "Often written with mostly kana, but 土砂降り is correct.",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "どしゃ 降[ぶ]り",
+        "reading": "どしゃぶり"
+      },
+      "id": "8c96edb8-9e17-4475-92db-dd61ae69a64f"
+    },
+    {
+      "createdAt": "2026-10-01T22:24:34.893Z",
+      "updatedAt": "2026-10-01T22:24:34.893Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hurricane",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "ハリケーン",
+        "reading": ""
+      },
+      "id": "d86ed94d-3265-4af0-8707-c0c1cdf9e4dc"
+    },
+    {
+      "createdAt": "2026-10-01T22:25:22.144Z",
+      "updatedAt": "2026-10-01T22:25:53.414Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Drought; dry weather",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Class: Noun",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "日照り[ひでり]",
+        "reading": "ひでり"
+      },
+      "id": "bfce89f6-c713-4bef-b02c-4be5b8f03ad5"
+    },
+    {
+      "createdAt": "2026-10-01T22:26:30.419Z",
+      "updatedAt": "2026-10-01T22:26:30.419Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Snow storm",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "吹雪[ふぶき]",
+        "reading": "ふぶき"
+      },
+      "id": "a71a5769-3ff6-49b4-8dd0-82486d9bf8a6"
+    },
+    {
+      "createdAt": "2026-10-01T22:27:27.006Z",
+      "updatedAt": "2026-10-01T22:27:27.006Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sleet",
+      "notes": "Often written with just kana, but 霙 is correct.",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Weather",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "みぞれ",
+        "reading": ""
+      },
+      "id": "ab2b8d17-4d8a-4c15-9b5b-c9fef0e0dd63"
+    },
+    {
+      "createdAt": "2026-10-01T22:28:08.024Z",
+      "updatedAt": "2026-10-01T22:28:08.024Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(sudden) evening shower (rain)",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-11",
+        "Topic: Supplementary",
+        "Topic: Weather"
+      ],
+      "data": {
+        "expression": "夕立[ゆうだち]",
+        "reading": "ゆうだち"
+      },
+      "id": "ccb22a87-d753-48e8-8ef1-f56cfd590dba"
     }
   ]
 }
