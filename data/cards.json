@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 33,
-  "exportedAt": "2026-10-01T14:52:44.259Z",
+  "version": 34,
+  "exportedAt": "2026-10-01T15:17:09.334Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -38,6 +38,10 @@
     {
       "id": "72180c7f-645b-4f83-9ba5-793a022a1c1b",
       "deletedAt": "2026-09-28T15:22:55.424Z"
+    },
+    {
+      "id": "20e5894f-6b7c-4b3a-9659-46109af43935",
+      "deletedAt": "2026-10-01T14:56:54.429Z"
     }
   ],
   "cards": [
@@ -149,8 +153,8 @@
     {
       "createdAt": "2026-09-06T21:34:31.527Z",
       "updatedAt": "2026-09-19T22:16:02.145Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "country; state​",
       "notes": "",
@@ -248,8 +252,8 @@
     {
       "createdAt": "2026-09-06T22:01:24.439Z",
       "updatedAt": "2026-09-06T22:38:36.892Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "determine, fix, establish, decide",
       "notes": "",
@@ -275,8 +279,8 @@
     {
       "createdAt": "2026-09-06T22:04:17.113Z",
       "updatedAt": "2026-09-06T22:38:15.134Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "promise, approximately, shrink",
       "notes": "Commonly seen as: 約束 【ヤクソク】 promise, agreement, arrangement",
@@ -326,8 +330,8 @@
     {
       "createdAt": "2026-09-06T22:08:30.541Z",
       "updatedAt": "2026-09-06T22:37:41.878Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "picture, painting, plot, plan, scheme, measure",
       "notes": "Commonly seen as: 計画 【ケイカク】 plan, project, schedule, scheme, program",
@@ -401,8 +405,8 @@
     {
       "createdAt": "2026-09-06T22:13:45.701Z",
       "updatedAt": "2026-09-06T22:35:43.107Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "solution, (to) answer",
       "notes": "",
@@ -426,7 +430,7 @@
     {
       "createdAt": "2026-09-06T22:14:48.918Z",
       "updatedAt": "2026-09-06T22:35:23.944Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "(to) know, wisdom",
@@ -451,8 +455,8 @@
     {
       "createdAt": "2026-09-06T22:16:57.657Z",
       "updatedAt": "2026-09-06T22:35:11.134Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "kanji",
       "meaning": "To stay overnight",
       "notes": "Can also be used as a counter for number of nights stayed (ハク).",
@@ -504,8 +508,8 @@
     {
       "createdAt": "2026-09-06T22:21:04.589Z",
       "updatedAt": "2026-09-06T22:34:32.644Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 2,
       "type": "kanji",
       "meaning": "to arrive, to put on",
       "notes": "着 【チャク】 arrival, arriving at ..., counter for items or suits of clothing, nth place (in a race), counter for moves",
@@ -1422,7 +1426,7 @@
     {
       "createdAt": "2026-09-06T23:44:18.725Z",
       "updatedAt": "2026-09-06T23:44:18.725Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "kanji",
       "meaning": "before, ahead, previous, future, precedence",
@@ -3531,7 +3535,7 @@
     {
       "createdAt": "2026-09-19T23:03:09.917Z",
       "updatedAt": "2026-09-24T16:56:52.877Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "What?",
@@ -3622,27 +3626,9 @@
       "id": "da643302-4469-453d-8073-1720e0ae7fcf"
     },
     {
-      "createdAt": "2026-09-19T23:11:38.170Z",
-      "updatedAt": "2026-09-19T23:12:52.474Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
-      "type": "grammar",
-      "meaning": "(Prefix) Makes something sound polite",
-      "notes": "",
-      "tags": [
-        "Source: Nakama 1-2",
-        "Topic: Prefix"
-      ],
-      "data": {
-        "expression": "お~",
-        "example": ""
-      },
-      "id": "20e5894f-6b7c-4b3a-9659-46109af43935"
-    },
-    {
       "createdAt": "2026-09-19T23:14:48.875Z",
       "updatedAt": "2026-09-24T16:57:11.523Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "(Suffix) Language",
@@ -3685,7 +3671,7 @@
     {
       "createdAt": "2026-09-19T23:17:27.352Z",
       "updatedAt": "2026-09-24T16:57:46.397Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "(Suffix) -nationality",
@@ -3705,7 +3691,7 @@
     {
       "createdAt": "2026-09-19T23:18:23.835Z",
       "updatedAt": "2026-09-24T16:58:06.126Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "(Suffix) -student",
@@ -3748,7 +3734,7 @@
     {
       "createdAt": "2026-09-19T23:20:11.087Z",
       "updatedAt": "2026-09-24T16:58:57.391Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Um..., well...",
@@ -3768,7 +3754,7 @@
     {
       "createdAt": "2026-09-19T23:20:48.346Z",
       "updatedAt": "2026-09-24T17:08:20.831Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "No, I don't mean, you're welcome",
@@ -3789,7 +3775,7 @@
     {
       "createdAt": "2026-09-19T23:21:48.370Z",
       "updatedAt": "2026-09-24T17:08:40.828Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Yes",
@@ -3810,7 +3796,7 @@
     {
       "createdAt": "2026-09-19T23:23:36.906Z",
       "updatedAt": "2026-09-19T23:23:36.906Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "sentence",
       "meaning": "No, that's not so",
@@ -3827,8 +3813,8 @@
     {
       "createdAt": "2026-09-19T23:24:34.953Z",
       "updatedAt": "2026-09-19T23:24:34.953Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "sentence",
       "meaning": "It is I who should be saying that. Thank you. Same here.",
       "notes": "",
@@ -3843,18 +3829,19 @@
     },
     {
       "createdAt": "2026-09-19T23:26:58.237Z",
-      "updatedAt": "2026-09-19T23:26:58.237Z",
-      "timesSeen": 0,
+      "updatedAt": "2026-10-01T15:01:48.627Z",
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "sentence",
       "meaning": "Where are you from?",
       "notes": "どちらからいらっしゃいましたか。Is a more formal way of saying it.",
       "tags": [
         "Topic: Locations",
-        "Source: Nakama 1-2"
+        "Source: Nakama 1-2",
+        "Topic: Questions"
       ],
       "data": {
-        "expression": "どこから来ましたか。",
+        "expression": "どこから 来[き]ましたか。",
         "literal": ""
       },
       "id": "46321f9d-2e79-401f-85d4-ea2b8031ca00"
@@ -3862,8 +3849,8 @@
     {
       "createdAt": "2026-09-19T23:28:49.110Z",
       "updatedAt": "2026-09-24T17:08:52.955Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Medicine (Medical Science)",
       "notes": "",
@@ -3883,7 +3870,7 @@
     {
       "createdAt": "2026-09-19T23:29:29.024Z",
       "updatedAt": "2026-09-24T17:09:04.478Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Music",
@@ -3925,8 +3912,8 @@
     {
       "createdAt": "2026-09-19T23:31:28.515Z",
       "updatedAt": "2026-09-24T17:10:05.252Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Education",
       "notes": "",
@@ -3947,8 +3934,8 @@
     {
       "createdAt": "2026-09-19T23:32:46.734Z",
       "updatedAt": "2026-09-24T17:10:16.600Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 2,
       "type": "vocab",
       "meaning": "Economics",
       "notes": "",
@@ -3967,8 +3954,8 @@
     {
       "createdAt": "2026-09-19T23:33:35.730Z",
       "updatedAt": "2026-09-24T17:10:27.148Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Architecture",
       "notes": "",
@@ -3987,8 +3974,8 @@
     {
       "createdAt": "2026-09-19T23:34:25.338Z",
       "updatedAt": "2026-09-24T17:11:07.607Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "International Relations",
       "notes": "",
@@ -4007,8 +3994,8 @@
     },
     {
       "createdAt": "2026-09-19T23:36:07.224Z",
-      "updatedAt": "2026-09-24T17:11:40.739Z",
-      "timesSeen": 0,
+      "updatedAt": "2026-10-01T15:01:10.940Z",
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Computer Engineering",
@@ -4022,7 +4009,7 @@
         "Class: Noun"
       ],
       "data": {
-        "expression": "コンピュータ工学[こうがく]",
+        "expression": "コンピュータ 工学[こうがく]",
         "reading": ""
       },
       "id": "c9cdfd1d-69cd-44f2-a277-ae656c5ec112"
@@ -4030,8 +4017,8 @@
     {
       "createdAt": "2026-09-19T23:37:03.580Z",
       "updatedAt": "2026-09-24T17:11:55.498Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Sociology",
       "notes": "",
@@ -4050,7 +4037,7 @@
     {
       "createdAt": "2026-09-19T23:38:50.868Z",
       "updatedAt": "2026-09-24T17:12:18.293Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Information Science",
@@ -4072,8 +4059,8 @@
     {
       "createdAt": "2026-09-19T23:39:40.556Z",
       "updatedAt": "2026-09-24T17:12:48.660Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Information Technology",
       "notes": "",
@@ -6089,7 +6076,7 @@
     {
       "createdAt": "2026-09-25T14:51:14.910Z",
       "updatedAt": "2026-09-25T14:51:14.910Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Weekend",
@@ -6109,7 +6096,7 @@
     {
       "createdAt": "2026-09-25T14:52:43.396Z",
       "updatedAt": "2026-09-25T14:52:43.396Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Lesson; class; teaching",
@@ -6131,7 +6118,7 @@
     {
       "createdAt": "2026-09-25T14:53:13.022Z",
       "updatedAt": "2026-09-25T14:53:13.022Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Homework",
@@ -6152,7 +6139,7 @@
     {
       "createdAt": "2026-09-25T14:53:30.782Z",
       "updatedAt": "2026-09-25T14:53:30.782Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Wednesday",
@@ -6173,8 +6160,8 @@
     {
       "createdAt": "2026-09-25T14:54:51.656Z",
       "updatedAt": "2026-09-25T14:54:51.656Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Living, life; to live",
       "notes": "",
@@ -6193,8 +6180,8 @@
     {
       "createdAt": "2026-09-25T14:55:28.616Z",
       "updatedAt": "2026-09-25T14:55:28.616Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Last week",
       "notes": "",
@@ -6214,7 +6201,7 @@
     {
       "createdAt": "2026-09-25T14:56:09.551Z",
       "updatedAt": "2026-09-25T14:56:09.551Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Next",
@@ -6234,7 +6221,7 @@
     {
       "createdAt": "2026-09-25T14:56:51.883Z",
       "updatedAt": "2026-09-25T19:09:30.838Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Television, TV",
@@ -6256,8 +6243,8 @@
     {
       "createdAt": "2026-09-25T14:57:45.945Z",
       "updatedAt": "2026-09-25T14:57:45.945Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Telephone number, phone number",
       "notes": "",
@@ -6275,7 +6262,7 @@
     {
       "createdAt": "2026-09-25T14:59:05.458Z",
       "updatedAt": "2026-09-25T14:59:05.458Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Library",
@@ -6296,7 +6283,7 @@
     {
       "createdAt": "2026-09-25T15:00:06.405Z",
       "updatedAt": "2026-09-25T15:00:06.405Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Saturday",
@@ -6317,7 +6304,7 @@
     {
       "createdAt": "2026-09-25T15:00:29.939Z",
       "updatedAt": "2026-09-25T15:00:29.939Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Sunday",
@@ -6338,7 +6325,7 @@
     {
       "createdAt": "2026-09-25T15:01:22.839Z",
       "updatedAt": "2026-09-25T15:01:22.839Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Evening",
@@ -6359,7 +6346,7 @@
     {
       "createdAt": "2026-09-25T15:02:32.070Z",
       "updatedAt": "2026-09-25T15:02:32.070Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "dinner, evening meal",
@@ -6379,7 +6366,7 @@
     {
       "createdAt": "2026-09-25T15:02:56.798Z",
       "updatedAt": "2026-09-25T15:02:56.798Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Noon, daytime",
@@ -6399,7 +6386,7 @@
     {
       "createdAt": "2026-09-25T15:05:27.623Z",
       "updatedAt": "2026-09-25T15:05:27.623Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Lunch, midday meal",
@@ -6419,7 +6406,7 @@
     {
       "createdAt": "2026-09-25T15:06:42.242Z",
       "updatedAt": "2026-09-27T15:22:50.553Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Book",
@@ -6442,7 +6429,7 @@
     {
       "createdAt": "2026-09-25T15:07:07.195Z",
       "updatedAt": "2026-09-25T15:07:07.195Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Every morning",
@@ -6464,7 +6451,7 @@
     {
       "createdAt": "2026-09-25T15:07:31.075Z",
       "updatedAt": "2026-09-25T15:07:31.075Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Every week",
@@ -6486,7 +6473,7 @@
     {
       "createdAt": "2026-09-25T15:08:04.315Z",
       "updatedAt": "2026-09-25T15:08:04.315Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Every day",
@@ -6508,7 +6495,7 @@
     {
       "createdAt": "2026-09-25T15:08:29.297Z",
       "updatedAt": "2026-09-25T15:08:29.297Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Every night",
@@ -6530,7 +6517,7 @@
     {
       "createdAt": "2026-09-25T15:08:49.360Z",
       "updatedAt": "2026-09-25T15:08:49.360Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Thursday",
@@ -6550,19 +6537,19 @@
     },
     {
       "createdAt": "2026-09-25T15:12:55.219Z",
-      "updatedAt": "2026-09-25T15:12:55.219Z",
-      "timesSeen": 0,
+      "updatedAt": "2026-10-01T15:13:03.233Z",
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To live, to be, to exist",
-      "notes": "Frequently written as just ある, but technically it is 有る.",
+      "notes": "Usually written with just kana, but 有る is correct and even less common is 在る",
       "tags": [
         "Level: N5",
         "Class: U-verb",
         "Source: Nakama 1-3"
       ],
       "data": {
-        "expression": "ある（有る）",
+        "expression": "ある",
         "reading": "ある"
       },
       "id": "ae40de65-06e7-4fef-9f98-688c813a014a"
@@ -6570,7 +6557,7 @@
     {
       "createdAt": "2026-09-25T15:13:23.532Z",
       "updatedAt": "2026-09-25T15:13:23.532Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To go",
@@ -6590,7 +6577,7 @@
     {
       "createdAt": "2026-09-25T15:13:53.502Z",
       "updatedAt": "2026-09-25T15:13:53.502Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To go back, to go home, to return",
@@ -6610,7 +6597,7 @@
     {
       "createdAt": "2026-09-25T15:14:46.358Z",
       "updatedAt": "2026-09-25T15:14:46.358Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To drink",
@@ -6630,7 +6617,7 @@
     {
       "createdAt": "2026-09-25T15:15:08.473Z",
       "updatedAt": "2026-09-25T15:15:08.473Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To enter, to contain, to hold",
@@ -6649,7 +6636,7 @@
     {
       "createdAt": "2026-09-25T15:15:36.862Z",
       "updatedAt": "2026-09-27T15:23:13.143Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To read",
@@ -6672,8 +6659,8 @@
     {
       "createdAt": "2026-09-25T15:16:06.231Z",
       "updatedAt": "2026-09-25T15:16:06.231Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "To bathe, to shower",
       "notes": "",
@@ -6692,7 +6679,7 @@
     {
       "createdAt": "2026-09-25T15:16:51.684Z",
       "updatedAt": "2026-09-25T15:16:51.684Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To get up (e.g., from sleeping); to happen",
@@ -6712,7 +6699,7 @@
     {
       "createdAt": "2026-09-25T15:17:10.186Z",
       "updatedAt": "2026-09-25T15:17:10.186Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To eat",
@@ -6732,7 +6719,7 @@
     {
       "createdAt": "2026-09-25T15:17:39.445Z",
       "updatedAt": "2026-09-25T15:17:39.445Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To sleep; to go to sleep; to go to bed",
@@ -6751,7 +6738,7 @@
     {
       "createdAt": "2026-09-25T15:18:05.410Z",
       "updatedAt": "2026-09-25T15:18:05.410Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To see, to look, to watch",
@@ -6770,7 +6757,7 @@
     {
       "createdAt": "2026-09-25T15:18:32.110Z",
       "updatedAt": "2026-09-25T15:18:32.110Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To come",
@@ -6790,7 +6777,7 @@
     {
       "createdAt": "2026-09-25T15:19:01.164Z",
       "updatedAt": "2026-09-25T15:19:01.164Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To do",
@@ -6809,7 +6796,7 @@
     {
       "createdAt": "2026-09-25T15:20:11.299Z",
       "updatedAt": "2026-09-25T15:20:11.299Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "To study",
@@ -6830,8 +6817,8 @@
     {
       "createdAt": "2026-09-25T15:20:30.565Z",
       "updatedAt": "2026-09-25T15:20:46.240Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "When?",
       "notes": "",
@@ -6850,7 +6837,7 @@
     {
       "createdAt": "2026-09-25T15:21:23.936Z",
       "updatedAt": "2026-09-25T15:21:23.936Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Zero",
@@ -6870,7 +6857,7 @@
     {
       "createdAt": "2026-09-25T15:23:54.949Z",
       "updatedAt": "2026-09-25T15:25:03.964Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Not very often (Used with negative verb forms)",
@@ -6890,8 +6877,8 @@
     {
       "createdAt": "2026-09-25T15:24:25.113Z",
       "updatedAt": "2026-09-25T15:24:58.751Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 3,
+      "timesMissed": 2,
       "type": "vocab",
       "meaning": "Always, usually, every time, never (with neg. verb)",
       "notes": "",
@@ -6910,7 +6897,7 @@
     {
       "createdAt": "2026-09-25T15:24:53.720Z",
       "updatedAt": "2026-09-25T15:24:53.720Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Not at all; wholly, entirely",
@@ -6930,8 +6917,8 @@
     {
       "createdAt": "2026-09-25T15:26:09.321Z",
       "updatedAt": "2026-09-25T15:26:23.689Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Generally, usually",
       "notes": "Usually written as just kana, but 大抵 is correct.",
@@ -6952,8 +6939,8 @@
     {
       "createdAt": "2026-09-25T15:26:45.101Z",
       "updatedAt": "2026-09-25T15:26:45.101Z",
-      "timesSeen": 0,
-      "timesMissed": 0,
+      "timesSeen": 2,
+      "timesMissed": 1,
       "type": "vocab",
       "meaning": "Sometimes",
       "notes": "",
@@ -6973,7 +6960,7 @@
     {
       "createdAt": "2026-09-25T15:27:10.428Z",
       "updatedAt": "2026-09-25T15:27:10.428Z",
-      "timesSeen": 0,
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
       "meaning": "Frequently, often (much); well, skillfully",
@@ -6992,12 +6979,12 @@
     },
     {
       "createdAt": "2026-09-25T15:39:09.962Z",
-      "updatedAt": "2026-09-25T15:44:13.777Z",
-      "timesSeen": 0,
+      "updatedAt": "2026-10-01T15:15:52.533Z",
+      "timesSeen": 1,
       "timesMissed": 0,
       "type": "grammar",
-      "meaning": "At, in, on, etc. (Particle for location of action or event)",
-      "notes": "",
+      "meaning": "To study at the library.",
+      "notes": "At, in, on, etc. (Particle for location of action or event)",
       "tags": [
         "Class: Particle",
         "Source: Nakama 1-3",
@@ -7012,12 +6999,12 @@
     },
     {
       "createdAt": "2026-09-25T15:41:52.279Z",
-      "updatedAt": "2026-09-25T15:43:56.541Z",
+      "updatedAt": "2026-10-01T15:16:54.588Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "grammar",
-      "meaning": "At, in, on, to (Particle for a point of time, goal, activty)",
-      "notes": "",
+      "meaning": "I go to sleep at 10:00. I go to class.",
+      "notes": "At, in, on, to (Particle for a point of time, goal, activity)",
       "tags": [
         "Class: Particle",
         "Source: Nakama 1-3",
@@ -7028,7 +7015,7 @@
       ],
       "data": {
         "expression": "~に",
-        "example": "10時[じ]*b:に*寝[ね]ます。クラス*y:に*行[い]きます。"
+        "example": "10 時[じ]*b:に*寝[ね]ます。クラス*y:に*行[い]きます。"
       },
       "id": "984ddca0-403b-4d35-97a8-326bdf745a99"
     },
