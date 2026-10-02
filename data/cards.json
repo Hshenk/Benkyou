@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 35,
-  "exportedAt": "2026-10-01T22:33:01.173Z",
+  "version": 36,
+  "exportedAt": "2026-10-02T14:59:03.023Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -20946,11 +20946,11 @@
     },
     {
       "createdAt": "2026-10-01T21:56:21.514Z",
-      "updatedAt": "2026-10-01T21:56:21.514Z",
+      "updatedAt": "2026-10-02T14:18:27.596Z",
       "timesSeen": 0,
       "timesMissed": 0,
       "type": "vocab",
-      "meaning": "Counter for occurrences; ~ degree; ~ point",
+      "meaning": "Counter for occurrences; ~ degree; ~ point; ~ times",
       "notes": "",
       "tags": [
         "Level: N5",
@@ -20958,10 +20958,11 @@
         "Class: Suffix",
         "Class: Counter",
         "Source: Nakama 1-11",
-        "Topic: Weather"
+        "Topic: Weather",
+        "Source: Nakama 1-12"
       ],
       "data": {
-        "expression": "~度[ど]",
+        "expression": "~ 度[ど]",
         "reading": "ど"
       },
       "id": "b9b5bc87-a8ed-4ad6-a69f-72b8d4d5a887"
@@ -21721,6 +21722,1816 @@
         "reading": "ゆうだち"
       },
       "id": "ccb22a87-d753-48e8-8ef1-f56cfd590dba"
+    },
+    {
+      "createdAt": "2026-10-02T13:55:08.434Z",
+      "updatedAt": "2026-10-02T13:55:08.434Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Sea, beach",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "海[うみ]",
+        "reading": "うみ"
+      },
+      "id": "2a28f238-3ce7-4708-a5f7-d3b84bf6dba5"
+    },
+    {
+      "createdAt": "2026-10-02T13:56:23.591Z",
+      "updatedAt": "2026-10-02T13:56:23.591Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "The year before last",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "おととし",
+        "reading": ""
+      },
+      "id": "ce6d3fce-dd25-48fb-8489-37953428b602"
+    },
+    {
+      "createdAt": "2026-10-02T13:56:51.064Z",
+      "updatedAt": "2026-10-02T13:56:51.064Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Memories, recollections, reminiscence",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "思[おも]い 出[で]",
+        "reading": "おもいで"
+      },
+      "id": "77797747-06c6-48a0-94b6-f5599c5443b3"
+    },
+    {
+      "createdAt": "2026-10-02T13:57:15.019Z",
+      "updatedAt": "2026-10-02T13:57:15.019Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Foreign country; abroad",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "外国[がいこく]",
+        "reading": "がいこく"
+      },
+      "id": "bfd9347b-9249-4067-933d-ced5e9889abe"
+    },
+    {
+      "createdAt": "2026-10-02T13:57:51.049Z",
+      "updatedAt": "2026-10-02T13:57:51.049Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Term (school), semester",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "学期[がっき]",
+        "reading": "がっき"
+      },
+      "id": "01aba480-e4fd-486a-acfb-913d47f8ccbf"
+    },
+    {
+      "createdAt": "2026-10-02T13:58:22.092Z",
+      "updatedAt": "2026-10-02T13:58:22.092Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Kabuki, traditional form of drama and music performed by male actors wearing makeup mainly in white and red",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "歌舞伎[かぶき]",
+        "reading": "かぶき"
+      },
+      "id": "cb3d74e4-1f72-45b7-86d0-5c2592981d56"
+    },
+    {
+      "createdAt": "2026-10-02T13:58:48.590Z",
+      "updatedAt": "2026-10-02T13:58:48.590Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Kimono; Japanese traditional dress",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Cloths & Accessories",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "着物[きもの]",
+        "reading": "きもの"
+      },
+      "id": "6158fb49-8fa1-4a1b-bfc8-2121719bcd93"
+    },
+    {
+      "createdAt": "2026-10-02T13:59:23.015Z",
+      "updatedAt": "2026-10-02T13:59:23.015Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Camping",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-12",
+        "Topic: Hobbies",
+        "Topic: Nature"
+      ],
+      "data": {
+        "expression": "キャンプ",
+        "reading": ""
+      },
+      "id": "d784171d-1005-4141-986e-e5f1d0ec5722"
+    },
+    {
+      "createdAt": "2026-10-02T13:59:59.714Z",
+      "updatedAt": "2026-10-02T13:59:59.714Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Church",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Religion"
+      ],
+      "data": {
+        "expression": "教会[きょうかい]",
+        "reading": "きょうかい"
+      },
+      "id": "0f95a618-5faa-436a-b7ff-ebe78ece7605"
+    },
+    {
+      "createdAt": "2026-10-02T14:00:38.699Z",
+      "updatedAt": "2026-10-02T14:34:20.270Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Christmas",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Topic: Religion"
+      ],
+      "data": {
+        "expression": "クリスマス",
+        "reading": ""
+      },
+      "id": "9b99b9ae-7de9-4245-badf-6243890c2c32"
+    },
+    {
+      "createdAt": "2026-10-02T14:01:00.884Z",
+      "updatedAt": "2026-10-02T14:01:00.884Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Quarrel; fight",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "けんか",
+        "reading": ""
+      },
+      "id": "ce30e2bd-ba76-48ff-b9fd-973b767591d6"
+    },
+    {
+      "createdAt": "2026-10-02T14:01:20.601Z",
+      "updatedAt": "2026-10-02T14:01:20.601Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "This month",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "今月[こんげつ]",
+        "reading": "こんげつ"
+      },
+      "id": "5d93003d-702a-46ab-aaa3-8d7a950b5c35"
+    },
+    {
+      "createdAt": "2026-10-02T14:01:49.730Z",
+      "updatedAt": "2026-10-02T14:01:49.730Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "New Year, New Year's Day",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "正月[しょうがつ]",
+        "reading": "しょうがつ"
+      },
+      "id": "0ee15ba2-7b2f-48fb-b2ce-7b102dc4d648"
+    },
+    {
+      "createdAt": "2026-10-02T14:02:13.574Z",
+      "updatedAt": "2026-10-02T14:02:13.574Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Shinto shrine",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Culture",
+        "Topic: Religion"
+      ],
+      "data": {
+        "expression": "神社[じんじゃ]",
+        "reading": "じんじゃ"
+      },
+      "id": "2b91057e-10aa-4efd-9900-6f58a18d91a0"
+    },
+    {
+      "createdAt": "2026-10-02T14:02:36.314Z",
+      "updatedAt": "2026-10-02T14:05:41.826Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Aquarium (building)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Locations",
+        "Topic: Animals"
+      ],
+      "data": {
+        "expression": "水族館[すいぞくかん]",
+        "reading": "すいぞくかん"
+      },
+      "id": "d7807dbd-ecf0-41d3-927f-43e0233d1827"
+    },
+    {
+      "createdAt": "2026-10-02T14:02:51.906Z",
+      "updatedAt": "2026-10-02T14:02:51.906Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Last month",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "先月[せんげつ]",
+        "reading": "せんげつ"
+      },
+      "id": "8426ff27-1798-49b4-b2b4-f42042cbfbe3"
+    },
+    {
+      "createdAt": "2026-10-02T14:03:51.448Z",
+      "updatedAt": "2026-10-02T14:03:51.448Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Middle school, junior high school",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "中学[ちゅうがく]",
+        "reading": "ちゅうがく"
+      },
+      "id": "200eefdf-131a-4ac5-b57b-c46886005b7e"
+    },
+    {
+      "createdAt": "2026-10-02T14:04:07.311Z",
+      "updatedAt": "2026-10-02T14:04:07.311Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Date (in the sense of 'social engagement' only)",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-12",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "デート",
+        "reading": ""
+      },
+      "id": "ba40e029-c0f3-45d6-a231-1f32dcc5a3c8"
+    },
+    {
+      "createdAt": "2026-10-02T14:04:42.298Z",
+      "updatedAt": "2026-10-02T14:04:42.298Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Buddhist temple",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Religion",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "寺[てら]",
+        "reading": "てら"
+      },
+      "id": "d9199c7e-3328-4ede-ad42-86e9c336e4fb"
+    },
+    {
+      "createdAt": "2026-10-02T14:05:34.049Z",
+      "updatedAt": "2026-10-02T14:05:34.049Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Zoo",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Animals",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "動物園[どうぶつえん]",
+        "reading": "どうぶつえん"
+      },
+      "id": "74a4b490-9f3e-4cad-89ec-1a3b535c7557"
+    },
+    {
+      "createdAt": "2026-10-02T14:06:07.198Z",
+      "updatedAt": "2026-10-02T14:06:52.445Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "At the time of ~",
+      "notes": "Example: 子供の時 \"When I was a child\"",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "時[とき]",
+        "reading": "とき"
+      },
+      "id": "be93041e-425c-49d8-91a8-22df650e1c00"
+    },
+    {
+      "createdAt": "2026-10-02T14:06:30.546Z",
+      "updatedAt": "2026-10-02T14:06:30.546Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Summer vacation",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Time",
+        "Topic: School"
+      ],
+      "data": {
+        "expression": "夏休[なつやす]み",
+        "reading": "なつやすみ"
+      },
+      "id": "aa02b94f-27ef-46fe-b449-a7180739340f"
+    },
+    {
+      "createdAt": "2026-10-02T14:07:23.888Z",
+      "updatedAt": "2026-10-02T14:07:23.888Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Museum",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Education",
+        "Topic: Locations",
+        "Topic: History"
+      ],
+      "data": {
+        "expression": "博物館[はくぶつかん]",
+        "reading": "はくぶつかん"
+      },
+      "id": "f84ebc4f-9139-4e04-abf7-2f89aa2914e0"
+    },
+    {
+      "createdAt": "2026-10-02T14:07:44.654Z",
+      "updatedAt": "2026-10-02T14:07:44.654Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Valentine's Day",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "バレンタインデー",
+        "reading": ""
+      },
+      "id": "cde8c732-16a9-4c65-92fd-7b5d2fb050de"
+    },
+    {
+      "createdAt": "2026-10-02T14:08:24.015Z",
+      "updatedAt": "2026-10-02T14:08:24.015Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Halloween",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Holidays"
+      ],
+      "data": {
+        "expression": "ハロウィン",
+        "reading": ""
+      },
+      "id": "e5b45070-5cee-49aa-9d64-16baa2674732"
+    },
+    {
+      "createdAt": "2026-10-02T14:08:38.670Z",
+      "updatedAt": "2026-10-02T14:08:38.670Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Half a year, six months",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "半年[はんとし]",
+        "reading": "はんとし"
+      },
+      "id": "b97779e4-8088-431b-96c1-3a956973919d"
+    },
+    {
+      "createdAt": "2026-10-02T14:09:06.554Z",
+      "updatedAt": "2026-10-02T14:09:06.554Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Airplane",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Aviation",
+        "Topic: Transportation",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "飛行機[ひこうき]",
+        "reading": "ひこうき"
+      },
+      "id": "35026232-db45-4866-a46d-fde095fc5d67"
+    },
+    {
+      "createdAt": "2026-10-02T14:09:42.804Z",
+      "updatedAt": "2026-10-02T14:09:42.804Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Art gallery, art museum",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Art",
+        "Topic: History",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "美術館[びじゅつかん]",
+        "reading": "びじゅつかん"
+      },
+      "id": "3e0471b3-6f1d-4830-9a55-c91d46e9dac3"
+    },
+    {
+      "createdAt": "2026-10-02T14:10:00.917Z",
+      "updatedAt": "2026-10-02T14:10:00.917Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Present, gift",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "プレゼント",
+        "reading": ""
+      },
+      "id": "fba3cdc1-b60f-4100-b525-4128af25ba3c"
+    },
+    {
+      "createdAt": "2026-10-02T14:10:20.965Z",
+      "updatedAt": "2026-10-02T14:10:20.965Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Festival, feast",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Events",
+        "Topic: Culture"
+      ],
+      "data": {
+        "expression": "祭[まつり]",
+        "reading": "まつり"
+      },
+      "id": "847bc05f-da73-439b-bef7-6628cda294a5"
+    },
+    {
+      "createdAt": "2026-10-02T14:10:44.988Z",
+      "updatedAt": "2026-10-02T14:10:44.988Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Musical",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Music",
+        "Topic: Events"
+      ],
+      "data": {
+        "expression": "ミュージカル",
+        "reading": ""
+      },
+      "id": "5bcdf32e-14a9-4909-bd24-01fb0090e407"
+    },
+    {
+      "createdAt": "2026-10-02T14:11:06.874Z",
+      "updatedAt": "2026-10-02T14:11:06.874Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Mountain climbing, mountaineering",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Sports And Athletics",
+        "Topic: Hobbies"
+      ],
+      "data": {
+        "expression": "山登[やまのぼ]り",
+        "reading": "やまのぼり"
+      },
+      "id": "c5a15f61-e4d3-43d3-b514-f27f4db0dc4e"
+    },
+    {
+      "createdAt": "2026-10-02T14:11:24.065Z",
+      "updatedAt": "2026-10-02T14:11:24.065Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Amusement park",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Locations"
+      ],
+      "data": {
+        "expression": "遊園地[ゆうえんち]",
+        "reading": "ゆうえんち"
+      },
+      "id": "9ed11fc1-7106-4e4f-8b63-eae699735821"
+    },
+    {
+      "createdAt": "2026-10-02T14:11:40.353Z",
+      "updatedAt": "2026-10-02T14:11:40.353Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Next month",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Adverb",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "来月[らいげつ]",
+        "reading": "らいげつ"
+      },
+      "id": "a70066a8-f012-48cf-9f7b-80601b7854c7"
+    },
+    {
+      "createdAt": "2026-10-02T14:12:06.648Z",
+      "updatedAt": "2026-10-02T14:12:06.648Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To cry",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: U-verb",
+        "Source: Nakama 1-12",
+        "Topic: Emotions"
+      ],
+      "data": {
+        "expression": "泣[な]く",
+        "reading": "なく"
+      },
+      "id": "4a37b855-3733-4d05-a841-143887992fe0"
+    },
+    {
+      "createdAt": "2026-10-02T14:12:22.781Z",
+      "updatedAt": "2026-10-02T14:12:22.781Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To get on, to ride in, to board",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: U-verb",
+        "Source: Nakama 1-12",
+        "Topic: Transportation",
+        "Topic: Travel"
+      ],
+      "data": {
+        "expression": "乗[の]る",
+        "reading": "のる"
+      },
+      "id": "df342902-c7d9-4ec0-9ac1-1c2aabbc915a"
+    },
+    {
+      "createdAt": "2026-10-02T14:12:40.122Z",
+      "updatedAt": "2026-10-02T14:12:40.122Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "To receive",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Class: U-verb",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "もらう",
+        "reading": ""
+      },
+      "id": "7a87e8cc-a1ca-43e4-b871-e252a5347a85"
+    },
+    {
+      "createdAt": "2026-10-02T14:13:48.087Z",
+      "updatedAt": "2026-10-02T14:13:48.087Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "(To be) dissapointed by love, broken heart, unrequited love",
+      "notes": "It is often used in the verb form: 失恋する",
+      "tags": [
+        "Level: N2",
+        "Class: Noun",
+        "Class: する-verb",
+        "Source: Nakama 1-12",
+        "Topic: Relationships"
+      ],
+      "data": {
+        "expression": "失恋[しつれん]",
+        "reading": "しつれん"
+      },
+      "id": "34a40685-7eec-4951-a17c-16fec24424ea"
+    },
+    {
+      "createdAt": "2026-10-02T14:14:11.359Z",
+      "updatedAt": "2026-10-02T14:14:11.359Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "For the first time",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Adverb",
+        "Class: Noun",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "初[はじ]めて",
+        "reading": "はじめて"
+      },
+      "id": "2313f486-dc90-4fc1-9da5-5d2d37319881"
+    },
+    {
+      "createdAt": "2026-10-02T14:14:36.394Z",
+      "updatedAt": "2026-10-02T14:14:36.394Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hey, listen, look",
+      "notes": "",
+      "tags": [
+        "Class: Interjection",
+        "Source: Nakama 1-12",
+        "Class: Expression"
+      ],
+      "data": {
+        "expression": "なあ",
+        "reading": ""
+      },
+      "id": "98e155f9-4f43-4cc6-a29c-8206225857d3"
+    },
+    {
+      "createdAt": "2026-10-02T14:15:01.834Z",
+      "updatedAt": "2026-10-02T14:15:01.834Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for occurrences (~ times)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Counter",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "~回[かい]",
+        "reading": "かい"
+      },
+      "id": "00c1d785-8703-4bcd-be38-841289c424b2"
+    },
+    {
+      "createdAt": "2026-10-02T14:15:34.740Z",
+      "updatedAt": "2026-10-02T14:15:34.740Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for (number of) months",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Counter",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "~か 月[げつ]",
+        "reading": "かげつ"
+      },
+      "id": "8deb2d08-2e29-4a5f-b21e-a2f2d8b632d0"
+    },
+    {
+      "createdAt": "2026-10-02T14:16:48.886Z",
+      "updatedAt": "2026-10-02T14:17:02.776Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Afterwards, since then (Suffix)",
+      "notes": "千年後 \"Three years from now\"",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Class: Suffix",
+        "Class: Adverb",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "~後[ご]",
+        "reading": "ご"
+      },
+      "id": "8d99b076-c8c1-4e74-b208-3101a249eee2"
+    },
+    {
+      "createdAt": "2026-10-02T14:17:42.257Z",
+      "updatedAt": "2026-10-02T14:17:42.257Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "For ~ weeks (Sufix)",
+      "notes": "",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Class: Suffix",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "~週間[しゅうかん]",
+        "reading": "しゅうかん"
+      },
+      "id": "f30042e1-f263-4c6b-923c-e1699b32cf8a"
+    },
+    {
+      "createdAt": "2026-10-02T14:19:02.143Z",
+      "updatedAt": "2026-10-02T14:19:02.143Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Counter for days",
+      "notes": "",
+      "tags": [
+        "Level: N2",
+        "Class: Suffix",
+        "Class: Counter",
+        "Source: Nakama 1-12"
+      ],
+      "data": {
+        "expression": "~ 日[か]",
+        "reading": "か"
+      },
+      "id": "11b39511-8f09-4397-96f6-734ab92f4a74"
+    },
+    {
+      "createdAt": "2026-10-02T14:20:07.386Z",
+      "updatedAt": "2026-10-02T14:20:07.386Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "~ years (counter); specific year",
+      "notes": "1996年 or counter for years 十年 \"Ten years\"",
+      "tags": [
+        "Level: N5",
+        "Class: Noun",
+        "Class: Counter",
+        "Source: Nakama 1-12",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "年[ねん]",
+        "reading": "ねん"
+      },
+      "id": "964aff7b-8fa4-419a-9895-5a3ae8c36053"
+    },
+    {
+      "createdAt": "2026-10-02T14:21:30.839Z",
+      "updatedAt": "2026-10-02T14:21:30.839Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "~ ago (Suffix)",
+      "notes": "一年前 \"One year ago\"",
+      "tags": [
+        "Level: N5",
+        "Source: Nakama 1-12",
+        "Class: Suffix",
+        "Topic: Time"
+      ],
+      "data": {
+        "expression": "~ 前[まえ]",
+        "reading": "まえ"
+      },
+      "id": "3e2da6f8-e745-4b65-8d7d-aa5b2091fa3f"
+    },
+    {
+      "createdAt": "2026-10-02T14:21:56.240Z",
+      "updatedAt": "2026-10-02T14:21:56.240Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Let me see, well, errr ...",
+      "notes": "",
+      "tags": [
+        "Class: Interjection",
+        "Source: Nakama 1-12",
+        "Class: Expression"
+      ],
+      "data": {
+        "expression": "えーと",
+        "reading": ""
+      },
+      "id": "fd1553a2-232a-41c5-8f3c-ca727264db65"
+    },
+    {
+      "createdAt": "2026-10-02T14:23:54.869Z",
+      "updatedAt": "2026-10-02T14:23:54.869Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Happy New Year",
+      "notes": "Often written with just kana",
+      "tags": [
+        "Class: Expression",
+        "Source: Nakama 1-12",
+        "Topic: Holidays"
+      ],
+      "data": {
+        "expression": "明[あ]けましておめでとうございます",
+        "reading": "あけましておめでとうございます"
+      },
+      "id": "13e09cf2-5625-43c1-a11d-3ad20ba91947"
+    },
+    {
+      "createdAt": "2026-10-02T14:26:14.815Z",
+      "updatedAt": "2026-10-02T14:26:14.815Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Martin Luther King Jr. Day",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "マーティン・ルーサー・キング ・デー",
+        "reading": ""
+      },
+      "id": "c4e3c219-a64f-4af5-bf7b-a0fd26de4621"
+    },
+    {
+      "createdAt": "2026-10-02T14:26:57.340Z",
+      "updatedAt": "2026-10-02T14:26:57.340Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Holiday, day off",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Topic: Events"
+      ],
+      "data": {
+        "expression": "休日[きゅうじつ]",
+        "reading": "きゅうじつ"
+      },
+      "id": "191f7577-7886-4f1e-9859-2ae1219effb4"
+    },
+    {
+      "createdAt": "2026-10-02T14:29:20.839Z",
+      "updatedAt": "2026-10-02T14:29:58.841Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "President's Day",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "プレジデンツ・デー",
+        "reading": ""
+      },
+      "id": "a38b61c6-b53c-4b47-8cfe-3a2a34707685"
+    },
+    {
+      "createdAt": "2026-10-02T14:29:51.603Z",
+      "updatedAt": "2026-10-02T14:34:12.321Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Easter",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Topic: Supplementary",
+        "Topic: Religion"
+      ],
+      "data": {
+        "expression": "イースター",
+        "reading": ""
+      },
+      "id": "d5fbff29-3904-4c0d-99c6-39bcf8ece039"
+    },
+    {
+      "createdAt": "2026-10-02T14:32:00.500Z",
+      "updatedAt": "2026-10-02T14:32:00.500Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Independence Day",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Class: Noun",
+        "Topic: Holidays",
+        "Source: Nakama 1-12",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "独立[どくりつ]記念日[きねんび]",
+        "reading": "どくりつきねんび"
+      },
+      "id": "9974b252-d5b6-4941-bbb9-0939f0cc5128"
+    },
+    {
+      "createdAt": "2026-10-02T14:32:31.947Z",
+      "updatedAt": "2026-10-02T14:32:31.947Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Memorial Day",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Class: Noun",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "メモリアルデー",
+        "reading": ""
+      },
+      "id": "cd671be1-3fc3-40a4-a564-8e6abaf199d0"
+    },
+    {
+      "createdAt": "2026-10-02T14:33:06.275Z",
+      "updatedAt": "2026-10-02T14:33:06.275Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Columbus Day",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-12",
+        "Topic: Holidays",
+        "Topic: Supplementary",
+        "Class: Noun"
+      ],
+      "data": {
+        "expression": "コロンブス・デー",
+        "reading": ""
+      },
+      "id": "018bd5f3-668a-46a6-a57b-c69f860f6a44"
+    },
+    {
+      "createdAt": "2026-10-02T14:34:04.175Z",
+      "updatedAt": "2026-10-02T14:34:04.175Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hanukkah",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-12",
+        "Topic: Religion",
+        "Topic: Holidays",
+        "Class: Noun",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "ハヌカ",
+        "reading": ""
+      },
+      "id": "45fb9be5-c650-4d58-9344-7d3950757124"
+    },
+    {
+      "createdAt": "2026-10-02T14:35:57.261Z",
+      "updatedAt": "2026-10-02T14:38:07.846Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Hokkaido (island, prefectural-level administrative unit)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Places In Japan",
+        "Topic: Supplementary",
+        "Topic: Prefectures"
+      ],
+      "data": {
+        "expression": "北海道[ほっかいどう]",
+        "reading": "ほっかいどう"
+      },
+      "id": "4c4caa1f-aaf2-4914-bf56-bb9f61134381"
+    },
+    {
+      "createdAt": "2026-10-02T14:36:57.742Z",
+      "updatedAt": "2026-10-02T14:36:57.742Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Snow Festival",
+      "notes": "",
+      "tags": [
+        "Source: Nakama 1-12",
+        "Class: Noun",
+        "Topic: Events",
+        "Topic: Holidays",
+        "Topic: Supplementary"
+      ],
+      "data": {
+        "expression": "雪まつり",
+        "reading": ""
+      },
+      "id": "a77a6601-9021-4c56-b39b-3b5eca5068b4"
+    },
+    {
+      "createdAt": "2026-10-02T14:37:41.063Z",
+      "updatedAt": "2026-10-02T14:37:41.063Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "vocab",
+      "meaning": "Yokohama (city)",
+      "notes": "",
+      "tags": [
+        "Class: Noun",
+        "Source: Nakama 1-12",
+        "Topic: Places In Japan",
+        "Topic: Supplementary",
+        "Topic: Specific Cities"
+      ],
+      "data": {
+        "expression": "横浜[よこはま]",
+        "reading": "よこはま"
+      },
+      "id": "2ae892e0-7aab-4737-94ff-83e6229d693f"
+    },
+    {
+      "createdAt": "2026-10-02T14:44:42.567Z",
+      "updatedAt": "2026-10-02T14:46:07.807Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Mail, stagecoach stop",
+      "notes": "郵便 【ゆうびん】\"Postal Service\"",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "郵",
+        "onyomi": [
+          "ユウ"
+        ],
+        "kunyomi": [],
+        "strokes": 11
+      },
+      "id": "42328286-87d9-4210-bca4-224072f30683"
+    },
+    {
+      "createdAt": "2026-10-02T14:46:02.729Z",
+      "updatedAt": "2026-10-02T14:46:02.729Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Convenience, facility, excrement, feces, letter, chance",
+      "notes": "郵便 【ゆうびん】\"Postal Service\"",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "便",
+        "onyomi": [
+          "ベン",
+          "ビン"
+        ],
+        "kunyomi": [
+          "たよ.り"
+        ],
+        "strokes": 9
+      },
+      "id": "5328e497-c862-4632-bcc9-f833d5c3687b"
+    },
+    {
+      "createdAt": "2026-10-02T14:46:45.966Z",
+      "updatedAt": "2026-10-02T14:46:45.966Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Bureau, board, office, affair, conclusion, court lady, lady-in-waiting, her apartment",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-4",
+        "Topic: Government"
+      ],
+      "data": {
+        "character": "局",
+        "onyomi": [
+          "キョク"
+        ],
+        "kunyomi": [
+          "つぼね"
+        ],
+        "strokes": 7
+      },
+      "id": "0b4c15ef-2b17-484a-9a3c-82429219ff04"
+    },
+    {
+      "createdAt": "2026-10-02T14:47:28.116Z",
+      "updatedAt": "2026-10-02T14:47:28.116Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Silver",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "銀",
+        "onyomi": [
+          "ギン"
+        ],
+        "kunyomi": [
+          "しろがね"
+        ],
+        "strokes": 14
+      },
+      "id": "f8997b1b-6f46-43ab-9fbb-fd819be82434"
+    },
+    {
+      "createdAt": "2026-10-02T14:48:04.904Z",
+      "updatedAt": "2026-10-02T14:48:04.904Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Escort, send",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "送",
+        "onyomi": [
+          "ソウ"
+        ],
+        "kunyomi": [
+          "おく.る"
+        ],
+        "strokes": 9
+      },
+      "id": "721a9e0c-f5f6-4821-b5cb-6d545685dd7f"
+    },
+    {
+      "createdAt": "2026-10-02T14:48:51.445Z",
+      "updatedAt": "2026-10-02T14:48:51.445Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Paper, counter for newspapers",
+      "notes": "紙 【シ】 newspaper, paper, counter for newspapers",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4",
+        "Topic: Reading"
+      ],
+      "data": {
+        "character": "紙",
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "かみ"
+        ],
+        "strokes": 10
+      },
+      "id": "c6d807cf-031f-448e-8033-a38b755320a6"
+    },
+    {
+      "createdAt": "2026-10-02T14:49:21.296Z",
+      "updatedAt": "2026-10-02T14:49:21.296Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Dwell, reside, live, inhabit",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "住",
+        "onyomi": [
+          "ジュウ",
+          "ヂュウ",
+          "チュウ"
+        ],
+        "kunyomi": [
+          "す.む",
+          "す.まう",
+          "-ず.まい"
+        ],
+        "strokes": 7
+      },
+      "id": "d00c0a4e-0980-4aa0-bfa9-c7ccd0cafbfa"
+    },
+    {
+      "createdAt": "2026-10-02T14:49:59.111Z",
+      "updatedAt": "2026-10-02T14:49:59.111Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Place, extent, counter for places",
+      "notes": "所 【ショ】 counter for places",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-4",
+        "Topic: Locations"
+      ],
+      "data": {
+        "character": "所",
+        "onyomi": [
+          "ショ"
+        ],
+        "kunyomi": [
+          "ところ",
+          "-ところ",
+          "どころ",
+          "とこ"
+        ],
+        "strokes": 8
+      },
+      "id": "c1895695-a624-4770-8ae7-2950df9f6972"
+    },
+    {
+      "createdAt": "2026-10-02T14:50:27.161Z",
+      "updatedAt": "2026-10-02T14:50:27.161Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Pull, tug, jerk, admit, install, quote, refer to",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "引",
+        "onyomi": [
+          "イン"
+        ],
+        "kunyomi": [
+          "ひ.く",
+          "ひ.ける"
+        ],
+        "strokes": 4
+      },
+      "id": "94a62515-f916-4ea4-90a2-316ff96d4108"
+    },
+    {
+      "createdAt": "2026-10-02T14:51:23.261Z",
+      "updatedAt": "2026-10-02T14:51:23.261Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Practice, gloss, train, drill, polish, refine",
+      "notes": "練習【れんしゅう】\"Training\"",
+      "tags": [
+        "Level: N2",
+        "Source: Nakama 2-4",
+        "Topic: Sports And Athletics"
+      ],
+      "data": {
+        "character": "練",
+        "onyomi": [
+          "レン"
+        ],
+        "kunyomi": [
+          "ね.る",
+          "ね.り"
+        ],
+        "strokes": 14
+      },
+      "id": "a2b2d7bc-6760-4e96-80d7-10a0d92f619e"
+    },
+    {
+      "createdAt": "2026-10-02T14:52:25.444Z",
+      "updatedAt": "2026-10-02T14:52:25.444Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Learn",
+      "notes": "練習【れんしゅう】\"Training\"\n習性 【シュウセイ】 habit, behavior, behaviour, trait, nature",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4",
+        "Topic: Education"
+      ],
+      "data": {
+        "character": "習",
+        "onyomi": [
+          "シュウ",
+          "ジュ"
+        ],
+        "kunyomi": [
+          "なら.う",
+          "なら.い"
+        ],
+        "strokes": 11
+      },
+      "id": "d18f8b18-1ad3-4668-ad7b-868c10204872"
+    },
+    {
+      "createdAt": "2026-10-02T14:53:15.305Z",
+      "updatedAt": "2026-10-02T14:53:15.305Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Inn, lodging, relay station, dwell, lodge, be pregnant, home, dwelling",
+      "notes": "宿題 (しゅくだい）\"Homework\"",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "宿",
+        "onyomi": [
+          "シュク"
+        ],
+        "kunyomi": [
+          "やど",
+          "やど.る",
+          "やど.す"
+        ],
+        "strokes": 11
+      },
+      "id": "42db5aaf-6814-48fc-9cbb-c430922a6485"
+    },
+    {
+      "createdAt": "2026-10-02T14:53:28.018Z",
+      "updatedAt": "2026-10-02T14:54:18.374Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Topic, subject, title, problem",
+      "notes": "宿題 (しゅくだい）\"Homework\"",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4",
+        "Topic: Education"
+      ],
+      "data": {
+        "character": "題",
+        "onyomi": [
+          "ダイ"
+        ],
+        "kunyomi": [],
+        "strokes": 18
+      },
+      "id": "dbee66bd-35be-4417-9b42-9371f183a1b4"
+    },
+    {
+      "createdAt": "2026-10-02T14:54:03.472Z",
+      "updatedAt": "2026-10-02T14:54:03.472Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Test, try, attempt, experiment, ordeal",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "試",
+        "onyomi": [
+          "シ"
+        ],
+        "kunyomi": [
+          "こころ.みる",
+          "ため.す"
+        ],
+        "strokes": 13
+      },
+      "id": "2cd66b74-bfb3-4fd3-9fef-77933a373c93"
+    },
+    {
+      "createdAt": "2026-10-02T14:54:45.833Z",
+      "updatedAt": "2026-10-02T14:54:45.833Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Verification, effect, testing",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4",
+        "Topic: Education"
+      ],
+      "data": {
+        "character": "験",
+        "onyomi": [
+          "ケン",
+          "ゲン"
+        ],
+        "kunyomi": [
+          "あかし",
+          "しるし",
+          "ため.す",
+          "ためし"
+        ],
+        "strokes": 18
+      },
+      "id": "5fcffd96-6ec0-4d91-9722-084d9e5fe7da"
+    },
+    {
+      "createdAt": "2026-10-02T14:55:08.993Z",
+      "updatedAt": "2026-10-02T14:55:08.993Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Accept, undergo, answer (phone), take, get, catch, receive",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "受",
+        "onyomi": [
+          "ジュ"
+        ],
+        "kunyomi": [
+          "う.ける",
+          "-う.け",
+          "う.かる"
+        ],
+        "strokes": 8
+      },
+      "id": "09098d0b-4008-44f6-9167-36fdb28f9818"
+    },
+    {
+      "createdAt": "2026-10-02T14:56:13.966Z",
+      "updatedAt": "2026-10-02T14:56:13.966Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Teach, faith, doctrine",
+      "notes": "教える 【おしえる】 to teach, to .\n教育 【キョウイク】 education, schooling, training.\n正教 【セイキョウ】 orthodoxy, (Greek) orthodox.",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4",
+        "Topic: Education",
+        "Topic: Religion"
+      ],
+      "data": {
+        "character": "教",
+        "onyomi": [
+          "キョウ"
+        ],
+        "kunyomi": [
+          "おし.える",
+          "おそ.わる"
+        ],
+        "strokes": 11
+      },
+      "id": "433005a3-cdac-4b76-a5ac-6939f00d715d"
+    },
+    {
+      "createdAt": "2026-10-02T14:57:18.219Z",
+      "updatedAt": "2026-10-02T14:57:18.219Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Sentence, literature, style, art, decoration, figures, plan, literary radical (no. 67)",
+      "notes": "文法 【ぶんぽう】\"Grammar\"",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "文",
+        "onyomi": [
+          "ブン",
+          "モン"
+        ],
+        "kunyomi": [
+          "ふみ",
+          "あや"
+        ],
+        "strokes": 4
+      },
+      "id": "9df17042-b0d2-4035-926e-f6b4a55527bb"
+    },
+    {
+      "createdAt": "2026-10-02T14:57:32.161Z",
+      "updatedAt": "2026-10-02T14:57:32.161Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Method, law, rule, principle, model, system",
+      "notes": "文法 【ぶんぽう】\"Grammar\"",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "法",
+        "onyomi": [
+          "ホウ",
+          "ハッ",
+          "ホッ",
+          "フラン"
+        ],
+        "kunyomi": [
+          "のり"
+        ],
+        "strokes": 8
+      },
+      "id": "8fad401d-0d5f-47cf-80af-3bfac99312ac"
+    },
+    {
+      "createdAt": "2026-10-02T14:57:58.081Z",
+      "updatedAt": "2026-10-02T14:57:58.081Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Idea, mind, heart, taste, thought, desire, care, liking",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "意",
+        "onyomi": [
+          "イ"
+        ],
+        "kunyomi": [],
+        "strokes": 13
+      },
+      "id": "79c381ed-1226-4ec8-a72f-5ccdbfc60721"
+    },
+    {
+      "createdAt": "2026-10-02T14:58:09.128Z",
+      "updatedAt": "2026-10-02T14:58:09.128Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Flavor, taste",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "味",
+        "onyomi": [
+          "ミ"
+        ],
+        "kunyomi": [
+          "あじ",
+          "あじ.わう"
+        ],
+        "strokes": 8
+      },
+      "id": "e462188e-16f5-4fac-ac75-2c89bf7badc0"
+    },
+    {
+      "createdAt": "2026-10-02T14:58:21.129Z",
+      "updatedAt": "2026-10-02T14:58:21.129Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Take, fetch, take up",
+      "notes": "",
+      "tags": [
+        "Level: N3",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "取",
+        "onyomi": [
+          "シュ"
+        ],
+        "kunyomi": [
+          "と.る",
+          "と.り",
+          "と.り-",
+          "とり",
+          "-ど.り"
+        ],
+        "strokes": 8
+      },
+      "id": "3608e853-294f-4b16-81c4-3ec9c51cb05c"
+    },
+    {
+      "createdAt": "2026-10-02T14:58:50.470Z",
+      "updatedAt": "2026-10-02T14:58:50.470Z",
+      "timesSeen": 0,
+      "timesMissed": 0,
+      "type": "kanji",
+      "meaning": "Utilize, business, service, use, employ",
+      "notes": "",
+      "tags": [
+        "Level: N4",
+        "Source: Nakama 2-4"
+      ],
+      "data": {
+        "character": "用",
+        "onyomi": [
+          "ヨウ"
+        ],
+        "kunyomi": [
+          "もち.いる"
+        ],
+        "strokes": 5
+      },
+      "id": "8dbffe62-6cf4-4997-927d-b954bf79e89a"
     }
   ]
 }
