@@ -1,6 +1,7 @@
 /**
  * Holds the initial shell and view switching logic
  */
+import { viewShown } from "../visible.js";
 
 // --- Elements ---
 const nav = document.querySelector('.nav');
@@ -37,6 +38,8 @@ export function showView(name, { record = 'push' } = {}) {
     for (const section of views) {
         section.hidden = section.id !== `view-${name}`;
     }
+
+    viewShown(document.querySelector(`#view-${name}`));
 
     for (const btn of navButtons) {
         if (btn.dataset.view === name) {

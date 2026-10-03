@@ -13,6 +13,9 @@ import { initPractice } from './views/practice.js';
 
 
 initShell();
+
+// Show the right view first, so only that view draws itself
+showView(viewFromUrl() ?? DEFAULT_VIEW, { record: 'replace' });
 initSettings();
 
 initEditor({
@@ -56,4 +59,3 @@ document.querySelector('.nav__btn[data-view="editor"]')
     .addEventListener('click', () => openEditor(null));
 
 
-showView(viewFromUrl() ?? DEFAULT_VIEW, { record: 'replace' });

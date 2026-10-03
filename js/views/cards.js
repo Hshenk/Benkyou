@@ -5,8 +5,10 @@ import { tokenize, plainText } from '../tokenize.js';
 import { canonicalTag } from '../tags.js';
 import { SORTS, sortCards } from '../sort.js';
 import { findDuplicates } from '../duplicates.js';
+import { whenVisible } from '../visible.js';
 
 // --- Card List ---
+const view = document.querySelector('#view-cards');
 const cardList = document.querySelector('#card-list');
 const cardCount = document.querySelector('#card-count');
 const cardEmpty = document.querySelector('#card-empty');
@@ -184,12 +186,12 @@ export function initCards(options = {}) {
         rerender();
     });
 
-
-    onChange(rerender);
+    const refresh = whenVisible(view, rerender);
+    onChange(refresh);
 
     loadSort();
     updateSortUI();
-    rerender();
+    refresh()
 }
 
 function updateSortUI() {

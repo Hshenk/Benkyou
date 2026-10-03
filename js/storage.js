@@ -377,8 +377,16 @@ export function addSession(record) {
 }
 
 export function importLog(incoming) {
-    sessionLog.sessions = mergeSessions(sessionLog.sessions, incoming.sessions ?? []);
-    sessionLog.practice = mergePractice(sessionLog.practice, incoming.practice ?? []);
+    const sessions = mergeSessions(sessionLog.sessions, incoming.sessions ?? []);
+    const practice = mergePractice(sessionLog.practice, incoming.practice ?? []);
+
+    // Records are only ever added, so the same counts mean nothing new arrived.
+    // Then there's nothing to save, and nothing to make every view redraw for.
+    if (sessions.length === sessionLog.sessions.length
+        && practice.length === sessionLog.practice.length) return false;
+
+    sessionLog.sessions = sessions;
+    sessionLog.practice = practice;
     return writeSessions();
 }
 

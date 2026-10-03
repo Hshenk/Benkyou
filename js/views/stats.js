@@ -9,8 +9,10 @@ import { sessionsIn, sessionsBefore, totals, streak, cardStats, activityByDay,
     listProgress, wallCells, wallGroups, studiedOverTime, lastStudied, gradeChanges,
     wordCounts, levelBreakdown, brushwork,
 } from '../stats.js';
+import { whenVisible } from '../visible.js';
 
 
+const view = document.querySelector('#view-stats');
 const rangeSelect = document.querySelector('#stats-range');
 const leadEl = document.querySelector('#stats-lead');
 const gridEl = document.querySelector('#stat-grid');
@@ -201,8 +203,9 @@ export function initStats(options = {}) {
     });
 
 
-    onChange(render);
-    render();
+    const refresh = whenVisible(view, render);
+    onChange(refresh);
+    refresh();
 }
 
 function stackedBar(counts, total) {

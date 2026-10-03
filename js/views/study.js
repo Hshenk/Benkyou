@@ -1,11 +1,14 @@
-import { TYPE_LABELS, SIDE_CUES, questionMarkup, detailsFor } from "../card.js";
+import { SIDE_CUES, questionMarkup, detailsFor } from "../card.js";
 import { renderJapanese } from '../render.js';
 import { getCards, getSessions, recordStudy, addSession, onChange } from "../storage.js";
 import { toggleScript, frontFurigana } from "../settings.js";
-import { canonicalTag, splitTag, compareTags } from "../tags.js";
+import { compareTags } from "../tags.js";
 import { cardStats, weakest, stalest } from "../stats.js";
 import { syncSessions } from "../sync.js";
 import { STUDY_SIDES } from "../sessions.js";
+import { buildIndex, facetValues, tally } from "../facets.js";
+import { whenVisible } from "../visible.js";
+
 
 // --- Study Selection ---
 const facetsEl = document.querySelector('#facets');
@@ -18,9 +21,14 @@ const focusMode = document.querySelector('#focus-mode');
 const focusLimit = document.querySelector('#focus-limit');
 const focusLimitField = document.querySelector('#focus-limit-field');
 const focusNote = document.querySelector('#focus-note');
+const view = document.querySelector('#view-study');
+const stageSelect = document.querySelector('#stage-select');
+
 
 
 const selection = new Map();
+let index = [];
+let facetsStale = false; // cards changed during a session
 
 // Tags that start out excluded, such as supplementary vocab
 const EXCLUDED_BY_DEFAULT = new Set(['Topic: Supplementary']);
@@ -33,70 +41,6 @@ function defaultState(namespace, value) {
 
 function stateOf(namespace, value) {
     return selection.get(namespace)?.get(value) ?? 'off';
-}
-
-
-function valuesFor(card, namespace) {
-    if (namespace === 'Type') return new Set([TYPE_LABELS[card.type]]);
-
-    const out = new Set();
-    for (const tag of card.tags ?? []) {
-        const { namespace: ns, value } = splitTag(canonicalTag(tag));
-        if (ns === namespace) out.add(value);
-    }
-    return out;
-}
-
-function buildFacets(cards) {
-    const facets = new Map();
-
-    facets.set('Type', new Map());
-    
-    for (const card of cards) {
-        const typeLabel = TYPE_LABELS[card.type];
-        const types = facets.get('Type');
-        types.set(typeLabel, (types.get(typeLabel) ?? 0) + 1);
-
-        const seen = new Set();
-
-        for (const tag of card.tags ?? []) {
-            const canon = canonicalTag(tag);
-            if (seen.has(canon)) continue;
-            seen.add(canon); 
-
-            const { namespace, value } = splitTag(canon);
-            if (!namespace) continue;
-
-            if (!facets.has(namespace)) facets.set(namespace, new Map());
-            const values = facets.get(namespace);
-            values.set(value, (values.get(value) ?? 0) + 1);
-        }
-    }
-    return facets;
-}
-
-function buildPool(cards, chosenBy) {
-    return cards.filter((card) => {
-        for (const [namespace, states] of chosenBy) {
-            const values = valuesFor(card, namespace);
-            let included = 0;
-            let matched = false;
-
-            for (const [value, state] of states) {
-                if (state === 'exclude' && values.has(value)) return false;
-
-                if (state === 'include') {
-                    included++;
-                    if (values.has(value)) matched = true;
-                }
-            }
-
-            // Included values in a group are an "any of these" rule. A group
-            // with none is a group you didn't filter on.
-            if (included > 0 && !matched) return false;
-        }
-        return true;
-    });
 }
 
 
@@ -118,10 +62,6 @@ function applyFocus(pool) {
         : stalest(pool, byCard, limit);
 }
 
-function currentPool() {
-    return applyFocus(buildPool(getCards(), selection));
-}
-
 function facetLabels() {
     const out = [];
 
@@ -135,13 +75,14 @@ function facetLabels() {
 }
 
 function renderFacets(cards) {
-    const facets = buildFacets(cards);
+    index = buildIndex(cards);
+    const facets = facetValues(index);
 
     // Drop anything chosen that no longer exists
     for (const [namespace, states] of selection) {
         const values = facets.get(namespace);
         if (!values) { selection.delete(namespace); continue; }
-        for (const value of states.keys()) {          // CHANGED: keys(), it's a Map now
+        for (const value of states.keys()) {
             if (!values.has(value)) states.delete(value);
         }
     }
@@ -149,7 +90,7 @@ function renderFacets(cards) {
     const fragment = document.createDocumentFragment();
 
     for (const [namespace, values] of facets) {
-        if (!selection.has(namespace)) selection.set(namespace, new Map());   // CHANGED
+        if (!selection.has(namespace)) selection.set(namespace, new Map());
         const states = selection.get(namespace);
 
         const node = facetTemplate.content.firstElementChild.cloneNode(true);
@@ -158,8 +99,8 @@ function renderFacets(cards) {
 
         const optionsBox = node.querySelector('[data-field="options"]');
 
-        for (const value of [...values.keys()].sort(compareTags)) {
-            // NEW: first sight of a value decides its state. After that the map
+        for (const value of [...values].sort(compareTags)) {
+            // First sight of a value decides its state. After that the map
             // remembers what you set it to, including 'off'.
             if (!states.has(value)) states.set(value, defaultState(namespace, value));
 
@@ -168,7 +109,6 @@ function renderFacets(cards) {
             option.dataset.value = value;
             option.querySelector('[data-field="label"]').textContent = value;
             optionsBox.append(option);
-            // REMOVED: the line that set .option__input.checked
         }
 
         fragment.append(node);
@@ -178,25 +118,18 @@ function renderFacets(cards) {
     updateFacetUI();
 }
 
-
-/**
- * How many cards this option would contribute 
- */
-function countFor(namespace, value) {
-    const others = new Map(selection);
-    others.delete(namespace);
-
-    return buildPool(getCards(), others)
-        .filter((card) => valuesFor(card, namespace).has(value))
-        .length;
+function currentPool() {
+    return applyFocus(tally(index, selection).pool);
 }
 
 // Patch the rendered facets in place
 function updateFacetUI() {
+    const { pool: matched, counts } = tally(index, selection);
+
     for (const option of facetsEl.querySelectorAll('.option')) {
         const { namespace, value } = option.dataset;
         const state = stateOf(namespace, value);
-        const n = countFor(namespace, value);
+        const n = counts.get(namespace)?.get(value) ?? 0;
 
         option.dataset.state = state;
         option.querySelector('[data-field="state"]').textContent = STATE_WORDS[state];
@@ -218,7 +151,6 @@ function updateFacetUI() {
         facet.querySelector('[data-field="selected"]').textContent = parts.join(', ');
     }
     
-    const matched = buildPool(getCards(), selection);
     const pool = applyFocus(matched);
     const mode = focusMode.value;
 
@@ -232,6 +164,17 @@ function updateFacetUI() {
             : FOCUS_HINTS[mode];
 
     startBtn.disabled = pool.length === 0;
+}
+
+// Redraw the picker for the current cards, unless a session is running
+function refreshFacets() {
+    if (stageSelect.hidden) {
+        facetsStale = true;
+        return;
+    }
+
+    facetsStale = false;
+    renderFacets(getCards());
 }
 
 // --- Study Session ---
@@ -260,6 +203,8 @@ function showStage(name) {
     for (const stage of stages) {
         stage.hidden = stage.id !== `stage-${name}`;
     }
+
+    if (name === 'select' && facetsStale) refreshFacets();
 }
 
 function shuffle(items) {
@@ -555,13 +500,10 @@ export function initStudy() {
     });
 
     // --- Start ---
-    onChange(() => {
-        // Never rebuild mid-session
-        if (document.querySelector('#stage-select').hidden) return;
-        renderFacets(getCards());
-    });
+    const refresh = whenVisible(view, refreshFacets);
+    onChange(refresh);
+    refresh();
 
-    renderFacets(getCards());
 }
 
 function flushStats() {

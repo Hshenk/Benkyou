@@ -1,6 +1,8 @@
 import { tagCounts, renameTag, deleteTag, normalizeAllTags, onChange } from "../storage.js";
 import { splitTag, canonicalTag, reservedNamespace, compareTags } from "../tags.js";
+import { whenVisible } from "../visible.js";
 
+const view = document.querySelector('#view-tags');
 const groupsEl = document.querySelector('#tag-groups');
 const emptyEl = document.querySelector('#tag-empty');
 const totalEl = document.querySelector('#tag-total');
@@ -103,6 +105,8 @@ export function initTags() {
                         : `Updated ${touched} card${touched === 1 ? '' : 's'}.`);
     });
 
-    onChange(render);
-    render();
+    const refresh = whenVisible(view, render);
+    onChange(refresh);
+    refresh();
+
 }
