@@ -107,6 +107,9 @@ legend {
   /* --- Local Only --- */
   --local-only: #d88445;
 
+  /* --- Warnings --- */
+  --warning: #d88445;
+
   /* --- Highlight colors --- */
   --hl-red:       #ff9a9c;
   --hl-red-bg:    rgb(203 64 66 / 0.20);
@@ -610,6 +613,27 @@ main {
     /* It renders as a link so you can see it parsed, but it isn't a way out. */
     cursor: default;
 }
+
+/* ------ Duplicate warning ------ */
+.dupe-note {
+    border-left: 3px solid var(--warning);
+    font-size: 13px;
+    line-height: 1.4;
+    padding-left: var(--space-2);
+}
+
+.dupe-note__lead {
+    color: var(--warning);
+    font-weight: 600;
+}
+
+.dupe-note__list {
+    color: var(--text-muted);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 /* ------ Segmented control ------ */
 .segmented {

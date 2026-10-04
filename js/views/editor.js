@@ -1,4 +1,4 @@
-import { getCard, saveCard, allTags } from "../storage.js";
+import { getCard, getCards, saveCard, allTags, onChange } from "../storage.js";
 import { canonicalTag, tagKey, reservedNamespace, splitTag, compareTags } from "../tags.js";
 import { loadKanjiSheet, levelTag, meaningText, LEVEL_NAMESPACE } from "../kanji.js";
 import { initNotation } from "../notation.js";
@@ -6,6 +6,8 @@ import { initPreviews } from "../preview.js";
 import { loadVocabSheet, searchVocab, classLabels, classTags, CLASS_NAMESPACE } from "../vocab.js";
 import { tokenize, plainText } from "../tokenize.js";
 import { initCombobox } from "../combobox.js";
+import { TYPE_LABELS } from "../card.js";
+import { indexWritten, sameWritten } from "../duplicates.js";
 
 // --- Editor ---
 const editorTitle = document.querySelector('#view-editor .view__title');
@@ -18,6 +20,8 @@ const vocabExpression = document.querySelector('#vocab-expression');
 const vocabReading = document.querySelector('#vocab-reading');
 const vocabList = document.querySelector('#vocab-suggestions');
 const vocabStatus = document.querySelector('#vocab-autofill-status');
+const dupeNotes = document.querySelectorAll('.dupe-note');
+
 
 
 let editingId = null;
@@ -27,6 +31,7 @@ let onDone = () => {};
 // Vocab autofill
 let lastPick = null;
 let closeVocabList = () => {};
+let writtenIndex = null; // Duplicate warning
 
 
 function splitList(value) {
@@ -124,6 +129,7 @@ export function openEditor(id = null) {
         setTags([]);
         showTypeFields(editorForm.querySelector('input[name="cardType"]:checked').value);
         refreshPreviews();
+        checkDuplicates();
         return;
     }
 
@@ -143,6 +149,7 @@ export function openEditor(id = null) {
     }
 
     setTags(card.tags ?? []);
+    refreshPreviews();
     refreshPreviews();
 }
 
@@ -203,7 +210,19 @@ export function initEditor(options = {}) {
         onPick: pickVocab,
     }).close;
 
+    // --- Duplicate warning ---
+    for (const note of dupeNotes) {
+        const field = document.querySelector(`#${note.dataset.dupeFor}`);
 
+        field.addEventListener('input', (event) => {
+            if (event.isComposing) return;
+            checkDuplicates();
+        });
+
+        field.addEventListener('compositionend', checkDuplicates);
+    }
+
+    onChange(() => { writtenIndex = null; });
 
     // Notation
     initNotation(editorForm);
@@ -290,6 +309,47 @@ function clearAutofillStatus() {
     autofillStatus.dataset.char = '';
 }
 
+// --- Duplicate warning ---
+
+// Every card by type and written form
+function dupeIndex() {
+    writtenIndex ??= indexWritten(getCards());
+    return writtenIndex;
+}
+
+function checkDuplicates() {
+    for (const note of dupeNotes) {
+        const type = note.closest('[data-type-fields]').dataset.typeFields;
+        const text = document.querySelector(`#${note.dataset.dupeFor}`).value;
+
+        // An empty field can't match anything
+        const matches = text.trim() ? sameWritten(dupeIndex(), type, text, editingId) : [];
+
+        note.hidden = matches.length === 0;
+        if (note.hidden) continue;
+
+        const label = TYPE_LABELS[type].toLowerCase();
+
+        const lead = document.createElement('p');
+        lead.className = 'dupe-note__lead';
+        lead.textContent = matches.length === 1
+            ? `Already a ${label} card:`
+            : `Already ${matches.length} ${label} cards:`;
+
+        const list = document.createElement('ul');
+        list.className = 'dupe-note__list';
+
+        for (const card of matches) {
+            const item = document.createElement('li');
+            item.textContent = [card.data.reading, card.meaning].filter(Boolean).join(' — ');
+            list.append(item);
+        }
+
+        note.replaceChildren(lead, list);
+    }
+}
+
+
 // --- Vocab Suggestions ---
 
 // What's typed in expression, without notation or spaces
@@ -329,7 +389,8 @@ function fillVocabRow(row, entry) {
 
     const meta = document.createElement('span');
     meta.className = 'suggest__meta';
-    meta.textContent = [entry.jlpt ? `N${entry.jlpt}` : '', ...classLabels(entry)]
+    const owned = sameWritten(dupeIndex(), 'vocab', entry.word, editingId).length > 0;
+    meta.textContent = [owned ? 'In your cards' : '', entry.jlpt ? `N${entry.jlpt}` : '', ...classLabels(entry)]
         .filter(Boolean)
         .join(' · ');
 
@@ -376,6 +437,7 @@ function pickVocab(entry) {
     setAutofillStatus(report, 'filled', vocabStatus);
 
     refreshPreviews();
+    checkDuplicates();
 }
 
 async function autofillKanji() {

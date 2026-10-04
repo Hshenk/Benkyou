@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "version": 36,
-  "exportedAt": "2026-10-02T14:59:03.023Z",
+  "version": 37,
+  "exportedAt": "2026-10-04T14:44:59.620Z",
   "deletedIds": [
     {
       "id": "e909943a-46ef-45ed-802b-4462b323b1b4",
@@ -42,6 +42,10 @@
     {
       "id": "20e5894f-6b7c-4b3a-9659-46109af43935",
       "deletedAt": "2026-10-01T14:56:54.429Z"
+    },
+    {
+      "id": "f8679e09-c849-4c96-9b58-7f4665ad8153",
+      "deletedAt": "2026-10-04T14:31:55.707Z"
     }
   ],
   "cards": [
@@ -3866,26 +3870,6 @@
         "reading": "いがく"
       },
       "id": "ce28b454-5f16-41e4-882a-d145d4ffcc99"
-    },
-    {
-      "createdAt": "2026-09-19T23:29:29.024Z",
-      "updatedAt": "2026-09-24T17:09:04.478Z",
-      "timesSeen": 1,
-      "timesMissed": 0,
-      "type": "vocab",
-      "meaning": "Music",
-      "notes": "",
-      "tags": [
-        "Topic: Music",
-        "Source: Nakama 1-2",
-        "Level: N5",
-        "Class: Noun"
-      ],
-      "data": {
-        "expression": "音楽[おんがく]",
-        "reading": "おんがく"
-      },
-      "id": "f8679e09-c849-4c96-9b58-7f4665ad8153"
     },
     {
       "createdAt": "2026-09-19T23:30:11.295Z",
@@ -10014,7 +9998,7 @@
     },
     {
       "createdAt": "2026-09-27T15:06:58.787Z",
-      "updatedAt": "2026-09-27T15:32:53.424Z",
+      "updatedAt": "2026-10-04T14:31:49.177Z",
       "timesSeen": 1,
       "timesMissed": 0,
       "type": "vocab",
@@ -10025,7 +10009,8 @@
         "Class: Noun",
         "Topic: Music",
         "Source: Nakama 1-6",
-        "Topic: Hobbies"
+        "Topic: Hobbies",
+        "Source: Nakama 1-2"
       ],
       "data": {
         "expression": "音楽[おんがく]",

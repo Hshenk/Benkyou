@@ -445,6 +445,7 @@
                             <ul class="suggest" id="vocab-suggestions" role="listbox" aria-label="Dictionary matches" hidden></ul>
                         </div>
 
+                        <div class="dupe-note" data-dupe-for="vocab-expression" role="status" hidden></div>
 
                         <div class="preview" data-preview="vocab-expression" hidden>
                             <span class="preview__label">Preview</span>                      
@@ -480,6 +481,9 @@
                     <div class="field">
                         <label class="field__label" for="kanji-character">Character</label>
                         <input class="input input--jp input--single" type="text" lang="ja" id="kanji-character" name="character" pattern="." title="One character" placeholder="食">
+                        <div class="dupe-note" data-dupe-for="kanji-character" role="status" hidden>    
+                    </div>
+
                     </div>
 
                     <div class="field">
@@ -537,6 +541,9 @@
 
                         <textarea class="input input--jp textarea" lang="ja" rows="2" id="sentence-expression" name="expression" placeholder="お 願[ねが]いします"></textarea>
 
+                        <div class="dupe-note" data-dupe-for="sentence-expression" role="status" hidden></div>
+
+
                         <div class="preview" data-preview="sentence-expression" hidden>
                             <span class="preview__label">Preview</span>                      
                             <p class="preview__body has-ruby" lang="ja" aria-hidden="true"></p>
@@ -560,6 +567,8 @@
                     <div class="field field--full">
                         <label class="field__label" for="grammar-expression">Grammar point</label>
                         <input class="input input--jp" type="text" lang="ja" id="grammar-expression" name="expression" placeholder="は">
+                        <div class="dupe-note" data-dupe-for="grammar-expression" role="status" hidden></div>
+
                     </div>
 
                     <div class="field field--full">

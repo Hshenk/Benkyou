@@ -16,6 +16,16 @@ function normalizeJapanese(text) {
 }
 
 /**
+ * How a card's main text is written, for comparing two cards
+ */
+export function writtenKey(text) {
+    return normalizeJapanese(plainText(tokenize(text ?? '')))
+        .normalize('NFKC')          // ～ -> ~, （ -> (, half-width kana -> full
+        .replace(/〜/g, '~');       // the wave dash, which NFKC leaves alone
+}
+
+
+/**
  * The senses in an English meaning: lowercased, split, and tidied 
  */
 function senses(meaning) {
@@ -40,7 +50,7 @@ export function keysFor(card) {
     };
 
     const tokens = tokenize(cardText(card));
-    const written = normalizeJapanese(plainText(tokens));
+    const written = writtenKey(cardText(card));
     const kana = normalizeJapanese(kanaText(tokens));
 
     add('ja', written, written);
@@ -51,6 +61,35 @@ export function keysFor(card) {
 
     return [...out].map(([key, label]) => ({ key, label }));
 }
+
+/**
+ * Every card filled under its type and written form
+ */
+export function indexWritten(cards) {
+    const index = new Map();
+
+    for (const card of cards) {
+        const written = writtenKey(cardText(card));
+        if (!written) continue;
+
+        const key = `${card.type}:${written}`;
+        if (!index.has(key)) index.set(key, []);
+        index.get(key).push(card);
+    }
+
+    return index;
+}
+
+/**
+ * The cards of this type already written this way.
+ */
+export function sameWritten(index, type, text, exceptId = null) {
+    const written = writtenKey(text);
+    if (!written) return [];
+
+    return (index.get(`${type}:${written}`) ?? []).filter((card) => card.id !== exceptId);
+}
+
 
 /**
  * Union-find: every card starts in its own group and union merges two.
